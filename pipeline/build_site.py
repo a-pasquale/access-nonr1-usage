@@ -11,7 +11,7 @@ Only Google Fonts is loaded externally, with system-font fallbacks.
 import argparse, datetime as dt, json, shutil
 from config import DERIVED, DOCS, SITE
 
-DEFAULT_REPO = "https://github.com/apasquale/access-nonr1-usage"
+DEFAULT_REPO = "https://github.com/a-pasquale/access-nonr1-usage"
 
 
 def main():

@@ -6,7 +6,7 @@ retention, the award-to-first-job funnel, resource and allocation-tier mix, and 
 college participation. The output is a single static page (`docs/index.html`) whose every
 number is computed by the scripts in `pipeline/` from the data in `data/raw/`.
 
-**Live page:** https://apasquale.github.io/access-nonr1-usage/ (once Pages is enabled — see below)
+**Live page:** https://a-pasquale.github.io/access-nonr1-usage/ (once Pages is enabled — see below)
 
 ## What the numbers say (snapshot 2022-09-01 → 2026-09-14)
 
@@ -29,7 +29,7 @@ Two levels of reproduction, depending on how skeptical you are.
 ### 1. Recompute everything from the committed raw snapshot (no credentials, ~10 s)
 
 ```bash
-git clone https://github.com/apasquale/access-nonr1-usage
+git clone https://github.com/a-pasquale/access-nonr1-usage
 cd access-nonr1-usage
 python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
