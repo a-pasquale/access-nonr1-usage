@@ -1,0 +1,340 @@
+<title>Beyond the R1s</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f5f6f7; --surface:#ffffff; --ink:#15202b; --ink-2:#4a5561; --ink-3:#7b8590; --rule:#dfe3e7; --rule-2:#eceff2;
+  --accent:#eb6834; --accent-soft:#fdeee6;
+  --r1:#2a78d6; --r2:#eb6834; --rcu:#1baf7a; --oth:#eda100; --non:#9aa3ac; --r1-wash:rgba(42,120,214,.10); --r2-wash:rgba(235,104,52,.12);
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace; --serif:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181c; --surface:#1c2126; --ink:#f1f3f5; --ink-2:#b8c0c8; --ink-3:#8a949e; --rule:#2e353c; --rule-2:#262c32;
+  --accent:#f07a48; --accent-soft:#3a271e; --r1:#3987e5; --r2:#d95926; --rcu:#199e70; --oth:#c98500; --non:#6f7982; --r1-wash:rgba(57,135,229,.16); --r2-wash:rgba(217,89,38,.18);
+}}
+:root[data-theme="dark"]{
+  --bg:#14181c; --surface:#1c2126; --ink:#f1f3f5; --ink-2:#b8c0c8; --ink-3:#8a949e; --rule:#2e353c; --rule-2:#262c32;
+  --accent:#f07a48; --accent-soft:#3a271e; --r1:#3987e5; --r2:#d95926; --rcu:#199e70; --oth:#c98500; --non:#6f7982; --r1-wash:rgba(57,135,229,.16); --r2-wash:rgba(217,89,38,.18);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:clamp(16px,4vw,40px);padding-block:32px 72px}
+a{color:inherit}
+h1,h2,h3{text-wrap:balance;margin:0}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+header.masthead{display:grid;grid-template-columns:1fr;gap:20px;padding-bottom:28px;border-bottom:1px solid var(--rule)}
+.masthead h1{font-family:var(--serif);font-weight:600;font-size:clamp(34px,5vw,56px);line-height:1.05;letter-spacing:-.01em}
+.masthead .dek{font-size:clamp(17px,2vw,20px);color:var(--ink-2);max-width:62ch;line-height:1.5}
+.masthead .meta{display:flex;flex-wrap:wrap;gap:10px 28px;font-family:var(--mono);font-size:12.5px;color:var(--ink-3)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:32px}
+.kpi{background:var(--surface);padding:18px 20px 16px;display:flex;flex-direction:column;gap:4px}
+.kpi .v{font-size:clamp(30px,3.6vw,42px);font-weight:600;letter-spacing:-.02em;line-height:1.05;font-variant-numeric:tabular-nums}
+.kpi .v small{font-size:.5em;font-weight:500;color:var(--ink-3);margin-left:2px}
+.kpi .l{font-size:13.5px;color:var(--ink-2)}
+.kpi.hot .v{color:var(--accent)}
+@media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}}
+section{padding-top:56px}
+section>.eyebrow{margin-bottom:10px}
+section h2{font-family:var(--serif);font-weight:600;font-size:clamp(24px,3vw,32px);line-height:1.2;letter-spacing:-.01em;max-width:30ch}
+.lede{font-size:17.5px;color:var(--ink-2);max-width:66ch;margin-top:14px}
+.prose{max-width:66ch;margin-top:18px;display:flex;flex-direction:column;gap:14px;color:var(--ink)}
+.prose p{font-size:16px}
+.fig{margin-top:28px;background:var(--surface);border:1px solid var(--rule);padding:20px 22px 16px}
+.fig-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.fig-title{font-weight:600;font-size:15.5px}
+.fig-sub{font-size:13px;color:var(--ink-3)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink-2);margin:6px 0 10px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+.legend i.line{height:2px;width:14px;border-radius:1px}
+svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+svg text{fill:var(--ink-2);font-size:12px}
+svg .tick{fill:var(--ink-3);font-size:11.5px;font-family:var(--mono)}
+svg .grid{stroke:var(--rule-2);stroke-width:1}
+svg .axis{stroke:var(--rule);stroke-width:1}
+svg .lbl{fill:var(--ink);font-size:12px;font-family:var(--mono);font-weight:500}
+svg .lbl.muted{fill:var(--ink-3);font-weight:400}
+svg .cat{fill:var(--ink);font-size:13px}
+.twin{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media (max-width:820px){.twin{grid-template-columns:1fr}}
+.callout{margin-top:28px;border-left:3px solid var(--accent);background:var(--accent-soft);padding:16px 20px;max-width:70ch}
+.callout p{font-size:15.5px}
+.callout strong{color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+.tbl{margin-top:22px;overflow-x:auto;background:var(--surface);border:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:500;text-align:left;padding:12px 14px 8px;border-bottom:1px solid var(--rule);white-space:nowrap}
+td{padding:9px 14px;border-bottom:1px solid var(--rule-2);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;font-family:var(--mono);font-size:13px}
+.pill{display:inline-block;font-family:var(--mono);font-size:11px;padding:1px 7px;border-radius:3px;border:1px solid var(--rule);color:var(--ink-2);white-space:nowrap}
+.pill.r1{border-color:var(--r1);color:var(--r1)} .pill.r2{border-color:var(--r2);color:var(--r2)} .pill.rcu{border-color:var(--rcu);color:var(--rcu)} .pill.oth{border-color:var(--oth);color:var(--oth)}
+.recs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:28px}
+.rec{background:var(--surface);padding:22px 22px 24px;display:flex;flex-direction:column;gap:10px}
+.rec h3{font-size:16.5px;font-weight:600;line-height:1.3}
+.rec p{font-size:14.5px;color:var(--ink-2)}
+.rec .n{font-family:var(--mono);font-size:12px;color:var(--accent)}
+@media (max-width:820px){.recs{grid-template-columns:1fr}}
+.method{margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);color:var(--ink-2);font-size:14px;max-width:80ch;display:flex;flex-direction:column;gap:10px}
+.method h3{font-size:13px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-family:var(--mono);font-size:12px;padding:6px 9px;border-radius:3px;opacity:0;transform:translate(-50%,calc(-100% - 10px));transition:opacity .12s;white-space:nowrap;z-index:9}
+.tip.on{opacity:1}
+svg .hit{fill:transparent}
+svg .hit:hover+.mark, svg .bar:hover{filter:brightness(.9)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<header class="masthead">
+  <div class="eyebrow">ACCESS-CI · PI-institution usage analysis · <span class="d" data-v="meta.start" data-f="mon"></span> – <span class="d" data-v="meta.end" data-f="mon"></span></div>
+  <h1>Beyond the R1s</h1>
+  <p class="dek">Non-R1 academic institutions hold <span class="d" data-v="meta.nonr1_proj_share" data-f="pct0"></span> of current ACCESS projects and generate <span class="d" data-v="meta.nonr1_share" data-f="pct0"></span> of the compute. The gap does not open at the award — it opens afterward, in activation and persistence. This page measures where, and what would move it.</p>
+  <div class="meta"><span>Built <span class="d" data-v="built"></span> · <a href="https://github.com/apasquale/access-nonr1-usage">source &amp; pipeline</a></span><span>Source: XDMoD Jobs realm + ACCESS Allocations current projects</span><span>Tiers: Carnegie 2025 Research Activity Designations</span><span>MSI flags: IPEDS HD2023</span></div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<section id="share">
+  <div class="eyebrow">01 · The gap</div>
+  <h2>Awards are broadly distributed. Usage is not.</h2>
+  <p class="lede">Every ACCESS project's PI institution was tagged with its Carnegie 2025 research tier. R1 institutions run <span class="d" data-v="meta.r1_share" data-f="pct0"></span> of all ACCESS Credit Equivalents (ACEs) charged since the program began. R2s, Research Colleges &amp; Universities (RCUs) and non-designated colleges together run <span class="d" data-v="meta.nonr1_share" data-f="pct1"></span> — from <span class="d" data-v="meta.nonr1_inst"></span> distinct institutions.</p>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Share of current projects, awarded credits, and four-year usage, by tier</div><div class="fig-sub">Percent of program total · hover for values</div></div>
+    <div class="legend"><span><i style="background:var(--ink-3);opacity:.35"></i>Current projects</span><span><i style="background:var(--ink-3);opacity:.7"></i>Awarded ACCESS Credits</span><span><i style="background:var(--accent)"></i>ACEs consumed</span></div>
+    <div id="c-shares"></div>
+  </div>
+  <div class="callout"><p>Read the ratio, not the levels. R1s convert their project share into usage at <strong><span class="d" data-v="ratio.R1" data-f="x"></span></strong>. R2s convert at <strong><span class="d" data-v="ratio.R2" data-f="x"></span></strong>, RCUs at <strong><span class="d" data-v="ratio.RCU" data-f="x"></span></strong>, and non-designated colleges at <strong><span class="d" data-v="ratio.Other academic" data-f="x"></span></strong>. Allocations review is not what is holding non-R1 usage down — non-R1 PIs receive awards at roughly three times the rate they consume them.</p></div>
+</section>
+
+<section id="trend">
+  <div class="eyebrow">02 · The trend</div>
+  <h2>Non-R1 usage has doubled, and its share is edging up.</h2>
+  <p class="lede">Non-R1 academic consumption grew from <span class="d" data-v="py.first.nonR1" data-f="m"></span> ACEs in <span class="d" data-v="py.first.py"></span> to <span class="d" data-v="py.last.nonR1" data-f="m"></span> in <span class="d" data-v="py.last.py"></span> (complete program years only, September–August). Share moved from <span class="d" data-v="py.first.share" data-f="pct1"></span> to <span class="d" data-v="py.last.share" data-f="pct1"></span>, with the most recent four quarters between <span class="d" data-v="q4.min" data-f="pct1"></span> and <span class="d" data-v="q4.max" data-f="pct1"></span>. The number of non-R1 institutions active in a quarter went from <span class="d" data-v="active.first"></span> to <span class="d" data-v="active.last"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Non-R1 academic ACEs per quarter</div><div class="fig-sub">Millions · stacked by tier</div></div>
+      <div class="legend"><span><i style="background:var(--r2)"></i>R2</span><span><i style="background:var(--rcu)"></i>RCU</span><span><i style="background:var(--oth)"></i>Other academic</span></div>
+      <div id="c-quarterly"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Non-R1 academic share of all ACEs</div><div class="fig-sub">Percent per quarter</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--accent)"></i>Share</span></div>
+      <div id="c-share-line"></div>
+    </div>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Institutions with any usage in the quarter</div><div class="fig-sub">Distinct PI institutions</div></div>
+    <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+    <div id="c-active"></div>
+  </div>
+</section>
+
+<section id="retention">
+  <div class="eyebrow">03 · Persistence</div>
+  <h2>The actionable gap is retention, not recruitment.</h2>
+  <p class="lede">An R1 institution that runs jobs in a given quarter is still running them four quarters later <span class="d" data-v="ret.r1min" data-f="pct0"></span>–<span class="d" data-v="ret.r1max" data-f="pct0"></span> of the time. For non-R1 academic institutions the figure averages <span class="d" data-v="meta.retention_nonr1" data-f="pct0"></span> and has never exceeded <span class="d" data-v="ret.nrmax" data-f="pct0"></span>. Over the whole window, the median R1 has had usage in <span class="d" data-v="pers.R1" data-f="n1"></span> of <span class="d" data-v="months_possible"></span> months; the median RCU in <span class="d" data-v="pers.RCU" data-f="n1"></span>; the median non-designated college in <span class="d" data-v="pers.Other academic" data-f="n1"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Four-quarter institution retention</div><div class="fig-sub">% of institutions active in quarter Q that were also active in Q+4</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+      <div id="c-retention"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">How long institutions stay engaged</div><div class="fig-sub">Months with any usage, of <span class="d" data-v="months_possible"></span> possible</div></div>
+      <div class="tbl" style="margin-top:8px;border:none"><table id="t-persist"></table></div>
+    </div>
+  </div>
+  <div class="callout"><p><span class="d" data-v="persle3.Other academic" data-f="pct0"></span> of non-designated colleges that have ever used ACCESS did so in <strong>three or fewer months</strong> total. That is a one-project, one-semester pattern: a PI gets an Explore award, runs a few jobs, and does not come back. The intervention is support during and after the first project, not more outreach before it.</p></div>
+</section>
+
+<section id="funnel">
+  <div class="eyebrow">04 · The funnel</div>
+  <h2>Many non-R1 awards never produce a single job.</h2>
+  <p class="lede">Joining the <span class="d" data-v="meta.total_projects" data-f="int"></span> current projects against the full XDMoD job record shows how many awarded institutions have never charged a job to any ACCESS resource. Among R1s it is <span class="d" data-v="never.R1" data-f="pct0"></span> (largely name-matching noise). Among non-designated colleges it is <span class="d" data-v="never.Other academic" data-f="pct0"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Institutions holding a current award with zero usage ever</div><div class="fig-sub">% of institutions with ≥1 current project</div></div>
+      <div id="c-never"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Allocation tier of current projects</div><div class="fig-sub">% of projects · R1 vs. non-R1 academic</div></div>
+      <div class="legend"><span><i style="background:var(--r1);opacity:.35"></i>Explore</span><span><i style="background:var(--r1);opacity:.6"></i>Discover</span><span><i style="background:var(--r1);opacity:.85"></i>Accelerate</span><span><i style="background:var(--r1)"></i>Maximize</span></div>
+      <div id="c-board"></div>
+    </div>
+  </div>
+  <div class="prose">
+    <p>Non-R1 projects are heavily concentrated in Explore: <span class="d" data-v="board_projects.nonR1.Explore" data-f="pct0"></span> of non-R1 academic current projects versus <span class="d" data-v="board_projects.R1.Explore" data-f="pct0"></span> for R1s. Only <span class="d" data-v="board_projects.nonR1_n.Maximize"></span> of <span class="d" data-v="meta.nonr1_projects" data-f="int"></span> non-R1 academic projects are Maximize awards, against <span class="d" data-v="board_projects.R1_n.Maximize" data-f="int"></span> of <span class="d" data-v="r1_projects" data-f="int"></span> for R1s. By usage volume the contrast is sharper still — Maximize allocations carry <span class="d" data-v="board_usage.R1.Maximize" data-f="pct0"></span> of R1 ACEs but <span class="d" data-v="board_usage.nonR1.Maximize" data-f="pct0"></span> of non-R1 ACEs. Non-R1 volume growth, if it comes, has to come from PIs moving up from Explore to Discover and Accelerate, which is a support and proposal-writing problem more than an access problem.</p>
+    <p>The never-used list is short enough to work through by hand. It includes institutions with several current projects and no recorded usage — <span class="d" data-v="never_list"></span> — and the full list is in <code>project_institutions.csv</code>.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="eyebrow">05 · How they compute</div>
+  <h2>Conventional HPC at lower volume — not a different kind of user.</h2>
+  <p class="lede">Non-R1 PIs are not a small-job, interactive population. Their jobs look like R1 jobs — mostly 9–256 cores, mostly running 18+ hours — but they land on the general-purpose CPU systems and skip the GPU and AI resources. Gateways carry almost none of their usage; one gateway, ChemCompute at Sonoma State, accounts for 95% of non-R1 gateway jobs.</p>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Where the ACEs land</div><div class="fig-sub">% of each cohort's total usage, top 10 resources by non-R1 usage</div></div>
+    <div class="legend"><span><i style="background:var(--r1)"></i>R1</span><span><i style="background:var(--accent)"></i>Non-R1 academic</span></div>
+    <div id="c-resources"></div>
+  </div>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Seasonality</div><div class="fig-sub">% of usage by calendar month, complete years (<span class="d" data-v="seas_years"></span>)</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+      <div id="c-season"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Allocation tier of usage</div><div class="fig-sub">% of each cohort's ACEs by board type</div></div>
+      <div class="legend"><span><i style="background:var(--r1);opacity:.35"></i>Explore</span><span><i style="background:var(--r1);opacity:.6"></i>Discover</span><span><i style="background:var(--r1);opacity:.85"></i>Accelerate</span><span><i style="background:var(--r1)"></i>Maximize</span><span><i style="background:var(--non)"></i>Legacy Research</span></div>
+      <div id="c-board-usage"></div>
+    </div>
+  </div>
+  <div class="prose"><p>Non-R1 usage dips in January–February and peaks May–July and again in November, consistent with faculty at teaching-heavy institutions computing between semesters. Disciplinary mix differs too: chemistry is 16% of non-R1 ACEs versus 9% for R1s, and non-R1 PIs are under-represented in computer science (21% of non-R1 PIs vs. 33% of R1 PIs). Geographically, New York, California and New Jersey dominate non-R1 volume; Puerto Rico has 12 active non-R1 PIs and no R1 usage at all.</p></div>
+</section>
+
+<section id="who">
+  <div class="eyebrow">06 · Who they are</div>
+  <h2>The leading non-R1 users, and the MSIs among them.</h2>
+  <p class="lede">The largest non-R1 consumers are technical institutes and regional publics with a handful of committed PIs. Of 102 HBCUs, <span class="d" data-v="hbcu_summary.n"></span> have had a PI run jobs; of 35 tribal colleges, <span class="d" data-v="hbcu_summary.tcu"></span>. Together they are <span class="d" data-v="hbcu_summary.share_all" data-f="pct2"></span> of all usage but <span class="d" data-v="hbcu_summary.share_nonr1" data-f="pct0"></span> of non-R1 academic usage — HBCUs punch above their weight within the cohort, though half of the HBCU total is Howard alone, and most active HBCUs have a single PI.</p>
+  <div class="twin">
+    <div>
+      <div class="eyebrow" style="margin-top:28px">Top non-R1 academic institutions by usage</div>
+      <div class="tbl"><table id="t-top"></table></div>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-top:28px">HBCUs and tribal colleges with usage</div>
+      <div class="tbl"><table id="t-hbcu"></table></div>
+    </div>
+  </div>
+</section>
+
+<section id="recs">
+  <div class="eyebrow">07 · What would move it</div>
+  <h2>Three interventions the data points at.</h2>
+  <div class="recs">
+    <div class="rec"><div class="n">Activation</div><h3>Call the awarded-never-used list.</h3><p><span class="d" data-v="never_nonr1_total"></span> non-R1 academic institutions hold a current award and have never run a job. They have already cleared the hardest hurdle. A first-job concierge — login, environment, one submitted batch script — is the cheapest usage ACCESS can buy.</p></div>
+    <div class="rec"><div class="n">Persistence</div><h3>Support the first project through its second semester.</h3><p>Non-R1 four-quarter retention runs <span class="d" data-v="meta.retention_nonr1" data-f="pct0"></span> against <span class="d" data-v="meta.retention_r1" data-f="pct0"></span> for R1s, and <span class="d" data-v="persle3.Other academic" data-f="pct0"></span> of non-designated colleges use compute for three months or fewer. Scheduled check-ins at months 3 and 9 of an Explore award, timed to the January and summer dips, target the drop-off directly.</p></div>
+    <div class="rec"><div class="n">Growth</div><h3>Nudge sustained Explore users into Discover.</h3><p><span class="d" data-v="board_projects.nonR1.Explore" data-f="pct0"></span> of non-R1 projects are Explore and only <span class="d" data-v="board_projects.nonR1_n.Maximize"></span> are Maximize. PIs with usage in six of the last twelve months are the graduation candidates; a templated Discover request and a resource-fit conversation (most are on Expanse and Bridges-2 RM) turns participation into volume.</p></div>
+  </div>
+</section>
+
+<div class="method">
+  <h3>Method and caveats</h3>
+  <p>Usage is from the ACCESS XDMoD Jobs realm, <span class="d" data-v="meta.start"></span> to <span class="d" data-v="meta.end"></span>, grouped by PI institution (<span class="d" data-v="meta.inst_used"></span> institutions, <span class="d" data-v="meta.total_ace"></span>B ACEs, reconciling exactly to XDMoD's unfiltered total). Institutions were matched to the Carnegie 2025 Research Activity Designations public data file by normalized name, with manual overrides (<code>data/overrides.json</code>) for campus-system naming (e.g. "University of Michigan" → Ann Arbor); every R1 match was hand-checked. Units of R1s (NCSA, PSC, SDSC, TACC, medical schools, observatories) were folded into R1. Institutions not in the Carnegie research file were classed as other academic, non-academic (labs, industry, hospitals, government, nonprofits) or foreign/unknown by name. Non-academic PIs (2.4% of usage) are shown for completeness but excluded from "non-R1 academic".</p>
+  <p>Awarded projects are the <span class="d" data-v="meta.total_projects" data-f="int"></span> current projects in the ACCESS Allocations public feed at the time of the pull, with awarded credits summed from ACCESS Credits line items. "Never used" means the institution has no XDMoD job record at all in the four-year window; the R1 figure is mostly name variants and should be read as noise. HBCU and tribal-college flags are from IPEDS HD2023 via UNITID; IPEDS carries no HSI flag. Retention counts an institution as active in a quarter if any job was charged; partial quarters are excluded from quarterly charts. Program years run September–August.</p>
+</div>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const D = {"shares":[{"tier":"R1","usage":93.24,"projects":83.9,"credits":84.46,"inst_used":221,"inst_awarded":218,"pis":5875,"users":34980,"ace":12866489382.6195,"nproj":6005},{"tier":"R2","usage":2.87,"projects":5.28,"credits":5.32,"inst_used":102,"inst_awarded":99,"pis":362,"users":2609,"ace":395374943.0409,"nproj":378},{"tier":"RCU","usage":0.94,"projects":3.26,"credits":3.41,"inst_used":94,"inst_awarded":98,"pis":208,"users":1199,"ace":130388947.9068,"nproj":233},{"tier":"Other academic","usage":0.5,"projects":3.66,"credits":2.76,"inst_used":147,"inst_awarded":166,"pis":199,"users":971,"ace":68349815.5847,"nproj":262},{"tier":"Non-academic","usage":2.4,"projects":3.87,"credits":4.05,"inst_used":157,"inst_awarded":155,"pis":285,"users":850,"ace":331239664.4834,"nproj":277}],"quarterly":[{"q":"2022Q3","R2":3.8,"RCU":0.42,"Other":0.67,"R1":194.4,"share":2.31},{"q":"2022Q4","R2":14.94,"RCU":3.83,"Other":1.65,"R1":582.3,"share":3.29},{"q":"2023Q1","R2":18.05,"RCU":8.85,"Other":2.04,"R1":577.1,"share":4.58},{"q":"2023Q2","R2":17.33,"RCU":8.59,"Other":3.06,"R1":588.1,"share":4.56},{"q":"2023Q3","R2":12.82,"RCU":6.04,"Other":4.96,"R1":604.8,"share":3.72},{"q":"2023Q4","R2":9.17,"RCU":5.33,"Other":2.83,"R1":636.6,"share":2.59},{"q":"2024Q1","R2":14.59,"RCU":4.85,"Other":2.95,"R1":571.3,"share":3.68},{"q":"2024Q2","R2":21.1,"RCU":9.57,"Other":5.78,"R1":759.6,"share":4.45},{"q":"2024Q3","R2":23.68,"RCU":12.58,"Other":3.3,"R1":766.5,"share":4.78},{"q":"2024Q4","R2":29.14,"RCU":7.74,"Other":2.23,"R1":820.4,"share":4.48},{"q":"2025Q1","R2":24.3,"RCU":6.29,"Other":3.13,"R1":949.0,"share":3.37},{"q":"2025Q2","R2":34.45,"RCU":8.3,"Other":5.92,"R1":963.2,"share":4.71},{"q":"2025Q3","R2":28.44,"RCU":9.31,"Other":6.97,"R1":978.0,"share":4.28},{"q":"2025Q4","R2":37.4,"RCU":6.48,"Other":5.22,"R1":908.9,"share":5.03},{"q":"2026Q1","R2":30.14,"RCU":11.27,"Other":4.36,"R1":989.5,"share":4.31},{"q":"2026Q2","R2":39.34,"RCU":10.93,"Other":6.46,"R1":1090.5,"share":4.81}],"active_inst":[{"q":"2022Q3","R1":151,"nonR1":80},{"q":"2022Q4","R1":165,"nonR1":102},{"q":"2023Q1","R1":159,"nonR1":108},{"q":"2023Q2","R1":157,"nonR1":107},{"q":"2023Q3","R1":163,"nonR1":107},{"q":"2023Q4","R1":161,"nonR1":116},{"q":"2024Q1","R1":171,"nonR1":130},{"q":"2024Q2","R1":174,"nonR1":150},{"q":"2024Q3","R1":173,"nonR1":148},{"q":"2024Q4","R1":175,"nonR1":140},{"q":"2025Q1","R1":183,"nonR1":160},{"q":"2025Q2","R1":183,"nonR1":181},{"q":"2025Q3","R1":181,"nonR1":184},{"q":"2025Q4","R1":182,"nonR1":178},{"q":"2026Q1","R1":186,"nonR1":186},{"q":"2026Q2","R1":193,"nonR1":210}],"retention":{"quarters":["2022Q3","2022Q4","2023Q1","2023Q2","2023Q3","2023Q4","2024Q1","2024Q2","2024Q3","2024Q4","2025Q1","2025Q2"],"R1":[94.0,89.1,94.3,94.3,94.5,94.4,92.4,92.0,91.9,94.3,94.0,94.5],"nonR1":[75.0,66.7,73.1,78.5,73.8,75.9,76.2,82.7,75.7,74.3,70.6,79.6]},"persistence":[{"tier":"R1","median":47.0,"le3":4.5,"ge24":75.6},{"tier":"R2","median":18.5,"le3":10.8,"ge24":43.1},{"tier":"RCU","median":12.5,"le3":20.2,"ge24":37.2},{"tier":"Other academic","median":8.0,"le3":31.3,"ge24":18.4},{"tier":"Non-academic","median":8.0,"le3":25.0,"ge24":19.2}],"months_possible":49,"py":[{"py":"PY2022","R1":2335,"nonR1":100.7,"share":4.0},{"py":"PY2023","R1":2698,"nonR1":109.4,"share":3.79},{"py":"PY2024","R1":3635,"nonR1":162.5,"share":4.2},{"py":"PY2025","R1":4072,"nonR1":213.0,"share":4.85}],"seasonality":{"years":[2023,2024,2025],"R1":[7.38,7.65,7.95,8.56,8.68,8.09,8.7,8.49,8.56,8.65,8.56,8.72],"nonR1":[6.68,6.13,7.79,8.48,9.7,9.46,9.93,7.68,8.57,8.59,9.48,7.49]},"board_usage":{"R1":{"Explore":3.9,"Discover":14.5,"Accelerate":10.0,"Maximize":57.0,"Research":14.6},"nonR1":{"Explore":10.5,"Discover":32.4,"Accelerate":23.1,"Maximize":22.1,"Research":11.9}},"board_projects":{"R1":{"Explore":47.4,"Discover":41.9,"Accelerate":7.2,"Maximize":3.5},"nonR1":{"Explore":65.6,"Discover":27.5,"Accelerate":5.6,"Maximize":1.3},"R1_n":{"Explore":2834,"Discover":2505,"Accelerate":429,"Maximize":207},"nonR1_n":{"Explore":573,"Discover":240,"Accelerate":49,"Maximize":11}},"resources":[{"resource":"Expanse","R1":17.7,"nonR1":27.1},{"resource":"Bridges 2 RM","R1":13.1,"nonR1":18.0},{"resource":"TACC STAMPEDE3","R1":17.3,"nonR1":17.3},{"resource":"Purdue Anvil CPU","R1":22.0,"nonR1":10.1},{"resource":"NCSA DELTA GPU","R1":10.8,"nonR1":7.2},{"resource":"Expanse GPU","R1":2.0,"nonR1":4.4},{"resource":"Purdue Anvil GPU","R1":0.6,"nonR1":3.8},{"resource":"STAMPEDE2 TACC","R1":4.0,"nonR1":3.5},{"resource":"Bridges 2 GPU","R1":3.8,"nonR1":2.9},{"resource":"NCSA DeltaAI","R1":5.9,"nonR1":2.2}],"never_used":[{"tier":"R1","never":7,"total":218,"pct":3.2,"projects":10},{"tier":"R2","never":6,"total":99,"pct":6.1,"projects":6},{"tier":"RCU","never":20,"total":98,"pct":20.4,"projects":30},{"tier":"Other academic","never":68,"total":166,"pct":41.0,"projects":77},{"tier":"Non-academic","never":49,"total":155,"pct":31.6,"projects":53}],"never_examples":[{"name":"University of Hawaii at Hilo","tier":"RCU","projects":6},{"name":"Oregon Institute of Technology","tier":"RCU","projects":3},{"name":"Ivy Tech","tier":"Other academic","projects":3},{"name":"University of St. Thomas","tier":"RCU","projects":3},{"name":"University of St. Thomas (Texas)","tier":"Other academic","projects":2},{"name":"SUNY College at Oswego","tier":"Other academic","projects":2},{"name":"Augustana College","tier":"Other academic","projects":2},{"name":"Carthage College","tier":"Other academic","projects":2}],"hbcu":[{"name":"Howard University","msi":"HBCU","tier":"R1","ace":45.98,"pis":15,"users":51},{"name":"Florida A&M University","msi":"HBCU","tier":"R2","ace":8.42,"pis":2,"users":8},{"name":"Prarieview A&M","msi":"HBCU","tier":"R2","ace":7.95,"pis":1,"users":98},{"name":"North Carolina A&T State University","msi":"HBCU","tier":"R2","ace":6.34,"pis":4,"users":21},{"name":"Clark Atlanta University","msi":"HBCU","tier":"R2","ace":5.81,"pis":2,"users":12},{"name":"Tuskegee University","msi":"HBCU","tier":"RCU","ace":3.97,"pis":2,"users":4},{"name":"Delaware State University","msi":"HBCU","tier":"R2","ace":3.94,"pis":3,"users":13},{"name":"Navajo Technical University","msi":"TCU","tier":"Other academic","ace":1.1,"pis":1,"users":1},{"name":"University of the District of Columbia","msi":"HBCU","tier":"RCU","ace":1.03,"pis":1,"users":4},{"name":"Morgan State University","msi":"HBCU","tier":"R2","ace":0.92,"pis":9,"users":14},{"name":"Bowie State University","msi":"HBCU","tier":"RCU","ace":0.84,"pis":7,"users":13},{"name":"Xavier University of Louisiana","msi":"HBCU","tier":"RCU","ace":0.74,"pis":2,"users":11}],"hbcu_summary":{"n":33,"total":102,"tcu":1,"tcu_total":35,"ace":89.4,"share_all":0.65,"share_nonr1":15.1},"top_nonr1":[{"name":"Rochester Institute of Technology","tier":"R2","ace":77.6,"pis":12,"users":47,"months":49},{"name":"Stevens Institute of Technology","tier":"R2","ace":47.6,"pis":11,"users":64,"months":49},{"name":"University of Alabama, Huntsville","tier":"R2","ace":38.9,"pis":4,"users":14,"months":49},{"name":"Illinois Institute of Technology","tier":"R2","ace":32.9,"pis":33,"users":97,"months":49},{"name":"Naval Postgraduate School","tier":"RCU","ace":16.4,"pis":4,"users":4,"months":39},{"name":"University of Texas Medical Branch at Galveston","tier":"R2","ace":14.0,"pis":1,"users":4,"months":42},{"name":"California State Polytechnic University, Pomona","tier":"R2","ace":14.0,"pis":8,"users":188,"months":41},{"name":"California State University-Fullerton","tier":"R2","ace":13.8,"pis":12,"users":26,"months":49},{"name":"University of Massachusetts, Dartmouth","tier":"R2","ace":10.1,"pis":4,"users":323,"months":43},{"name":"Harvey Mudd College","tier":"RCU","ace":9.9,"pis":14,"users":58,"months":49},{"name":"Western University of Health Sciences","tier":"RCU","ace":8.9,"pis":1,"users":5,"months":44},{"name":"Duquesne University","tier":"R2","ace":8.6,"pis":2,"users":11,"months":30}],"meta":{"start":"2022-09-01","end":"2026-09-14","total_ace":13.8,"total_projects":7157,"inst_used":735,"inst_awarded":738,"nonr1_inst":343,"nonr1_share":4.3,"r1_share":93.2,"nonr1_proj_share":12.2,"nonr1_credit_share":11.5,"nonr1_projects":873,"retention_nonr1":75.0,"retention_r1":93.0}};
+D.built = "2026-09-15";
+const $ = s => document.querySelector(s);
+const fmt = (n,d=1) => n.toLocaleString('en-US',{maximumFractionDigits:d,minimumFractionDigits:d});
+const fmtI = n => n.toLocaleString('en-US');
+const tip = $('#tip');
+function showTip(e,html){tip.innerHTML=html;tip.classList.add('on');tip.style.left=e.clientX+'px';tip.style.top=e.clientY+'px';}
+function hideTip(){tip.classList.remove('on');}
+function svgEl(w,h){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('viewBox',`0 0 ${w} ${h}`);s.setAttribute('role','img');return s;}
+function el(n,a,txt){const e=document.createElementNS('http://www.w3.org/2000/svg',n);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;return e;}
+function hit(e,html){e.addEventListener('mousemove',ev=>showTip(ev,html));e.addEventListener('mouseleave',hideTip);}
+const TIER_COLOR={R1:'var(--r1)',R2:'var(--r2)',RCU:'var(--rcu)','Other academic':'var(--oth)','Non-academic':'var(--non)'};
+const pillCls={R1:'r1',R2:'r2',RCU:'rcu','Other academic':'oth'};
+const niceMax=v=>{const p=Math.pow(10,Math.floor(Math.log10(v)));const m=v/p;const s=m<=1?1:m<=2?2:m<=2.5?2.5:m<=3?3:m<=4?4:m<=5?5:m<=6?6:m<=8?8:10;return s*p;};
+
+
+// ---- derived values used by the prose ----
+(()=>{const sh=Object.fromEntries(D.shares.map(s=>[s.tier,s]));D.ratio=Object.fromEntries(D.shares.map(s=>[s.tier,s.projects?s.usage/s.projects:0]));
+ D.py.first=D.py[0];D.py.last=D.py[D.py.length-1];const q4=D.quarterly.slice(-4).map(q=>q.share);D.q4={min:Math.min(...q4),max:Math.max(...q4)};
+ D.active={first:D.active_inst[0].nonR1,last:D.active_inst[D.active_inst.length-1].nonR1};
+ D.ret={r1min:Math.min(...D.retention.R1),r1max:Math.max(...D.retention.R1),nrmax:Math.max(...D.retention.nonR1)};
+ D.pers=Object.fromEntries(D.persistence.map(p=>[p.tier,p.median]));D.persle3=Object.fromEntries(D.persistence.map(p=>[p.tier,p.le3]));
+ D.never=Object.fromEntries(D.never_used.map(n=>[n.tier,n.pct]));D.never_nonr1_total=D.never_used.filter(n=>['R2','RCU','Other academic'].includes(n.tier)).reduce((a,n)=>a+n.never,0);
+ D.never_list=D.never_examples.slice(0,3).map(e=>`${e.name} (${e.projects})`).join(', ');D.r1_projects=sh.R1.nproj;D.seas_years=D.seasonality.years.join(', ');
+})();
+const get=(o,p)=>p.split('.').reduce((a,k)=>a==null?a:a[k],o);
+const F={pct0:v=>fmt(v,0)+'%',pct1:v=>fmt(v,1)+'%',pct2:v=>fmt(v,2)+'%',x:v=>fmt(v,2)+'\u00d7',m:v=>fmt(v,0)+'M',n1:v=>fmt(v,1),int:v=>fmtI(v),mon:v=>{const d=new Date(v+'T00:00:00');return d.toLocaleString('en-US',{month:'short',year:'numeric'})}};
+document.querySelectorAll('.d').forEach(e=>{const v=get(D,e.dataset.v);const f=e.dataset.f;e.textContent=v==null?'–':f?F[f](v):String(v);});
+
+// KPIs
+(()=>{const m=D.meta;$('#kpis').innerHTML=`
+<div class="kpi"><div class="v">${m.r1_share}<small>%</small></div><div class="l">of all ACEs charged since 2022 came from R1 PIs</div></div>
+<div class="kpi hot"><div class="v">${m.nonr1_share}<small>%</small></div><div class="l">from non-R1 academic PIs — vs. ${m.nonr1_proj_share}% of current projects</div></div>
+<div class="kpi"><div class="v">${m.nonr1_inst}</div><div class="l">non-R1 academic institutions with usage, of ${m.inst_used} total</div></div>
+<div class="kpi"><div class="v">${m.retention_nonr1}<small>%</small></div><div class="l">non-R1 four-quarter retention, against ${m.retention_r1}% for R1s</div></div>`;})();
+
+// 1. shares grouped horizontal bars
+(()=>{const rows=D.shares;const W=900,L=150,R=70,T=8,rowH=70,bh=14,gap=4;const H=T+rows.length*rowH+24;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+ [0,25,50,75,100].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-24,class:'grid'}));s.appendChild(el('text',{x:x(v),y:H-6,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh*1.5+gap+4,'text-anchor':'end',class:'cat'},r.tier));
+  const series=[['projects',r.projects,'var(--ink-3)',.35,'Current projects'],['credits',r.credits,'var(--ink-3)',.7,'Awarded credits'],['usage',r.usage,'var(--accent)',1,'ACEs consumed']];
+  series.forEach(([k,v,c,o,name],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);
+   const b=el('rect',{x:L,y,width:w,height:bh,fill:c,opacity:o,rx:0,class:'bar'});s.appendChild(b);
+   s.appendChild(el('text',{x:L+w+6,y:y+bh-3,class:'lbl'+(k==='usage'?'':' muted')},fmt(v,r.tier==='R1'?1:v<10?2:1)+'%'));
+   hit(b,`${r.tier} · ${name}: <b>${fmt(v,2)}%</b>`);});
+ });$('#c-shares').appendChild(s);})();
+
+// generic stacked column
+function stackedColumns(sel,data,keys,colors,opts={}){const W=560,H=300,L=44,R=10,T=14,B=40;const s=svgEl(W,H);const n=data.length;const bw=Math.min(24,(W-L-R)/n*0.62);const step=(W-L-R)/n;
+ const max=niceMax(Math.max(...data.map(d=>keys.reduce((a,k)=>a+(d[k]||0),0))));const y=v=>T+(H-T-B)*(1-v/max);
+ const ticks=5;for(let i=0;i<=ticks;i++){const v=max*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,0)));}
+ data.forEach((d,i)=>{const cx=L+step*i+step/2;let acc=0;const tot=keys.reduce((a,k)=>a+(d[k]||0),0);
+  keys.forEach((k,j)=>{const v=d[k]||0;if(!v)return;const y1=y(acc+v),y2=y(acc);const h=Math.max(y2-y1-2,0);const last=(j===keys.length-1)||keys.slice(j+1).every(kk=>!d[kk]);
+   const r=el('rect',{x:cx-bw/2,y:y1,width:bw,height:h,fill:colors[j],rx:last?4:0});if(last){r.setAttribute('ry',4);}s.appendChild(r);
+   if(last&&h>0){const sq=el('rect',{x:cx-bw/2,y:y1+4,width:bw,height:Math.max(h-4,0),fill:colors[j]});s.appendChild(sq);}
+   hit(r,`${d.q} · ${opts.names?opts.names[j]:k}: <b>${fmt(v,1)}</b> · total ${fmt(tot,1)}`);acc+=v;});
+  if(i%2===0||n<10)s.appendChild(el('text',{x:cx,y:H-B+18,'text-anchor':'middle',class:'tick'},d.q.replace('20','’')));
+  if(i===n-1)s.appendChild(el('text',{x:cx,y:y(tot)-8,'text-anchor':'middle',class:'lbl'},fmt(tot,0)));
+ });$(sel).appendChild(s);}
+stackedColumns('#c-quarterly',D.quarterly,['R2','RCU','Other'],['var(--r2)','var(--rcu)','var(--oth)'],{names:['R2','RCU','Other academic']});
+
+// generic multi-line
+function lines(sel,labels,series,opts={}){const W=opts.w||560,H=opts.h||300,L=44,R=opts.r||56,T=14,B=40;const s=svgEl(W,H);const n=labels.length;const x=i=>L+(W-L-R)*(n===1?0:i/(n-1));
+ let lo=opts.min!=null?opts.min:Math.min(...series.flatMap(q=>q.v));let hi=opts.max!=null?opts.max:niceMax(Math.max(...series.flatMap(q=>q.v)));if(opts.min==null)lo=0;
+ const y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo));const ticks=opts.ticks||5;
+ for(let i=0;i<=ticks;i++){const v=lo+(hi-lo)*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,opts.dec||0)+(opts.unit||'')));}
+ labels.forEach((l,i)=>{if(i%(opts.every||2)===0)s.appendChild(el('text',{x:x(i),y:H-B+18,'text-anchor':'middle',class:'tick'},l.replace('20','’')));});
+ series.forEach(q=>{if(q.area){const p=q.v.map((v,i)=>`${x(i)},${y(v)}`).join(' L');s.appendChild(el('path',{d:`M${x(0)},${y(lo)} L${p} L${x(n-1)},${y(lo)} Z`,fill:q.area}));}
+  const d=q.v.map((v,i)=>`${i?'L':'M'}${x(i)},${y(v)}`).join(' ');s.appendChild(el('path',{d,fill:'none',stroke:q.c,'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}));
+  q.v.forEach((v,i)=>{const g=el('g',{});g.appendChild(el('circle',{cx:x(i),cy:y(v),r:i===n-1?5:3.5,fill:q.c,stroke:'var(--surface)','stroke-width':2}));g.appendChild(el('circle',{cx:x(i),cy:y(v),r:12,class:'hit'}));hit(g,`${labels[i]} · ${q.name}: <b>${fmt(v,opts.dec||0)}${opts.unit||''}</b>`);s.appendChild(g);});
+  s.appendChild(el('text',{x:x(n-1)+10,y:y(q.v[n-1])+4,class:'lbl'},fmt(q.v[n-1],opts.dec||0)+(opts.unit||'')));});
+ $(sel).appendChild(s);}
+lines('#c-share-line',D.quarterly.map(d=>d.q),[{name:'Non-R1 share',v:D.quarterly.map(d=>d.share),c:'var(--accent)',area:'var(--r2-wash)'}],{unit:'%',dec:1,max:6,ticks:6});
+lines('#c-active',D.active_inst.map(d=>d.q),[{name:'R1',v:D.active_inst.map(d=>d.R1),c:'var(--r1)'},{name:'Non-R1 academic',v:D.active_inst.map(d=>d.nonR1),c:'var(--accent)'}],{max:250,ticks:5,h:300,w:900,r:70});
+lines('#c-retention',D.retention.quarters,[{name:'R1',v:D.retention.R1,c:'var(--r1)'},{name:'Non-R1 academic',v:D.retention.nonR1,c:'var(--accent)'}],{unit:'%',dec:0,min:50,max:100,ticks:5});
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+lines('#c-season',MON,[{name:'R1',v:D.seasonality.R1,c:'var(--r1)'},{name:'Non-R1 academic',v:D.seasonality.nonR1,c:'var(--accent)'}],{unit:'%',dec:0,min:5,max:10,ticks:5,every:1,h:280});
+
+// persistence table
+$('#t-persist').innerHTML=`<thead><tr><th>Tier</th><th class="num">Median months</th><th class="num">≤ 3 months</th><th class="num">≥ 24 months</th></tr></thead><tbody>${D.persistence.map(p=>`<tr><td><span class="pill ${pillCls[p.tier]||''}">${p.tier}</span></td><td class="num">${fmt(p.median,1)}</td><td class="num">${fmt(p.le3,1)}%</td><td class="num">${fmt(p.ge24,1)}%</td></tr>`).join('')}</tbody>`;
+
+// never used horizontal bars
+(()=>{const rows=D.never_used;const W=560,L=150,R=90,T=10,rowH=42,bh=18;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/50*(W-L-R);
+ [0,10,20,30,40,50].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh-4,'text-anchor':'end',class:'cat'},r.tier));const w=Math.max(x(r.pct)-L,1.5);
+  const b=el('rect',{x:L,y,width:w,height:bh,fill:r.tier==='R1'?'var(--r1)':r.tier==='Non-academic'?'var(--non)':'var(--accent)',class:'bar'});s.appendChild(b);
+  s.appendChild(el('text',{x:L+w+6,y:y+bh-4,class:'lbl'},`${fmt(r.pct,0)}%`));s.appendChild(el('text',{x:L+w+6+(r.pct>=10?34:28),y:y+bh-4,class:'lbl muted'},`${r.never} of ${r.total}`));
+  hit(b,`${r.tier}: <b>${r.never}</b> of ${r.total} institutions · ${r.projects} projects never used`);});
+ $('#c-never').appendChild(s);})();
+
+// 100% stacked horizontal for board mix
+function stacked100(sel,rows,keys,colors,names){const W=560,L=150,R=16,T=10,rowH=56,bh=22;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+ [0,25,50,75,100].forEach(v=>{s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh/2+4,'text-anchor':'end',class:'cat'},r.label));let acc=0;
+  keys.forEach((k,j)=>{const v=r.vals[k]||0;if(!v)return;const x0=x(acc),w=Math.max(x(acc+v)-x0-2,0);const b=el('rect',{x:x0,y,width:w,height:bh,fill:colors[j].c,opacity:colors[j].o});s.appendChild(b);
+   if(w>34)s.appendChild(el('text',{x:x0+w/2,y:y+bh/2+4,'text-anchor':'middle',class:'lbl',fill:colors[j].o<0.7?'var(--ink)':'#fff',style:`fill:${colors[j].o<0.7?'var(--ink)':'#fff'}`},fmt(v,0)+'%'));
+   hit(b,`${r.label} · ${names[j]}: <b>${fmt(v,1)}%</b>${r.n?` (${fmtI(r.n[k])} projects)`:''}`);acc+=v;});});
+ $(sel).appendChild(s);}
+const BK=['Explore','Discover','Accelerate','Maximize'];const BC=[{c:'var(--r1)',o:.35},{c:'var(--r1)',o:.6},{c:'var(--r1)',o:.85},{c:'var(--r1)',o:1}];
+stacked100('#c-board',[{label:'R1',vals:D.board_projects.R1,n:D.board_projects.R1_n},{label:'Non-R1 academic',vals:D.board_projects.nonR1,n:D.board_projects.nonR1_n}],BK,BC,BK);
+stacked100('#c-board-usage',[{label:'R1',vals:D.board_usage.R1},{label:'Non-R1 academic',vals:D.board_usage.nonR1}],[...BK,'Research'],[...BC,{c:'var(--non)',o:1}],[...BK,'Legacy Research']);
+
+// resources paired bars
+(()=>{const rows=D.resources;const W=900,L=170,R=60,T=8,rowH=44,bh=12,gap=3;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const max=30;const x=v=>L+v/max*(W-L-R);
+ [0,10,20,30].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh+gap/2+4,'text-anchor':'end',class:'cat'},r.resource));
+  [['R1',r.R1,'var(--r1)'],['Non-R1 academic',r.nonR1,'var(--accent)']].forEach(([n,v,c],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);const b=el('rect',{x:L,y,width:w,height:bh,fill:c,class:'bar'});s.appendChild(b);
+   s.appendChild(el('text',{x:L+w+6,y:y+bh-2,class:'lbl'+(j?'':' muted')},fmt(v,1)+'%'));hit(b,`${r.resource} · ${n}: <b>${fmt(v,1)}%</b> of cohort ACEs`);});});
+ $('#c-resources').appendChild(s);})();
+
+// tables
+$('#t-top').innerHTML=`<thead><tr><th>Institution</th><th>Tier</th><th class="num">M ACEs</th><th class="num">PIs</th><th class="num">Users</th><th class="num">Active mo.</th></tr></thead><tbody>${D.top_nonr1.map(r=>`<tr><td>${r.name}</td><td><span class="pill ${pillCls[r.tier]||''}">${r.tier}</span></td><td class="num">${fmt(r.ace,1)}</td><td class="num">${r.pis}</td><td class="num">${r.users}</td><td class="num">${r.months??'–'}</td></tr>`).join('')}</tbody>`;
+$('#t-hbcu').innerHTML=`<thead><tr><th>Institution</th><th>Tier</th><th class="num">M ACEs</th><th class="num">PIs</th><th class="num">Users</th></tr></thead><tbody>${D.hbcu.map(r=>`<tr><td>${r.name}${r.msi==='TCU'?' <span class="pill">TCU</span>':''}</td><td><span class="pill ${pillCls[r.tier]||''}">${r.tier}</span></td><td class="num">${fmt(r.ace,2)}</td><td class="num">${r.pis}</td><td class="num">${r.users}</td></tr>`).join('')}<tr><td colspan="5" style="color:var(--ink-3);font-size:13px">${D.hbcu_summary.n} of ${D.hbcu_summary.total} HBCUs and ${D.hbcu_summary.tcu} of ${D.hbcu_summary.tcu_total} tribal colleges have usage · ${D.hbcu_summary.ace}M ACEs total · ${D.hbcu_summary.share_all}% of all usage, ${D.hbcu_summary.share_nonr1}% of non-R1 academic usage</td></tr></tbody>`;
+</script>

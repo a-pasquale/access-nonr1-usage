@@ -1,0 +1,2321 @@
+value,amount,group,dimension,metric
+Expanse,161223668.2263,nonR1,resource,total_ace
+Bridges 2 RM,107043057.3336,nonR1,resource,total_ace
+TACC STAMPEDE3,102823747.0834,nonR1,resource,total_ace
+Purdue Anvil CPU,59874226.3398,nonR1,resource,total_ace
+NCSA DELTA GPU,42667586.749,nonR1,resource,total_ace
+Expanse GPU,26105544.3259,nonR1,resource,total_ace
+Purdue Anvil GPU,22364138.1246,nonR1,resource,total_ace
+STAMPEDE2 TACC,20784406.5132,nonR1,resource,total_ace
+Bridges 2 GPU,17469077.1726,nonR1,resource,total_ace
+NCSA DeltaAI,13012098.4466,nonR1,resource,total_ace
+Bridges 2 EM,6739822.4468,nonR1,resource,total_ace
+NCSA DELTA CPU,6537485.1831,nonR1,resource,total_ace
+Texas A&M U ACES,2529734.2317,nonR1,resource,total_ace
+Purdue Anvil AI,2346022.7088,nonR1,resource,total_ace
+UD DARWIN,1278105.4339,nonR1,resource,total_ace
+Texas A&M U FASTER,941405.7022,nonR1,resource,total_ace
+JHU Rockfish RM,255367.7709,nonR1,resource,total_ace
+KyRIC,109193.7114,nonR1,resource,total_ace
+UD DARWIN GPU,4460.4155,nonR1,resource,total_ace
+Bridges2 GPU AI,3722.2534,nonR1,resource,total_ace
+IACS Ookami,836.3591,nonR1,resource,total_ace
+Bridges 2 RM,1715521.0,nonR1,resource,job_count
+NCSA DELTA CPU,1527585.0,nonR1,resource,job_count
+Expanse,1255395.0,nonR1,resource,job_count
+Purdue Anvil CPU,1204667.0,nonR1,resource,job_count
+TACC STAMPEDE3,203024.0,nonR1,resource,job_count
+Texas A&M U ACES,196995.0,nonR1,resource,job_count
+NCSA DELTA GPU,163076.0,nonR1,resource,job_count
+Purdue Anvil GPU,85147.0,nonR1,resource,job_count
+NCSA DeltaAI,54082.0,nonR1,resource,job_count
+Bridges 2 GPU,47926.0,nonR1,resource,job_count
+Expanse GPU,46419.0,nonR1,resource,job_count
+STAMPEDE2 TACC,42127.0,nonR1,resource,job_count
+Texas A&M U FASTER,23262.0,nonR1,resource,job_count
+IACS Ookami,12198.0,nonR1,resource,job_count
+Bridges 2 EM,5979.0,nonR1,resource,job_count
+UD DARWIN,5075.0,nonR1,resource,job_count
+Purdue Anvil AI,3221.0,nonR1,resource,job_count
+JHU Rockfish RM,1363.0,nonR1,resource,job_count
+KyRIC,641.0,nonR1,resource,job_count
+UD DARWIN GPU,205.0,nonR1,resource,job_count
+Bridges2 GPU AI,76.0,nonR1,resource,job_count
+Bridges 2 RM,197.0,nonR1,resource,active_pi_count
+Expanse,191.0,nonR1,resource,active_pi_count
+Purdue Anvil CPU,111.0,nonR1,resource,active_pi_count
+NCSA DELTA GPU,104.0,nonR1,resource,active_pi_count
+Bridges 2 GPU,92.0,nonR1,resource,active_pi_count
+TACC STAMPEDE3,88.0,nonR1,resource,active_pi_count
+Expanse GPU,77.0,nonR1,resource,active_pi_count
+Texas A&M U ACES,68.0,nonR1,resource,active_pi_count
+NCSA DELTA CPU,64.0,nonR1,resource,active_pi_count
+STAMPEDE2 TACC,53.0,nonR1,resource,active_pi_count
+Purdue Anvil GPU,44.0,nonR1,resource,active_pi_count
+NCSA DeltaAI,30.0,nonR1,resource,active_pi_count
+Bridges 2 EM,28.0,nonR1,resource,active_pi_count
+Texas A&M U FASTER,16.0,nonR1,resource,active_pi_count
+Purdue Anvil AI,13.0,nonR1,resource,active_pi_count
+UD DARWIN,7.0,nonR1,resource,active_pi_count
+KyRIC,6.0,nonR1,resource,active_pi_count
+IACS Ookami,5.0,nonR1,resource,active_pi_count
+UD DARWIN GPU,5.0,nonR1,resource,active_pi_count
+JHU Rockfish RM,4.0,nonR1,resource,active_pi_count
+Bridges2 GPU AI,2.0,nonR1,resource,active_pi_count
+Expanse,1352.0,nonR1,resource,active_person_count
+Bridges 2 RM,1125.0,nonR1,resource,active_person_count
+NCSA DELTA GPU,666.0,nonR1,resource,active_person_count
+Purdue Anvil CPU,586.0,nonR1,resource,active_person_count
+Expanse GPU,404.0,nonR1,resource,active_person_count
+NCSA DELTA CPU,322.0,nonR1,resource,active_person_count
+Bridges 2 GPU,281.0,nonR1,resource,active_person_count
+TACC STAMPEDE3,245.0,nonR1,resource,active_person_count
+Texas A&M U ACES,224.0,nonR1,resource,active_person_count
+STAMPEDE2 TACC,199.0,nonR1,resource,active_person_count
+Purdue Anvil GPU,152.0,nonR1,resource,active_person_count
+NCSA DeltaAI,138.0,nonR1,resource,active_person_count
+Texas A&M U FASTER,132.0,nonR1,resource,active_person_count
+Purdue Anvil AI,71.0,nonR1,resource,active_person_count
+Bridges 2 EM,36.0,nonR1,resource,active_person_count
+IACS Ookami,23.0,nonR1,resource,active_person_count
+UD DARWIN,14.0,nonR1,resource,active_person_count
+JHU Rockfish RM,11.0,nonR1,resource,active_person_count
+KyRIC,6.0,nonR1,resource,active_person_count
+UD DARWIN GPU,5.0,nonR1,resource,active_person_count
+Bridges2 GPU AI,3.0,nonR1,resource,active_person_count
+Expanse,270.0,nonR1,resource,active_allocation_count
+Bridges 2 RM,258.0,nonR1,resource,active_allocation_count
+Purdue Anvil CPU,139.0,nonR1,resource,active_allocation_count
+NCSA DELTA GPU,119.0,nonR1,resource,active_allocation_count
+Bridges 2 GPU,113.0,nonR1,resource,active_allocation_count
+TACC STAMPEDE3,107.0,nonR1,resource,active_allocation_count
+Expanse GPU,100.0,nonR1,resource,active_allocation_count
+NCSA DELTA CPU,75.0,nonR1,resource,active_allocation_count
+Texas A&M U ACES,75.0,nonR1,resource,active_allocation_count
+Purdue Anvil GPU,60.0,nonR1,resource,active_allocation_count
+STAMPEDE2 TACC,59.0,nonR1,resource,active_allocation_count
+NCSA DeltaAI,36.0,nonR1,resource,active_allocation_count
+Bridges 2 EM,31.0,nonR1,resource,active_allocation_count
+Texas A&M U FASTER,19.0,nonR1,resource,active_allocation_count
+Purdue Anvil AI,16.0,nonR1,resource,active_allocation_count
+UD DARWIN,7.0,nonR1,resource,active_allocation_count
+KyRIC,6.0,nonR1,resource,active_allocation_count
+IACS Ookami,5.0,nonR1,resource,active_allocation_count
+UD DARWIN GPU,5.0,nonR1,resource,active_allocation_count
+JHU Rockfish RM,4.0,nonR1,resource,active_allocation_count
+Bridges2 GPU AI,2.0,nonR1,resource,active_allocation_count
+High-performance computing,594004512.8205,nonR1,resource_type,total_ace
+Data-intensive computing,109193.7114,nonR1,resource_type,total_ace
+High-performance computing,6593343.0,nonR1,resource_type,job_count
+Data-intensive computing,641.0,nonR1,resource_type,job_count
+High-performance computing,753.0,nonR1,resource_type,active_pi_count
+Data-intensive computing,6.0,nonR1,resource_type,active_pi_count
+High-performance computing,4736.0,nonR1,resource_type,active_person_count
+Data-intensive computing,6.0,nonR1,resource_type,active_person_count
+High-performance computing,1019.0,nonR1,resource_type,active_allocation_count
+Data-intensive computing,6.0,nonR1,resource_type,active_allocation_count
+Discover,190618174.5586,nonR1,board_type,total_ace
+Accelerate,135731978.5389,nonR1,board_type,total_ace
+Maximize,129685999.1266,nonR1,board_type,total_ace
+Research,70089639.7779,nonR1,board_type,total_ace
+Explore,61907752.9478,nonR1,board_type,total_ace
+XSEDE Rapid Response,2827195.8326,nonR1,board_type,total_ace
+Startup,1412291.7213,nonR1,board_type,total_ace
+Educational,1129998.3779,nonR1,board_type,total_ace
+Campus Champions,461971.0525,nonR1,board_type,total_ace
+SDSC Discretionary,248704.5979,nonR1,board_type,total_ace
+Discover,3838098.0,nonR1,board_type,job_count
+Accelerate,1217110.0,nonR1,board_type,job_count
+Explore,724008.0,nonR1,board_type,job_count
+Maximize,436449.0,nonR1,board_type,job_count
+Research,314676.0,nonR1,board_type,job_count
+Startup,40064.0,nonR1,board_type,job_count
+Educational,10594.0,nonR1,board_type,job_count
+SDSC Discretionary,7154.0,nonR1,board_type,job_count
+XSEDE Rapid Response,4246.0,nonR1,board_type,job_count
+Campus Champions,1585.0,nonR1,board_type,job_count
+Explore,467.0,nonR1,board_type,active_pi_count
+Discover,290.0,nonR1,board_type,active_pi_count
+Research,76.0,nonR1,board_type,active_pi_count
+Accelerate,57.0,nonR1,board_type,active_pi_count
+Startup,56.0,nonR1,board_type,active_pi_count
+Educational,20.0,nonR1,board_type,active_pi_count
+Maximize,17.0,nonR1,board_type,active_pi_count
+Campus Champions,11.0,nonR1,board_type,active_pi_count
+XSEDE Rapid Response,1.0,nonR1,board_type,active_pi_count
+SDSC Discretionary,1.0,nonR1,board_type,active_pi_count
+Explore,3262.0,nonR1,board_type,active_person_count
+Discover,1143.0,nonR1,board_type,active_person_count
+Educational,226.0,nonR1,board_type,active_person_count
+Research,219.0,nonR1,board_type,active_person_count
+Accelerate,214.0,nonR1,board_type,active_person_count
+Maximize,88.0,nonR1,board_type,active_person_count
+Startup,87.0,nonR1,board_type,active_person_count
+Campus Champions,19.0,nonR1,board_type,active_person_count
+XSEDE Rapid Response,9.0,nonR1,board_type,active_person_count
+SDSC Discretionary,2.0,nonR1,board_type,active_person_count
+Explore,550.0,nonR1,board_type,active_allocation_count
+Discover,336.0,nonR1,board_type,active_allocation_count
+Research,76.0,nonR1,board_type,active_allocation_count
+Accelerate,70.0,nonR1,board_type,active_allocation_count
+Startup,56.0,nonR1,board_type,active_allocation_count
+Educational,22.0,nonR1,board_type,active_allocation_count
+Maximize,17.0,nonR1,board_type,active_allocation_count
+Campus Champions,11.0,nonR1,board_type,active_allocation_count
+XSEDE Rapid Response,1.0,nonR1,board_type,active_allocation_count
+SDSC Discretionary,1.0,nonR1,board_type,active_allocation_count
+Research,345903910.5372,nonR1,grant_type,total_ace
+ACCESS Project,125302765.7371,nonR1,grant_type,total_ace
+Dissertation or Thesis,91211082.4131,nonR1,grant_type,total_ace
+Science Gateway,12191748.0816,nonR1,grant_type,total_ace
+Education,10477413.0638,nonR1,grant_type,total_ace
+Campus Champions,3685158.0261,nonR1,grant_type,total_ace
+None,2808885.7695,nonR1,grant_type,total_ace
+NIP,2532742.9035,nonR1,grant_type,total_ace
+Research,4750000.0,nonR1,grant_type,job_count
+ACCESS Project,972704.0,nonR1,grant_type,job_count
+Dissertation or Thesis,519367.0,nonR1,grant_type,job_count
+Education,167128.0,nonR1,grant_type,job_count
+Science Gateway,145509.0,nonR1,grant_type,job_count
+None,25645.0,nonR1,grant_type,job_count
+Campus Champions,10500.0,nonR1,grant_type,job_count
+NIP,3131.0,nonR1,grant_type,job_count
+Research,420.0,nonR1,grant_type,active_pi_count
+ACCESS Project,239.0,nonR1,grant_type,active_pi_count
+Dissertation or Thesis,111.0,nonR1,grant_type,active_pi_count
+Education,79.0,nonR1,grant_type,active_pi_count
+Campus Champions,24.0,nonR1,grant_type,active_pi_count
+None,11.0,nonR1,grant_type,active_pi_count
+NIP,8.0,nonR1,grant_type,active_pi_count
+Science Gateway,7.0,nonR1,grant_type,active_pi_count
+Education,1938.0,nonR1,grant_type,active_person_count
+ACCESS Project,1508.0,nonR1,grant_type,active_person_count
+Research,1214.0,nonR1,grant_type,active_person_count
+Dissertation or Thesis,230.0,nonR1,grant_type,active_person_count
+Campus Champions,145.0,nonR1,grant_type,active_person_count
+None,39.0,nonR1,grant_type,active_person_count
+Science Gateway,27.0,nonR1,grant_type,active_person_count
+NIP,19.0,nonR1,grant_type,active_person_count
+Research,472.0,nonR1,grant_type,active_allocation_count
+ACCESS Project,281.0,nonR1,grant_type,active_allocation_count
+Dissertation or Thesis,121.0,nonR1,grant_type,active_allocation_count
+Education,96.0,nonR1,grant_type,active_allocation_count
+Campus Champions,25.0,nonR1,grant_type,active_allocation_count
+None,12.0,nonR1,grant_type,active_allocation_count
+NIP,8.0,nonR1,grant_type,active_allocation_count
+Science Gateway,7.0,nonR1,grant_type,active_allocation_count
+Mathematical & Physical Sciences,316495701.2914,nonR1,nsfdirectorate,total_ace
+Biological Sciences,106725079.5433,nonR1,nsfdirectorate,total_ace
+Engineering,96323903.0507,nonR1,nsfdirectorate,total_ace
+Computer & Information Science & Engineering,37843001.3101,nonR1,nsfdirectorate,total_ace
+Geosciences,28106137.1265,nonR1,nsfdirectorate,total_ace
+Other,5678217.1065,nonR1,nsfdirectorate,total_ace
+"Social, Behavioral & Economic Sciences",2941667.1034,nonR1,nsfdirectorate,total_ace
+Mathematical & Physical Sciences,2642762.0,nonR1,nsfdirectorate,job_count
+Computer & Information Science & Engineering,1943990.0,nonR1,nsfdirectorate,job_count
+Biological Sciences,1069728.0,nonR1,nsfdirectorate,job_count
+Engineering,692197.0,nonR1,nsfdirectorate,job_count
+Other,184302.0,nonR1,nsfdirectorate,job_count
+Geosciences,49966.0,nonR1,nsfdirectorate,job_count
+"Social, Behavioral & Economic Sciences",11039.0,nonR1,nsfdirectorate,job_count
+Mathematical & Physical Sciences,303.0,nonR1,nsfdirectorate,active_pi_count
+Computer & Information Science & Engineering,172.0,nonR1,nsfdirectorate,active_pi_count
+Biological Sciences,164.0,nonR1,nsfdirectorate,active_pi_count
+Engineering,91.0,nonR1,nsfdirectorate,active_pi_count
+Other,31.0,nonR1,nsfdirectorate,active_pi_count
+Geosciences,26.0,nonR1,nsfdirectorate,active_pi_count
+"Social, Behavioral & Economic Sciences",10.0,nonR1,nsfdirectorate,active_pi_count
+Computer & Information Science & Engineering,1737.0,nonR1,nsfdirectorate,active_person_count
+Mathematical & Physical Sciences,1555.0,nonR1,nsfdirectorate,active_person_count
+Other,597.0,nonR1,nsfdirectorate,active_person_count
+Biological Sciences,588.0,nonR1,nsfdirectorate,active_person_count
+Engineering,355.0,nonR1,nsfdirectorate,active_person_count
+Geosciences,61.0,nonR1,nsfdirectorate,active_person_count
+"Social, Behavioral & Economic Sciences",16.0,nonR1,nsfdirectorate,active_person_count
+Mathematical & Physical Sciences,415.0,nonR1,nsfdirectorate,active_allocation_count
+Computer & Information Science & Engineering,222.0,nonR1,nsfdirectorate,active_allocation_count
+Biological Sciences,207.0,nonR1,nsfdirectorate,active_allocation_count
+Engineering,109.0,nonR1,nsfdirectorate,active_allocation_count
+Geosciences,32.0,nonR1,nsfdirectorate,active_allocation_count
+Other,32.0,nonR1,nsfdirectorate,active_allocation_count
+"Social, Behavioral & Economic Sciences",10.0,nonR1,nsfdirectorate,active_allocation_count
+Engineering and Technology,156296785.4514,nonR1,parentscience,total_ace
+Physical Sciences,152330125.8968,nonR1,parentscience,total_ace
+Biological Sciences,99820283.1119,nonR1,parentscience,total_ace
+Chemical Sciences,97148555.6179,nonR1,parentscience,total_ace
+Computer and Information Sciences,37843001.3101,nonR1,parentscience,total_ace
+Earth and Environmental Sciences,28106137.1265,nonR1,parentscience,total_ace
+Mathematics,6887428.9101,nonR1,parentscience,total_ace
+Medical and Health Sciences,6677425.5412,nonR1,parentscience,total_ace
+Other,5678217.1065,nonR1,parentscience,total_ace
+Social Sciences,2941667.1034,nonR1,parentscience,total_ace
+Agricultural Sciences,227370.8903,nonR1,parentscience,total_ace
+Other Natural Sciences,156708.4659,nonR1,parentscience,total_ace
+Computer and Information Sciences,1943990.0,nonR1,parentscience,job_count
+Chemical Sciences,1801477.0,nonR1,parentscience,job_count
+Engineering and Technology,1108619.0,nonR1,parentscience,job_count
+Biological Sciences,617198.0,nonR1,parentscience,job_count
+Medical and Health Sciences,444188.0,nonR1,parentscience,job_count
+Physical Sciences,281356.0,nonR1,parentscience,job_count
+Other,184302.0,nonR1,parentscience,job_count
+Other Natural Sciences,85939.0,nonR1,parentscience,job_count
+Mathematics,57568.0,nonR1,parentscience,job_count
+Earth and Environmental Sciences,49966.0,nonR1,parentscience,job_count
+Social Sciences,11039.0,nonR1,parentscience,job_count
+Agricultural Sciences,8342.0,nonR1,parentscience,job_count
+Computer and Information Sciences,172.0,nonR1,parentscience,active_pi_count
+Biological Sciences,146.0,nonR1,parentscience,active_pi_count
+Engineering and Technology,139.0,nonR1,parentscience,active_pi_count
+Chemical Sciences,133.0,nonR1,parentscience,active_pi_count
+Physical Sciences,104.0,nonR1,parentscience,active_pi_count
+Other,31.0,nonR1,parentscience,active_pi_count
+Mathematics,27.0,nonR1,parentscience,active_pi_count
+Earth and Environmental Sciences,26.0,nonR1,parentscience,active_pi_count
+Medical and Health Sciences,13.0,nonR1,parentscience,active_pi_count
+Social Sciences,10.0,nonR1,parentscience,active_pi_count
+Agricultural Sciences,5.0,nonR1,parentscience,active_pi_count
+Other Natural Sciences,2.0,nonR1,parentscience,active_pi_count
+Computer and Information Sciences,1737.0,nonR1,parentscience,active_person_count
+Chemical Sciences,982.0,nonR1,parentscience,active_person_count
+Other,597.0,nonR1,parentscience,active_person_count
+Engineering and Technology,556.0,nonR1,parentscience,active_person_count
+Biological Sciences,521.0,nonR1,parentscience,active_person_count
+Physical Sciences,346.0,nonR1,parentscience,active_person_count
+Earth and Environmental Sciences,61.0,nonR1,parentscience,active_person_count
+Agricultural Sciences,39.0,nonR1,parentscience,active_person_count
+Mathematics,34.0,nonR1,parentscience,active_person_count
+Medical and Health Sciences,32.0,nonR1,parentscience,active_person_count
+Social Sciences,16.0,nonR1,parentscience,active_person_count
+Other Natural Sciences,2.0,nonR1,parentscience,active_person_count
+Computer and Information Sciences,222.0,nonR1,parentscience,active_allocation_count
+Biological Sciences,188.0,nonR1,parentscience,active_allocation_count
+Chemical Sciences,187.0,nonR1,parentscience,active_allocation_count
+Engineering and Technology,174.0,nonR1,parentscience,active_allocation_count
+Physical Sciences,133.0,nonR1,parentscience,active_allocation_count
+Earth and Environmental Sciences,32.0,nonR1,parentscience,active_allocation_count
+Other,32.0,nonR1,parentscience,active_allocation_count
+Mathematics,29.0,nonR1,parentscience,active_allocation_count
+Medical and Health Sciences,14.0,nonR1,parentscience,active_allocation_count
+Social Sciences,10.0,nonR1,parentscience,active_allocation_count
+Agricultural Sciences,5.0,nonR1,parentscience,active_allocation_count
+Other Natural Sciences,2.0,nonR1,parentscience,active_allocation_count
+1,35087701.541,nonR1,jobsize,total_ace
+2 - 4,21504699.607,nonR1,jobsize,total_ace
+5 - 8,39171745.8357,nonR1,jobsize,total_ace
+9 - 64,165044273.5043,nonR1,jobsize,total_ace
+65 - 256,164931298.6462,nonR1,jobsize,total_ace
+257 - 512,38997554.9317,nonR1,jobsize,total_ace
+513 - 1024,45479470.4598,nonR1,jobsize,total_ace
+1k - 8k,69175174.2467,nonR1,jobsize,total_ace
+8k - 32k,14721787.7597,nonR1,jobsize,total_ace
+1,2484412.0,nonR1,jobsize,job_count
+2 - 4,1413842.0,nonR1,jobsize,job_count
+5 - 8,664596.0,nonR1,jobsize,job_count
+9 - 64,1690064.0,nonR1,jobsize,job_count
+65 - 256,303614.0,nonR1,jobsize,job_count
+257 - 512,17395.0,nonR1,jobsize,job_count
+513 - 1024,12232.0,nonR1,jobsize,job_count
+1k - 8k,7672.0,nonR1,jobsize,job_count
+8k - 32k,157.0,nonR1,jobsize,job_count
+1,502.0,nonR1,jobsize,active_pi_count
+2 - 4,425.0,nonR1,jobsize,active_pi_count
+5 - 8,408.0,nonR1,jobsize,active_pi_count
+9 - 64,575.0,nonR1,jobsize,active_pi_count
+65 - 256,488.0,nonR1,jobsize,active_pi_count
+257 - 512,173.0,nonR1,jobsize,active_pi_count
+513 - 1024,116.0,nonR1,jobsize,active_pi_count
+1k - 8k,86.0,nonR1,jobsize,active_pi_count
+8k - 32k,7.0,nonR1,jobsize,active_pi_count
+1,2413.0,nonR1,jobsize,active_person_count
+2 - 4,1632.0,nonR1,jobsize,active_person_count
+5 - 8,1628.0,nonR1,jobsize,active_person_count
+9 - 64,2940.0,nonR1,jobsize,active_person_count
+65 - 256,2112.0,nonR1,jobsize,active_person_count
+257 - 512,421.0,nonR1,jobsize,active_person_count
+513 - 1024,228.0,nonR1,jobsize,active_person_count
+1k - 8k,145.0,nonR1,jobsize,active_person_count
+8k - 32k,7.0,nonR1,jobsize,active_person_count
+1,636.0,nonR1,jobsize,active_allocation_count
+2 - 4,531.0,nonR1,jobsize,active_allocation_count
+5 - 8,519.0,nonR1,jobsize,active_allocation_count
+9 - 64,760.0,nonR1,jobsize,active_allocation_count
+65 - 256,648.0,nonR1,jobsize,active_allocation_count
+257 - 512,212.0,nonR1,jobsize,active_allocation_count
+513 - 1024,146.0,nonR1,jobsize,active_allocation_count
+1k - 8k,105.0,nonR1,jobsize,active_allocation_count
+8k - 32k,7.0,nonR1,jobsize,active_allocation_count
+0 - 1s,0.0,nonR1,jobwalltime,total_ace
+1 - 30s,1579940.982,nonR1,jobwalltime,total_ace
+30s - 30min,10904917.9612,nonR1,jobwalltime,total_ace
+30 - 60min,8917574.5212,nonR1,jobwalltime,total_ace
+1 - 5hr,60563882.3383,nonR1,jobwalltime,total_ace
+5 - 10hr,52105376.5051,nonR1,jobwalltime,total_ace
+10 - 18hr,63830696.4876,nonR1,jobwalltime,total_ace
+18+hr,396211317.7366,nonR1,jobwalltime,total_ace
+0 - 1s,4273.0,nonR1,jobwalltime,job_count
+1 - 30s,2216096.0,nonR1,jobwalltime,job_count
+30s - 30min,2840737.0,nonR1,jobwalltime,job_count
+30 - 60min,423162.0,nonR1,jobwalltime,job_count
+1 - 5hr,736890.0,nonR1,jobwalltime,job_count
+5 - 10hr,136124.0,nonR1,jobwalltime,job_count
+10 - 18hr,85833.0,nonR1,jobwalltime,job_count
+18+hr,150869.0,nonR1,jobwalltime,job_count
+0 - 1s,55.0,nonR1,jobwalltime,active_pi_count
+1 - 30s,684.0,nonR1,jobwalltime,active_pi_count
+30s - 30min,715.0,nonR1,jobwalltime,active_pi_count
+30 - 60min,630.0,nonR1,jobwalltime,active_pi_count
+1 - 5hr,668.0,nonR1,jobwalltime,active_pi_count
+5 - 10hr,553.0,nonR1,jobwalltime,active_pi_count
+10 - 18hr,497.0,nonR1,jobwalltime,active_pi_count
+18+hr,514.0,nonR1,jobwalltime,active_pi_count
+0 - 1s,107.0,nonR1,jobwalltime,active_person_count
+1 - 30s,3883.0,nonR1,jobwalltime,active_person_count
+30s - 30min,4138.0,nonR1,jobwalltime,active_person_count
+30 - 60min,2926.0,nonR1,jobwalltime,active_person_count
+1 - 5hr,2868.0,nonR1,jobwalltime,active_person_count
+5 - 10hr,1573.0,nonR1,jobwalltime,active_person_count
+10 - 18hr,1276.0,nonR1,jobwalltime,active_person_count
+18+hr,1238.0,nonR1,jobwalltime,active_person_count
+0 - 1s,72.0,nonR1,jobwalltime,active_allocation_count
+1 - 30s,924.0,nonR1,jobwalltime,active_allocation_count
+30s - 30min,965.0,nonR1,jobwalltime,active_allocation_count
+30 - 60min,849.0,nonR1,jobwalltime,active_allocation_count
+1 - 5hr,899.0,nonR1,jobwalltime,active_allocation_count
+5 - 10hr,726.0,nonR1,jobwalltime,active_allocation_count
+10 - 18hr,670.0,nonR1,jobwalltime,active_allocation_count
+18+hr,693.0,nonR1,jobwalltime,active_allocation_count
+0 - 1s,44882031.443,nonR1,jobwaittime,total_ace
+1 - 30s,166618670.5347,nonR1,jobwaittime,total_ace
+30s - 30min,119252188.2837,nonR1,jobwaittime,total_ace
+30 - 60min,24696001.2477,nonR1,jobwaittime,total_ace
+1 - 5hr,80877413.6877,nonR1,jobwaittime,total_ace
+5 - 10hr,38843434.7745,nonR1,jobwaittime,total_ace
+10 - 18hr,33704094.329,nonR1,jobwaittime,total_ace
+18+hr,85239872.2316,nonR1,jobwaittime,total_ace
+0 - 1s,242079.0,nonR1,jobwaittime,job_count
+1 - 30s,2577389.0,nonR1,jobwaittime,job_count
+30s - 30min,2381977.0,nonR1,jobwaittime,job_count
+30 - 60min,310494.0,nonR1,jobwaittime,job_count
+1 - 5hr,616210.0,nonR1,jobwaittime,job_count
+5 - 10hr,219163.0,nonR1,jobwaittime,job_count
+10 - 18hr,107204.0,nonR1,jobwaittime,job_count
+18+hr,139468.0,nonR1,jobwaittime,job_count
+0 - 1s,626.0,nonR1,jobwaittime,active_pi_count
+1 - 30s,733.0,nonR1,jobwaittime,active_pi_count
+30s - 30min,686.0,nonR1,jobwaittime,active_pi_count
+30 - 60min,542.0,nonR1,jobwaittime,active_pi_count
+1 - 5hr,565.0,nonR1,jobwaittime,active_pi_count
+5 - 10hr,457.0,nonR1,jobwaittime,active_pi_count
+10 - 18hr,390.0,nonR1,jobwaittime,active_pi_count
+18+hr,403.0,nonR1,jobwaittime,active_pi_count
+0 - 1s,3344.0,nonR1,jobwaittime,active_person_count
+1 - 30s,4438.0,nonR1,jobwaittime,active_person_count
+30s - 30min,3666.0,nonR1,jobwaittime,active_person_count
+30 - 60min,1663.0,nonR1,jobwaittime,active_person_count
+1 - 5hr,1849.0,nonR1,jobwaittime,active_person_count
+5 - 10hr,1003.0,nonR1,jobwaittime,active_person_count
+10 - 18hr,740.0,nonR1,jobwaittime,active_person_count
+18+hr,773.0,nonR1,jobwaittime,active_person_count
+0 - 1s,850.0,nonR1,jobwaittime,active_allocation_count
+1 - 30s,994.0,nonR1,jobwaittime,active_allocation_count
+30s - 30min,928.0,nonR1,jobwaittime,active_allocation_count
+30 - 60min,720.0,nonR1,jobwaittime,active_allocation_count
+1 - 5hr,751.0,nonR1,jobwaittime,active_allocation_count
+5 - 10hr,592.0,nonR1,jobwaittime,active_allocation_count
+10 - 18hr,501.0,nonR1,jobwaittime,active_allocation_count
+18+hr,502.0,nonR1,jobwaittime,active_allocation_count
+SimVascular; Stanford U,5245308.3786,nonR1,gateway,total_ace
+ChemCompute; Sonoma State U,2167821.6982,nonR1,gateway,total_ace
+ampgatewayuser; Georgia Tech,111322.8523,nonR1,gateway,total_ace
+SciGaP; Georgia Tech,29990.3924,nonR1,gateway,total_ace
+ChemCompute; Sonoma State U,132098.0,nonR1,gateway,job_count
+SimVascular; Stanford U,5081.0,nonR1,gateway,job_count
+SciGaP; Georgia Tech,961.0,nonR1,gateway,job_count
+ampgatewayuser; Georgia Tech,276.0,nonR1,gateway,job_count
+SciGaP; Georgia Tech,1.0,nonR1,gateway,active_pi_count
+SimVascular; Stanford U,1.0,nonR1,gateway,active_pi_count
+ampgatewayuser; Georgia Tech,1.0,nonR1,gateway,active_pi_count
+ChemCompute; Sonoma State U,1.0,nonR1,gateway,active_pi_count
+SciGaP; Georgia Tech,1.0,nonR1,gateway,active_person_count
+SimVascular; Stanford U,1.0,nonR1,gateway,active_person_count
+ampgatewayuser; Georgia Tech,1.0,nonR1,gateway,active_person_count
+ChemCompute; Sonoma State U,1.0,nonR1,gateway,active_person_count
+SimVascular; Stanford U,2.0,nonR1,gateway,active_allocation_count
+ChemCompute; Sonoma State U,2.0,nonR1,gateway,active_allocation_count
+SciGaP; Georgia Tech,1.0,nonR1,gateway,active_allocation_count
+ampgatewayuser; Georgia Tech,1.0,nonR1,gateway,active_allocation_count
+compute,96372960.2595,nonR1,queue,total_ace
+shared,85161472.9553,nonR1,queue,total_ace
+RM,76538909.9757,nonR1,queue,total_ace
+skx,56189525.3603,nonR1,queue,total_ace
+GPU,37655410.6931,nonR1,queue,total_ace
+wholenode,30443102.0026,nonR1,queue,total_ace
+gpu-shared,28707135.6916,nonR1,queue,total_ace
+RM-shared,28526447.439,nonR1,queue,total_ace
+spr,22769983.4051,nonR1,queue,total_ace
+gpuA100x4,21157262.8361,nonR1,queue,total_ace
+icx,19038908.2288,nonR1,queue,total_ace
+gpuA40x4,12408336.016,nonR1,queue,total_ace
+ghx4,12406068.6256,nonR1,queue,total_ace
+skx-normal,9038592.6758,nonR1,queue,total_ace
+cpu,8924426.7266,nonR1,queue,total_ace
+normal,7919985.5262,nonR1,queue,total_ace
+EM,6739822.4468,nonR1,queue,total_ace
+gpuA100x8,4221711.2733,nonR1,queue,total_ace
+skx-dev,3393380.9969,nonR1,queue,total_ace
+large-shared,3386345.8731,nonR1,queue,total_ace
+gpuH200x8,3244629.4841,nonR1,queue,total_ace
+wide,2678838.4803,nonR1,queue,total_ace
+ai,2346024.7052,nonR1,queue,total_ace
+standard,1994563.853,nonR1,queue,total_ace
+highmem,1947603.5935,nonR1,queue,total_ace
+RM-512,1888716.0771,nonR1,queue,total_ace
+skx-large,1611883.8355,nonR1,queue,total_ace
+icx-normal,1466938.2993,nonR1,queue,total_ace
+h100,1155894.5661,nonR1,queue,total_ace
+ghx4-interactive,606029.8209,nonR1,queue,total_ace
+gpuA40x4-preempt,506214.4862,nonR1,queue,total_ace
+long,437057.3336,nonR1,queue,total_ace
+gpuA100x4-interactive,402517.3124,nonR1,queue,total_ace
+GPU-small,381118.4728,nonR1,queue,total_ace
+NA,365118.0984,nonR1,queue,total_ace
+gpuH200x8-interactive,314172.687,nonR1,queue,total_ace
+pvc,292359.0991,nonR1,queue,total_ace
+gpuA40x4-interactive,265942.9784,nonR1,queue,total_ace
+large,160692.3701,nonR1,queue,total_ace
+gpu-debug,157389.7311,nonR1,queue,total_ace
+large-mem,152216.3579,nonR1,queue,total_ace
+preempt,147164.0152,nonR1,queue,total_ace
+development,112744.276,nonR1,queue,total_ace
+debug,91593.4868,nonR1,queue,total_ace
+RM-small,88958.0136,nonR1,queue,total_ace
+gpuA100x8-interactive,68851.2072,nonR1,queue,total_ace
+gpuA100x4-preempt,54481.3775,nonR1,queue,total_ace
+gpu-preempt,54224.4682,nonR1,queue,total_ace
+cpu-interactive,37959.3237,nonR1,queue,total_ace
+amd-rtx,24817.8926,nonR1,queue,total_ace
+gpuMI100x8,23189.7186,nonR1,queue,total_ace
+flat-quadrant,17512.7581,nonR1,queue,total_ace
+gpu_debug,7291.035,nonR1,queue,total_ace
+gpu-t4,3346.5594,nonR1,queue,total_ace
+cpu-preempt,2762.493,nonR1,queue,total_ace
+gpu-v100,1113.8561,nonR1,queue,total_ace
+nvdimm,1104.2485,nonR1,queue,total_ace
+gpuMI100x8-interactive,277.3723,nonR1,queue,total_ace
+short,270.0106,nonR1,queue,total_ace
+bittware,149.3543,nonR1,queue,total_ace
+,137.1265,nonR1,queue,total_ace
+applications,25.8282,nonR1,queue,total_ace
+nec,13.4756,nonR1,queue,total_ace
+medium,7.9855,nonR1,queue,total_ace
+milan-64core,0.0,nonR1,queue,total_ace
+profiling,0.0,nonR1,queue,total_ace
+skylake-36core,0.0,nonR1,queue,total_ace
+shared,2325845.0,nonR1,queue,job_count
+cpu,1729563.0,nonR1,queue,job_count
+RM-shared,1570613.0,nonR1,queue,job_count
+skx,158282.0,nonR1,queue,job_count
+RM,133236.0,nonR1,queue,job_count
+GPU,109350.0,nonR1,queue,job_count
+gpuA100x4,80471.0,nonR1,queue,job_count
+gpu-shared,79104.0,nonR1,queue,job_count
+compute,73171.0,nonR1,queue,job_count
+gpuA40x4,56999.0,nonR1,queue,job_count
+ghx4,51732.0,nonR1,queue,job_count
+wholenode,34947.0,nonR1,queue,job_count
+skx-dev,18554.0,nonR1,queue,job_count
+normal,18216.0,nonR1,queue,job_count
+spr,17759.0,nonR1,queue,job_count
+debug,17710.0,nonR1,queue,job_count
+skx-normal,13245.0,nonR1,queue,job_count
+short,10596.0,nonR1,queue,job_count
+icx,8443.0,nonR1,queue,job_count
+gpuA40x4-interactive,8270.0,nonR1,queue,job_count
+standard,8213.0,nonR1,queue,job_count
+RM-small,8002.0,nonR1,queue,job_count
+gpuA100x4-interactive,6945.0,nonR1,queue,job_count
+EM,5979.0,nonR1,queue,job_count
+icx-normal,4719.0,nonR1,queue,job_count
+development,4482.0,nonR1,queue,job_count
+RM-512,3644.0,nonR1,queue,job_count
+gpuA40x4-preempt,3255.0,nonR1,queue,job_count
+gpu-debug,3243.0,nonR1,queue,job_count
+ai,3223.0,nonR1,queue,job_count
+NA,2973.0,nonR1,queue,job_count
+highmem,2856.0,nonR1,queue,job_count
+gpuH200x8,2811.0,nonR1,queue,job_count
+gpuA100x8,2630.0,nonR1,queue,job_count
+ghx4-interactive,2350.0,nonR1,queue,job_count
+cpu-interactive,2153.0,nonR1,queue,job_count
+GPU-small,1789.0,nonR1,queue,job_count
+pvc,1674.0,nonR1,queue,job_count
+gpuH200x8-interactive,1098.0,nonR1,queue,job_count
+preempt,948.0,nonR1,queue,job_count
+large-shared,887.0,nonR1,queue,job_count
+h100,616.0,nonR1,queue,job_count
+skylake-36core,575.0,nonR1,queue,job_count
+wide,514.0,nonR1,queue,job_count
+cpu-preempt,403.0,nonR1,queue,job_count
+gpuA100x4-preempt,372.0,nonR1,queue,job_count
+gpu_debug,364.0,nonR1,queue,job_count
+long,306.0,nonR1,queue,job_count
+gpu-preempt,254.0,nonR1,queue,job_count
+gpuMI100x8,117.0,nonR1,queue,job_count
+gpu-t4,107.0,nonR1,queue,job_count
+gpu-v100,98.0,nonR1,queue,job_count
+gpuA100x8-interactive,94.0,nonR1,queue,job_count
+skx-large,40.0,nonR1,queue,job_count
+large-mem,39.0,nonR1,queue,job_count
+applications,26.0,nonR1,queue,job_count
+bittware,16.0,nonR1,queue,job_count
+gpuMI100x8-interactive,14.0,nonR1,queue,job_count
+nec,14.0,nonR1,queue,job_count
+flat-quadrant,11.0,nonR1,queue,job_count
+amd-rtx,7.0,nonR1,queue,job_count
+milan-64core,5.0,nonR1,queue,job_count
+,4.0,nonR1,queue,job_count
+nvdimm,3.0,nonR1,queue,job_count
+large,2.0,nonR1,queue,job_count
+medium,2.0,nonR1,queue,job_count
+profiling,1.0,nonR1,queue,job_count
+shared,231.0,nonR1,queue,active_pi_count
+RM,164.0,nonR1,queue,active_pi_count
+gpu,159.0,nonR1,queue,active_pi_count
+RM-shared,144.0,nonR1,queue,active_pi_count
+gpu-shared,142.0,nonR1,queue,active_pi_count
+compute,125.0,nonR1,queue,active_pi_count
+cpu,117.0,nonR1,queue,active_pi_count
+debug,116.0,nonR1,queue,active_pi_count
+RM-small,99.0,nonR1,queue,active_pi_count
+gpuA100x4,88.0,nonR1,queue,active_pi_count
+wholenode,79.0,nonR1,queue,active_pi_count
+skx,69.0,nonR1,queue,active_pi_count
+skx-dev,65.0,nonR1,queue,active_pi_count
+gpuA100x4-interactive,62.0,nonR1,queue,active_pi_count
+gpu-debug,60.0,nonR1,queue,active_pi_count
+gpuA40x4,60.0,nonR1,queue,active_pi_count
+gpuA40x4-interactive,44.0,nonR1,queue,active_pi_count
+icx,44.0,nonR1,queue,active_pi_count
+cpu-interactive,42.0,nonR1,queue,active_pi_count
+normal,39.0,nonR1,queue,active_pi_count
+gpuA100x8,38.0,nonR1,queue,active_pi_count
+skx-normal,38.0,nonR1,queue,active_pi_count
+spr,38.0,nonR1,queue,active_pi_count
+RM-512,37.0,nonR1,queue,active_pi_count
+gpuH200x8,33.0,nonR1,queue,active_pi_count
+development,31.0,nonR1,queue,active_pi_count
+standard,31.0,nonR1,queue,active_pi_count
+large-shared,30.0,nonR1,queue,active_pi_count
+GPU-small,29.0,nonR1,queue,active_pi_count
+EM,28.0,nonR1,queue,active_pi_count
+gpuH200x8-interactive,28.0,nonR1,queue,active_pi_count
+ghx4,26.0,nonR1,queue,active_pi_count
+highmem,25.0,nonR1,queue,active_pi_count
+pvc,23.0,nonR1,queue,active_pi_count
+ghx4-interactive,18.0,nonR1,queue,active_pi_count
+gpu_debug,17.0,nonR1,queue,active_pi_count
+wide,17.0,nonR1,queue,active_pi_count
+NA,15.0,nonR1,queue,active_pi_count
+gpuA100x4-preempt,14.0,nonR1,queue,active_pi_count
+gpuA40x4-preempt,14.0,nonR1,queue,active_pi_count
+h100,14.0,nonR1,queue,active_pi_count
+icx-normal,14.0,nonR1,queue,active_pi_count
+long,14.0,nonR1,queue,active_pi_count
+ai,13.0,nonR1,queue,active_pi_count
+applications,13.0,nonR1,queue,active_pi_count
+gpuMI100x8,13.0,nonR1,queue,active_pi_count
+gpuA100x8-interactive,12.0,nonR1,queue,active_pi_count
+preempt,11.0,nonR1,queue,active_pi_count
+cpu-preempt,9.0,nonR1,queue,active_pi_count
+gpu-preempt,7.0,nonR1,queue,active_pi_count
+gpuMI100x8-interactive,7.0,nonR1,queue,active_pi_count
+nec,4.0,nonR1,queue,active_pi_count
+gpu-t4,3.0,nonR1,queue,active_pi_count
+gpu-v100,3.0,nonR1,queue,active_pi_count
+short,3.0,nonR1,queue,active_pi_count
+,2.0,nonR1,queue,active_pi_count
+bittware,2.0,nonR1,queue,active_pi_count
+large-mem,2.0,nonR1,queue,active_pi_count
+amd-rtx,1.0,nonR1,queue,active_pi_count
+flat-quadrant,1.0,nonR1,queue,active_pi_count
+large,1.0,nonR1,queue,active_pi_count
+medium,1.0,nonR1,queue,active_pi_count
+milan-64core,1.0,nonR1,queue,active_pi_count
+nvdimm,1.0,nonR1,queue,active_pi_count
+profiling,1.0,nonR1,queue,active_pi_count
+skx-large,1.0,nonR1,queue,active_pi_count
+skylake-36core,1.0,nonR1,queue,active_pi_count
+shared,1461.0,nonR1,queue,active_person_count
+RM,802.0,nonR1,queue,active_person_count
+compute,673.0,nonR1,queue,active_person_count
+RM-shared,648.0,nonR1,queue,active_person_count
+gpu-shared,545.0,nonR1,queue,active_person_count
+gpu,516.0,nonR1,queue,active_person_count
+RM-small,509.0,nonR1,queue,active_person_count
+debug,504.0,nonR1,queue,active_person_count
+cpu,450.0,nonR1,queue,active_person_count
+gpuA40x4-interactive,418.0,nonR1,queue,active_person_count
+wholenode,316.0,nonR1,queue,active_person_count
+gpuA100x4,250.0,nonR1,queue,active_person_count
+cpu-interactive,249.0,nonR1,queue,active_person_count
+gpuA40x4,184.0,nonR1,queue,active_person_count
+skx,174.0,nonR1,queue,active_person_count
+skx-dev,170.0,nonR1,queue,active_person_count
+gpuA100x4-interactive,167.0,nonR1,queue,active_person_count
+gpu-debug,141.0,nonR1,queue,active_person_count
+development,131.0,nonR1,queue,active_person_count
+ghx4,118.0,nonR1,queue,active_person_count
+normal,93.0,nonR1,queue,active_person_count
+GPU-small,91.0,nonR1,queue,active_person_count
+standard,83.0,nonR1,queue,active_person_count
+highmem,79.0,nonR1,queue,active_person_count
+skx-normal,76.0,nonR1,queue,active_person_count
+ai,72.0,nonR1,queue,active_person_count
+icx,66.0,nonR1,queue,active_person_count
+pvc,60.0,nonR1,queue,active_person_count
+RM-512,58.0,nonR1,queue,active_person_count
+spr,57.0,nonR1,queue,active_person_count
+gpuH200x8,53.0,nonR1,queue,active_person_count
+gpuA100x8,51.0,nonR1,queue,active_person_count
+ghx4-interactive,50.0,nonR1,queue,active_person_count
+gpu_debug,50.0,nonR1,queue,active_person_count
+large-shared,39.0,nonR1,queue,active_person_count
+NA,38.0,nonR1,queue,active_person_count
+EM,36.0,nonR1,queue,active_person_count
+gpuH200x8-interactive,36.0,nonR1,queue,active_person_count
+wide,31.0,nonR1,queue,active_person_count
+applications,19.0,nonR1,queue,active_person_count
+icx-normal,18.0,nonR1,queue,active_person_count
+gpuA40x4-preempt,17.0,nonR1,queue,active_person_count
+h100,17.0,nonR1,queue,active_person_count
+short,17.0,nonR1,queue,active_person_count
+gpuMI100x8,15.0,nonR1,queue,active_person_count
+gpuA100x4-preempt,14.0,nonR1,queue,active_person_count
+long,13.0,nonR1,queue,active_person_count
+gpuA100x8-interactive,12.0,nonR1,queue,active_person_count
+preempt,12.0,nonR1,queue,active_person_count
+cpu-preempt,11.0,nonR1,queue,active_person_count
+gpuMI100x8-interactive,8.0,nonR1,queue,active_person_count
+gpu-preempt,7.0,nonR1,queue,active_person_count
+nec,4.0,nonR1,queue,active_person_count
+,3.0,nonR1,queue,active_person_count
+gpu-t4,3.0,nonR1,queue,active_person_count
+gpu-v100,3.0,nonR1,queue,active_person_count
+bittware,2.0,nonR1,queue,active_person_count
+large-mem,2.0,nonR1,queue,active_person_count
+medium,2.0,nonR1,queue,active_person_count
+amd-rtx,1.0,nonR1,queue,active_person_count
+flat-quadrant,1.0,nonR1,queue,active_person_count
+large,1.0,nonR1,queue,active_person_count
+milan-64core,1.0,nonR1,queue,active_person_count
+nvdimm,1.0,nonR1,queue,active_person_count
+profiling,1.0,nonR1,queue,active_person_count
+skx-large,1.0,nonR1,queue,active_person_count
+skylake-36core,1.0,nonR1,queue,active_person_count
+shared,317.0,nonR1,queue,active_allocation_count
+RM,215.0,nonR1,queue,active_allocation_count
+gpu,199.0,nonR1,queue,active_allocation_count
+RM-shared,180.0,nonR1,queue,active_allocation_count
+gpu-shared,176.0,nonR1,queue,active_allocation_count
+compute,167.0,nonR1,queue,active_allocation_count
+debug,148.0,nonR1,queue,active_allocation_count
+cpu,136.0,nonR1,queue,active_allocation_count
+RM-small,120.0,nonR1,queue,active_allocation_count
+gpuA100x4,100.0,nonR1,queue,active_allocation_count
+wholenode,95.0,nonR1,queue,active_allocation_count
+skx,84.0,nonR1,queue,active_allocation_count
+skx-dev,82.0,nonR1,queue,active_allocation_count
+gpu-debug,78.0,nonR1,queue,active_allocation_count
+gpuA40x4,68.0,nonR1,queue,active_allocation_count
+gpuA100x4-interactive,67.0,nonR1,queue,active_allocation_count
+icx,49.0,nonR1,queue,active_allocation_count
+gpuA40x4-interactive,48.0,nonR1,queue,active_allocation_count
+cpu-interactive,45.0,nonR1,queue,active_allocation_count
+spr,44.0,nonR1,queue,active_allocation_count
+normal,42.0,nonR1,queue,active_allocation_count
+RM-512,42.0,nonR1,queue,active_allocation_count
+gpuA100x8,40.0,nonR1,queue,active_allocation_count
+skx-normal,40.0,nonR1,queue,active_allocation_count
+gpuH200x8,35.0,nonR1,queue,active_allocation_count
+large-shared,35.0,nonR1,queue,active_allocation_count
+development,34.0,nonR1,queue,active_allocation_count
+GPU-small,34.0,nonR1,queue,active_allocation_count
+standard,34.0,nonR1,queue,active_allocation_count
+EM,31.0,nonR1,queue,active_allocation_count
+ghx4,31.0,nonR1,queue,active_allocation_count
+highmem,31.0,nonR1,queue,active_allocation_count
+gpuH200x8-interactive,28.0,nonR1,queue,active_allocation_count
+pvc,24.0,nonR1,queue,active_allocation_count
+ghx4-interactive,22.0,nonR1,queue,active_allocation_count
+gpu_debug,18.0,nonR1,queue,active_allocation_count
+wide,18.0,nonR1,queue,active_allocation_count
+ai,17.0,nonR1,queue,active_allocation_count
+gpuA40x4-preempt,17.0,nonR1,queue,active_allocation_count
+h100,16.0,nonR1,queue,active_allocation_count
+icx-normal,15.0,nonR1,queue,active_allocation_count
+NA,15.0,nonR1,queue,active_allocation_count
+applications,14.0,nonR1,queue,active_allocation_count
+gpuA100x4-preempt,14.0,nonR1,queue,active_allocation_count
+gpuMI100x8,13.0,nonR1,queue,active_allocation_count
+long,13.0,nonR1,queue,active_allocation_count
+gpuA100x8-interactive,12.0,nonR1,queue,active_allocation_count
+preempt,11.0,nonR1,queue,active_allocation_count
+cpu-preempt,9.0,nonR1,queue,active_allocation_count
+gpu-preempt,7.0,nonR1,queue,active_allocation_count
+gpuMI100x8-interactive,7.0,nonR1,queue,active_allocation_count
+nec,4.0,nonR1,queue,active_allocation_count
+gpu-t4,3.0,nonR1,queue,active_allocation_count
+gpu-v100,3.0,nonR1,queue,active_allocation_count
+short,3.0,nonR1,queue,active_allocation_count
+,2.0,nonR1,queue,active_allocation_count
+bittware,2.0,nonR1,queue,active_allocation_count
+large-mem,2.0,nonR1,queue,active_allocation_count
+amd-rtx,1.0,nonR1,queue,active_allocation_count
+flat-quadrant,1.0,nonR1,queue,active_allocation_count
+large,1.0,nonR1,queue,active_allocation_count
+medium,1.0,nonR1,queue,active_allocation_count
+milan-64core,1.0,nonR1,queue,active_allocation_count
+nvdimm,1.0,nonR1,queue,active_allocation_count
+profiling,1.0,nonR1,queue,active_allocation_count
+skx-large,1.0,nonR1,queue,active_allocation_count
+skylake-36core,1.0,nonR1,queue,active_allocation_count
+New York,117411255.5992,nonR1,pi_institution_state,total_ace
+California,96440382.6814,nonR1,pi_institution_state,total_ace
+New Jersey,53953295.4021,nonR1,pi_institution_state,total_ace
+Alabama,44270829.4965,nonR1,pi_institution_state,total_ace
+Illinois,37007402.9571,nonR1,pi_institution_state,total_ace
+Pennsylvania,34105981.6582,nonR1,pi_institution_state,total_ace
+Texas,34009638.4054,nonR1,pi_institution_state,total_ace
+Massachusetts,17524884.2723,nonR1,pi_institution_state,total_ace
+Ohio,17227211.4293,nonR1,pi_institution_state,total_ace
+Georgia,15880440.5765,nonR1,pi_institution_state,total_ace
+New Mexico,11621459.854,nonR1,pi_institution_state,total_ace
+North Carolina,10606415.996,nonR1,pi_institution_state,total_ace
+Oregon,10269907.5426,nonR1,pi_institution_state,total_ace
+Florida,9175154.5324,nonR1,pi_institution_state,total_ace
+Tennessee,8804638.8421,nonR1,pi_institution_state,total_ace
+Connecticut,8297869.1122,nonR1,pi_institution_state,total_ace
+South Carolina,7919406.5756,nonR1,pi_institution_state,total_ace
+Indiana,7431382.4942,nonR1,pi_institution_state,total_ace
+Michigan,6948876.4115,nonR1,pi_institution_state,total_ace
+District of Columbia,5901074.3028,nonR1,pi_institution_state,total_ace
+Maryland,5021030.7568,nonR1,pi_institution_state,total_ace
+Kentucky,4868556.4914,nonR1,pi_institution_state,total_ace
+Delaware,3943054.339,nonR1,pi_institution_state,total_ace
+Iowa,3668209.3705,nonR1,pi_institution_state,total_ace
+Colorado,2976616.258,nonR1,pi_institution_state,total_ace
+Wisconsin,2046633.2273,nonR1,pi_institution_state,total_ace
+Missouri,1970827.6249,nonR1,pi_institution_state,total_ace
+Minnesota,1944938.6737,nonR1,pi_institution_state,total_ace
+Nebraska,1826747.8944,nonR1,pi_institution_state,total_ace
+Washington,1690528.1677,nonR1,pi_institution_state,total_ace
+Utah,1368397.2799,nonR1,pi_institution_state,total_ace
+Puerto Rico,1311427.7871,nonR1,pi_institution_state,total_ace
+Virginia,986491.9833,nonR1,pi_institution_state,total_ace
+Arkansas,982053.2784,nonR1,pi_institution_state,total_ace
+Maine,934067.877,nonR1,pi_institution_state,total_ace
+Idaho,915875.3509,nonR1,pi_institution_state,total_ace
+Louisiana,745334.3315,nonR1,pi_institution_state,total_ace
+South Dakota,573102.2522,nonR1,pi_institution_state,total_ace
+Virgin Islands,412611.6414,nonR1,pi_institution_state,total_ace
+West Virginia,371546.0727,nonR1,pi_institution_state,total_ace
+Alaska,300205.6273,nonR1,pi_institution_state,total_ace
+Mississippi,231639.7779,nonR1,pi_institution_state,total_ace
+Kansas,172427.4752,nonR1,pi_institution_state,total_ace
+Unknown,41852.8916,nonR1,pi_institution_state,total_ace
+New Hampshire,2021.9602,nonR1,pi_institution_state,total_ace
+California,2191983.0,nonR1,pi_institution_state,job_count
+Illinois,1250205.0,nonR1,pi_institution_state,job_count
+New York,799170.0,nonR1,pi_institution_state,job_count
+Pennsylvania,571190.0,nonR1,pi_institution_state,job_count
+New Jersey,525648.0,nonR1,pi_institution_state,job_count
+Washington,159735.0,nonR1,pi_institution_state,job_count
+Oregon,126819.0,nonR1,pi_institution_state,job_count
+Texas,117509.0,nonR1,pi_institution_state,job_count
+South Carolina,95287.0,nonR1,pi_institution_state,job_count
+Massachusetts,94747.0,nonR1,pi_institution_state,job_count
+Michigan,79043.0,nonR1,pi_institution_state,job_count
+Indiana,65097.0,nonR1,pi_institution_state,job_count
+Iowa,61807.0,nonR1,pi_institution_state,job_count
+Ohio,59859.0,nonR1,pi_institution_state,job_count
+North Carolina,52347.0,nonR1,pi_institution_state,job_count
+Tennessee,50964.0,nonR1,pi_institution_state,job_count
+Georgia,46578.0,nonR1,pi_institution_state,job_count
+Maryland,37866.0,nonR1,pi_institution_state,job_count
+Alabama,25154.0,nonR1,pi_institution_state,job_count
+Florida,24213.0,nonR1,pi_institution_state,job_count
+Colorado,23494.0,nonR1,pi_institution_state,job_count
+New Mexico,17727.0,nonR1,pi_institution_state,job_count
+Minnesota,14472.0,nonR1,pi_institution_state,job_count
+District of Columbia,13357.0,nonR1,pi_institution_state,job_count
+Kentucky,13300.0,nonR1,pi_institution_state,job_count
+Connecticut,12382.0,nonR1,pi_institution_state,job_count
+Missouri,9771.0,nonR1,pi_institution_state,job_count
+Puerto Rico,9163.0,nonR1,pi_institution_state,job_count
+Utah,8773.0,nonR1,pi_institution_state,job_count
+Wisconsin,7793.0,nonR1,pi_institution_state,job_count
+Arkansas,5607.0,nonR1,pi_institution_state,job_count
+Delaware,5106.0,nonR1,pi_institution_state,job_count
+West Virginia,4641.0,nonR1,pi_institution_state,job_count
+Virginia,4112.0,nonR1,pi_institution_state,job_count
+Virgin Islands,2409.0,nonR1,pi_institution_state,job_count
+Nebraska,1600.0,nonR1,pi_institution_state,job_count
+Idaho,1321.0,nonR1,pi_institution_state,job_count
+Alaska,1204.0,nonR1,pi_institution_state,job_count
+Louisiana,946.0,nonR1,pi_institution_state,job_count
+Kansas,762.0,nonR1,pi_institution_state,job_count
+South Dakota,337.0,nonR1,pi_institution_state,job_count
+Mississippi,170.0,nonR1,pi_institution_state,job_count
+Maine,113.0,nonR1,pi_institution_state,job_count
+Unknown,102.0,nonR1,pi_institution_state,job_count
+New Hampshire,101.0,nonR1,pi_institution_state,job_count
+California,119.0,nonR1,pi_institution_state,active_pi_count
+New York,99.0,nonR1,pi_institution_state,active_pi_count
+Pennsylvania,55.0,nonR1,pi_institution_state,active_pi_count
+Illinois,52.0,nonR1,pi_institution_state,active_pi_count
+Texas,49.0,nonR1,pi_institution_state,active_pi_count
+New Jersey,37.0,nonR1,pi_institution_state,active_pi_count
+Tennessee,35.0,nonR1,pi_institution_state,active_pi_count
+Maryland,31.0,nonR1,pi_institution_state,active_pi_count
+North Carolina,27.0,nonR1,pi_institution_state,active_pi_count
+Georgia,23.0,nonR1,pi_institution_state,active_pi_count
+Massachusetts,20.0,nonR1,pi_institution_state,active_pi_count
+Michigan,19.0,nonR1,pi_institution_state,active_pi_count
+Ohio,18.0,nonR1,pi_institution_state,active_pi_count
+Indiana,14.0,nonR1,pi_institution_state,active_pi_count
+Virginia,13.0,nonR1,pi_institution_state,active_pi_count
+Florida,12.0,nonR1,pi_institution_state,active_pi_count
+Puerto Rico,12.0,nonR1,pi_institution_state,active_pi_count
+Oregon,11.0,nonR1,pi_institution_state,active_pi_count
+Connecticut,10.0,nonR1,pi_institution_state,active_pi_count
+Alabama,8.0,nonR1,pi_institution_state,active_pi_count
+Arkansas,8.0,nonR1,pi_institution_state,active_pi_count
+South Carolina,8.0,nonR1,pi_institution_state,active_pi_count
+Iowa,6.0,nonR1,pi_institution_state,active_pi_count
+Kansas,6.0,nonR1,pi_institution_state,active_pi_count
+Washington,6.0,nonR1,pi_institution_state,active_pi_count
+Wisconsin,6.0,nonR1,pi_institution_state,active_pi_count
+Kentucky,5.0,nonR1,pi_institution_state,active_pi_count
+Minnesota,5.0,nonR1,pi_institution_state,active_pi_count
+Missouri,5.0,nonR1,pi_institution_state,active_pi_count
+South Dakota,5.0,nonR1,pi_institution_state,active_pi_count
+Idaho,4.0,nonR1,pi_institution_state,active_pi_count
+Louisiana,4.0,nonR1,pi_institution_state,active_pi_count
+New Mexico,4.0,nonR1,pi_institution_state,active_pi_count
+West Virginia,4.0,nonR1,pi_institution_state,active_pi_count
+Alaska,3.0,nonR1,pi_institution_state,active_pi_count
+Colorado,3.0,nonR1,pi_institution_state,active_pi_count
+Delaware,3.0,nonR1,pi_institution_state,active_pi_count
+District of Columbia,3.0,nonR1,pi_institution_state,active_pi_count
+Utah,3.0,nonR1,pi_institution_state,active_pi_count
+Maine,2.0,nonR1,pi_institution_state,active_pi_count
+Mississippi,2.0,nonR1,pi_institution_state,active_pi_count
+Nebraska,2.0,nonR1,pi_institution_state,active_pi_count
+New Hampshire,2.0,nonR1,pi_institution_state,active_pi_count
+Unknown,1.0,nonR1,pi_institution_state,active_pi_count
+Virgin Islands,1.0,nonR1,pi_institution_state,active_pi_count
+California,854.0,nonR1,pi_institution_state,active_person_count
+Illinois,440.0,nonR1,pi_institution_state,active_person_count
+Massachusetts,375.0,nonR1,pi_institution_state,active_person_count
+Texas,301.0,nonR1,pi_institution_state,active_person_count
+New York,288.0,nonR1,pi_institution_state,active_person_count
+Pennsylvania,280.0,nonR1,pi_institution_state,active_person_count
+Tennessee,275.0,nonR1,pi_institution_state,active_person_count
+Minnesota,179.0,nonR1,pi_institution_state,active_person_count
+North Carolina,160.0,nonR1,pi_institution_state,active_person_count
+New Jersey,159.0,nonR1,pi_institution_state,active_person_count
+Michigan,136.0,nonR1,pi_institution_state,active_person_count
+South Carolina,130.0,nonR1,pi_institution_state,active_person_count
+Georgia,117.0,nonR1,pi_institution_state,active_person_count
+Oregon,103.0,nonR1,pi_institution_state,active_person_count
+Florida,102.0,nonR1,pi_institution_state,active_person_count
+Maryland,100.0,nonR1,pi_institution_state,active_person_count
+West Virginia,96.0,nonR1,pi_institution_state,active_person_count
+Kentucky,81.0,nonR1,pi_institution_state,active_person_count
+Ohio,78.0,nonR1,pi_institution_state,active_person_count
+Indiana,64.0,nonR1,pi_institution_state,active_person_count
+Idaho,54.0,nonR1,pi_institution_state,active_person_count
+Puerto Rico,41.0,nonR1,pi_institution_state,active_person_count
+Utah,41.0,nonR1,pi_institution_state,active_person_count
+Iowa,36.0,nonR1,pi_institution_state,active_person_count
+Virginia,36.0,nonR1,pi_institution_state,active_person_count
+Washington,36.0,nonR1,pi_institution_state,active_person_count
+District of Columbia,34.0,nonR1,pi_institution_state,active_person_count
+Alabama,24.0,nonR1,pi_institution_state,active_person_count
+New Mexico,22.0,nonR1,pi_institution_state,active_person_count
+Connecticut,16.0,nonR1,pi_institution_state,active_person_count
+Louisiana,14.0,nonR1,pi_institution_state,active_person_count
+Delaware,13.0,nonR1,pi_institution_state,active_person_count
+Arkansas,12.0,nonR1,pi_institution_state,active_person_count
+Kansas,12.0,nonR1,pi_institution_state,active_person_count
+Wisconsin,11.0,nonR1,pi_institution_state,active_person_count
+Missouri,7.0,nonR1,pi_institution_state,active_person_count
+South Dakota,7.0,nonR1,pi_institution_state,active_person_count
+Colorado,6.0,nonR1,pi_institution_state,active_person_count
+Maine,4.0,nonR1,pi_institution_state,active_person_count
+Mississippi,4.0,nonR1,pi_institution_state,active_person_count
+Virgin Islands,4.0,nonR1,pi_institution_state,active_person_count
+Alaska,3.0,nonR1,pi_institution_state,active_person_count
+Nebraska,3.0,nonR1,pi_institution_state,active_person_count
+New Hampshire,3.0,nonR1,pi_institution_state,active_person_count
+Unknown,1.0,nonR1,pi_institution_state,active_person_count
+California,152.0,nonR1,pi_institution_state,active_allocation_count
+New York,122.0,nonR1,pi_institution_state,active_allocation_count
+Illinois,81.0,nonR1,pi_institution_state,active_allocation_count
+Pennsylvania,79.0,nonR1,pi_institution_state,active_allocation_count
+Texas,64.0,nonR1,pi_institution_state,active_allocation_count
+New Jersey,50.0,nonR1,pi_institution_state,active_allocation_count
+Tennessee,44.0,nonR1,pi_institution_state,active_allocation_count
+Georgia,38.0,nonR1,pi_institution_state,active_allocation_count
+Maryland,37.0,nonR1,pi_institution_state,active_allocation_count
+North Carolina,34.0,nonR1,pi_institution_state,active_allocation_count
+Massachusetts,26.0,nonR1,pi_institution_state,active_allocation_count
+Ohio,26.0,nonR1,pi_institution_state,active_allocation_count
+Michigan,24.0,nonR1,pi_institution_state,active_allocation_count
+Indiana,19.0,nonR1,pi_institution_state,active_allocation_count
+Florida,17.0,nonR1,pi_institution_state,active_allocation_count
+Puerto Rico,15.0,nonR1,pi_institution_state,active_allocation_count
+Oregon,14.0,nonR1,pi_institution_state,active_allocation_count
+South Carolina,14.0,nonR1,pi_institution_state,active_allocation_count
+Alabama,13.0,nonR1,pi_institution_state,active_allocation_count
+Virginia,13.0,nonR1,pi_institution_state,active_allocation_count
+Connecticut,11.0,nonR1,pi_institution_state,active_allocation_count
+Kentucky,11.0,nonR1,pi_institution_state,active_allocation_count
+Washington,11.0,nonR1,pi_institution_state,active_allocation_count
+Arkansas,10.0,nonR1,pi_institution_state,active_allocation_count
+New Mexico,10.0,nonR1,pi_institution_state,active_allocation_count
+West Virginia,10.0,nonR1,pi_institution_state,active_allocation_count
+Minnesota,9.0,nonR1,pi_institution_state,active_allocation_count
+Iowa,7.0,nonR1,pi_institution_state,active_allocation_count
+Wisconsin,7.0,nonR1,pi_institution_state,active_allocation_count
+District of Columbia,6.0,nonR1,pi_institution_state,active_allocation_count
+Idaho,6.0,nonR1,pi_institution_state,active_allocation_count
+Kansas,6.0,nonR1,pi_institution_state,active_allocation_count
+Missouri,6.0,nonR1,pi_institution_state,active_allocation_count
+Utah,6.0,nonR1,pi_institution_state,active_allocation_count
+South Dakota,5.0,nonR1,pi_institution_state,active_allocation_count
+Delaware,4.0,nonR1,pi_institution_state,active_allocation_count
+Louisiana,4.0,nonR1,pi_institution_state,active_allocation_count
+Alaska,3.0,nonR1,pi_institution_state,active_allocation_count
+Colorado,3.0,nonR1,pi_institution_state,active_allocation_count
+Maine,2.0,nonR1,pi_institution_state,active_allocation_count
+Mississippi,2.0,nonR1,pi_institution_state,active_allocation_count
+Nebraska,2.0,nonR1,pi_institution_state,active_allocation_count
+New Hampshire,2.0,nonR1,pi_institution_state,active_allocation_count
+Unknown,2.0,nonR1,pi_institution_state,active_allocation_count
+Virgin Islands,1.0,nonR1,pi_institution_state,active_allocation_count
+Purdue Anvil CPU,2835912263.7719,R1,resource,total_ace
+Expanse,2274274013.3508,R1,resource,total_ace
+TACC STAMPEDE3,2226923478.1958,R1,resource,total_ace
+Bridges 2 RM,1679381779.5246,R1,resource,total_ace
+NCSA DELTA GPU,1390038461.9128,R1,resource,total_ace
+NCSA DeltaAI,763443238.0061,R1,resource,total_ace
+STAMPEDE2 TACC,519030640.2146,R1,resource,total_ace
+Bridges 2 GPU,488140577.4534,R1,resource,total_ace
+Expanse GPU,262946340.6326,R1,resource,total_ace
+NCSA DELTA CPU,211075283.6733,R1,resource,total_ace
+Purdue Anvil GPU,79281552.3114,R1,resource,total_ace
+Bridges 2 EM,35881743.8393,R1,resource,total_ace
+Purdue Anvil AI,26781101.3788,R1,resource,total_ace
+JHU Rockfish RM,24427728.7417,R1,resource,total_ace
+Texas A&M U ACES,14993960.3219,R1,resource,total_ace
+Texas A&M U FASTER,14894117.9113,R1,resource,total_ace
+IACS Ookami,5771859.2551,R1,resource,total_ace
+UD DARWIN,5687933.6203,R1,resource,total_ace
+Bridges2 GPU AI,5151144.301,R1,resource,total_ace
+PSC Neocortex,1218011.4792,R1,resource,total_ace
+UD DARWIN GPU,1017779.3998,R1,resource,total_ace
+KyRIC,216091.584,R1,resource,total_ace
+PSC Neocortex SDFlex,281.7393,R1,resource,total_ace
+Expanse,24695395.0,R1,resource,job_count
+Bridges 2 RM,24485958.0,R1,resource,job_count
+Purdue Anvil CPU,15687482.0,R1,resource,job_count
+NCSA DELTA GPU,7054983.0,R1,resource,job_count
+NCSA DELTA CPU,6862666.0,R1,resource,job_count
+Bridges 2 GPU,2317937.0,R1,resource,job_count
+NCSA DeltaAI,2234361.0,R1,resource,job_count
+TACC STAMPEDE3,1882461.0,R1,resource,job_count
+Texas A&M U FASTER,1442528.0,R1,resource,job_count
+Texas A&M U ACES,1139734.0,R1,resource,job_count
+STAMPEDE2 TACC,1083774.0,R1,resource,job_count
+Expanse GPU,572764.0,R1,resource,job_count
+JHU Rockfish RM,521254.0,R1,resource,job_count
+Purdue Anvil GPU,286463.0,R1,resource,job_count
+IACS Ookami,81819.0,R1,resource,job_count
+Purdue Anvil AI,71536.0,R1,resource,job_count
+UD DARWIN,44286.0,R1,resource,job_count
+Bridges2 GPU AI,28034.0,R1,resource,job_count
+Bridges 2 EM,19406.0,R1,resource,job_count
+UD DARWIN GPU,5055.0,R1,resource,job_count
+KyRIC,2925.0,R1,resource,job_count
+PSC Neocortex,2722.0,R1,resource,job_count
+PSC Neocortex SDFlex,727.0,R1,resource,job_count
+NCSA DELTA GPU,1570.0,R1,resource,active_pi_count
+Bridges 2 RM,1173.0,R1,resource,active_pi_count
+Expanse,1043.0,R1,resource,active_pi_count
+Bridges 2 GPU,942.0,R1,resource,active_pi_count
+Purdue Anvil CPU,845.0,R1,resource,active_pi_count
+NCSA DeltaAI,812.0,R1,resource,active_pi_count
+NCSA DELTA CPU,787.0,R1,resource,active_pi_count
+TACC STAMPEDE3,634.0,R1,resource,active_pi_count
+Expanse GPU,445.0,R1,resource,active_pi_count
+Purdue Anvil GPU,437.0,R1,resource,active_pi_count
+STAMPEDE2 TACC,385.0,R1,resource,active_pi_count
+Texas A&M U ACES,355.0,R1,resource,active_pi_count
+Purdue Anvil AI,201.0,R1,resource,active_pi_count
+Bridges 2 EM,170.0,R1,resource,active_pi_count
+Texas A&M U FASTER,93.0,R1,resource,active_pi_count
+JHU Rockfish RM,43.0,R1,resource,active_pi_count
+IACS Ookami,38.0,R1,resource,active_pi_count
+Bridges2 GPU AI,28.0,R1,resource,active_pi_count
+UD DARWIN,24.0,R1,resource,active_pi_count
+UD DARWIN GPU,12.0,R1,resource,active_pi_count
+KyRIC,7.0,R1,resource,active_pi_count
+PSC Neocortex,5.0,R1,resource,active_pi_count
+PSC Neocortex SDFlex,5.0,R1,resource,active_pi_count
+Bridges 2 RM,8373.0,R1,resource,active_person_count
+Purdue Anvil CPU,8207.0,R1,resource,active_person_count
+NCSA DELTA GPU,5892.0,R1,resource,active_person_count
+Bridges 2 GPU,5548.0,R1,resource,active_person_count
+Expanse,5212.0,R1,resource,active_person_count
+NCSA DELTA CPU,2126.0,R1,resource,active_person_count
+NCSA DeltaAI,1676.0,R1,resource,active_person_count
+TACC STAMPEDE3,1607.0,R1,resource,active_person_count
+Expanse GPU,1594.0,R1,resource,active_person_count
+Texas A&M U ACES,1390.0,R1,resource,active_person_count
+STAMPEDE2 TACC,1304.0,R1,resource,active_person_count
+Purdue Anvil GPU,1112.0,R1,resource,active_person_count
+Texas A&M U FASTER,334.0,R1,resource,active_person_count
+Purdue Anvil AI,280.0,R1,resource,active_person_count
+Bridges 2 EM,232.0,R1,resource,active_person_count
+IACS Ookami,95.0,R1,resource,active_person_count
+Bridges2 GPU AI,65.0,R1,resource,active_person_count
+JHU Rockfish RM,64.0,R1,resource,active_person_count
+PSC Neocortex SDFlex,43.0,R1,resource,active_person_count
+PSC Neocortex,42.0,R1,resource,active_person_count
+UD DARWIN,35.0,R1,resource,active_person_count
+UD DARWIN GPU,27.0,R1,resource,active_person_count
+KyRIC,8.0,R1,resource,active_person_count
+NCSA DELTA GPU,1927.0,R1,resource,active_allocation_count
+Bridges 2 RM,1516.0,R1,resource,active_allocation_count
+Expanse,1364.0,R1,resource,active_allocation_count
+Bridges 2 GPU,1167.0,R1,resource,active_allocation_count
+Purdue Anvil CPU,1024.0,R1,resource,active_allocation_count
+NCSA DeltaAI,974.0,R1,resource,active_allocation_count
+NCSA DELTA CPU,970.0,R1,resource,active_allocation_count
+TACC STAMPEDE3,761.0,R1,resource,active_allocation_count
+Expanse GPU,541.0,R1,resource,active_allocation_count
+Purdue Anvil GPU,469.0,R1,resource,active_allocation_count
+STAMPEDE2 TACC,418.0,R1,resource,active_allocation_count
+Texas A&M U ACES,376.0,R1,resource,active_allocation_count
+Purdue Anvil AI,207.0,R1,resource,active_allocation_count
+Bridges 2 EM,183.0,R1,resource,active_allocation_count
+Texas A&M U FASTER,103.0,R1,resource,active_allocation_count
+JHU Rockfish RM,45.0,R1,resource,active_allocation_count
+IACS Ookami,43.0,R1,resource,active_allocation_count
+Bridges2 GPU AI,28.0,R1,resource,active_allocation_count
+UD DARWIN,24.0,R1,resource,active_allocation_count
+UD DARWIN GPU,12.0,R1,resource,active_allocation_count
+KyRIC,8.0,R1,resource,active_allocation_count
+PSC Neocortex,7.0,R1,resource,active_allocation_count
+PSC Neocortex SDFlex,6.0,R1,resource,active_allocation_count
+High-performance computing,12866273291.035,R1,resource_type,total_ace
+Data-intensive computing,216091.584,R1,resource_type,total_ace
+High-performance computing,90521345.0,R1,resource_type,job_count
+Data-intensive computing,2925.0,R1,resource_type,job_count
+High-performance computing,5726.0,R1,resource_type,active_pi_count
+Data-intensive computing,7.0,R1,resource_type,active_pi_count
+High-performance computing,32639.0,R1,resource_type,active_person_count
+Data-intensive computing,8.0,R1,resource_type,active_person_count
+High-performance computing,7512.0,R1,resource_type,active_allocation_count
+Data-intensive computing,8.0,R1,resource_type,active_allocation_count
+Maximize,7306453597.9787,R1,board_type,total_ace
+Research,1866380053.4032,R1,board_type,total_ace
+Discover,1864047822.4468,R1,board_type,total_ace
+Accelerate,1282474409.8821,R1,board_type,total_ace
+Explore,506318057.0216,R1,board_type,total_ace
+Startup,12742067.877,R1,board_type,total_ace
+XSEDE Rapid Response,11049004.3047,R1,board_type,total_ace
+Discretionary,6249690.4361,R1,board_type,total_ace
+Educational,4703975.9186,R1,board_type,total_ace
+Staff Allocations,3017837.794,R1,board_type,total_ace
+Campus Champions,2850691.3719,R1,board_type,total_ace
+SDSC Discretionary,202174.1843,R1,board_type,total_ace
+Maximize,37135560.0,R1,board_type,job_count
+Discover,21286972.0,R1,board_type,job_count
+Accelerate,11428956.0,R1,board_type,job_count
+Research,11346821.0,R1,board_type,job_count
+Explore,8321034.0,R1,board_type,job_count
+Startup,395020.0,R1,board_type,job_count
+XSEDE Rapid Response,375620.0,R1,board_type,job_count
+Educational,121666.0,R1,board_type,job_count
+Staff Allocations,85164.0,R1,board_type,job_count
+Campus Champions,16437.0,R1,board_type,job_count
+Discretionary,10870.0,R1,board_type,job_count
+SDSC Discretionary,150.0,R1,board_type,job_count
+Explore,3077.0,R1,board_type,active_pi_count
+Discover,2367.0,R1,board_type,active_pi_count
+Research,701.0,R1,board_type,active_pi_count
+Accelerate,485.0,R1,board_type,active_pi_count
+Maximize,273.0,R1,board_type,active_pi_count
+Startup,249.0,R1,board_type,active_pi_count
+Educational,34.0,R1,board_type,active_pi_count
+Campus Champions,24.0,R1,board_type,active_pi_count
+Discretionary,11.0,R1,board_type,active_pi_count
+Staff Allocations,11.0,R1,board_type,active_pi_count
+XSEDE Rapid Response,7.0,R1,board_type,active_pi_count
+SDSC Discretionary,1.0,R1,board_type,active_pi_count
+Explore,13904.0,R1,board_type,active_person_count
+Discover,9948.0,R1,board_type,active_person_count
+Accelerate,7571.0,R1,board_type,active_person_count
+Research,2875.0,R1,board_type,active_person_count
+Maximize,2770.0,R1,board_type,active_person_count
+Educational,1899.0,R1,board_type,active_person_count
+Startup,357.0,R1,board_type,active_person_count
+Staff Allocations,143.0,R1,board_type,active_person_count
+Campus Champions,59.0,R1,board_type,active_person_count
+Discretionary,39.0,R1,board_type,active_person_count
+XSEDE Rapid Response,20.0,R1,board_type,active_person_count
+SDSC Discretionary,1.0,R1,board_type,active_person_count
+Explore,3557.0,R1,board_type,active_allocation_count
+Discover,2936.0,R1,board_type,active_allocation_count
+Research,698.0,R1,board_type,active_allocation_count
+Accelerate,593.0,R1,board_type,active_allocation_count
+Maximize,270.0,R1,board_type,active_allocation_count
+Startup,248.0,R1,board_type,active_allocation_count
+Educational,37.0,R1,board_type,active_allocation_count
+Campus Champions,24.0,R1,board_type,active_allocation_count
+Staff Allocations,12.0,R1,board_type,active_allocation_count
+Discretionary,11.0,R1,board_type,active_allocation_count
+XSEDE Rapid Response,6.0,R1,board_type,active_allocation_count
+SDSC Discretionary,1.0,R1,board_type,active_allocation_count
+Research,7051358874.2903,R1,grant_type,total_ace
+None,1821158981.3463,R1,grant_type,total_ace
+Dissertation or Thesis,1812414527.6686,R1,grant_type,total_ace
+ACCESS Project,1649053489.3006,R1,grant_type,total_ace
+Science Gateway,432874410.8803,R1,grant_type,total_ace
+Education,60799597.23,R1,grant_type,total_ace
+Campus Champions,19499462.4743,R1,grant_type,total_ace
+NIP,19083526.608,R1,grant_type,total_ace
+ACCESS Staff Project,224496.8495,R1,grant_type,total_ace
+NIP Gateway,22015.9711,R1,grant_type,total_ace
+Research,36067327.0,R1,grant_type,job_count
+None,19124992.0,R1,grant_type,job_count
+ACCESS Project,13471762.0,R1,grant_type,job_count
+Dissertation or Thesis,12811428.0,R1,grant_type,job_count
+Science Gateway,7661989.0,R1,grant_type,job_count
+Education,970613.0,R1,grant_type,job_count
+NIP,228167.0,R1,grant_type,job_count
+Campus Champions,155476.0,R1,grant_type,job_count
+NIP Gateway,19378.0,R1,grant_type,job_count
+ACCESS Staff Project,13138.0,R1,grant_type,job_count
+Research,2857.0,R1,grant_type,active_pi_count
+Dissertation or Thesis,1732.0,R1,grant_type,active_pi_count
+ACCESS Project,1340.0,R1,grant_type,active_pi_count
+Education,234.0,R1,grant_type,active_pi_count
+None,148.0,R1,grant_type,active_pi_count
+Campus Champions,68.0,R1,grant_type,active_pi_count
+Science Gateway,59.0,R1,grant_type,active_pi_count
+NIP,50.0,R1,grant_type,active_pi_count
+ACCESS Staff Project,3.0,R1,grant_type,active_pi_count
+NIP Gateway,1.0,R1,grant_type,active_pi_count
+Education,13876.0,R1,grant_type,active_person_count
+ACCESS Project,9561.0,R1,grant_type,active_person_count
+Research,8319.0,R1,grant_type,active_person_count
+Dissertation or Thesis,3404.0,R1,grant_type,active_person_count
+None,976.0,R1,grant_type,active_person_count
+Campus Champions,367.0,R1,grant_type,active_person_count
+Science Gateway,311.0,R1,grant_type,active_person_count
+NIP,112.0,R1,grant_type,active_person_count
+ACCESS Staff Project,53.0,R1,grant_type,active_person_count
+NIP Gateway,2.0,R1,grant_type,active_person_count
+Research,3307.0,R1,grant_type,active_allocation_count
+Dissertation or Thesis,1942.0,R1,grant_type,active_allocation_count
+ACCESS Project,1614.0,R1,grant_type,active_allocation_count
+Education,316.0,R1,grant_type,active_allocation_count
+None,151.0,R1,grant_type,active_allocation_count
+Campus Champions,72.0,R1,grant_type,active_allocation_count
+Science Gateway,58.0,R1,grant_type,active_allocation_count
+NIP,50.0,R1,grant_type,active_allocation_count
+ACCESS Staff Project,3.0,R1,grant_type,active_allocation_count
+NIP Gateway,1.0,R1,grant_type,active_allocation_count
+Mathematical & Physical Sciences,7066655488.552,R1,nsfdirectorate,total_ace
+Biological Sciences,2115286382.5566,R1,nsfdirectorate,total_ace
+Engineering,1331716824.7551,R1,nsfdirectorate,total_ace
+Computer & Information Science & Engineering,1274874920.2071,R1,nsfdirectorate,total_ace
+Geosciences,1031912560.7337,R1,nsfdirectorate,total_ace
+Other,27387455.3622,R1,nsfdirectorate,total_ace
+"Social, Behavioral & Economic Sciences",18655750.4523,R1,nsfdirectorate,total_ace
+Mathematical & Physical Sciences,33962753.0,R1,nsfdirectorate,job_count
+Biological Sciences,32588493.0,R1,nsfdirectorate,job_count
+Computer & Information Science & Engineering,12267275.0,R1,nsfdirectorate,job_count
+Engineering,6961594.0,R1,nsfdirectorate,job_count
+Geosciences,3879267.0,R1,nsfdirectorate,job_count
+Other,566106.0,R1,nsfdirectorate,job_count
+"Social, Behavioral & Economic Sciences",298782.0,R1,nsfdirectorate,job_count
+Computer & Information Science & Engineering,1964.0,R1,nsfdirectorate,active_pi_count
+Mathematical & Physical Sciences,1734.0,R1,nsfdirectorate,active_pi_count
+Biological Sciences,931.0,R1,nsfdirectorate,active_pi_count
+Engineering,859.0,R1,nsfdirectorate,active_pi_count
+Geosciences,324.0,R1,nsfdirectorate,active_pi_count
+Other,118.0,R1,nsfdirectorate,active_pi_count
+"Social, Behavioral & Economic Sciences",88.0,R1,nsfdirectorate,active_pi_count
+Computer & Information Science & Engineering,16628.0,R1,nsfdirectorate,active_person_count
+Other,6063.0,R1,nsfdirectorate,active_person_count
+Mathematical & Physical Sciences,5740.0,R1,nsfdirectorate,active_person_count
+Biological Sciences,3446.0,R1,nsfdirectorate,active_person_count
+Engineering,2351.0,R1,nsfdirectorate,active_person_count
+Geosciences,1018.0,R1,nsfdirectorate,active_person_count
+"Social, Behavioral & Economic Sciences",245.0,R1,nsfdirectorate,active_person_count
+Computer & Information Science & Engineering,2449.0,R1,nsfdirectorate,active_allocation_count
+Mathematical & Physical Sciences,2235.0,R1,nsfdirectorate,active_allocation_count
+Biological Sciences,1120.0,R1,nsfdirectorate,active_allocation_count
+Engineering,1102.0,R1,nsfdirectorate,active_allocation_count
+Geosciences,374.0,R1,nsfdirectorate,active_allocation_count
+Other,182.0,R1,nsfdirectorate,active_allocation_count
+"Social, Behavioral & Economic Sciences",91.0,R1,nsfdirectorate,active_allocation_count
+Physical Sciences,4061133788.8827,R1,parentscience,total_ace
+Engineering and Technology,3076567730.4885,R1,parentscience,total_ace
+Biological Sciences,2029337396.968,R1,parentscience,total_ace
+Computer and Information Sciences,1274874920.2071,R1,parentscience,total_ace
+Chemical Sciences,1178770762.2434,R1,parentscience,total_ace
+Earth and Environmental Sciences,1031912560.7337,R1,parentscience,total_ace
+Mathematics,73711972.0507,R1,parentscience,total_ace
+Medical and Health Sciences,73579595.2336,R1,parentscience,total_ace
+Other,23250333.8948,R1,parentscience,total_ace
+Social Sciences,18655750.4523,R1,parentscience,total_ace
+Agricultural Sciences,12369390.355,R1,parentscience,total_ace
+Other Natural Sciences,8188059.6419,R1,parentscience,total_ace
+Humanities,4137121.4673,R1,parentscience,total_ace
+Biological Sciences,30162211.0,R1,parentscience,job_count
+Engineering and Technology,16574969.0,R1,parentscience,job_count
+Computer and Information Sciences,12267275.0,R1,parentscience,job_count
+Physical Sciences,11718356.0,R1,parentscience,job_count
+Chemical Sciences,10764668.0,R1,parentscience,job_count
+Earth and Environmental Sciences,3879267.0,R1,parentscience,job_count
+Mathematics,1707985.0,R1,parentscience,job_count
+Agricultural Sciences,1637742.0,R1,parentscience,job_count
+Medical and Health Sciences,788540.0,R1,parentscience,job_count
+Social Sciences,298782.0,R1,parentscience,job_count
+Humanities,293466.0,R1,parentscience,job_count
+Other,272640.0,R1,parentscience,job_count
+Other Natural Sciences,158369.0,R1,parentscience,job_count
+Computer and Information Sciences,1964.0,R1,parentscience,active_pi_count
+Engineering and Technology,1149.0,R1,parentscience,active_pi_count
+Physical Sciences,891.0,R1,parentscience,active_pi_count
+Biological Sciences,787.0,R1,parentscience,active_pi_count
+Chemical Sciences,422.0,R1,parentscience,active_pi_count
+Earth and Environmental Sciences,324.0,R1,parentscience,active_pi_count
+Mathematics,140.0,R1,parentscience,active_pi_count
+Medical and Health Sciences,114.0,R1,parentscience,active_pi_count
+Other,107.0,R1,parentscience,active_pi_count
+Social Sciences,88.0,R1,parentscience,active_pi_count
+Agricultural Sciences,42.0,R1,parentscience,active_pi_count
+Humanities,11.0,R1,parentscience,active_pi_count
+Other Natural Sciences,7.0,R1,parentscience,active_pi_count
+Computer and Information Sciences,16628.0,R1,parentscience,active_person_count
+Other,6040.0,R1,parentscience,active_person_count
+Engineering and Technology,3692.0,R1,parentscience,active_person_count
+Biological Sciences,3094.0,R1,parentscience,active_person_count
+Physical Sciences,2415.0,R1,parentscience,active_person_count
+Chemical Sciences,1620.0,R1,parentscience,active_person_count
+Earth and Environmental Sciences,1018.0,R1,parentscience,active_person_count
+Mathematics,441.0,R1,parentscience,active_person_count
+Medical and Health Sciences,327.0,R1,parentscience,active_person_count
+Social Sciences,245.0,R1,parentscience,active_person_count
+Agricultural Sciences,75.0,R1,parentscience,active_person_count
+Humanities,29.0,R1,parentscience,active_person_count
+Other Natural Sciences,13.0,R1,parentscience,active_person_count
+Computer and Information Sciences,2449.0,R1,parentscience,active_allocation_count
+Engineering and Technology,1539.0,R1,parentscience,active_allocation_count
+Physical Sciences,1080.0,R1,parentscience,active_allocation_count
+Biological Sciences,951.0,R1,parentscience,active_allocation_count
+Chemical Sciences,566.0,R1,parentscience,active_allocation_count
+Earth and Environmental Sciences,374.0,R1,parentscience,active_allocation_count
+Other,169.0,R1,parentscience,active_allocation_count
+Mathematics,151.0,R1,parentscience,active_allocation_count
+Medical and Health Sciences,127.0,R1,parentscience,active_allocation_count
+Social Sciences,91.0,R1,parentscience,active_allocation_count
+Agricultural Sciences,44.0,R1,parentscience,active_allocation_count
+Humanities,13.0,R1,parentscience,active_allocation_count
+Other Natural Sciences,8.0,R1,parentscience,active_allocation_count
+1,603867217.2937,R1,jobsize,total_ace
+2 - 4,520714412.3776,R1,jobsize,total_ace
+5 - 8,628905566.5357,R1,jobsize,total_ace
+9 - 64,3204044788.5707,R1,jobsize,total_ace
+65 - 256,3199126042.4231,R1,jobsize,total_ace
+257 - 512,1087655289.5377,R1,jobsize,total_ace
+513 - 1024,1149678417.7428,R1,jobsize,total_ace
+1k - 8k,2231825337.2013,R1,jobsize,total_ace
+8k - 32k,199083651.0075,R1,jobsize,total_ace
+32k - 131k,38295299.0205,R1,jobsize,total_ace
+> 131k,2751892.1954,R1,jobsize,total_ace
+1,31014934.0,R1,jobsize,job_count
+2 - 4,16628623.0,R1,jobsize,job_count
+5 - 8,10470785.0,R1,jobsize,job_count
+9 - 64,24517649.0,R1,jobsize,job_count
+65 - 256,6835850.0,R1,jobsize,job_count
+257 - 512,515717.0,R1,jobsize,job_count
+513 - 1024,303286.0,R1,jobsize,job_count
+1k - 8k,233685.0,R1,jobsize,job_count
+8k - 32k,3033.0,R1,jobsize,job_count
+32k - 131k,365.0,R1,jobsize,job_count
+> 131k,27.0,R1,jobsize,job_count
+1,3887.0,R1,jobsize,active_pi_count
+2 - 4,3505.0,R1,jobsize,active_pi_count
+5 - 8,3671.0,R1,jobsize,active_pi_count
+9 - 64,4811.0,R1,jobsize,active_pi_count
+65 - 256,3514.0,R1,jobsize,active_pi_count
+257 - 512,1547.0,R1,jobsize,active_pi_count
+513 - 1024,1103.0,R1,jobsize,active_pi_count
+1k - 8k,842.0,R1,jobsize,active_pi_count
+8k - 32k,96.0,R1,jobsize,active_pi_count
+32k - 131k,13.0,R1,jobsize,active_pi_count
+> 131k,4.0,R1,jobsize,active_pi_count
+1,20620.0,R1,jobsize,active_person_count
+2 - 4,15885.0,R1,jobsize,active_person_count
+5 - 8,16477.0,R1,jobsize,active_person_count
+9 - 64,19438.0,R1,jobsize,active_person_count
+65 - 256,13872.0,R1,jobsize,active_person_count
+257 - 512,3490.0,R1,jobsize,active_person_count
+513 - 1024,2117.0,R1,jobsize,active_person_count
+1k - 8k,1583.0,R1,jobsize,active_person_count
+8k - 32k,134.0,R1,jobsize,active_person_count
+32k - 131k,14.0,R1,jobsize,active_person_count
+> 131k,4.0,R1,jobsize,active_person_count
+1,4955.0,R1,jobsize,active_allocation_count
+2 - 4,4429.0,R1,jobsize,active_allocation_count
+5 - 8,4644.0,R1,jobsize,active_allocation_count
+9 - 64,6276.0,R1,jobsize,active_allocation_count
+65 - 256,4637.0,R1,jobsize,active_allocation_count
+257 - 512,1992.0,R1,jobsize,active_allocation_count
+513 - 1024,1373.0,R1,jobsize,active_allocation_count
+1k - 8k,1024.0,R1,jobsize,active_allocation_count
+8k - 32k,98.0,R1,jobsize,active_allocation_count
+32k - 131k,13.0,R1,jobsize,active_allocation_count
+> 131k,4.0,R1,jobsize,active_allocation_count
+0 - 1s,0.0,R1,jobwalltime,total_ace
+1 - 30s,35546691.2471,R1,jobwalltime,total_ace
+30s - 30min,279480950.9015,R1,jobwalltime,total_ace
+30 - 60min,250096051.1573,R1,jobwalltime,total_ace
+1 - 5hr,1352328562.8548,R1,jobwalltime,total_ace
+5 - 10hr,1142683499.2826,R1,jobwalltime,total_ace
+10 - 18hr,1545238249.1734,R1,jobwalltime,total_ace
+18+hr,8261115378.0024,R1,jobwalltime,total_ace
+0 - 1s,36240.0,R1,jobwalltime,job_count
+1 - 30s,20658531.0,R1,jobwalltime,job_count
+30s - 30min,45136633.0,R1,jobwalltime,job_count
+30 - 60min,6447813.0,R1,jobwalltime,job_count
+1 - 5hr,11197717.0,R1,jobwalltime,job_count
+5 - 10hr,2734992.0,R1,jobwalltime,job_count
+10 - 18hr,1734791.0,R1,jobwalltime,job_count
+18+hr,2577553.0,R1,jobwalltime,job_count
+0 - 1s,466.0,R1,jobwalltime,active_pi_count
+1 - 30s,5323.0,R1,jobwalltime,active_pi_count
+30s - 30min,5558.0,R1,jobwalltime,active_pi_count
+30 - 60min,5056.0,R1,jobwalltime,active_pi_count
+1 - 5hr,5224.0,R1,jobwalltime,active_pi_count
+5 - 10hr,4583.0,R1,jobwalltime,active_pi_count
+10 - 18hr,4237.0,R1,jobwalltime,active_pi_count
+18+hr,4196.0,R1,jobwalltime,active_pi_count
+0 - 1s,1652.0,R1,jobwalltime,active_person_count
+1 - 30s,22917.0,R1,jobwalltime,active_person_count
+30s - 30min,28320.0,R1,jobwalltime,active_person_count
+30 - 60min,22376.0,R1,jobwalltime,active_person_count
+1 - 5hr,25078.0,R1,jobwalltime,active_person_count
+5 - 10hr,13319.0,R1,jobwalltime,active_person_count
+10 - 18hr,10064.0,R1,jobwalltime,active_person_count
+18+hr,9612.0,R1,jobwalltime,active_person_count
+0 - 1s,523.0,R1,jobwalltime,active_allocation_count
+1 - 30s,6981.0,R1,jobwalltime,active_allocation_count
+30s - 30min,7279.0,R1,jobwalltime,active_allocation_count
+30 - 60min,6639.0,R1,jobwalltime,active_allocation_count
+1 - 5hr,6864.0,R1,jobwalltime,active_allocation_count
+5 - 10hr,6016.0,R1,jobwalltime,active_allocation_count
+10 - 18hr,5586.0,R1,jobwalltime,active_allocation_count
+18+hr,5550.0,R1,jobwalltime,active_allocation_count
+0 - 1s,774017325.0983,R1,jobwaittime,total_ace
+1 - 30s,3172903888.9513,R1,jobwaittime,total_ace
+30s - 30min,2313015267.7023,R1,jobwaittime,total_ace
+30 - 60min,486298836.8582,R1,jobwaittime,total_ace
+1 - 5hr,1648764280.7412,R1,jobwaittime,total_ace
+5 - 10hr,902845916.152,R1,jobwaittime,total_ace
+10 - 18hr,844083820.3257,R1,jobwaittime,total_ace
+18+hr,2724560046.7902,R1,jobwaittime,total_ace
+0 - 1s,4843017.0,R1,jobwaittime,job_count
+1 - 30s,26469100.0,R1,jobwaittime,job_count
+30s - 30min,27582700.0,R1,jobwaittime,job_count
+30 - 60min,4769511.0,R1,jobwaittime,job_count
+1 - 5hr,11195810.0,R1,jobwaittime,job_count
+5 - 10hr,4228796.0,R1,jobwaittime,job_count
+10 - 18hr,3203925.0,R1,jobwaittime,job_count
+18+hr,8231411.0,R1,jobwaittime,job_count
+0 - 1s,4862.0,R1,jobwaittime,active_pi_count
+1 - 30s,5556.0,R1,jobwaittime,active_pi_count
+30s - 30min,5398.0,R1,jobwaittime,active_pi_count
+30 - 60min,4546.0,R1,jobwaittime,active_pi_count
+1 - 5hr,4687.0,R1,jobwaittime,active_pi_count
+5 - 10hr,3931.0,R1,jobwaittime,active_pi_count
+10 - 18hr,3564.0,R1,jobwaittime,active_pi_count
+18+hr,3527.0,R1,jobwaittime,active_pi_count
+0 - 1s,22924.0,R1,jobwaittime,active_person_count
+1 - 30s,31162.0,R1,jobwaittime,active_person_count
+30s - 30min,26700.0,R1,jobwaittime,active_person_count
+30 - 60min,13192.0,R1,jobwaittime,active_person_count
+1 - 5hr,13850.0,R1,jobwaittime,active_person_count
+5 - 10hr,9526.0,R1,jobwaittime,active_person_count
+10 - 18hr,8032.0,R1,jobwaittime,active_person_count
+18+hr,7919.0,R1,jobwaittime,active_person_count
+0 - 1s,6395.0,R1,jobwaittime,active_allocation_count
+1 - 30s,7302.0,R1,jobwaittime,active_allocation_count
+30s - 30min,7073.0,R1,jobwaittime,active_allocation_count
+30 - 60min,5933.0,R1,jobwaittime,active_allocation_count
+1 - 5hr,6149.0,R1,jobwaittime,active_allocation_count
+5 - 10hr,5138.0,R1,jobwaittime,active_allocation_count
+10 - 18hr,4598.0,R1,jobwaittime,active_allocation_count
+18+hr,4529.0,R1,jobwaittime,active_allocation_count
+uscms; Fermilab,367738589.3069,R1,gateway,total_ace
+Neuroscience Gateway; UC San Diego,50280312.4337,R1,gateway,total_ace
+Seq2Fun; U Michigan,44168759.9975,R1,gateway,total_ace
+National Deep Inference Fabric; Northeastern U,20764544.2635,R1,gateway,total_ace
+Gridchem Chemistry; UIUC,19944894.7533,R1,gateway,total_ace
+Cipres; UC San Diego,18383139.5595,R1,gateway,total_ace
+Galaxy; Penn State U,16264063.7594,R1,gateway,total_ace
+COSMIC2; U Michigan,12709147.2955,R1,gateway,total_ace
+Open Science Grid; USC,5339534.344,R1,gateway,total_ace
+lddmmproc; Johns Hopkins U,2602050.4086,R1,gateway,total_ace
+MiGA Gateway; Georgia Tech,1635438.5177,R1,gateway,total_ace
+TAS; SUNY Buffalo,1137970.6781,R1,gateway,total_ace
+Ultrascan3; UT Hlth Sci Ctr Houston,1120348.8677,R1,gateway,total_ace
+dREG; Cornell U,485562.0438,R1,gateway,total_ace
+CyberGIS ; UIUC,361789.7561,R1,gateway,total_ace
+Quakeworx; USC,342052.9041,R1,gateway,total_ace
+SimVascular; Stanford U,318444.694,R1,gateway,total_ace
+Genepattern; UC San Diego,292982.8436,R1,gateway,total_ace
+SciGaP; Georgia Tech,58761.9939,R1,gateway,total_ace
+NAIRR Sandbox; SDSC,26565.2255,R1,gateway,total_ace
+OpenTopography; UC San Diego,21415.185,R1,gateway,total_ace
+OpenGHM; Purdue U,9173.2485,R1,gateway,total_ace
+Harvest; UC San Diego,6519.3088,R1,gateway,total_ace
+ampgatewayuser; Georgia Tech,2643.4587,R1,gateway,total_ace
+OneSciencePlace 3; SDSC,1682.3258,R1,gateway,total_ace
+Gkeyll; Indiana U,1682.201,R1,gateway,total_ace
+SnowVisionGateway; U South Carolina,1008.7966,R1,gateway,total_ace
+waterhub; Purdue U,111.5478,R1,gateway,total_ace
+Space Use Ecology Gateway; UC San Diego,17.9674,R1,gateway,total_ace
+GeoABM-COVID; UC San Diego,14.9729,R1,gateway,total_ace
+ED2 model leveraging singularity; NCSA,13.6003,R1,gateway,total_ace
+OneSciencePlace 2; SDSC,5.9891,R1,gateway,total_ace
+GTAP; Purdue U,2.1212,R1,gateway,total_ace
+PermafrostGateway; U Connecticut,0.3743,R1,gateway,total_ace
+Seq2Fun; U Michigan,4018431.0,R1,gateway,job_count
+Galaxy; Penn State U,517005.0,R1,gateway,job_count
+Cipres; UC San Diego,516288.0,R1,gateway,job_count
+uscms; Fermilab,148326.0,R1,gateway,job_count
+Gridchem Chemistry; UIUC,81826.0,R1,gateway,job_count
+COSMIC2; U Michigan,44829.0,R1,gateway,job_count
+TAS; SUNY Buffalo,38380.0,R1,gateway,job_count
+lddmmproc; Johns Hopkins U,37820.0,R1,gateway,job_count
+Neuroscience Gateway; UC San Diego,35521.0,R1,gateway,job_count
+Open Science Grid; USC,32680.0,R1,gateway,job_count
+Ultrascan3; UT Hlth Sci Ctr Houston,29860.0,R1,gateway,job_count
+OpenTopography; UC San Diego,19320.0,R1,gateway,job_count
+CyberGIS ; UIUC,4106.0,R1,gateway,job_count
+SciGaP; Georgia Tech,3219.0,R1,gateway,job_count
+Quakeworx; USC,3018.0,R1,gateway,job_count
+dREG; Cornell U,2412.0,R1,gateway,job_count
+SimVascular; Stanford U,1869.0,R1,gateway,job_count
+Genepattern; UC San Diego,1150.0,R1,gateway,job_count
+National Deep Inference Fabric; Northeastern U,784.0,R1,gateway,job_count
+MiGA Gateway; Georgia Tech,753.0,R1,gateway,job_count
+OneSciencePlace 3; SDSC,530.0,R1,gateway,job_count
+Gkeyll; Indiana U,467.0,R1,gateway,job_count
+ampgatewayuser; Georgia Tech,259.0,R1,gateway,job_count
+NAIRR Sandbox; SDSC,193.0,R1,gateway,job_count
+OpenGHM; Purdue U,173.0,R1,gateway,job_count
+GTAP; Purdue U,133.0,R1,gateway,job_count
+waterhub; Purdue U,116.0,R1,gateway,job_count
+Harvest; UC San Diego,85.0,R1,gateway,job_count
+SnowVisionGateway; U South Carolina,48.0,R1,gateway,job_count
+ED2 model leveraging singularity; NCSA,36.0,R1,gateway,job_count
+Space Use Ecology Gateway; UC San Diego,18.0,R1,gateway,job_count
+GeoABM-COVID; UC San Diego,15.0,R1,gateway,job_count
+OneSciencePlace 2; SDSC,6.0,R1,gateway,job_count
+PermafrostGateway; U Connecticut,2.0,R1,gateway,job_count
+SciGaP; Georgia Tech,6.0,R1,gateway,active_pi_count
+CyberGIS ; UIUC,6.0,R1,gateway,active_pi_count
+Gridchem Chemistry; UIUC,5.0,R1,gateway,active_pi_count
+COSMIC2; U Michigan,5.0,R1,gateway,active_pi_count
+OneSciencePlace 3; SDSC,5.0,R1,gateway,active_pi_count
+Open Science Grid; USC,3.0,R1,gateway,active_pi_count
+Cipres; UC San Diego,2.0,R1,gateway,active_pi_count
+TAS; SUNY Buffalo,2.0,R1,gateway,active_pi_count
+ampgatewayuser; Georgia Tech,2.0,R1,gateway,active_pi_count
+Genepattern; UC San Diego,2.0,R1,gateway,active_pi_count
+Quakeworx; USC,2.0,R1,gateway,active_pi_count
+Seq2Fun; U Michigan,2.0,R1,gateway,active_pi_count
+National Deep Inference Fabric; Northeastern U,2.0,R1,gateway,active_pi_count
+Harvest; UC San Diego,2.0,R1,gateway,active_pi_count
+Ultrascan3; UT Hlth Sci Ctr Houston,1.0,R1,gateway,active_pi_count
+Neuroscience Gateway; UC San Diego,1.0,R1,gateway,active_pi_count
+lddmmproc; Johns Hopkins U,1.0,R1,gateway,active_pi_count
+waterhub; Purdue U,1.0,R1,gateway,active_pi_count
+Galaxy; Penn State U,1.0,R1,gateway,active_pi_count
+dREG; Cornell U,1.0,R1,gateway,active_pi_count
+SimVascular; Stanford U,1.0,R1,gateway,active_pi_count
+uscms; Fermilab,1.0,R1,gateway,active_pi_count
+OpenTopography; UC San Diego,1.0,R1,gateway,active_pi_count
+MiGA Gateway; Georgia Tech,1.0,R1,gateway,active_pi_count
+SnowVisionGateway; U South Carolina,1.0,R1,gateway,active_pi_count
+GeoABM-COVID; UC San Diego,1.0,R1,gateway,active_pi_count
+PermafrostGateway; U Connecticut,1.0,R1,gateway,active_pi_count
+Gkeyll; Indiana U,1.0,R1,gateway,active_pi_count
+OneSciencePlace 2; SDSC,1.0,R1,gateway,active_pi_count
+Space Use Ecology Gateway; UC San Diego,1.0,R1,gateway,active_pi_count
+ED2 model leveraging singularity; NCSA,1.0,R1,gateway,active_pi_count
+OpenGHM; Purdue U,1.0,R1,gateway,active_pi_count
+NAIRR Sandbox; SDSC,1.0,R1,gateway,active_pi_count
+GTAP; Purdue U,1.0,R1,gateway,active_pi_count
+Gridchem Chemistry; UIUC,1.0,R1,gateway,active_person_count
+Cipres; UC San Diego,1.0,R1,gateway,active_person_count
+TAS; SUNY Buffalo,1.0,R1,gateway,active_person_count
+Ultrascan3; UT Hlth Sci Ctr Houston,1.0,R1,gateway,active_person_count
+Neuroscience Gateway; UC San Diego,1.0,R1,gateway,active_person_count
+lddmmproc; Johns Hopkins U,1.0,R1,gateway,active_person_count
+SciGaP; Georgia Tech,1.0,R1,gateway,active_person_count
+waterhub; Purdue U,1.0,R1,gateway,active_person_count
+Galaxy; Penn State U,1.0,R1,gateway,active_person_count
+COSMIC2; U Michigan,1.0,R1,gateway,active_person_count
+dREG; Cornell U,1.0,R1,gateway,active_person_count
+SimVascular; Stanford U,1.0,R1,gateway,active_person_count
+uscms; Fermilab,1.0,R1,gateway,active_person_count
+OpenTopography; UC San Diego,1.0,R1,gateway,active_person_count
+ampgatewayuser; Georgia Tech,1.0,R1,gateway,active_person_count
+CyberGIS ; UIUC,1.0,R1,gateway,active_person_count
+MiGA Gateway; Georgia Tech,1.0,R1,gateway,active_person_count
+Open Science Grid; USC,1.0,R1,gateway,active_person_count
+SnowVisionGateway; U South Carolina,1.0,R1,gateway,active_person_count
+GeoABM-COVID; UC San Diego,1.0,R1,gateway,active_person_count
+PermafrostGateway; U Connecticut,1.0,R1,gateway,active_person_count
+Genepattern; UC San Diego,1.0,R1,gateway,active_person_count
+Gkeyll; Indiana U,1.0,R1,gateway,active_person_count
+OneSciencePlace 2; SDSC,1.0,R1,gateway,active_person_count
+OneSciencePlace 3; SDSC,1.0,R1,gateway,active_person_count
+Quakeworx; USC,1.0,R1,gateway,active_person_count
+Space Use Ecology Gateway; UC San Diego,1.0,R1,gateway,active_person_count
+ED2 model leveraging singularity; NCSA,1.0,R1,gateway,active_person_count
+Seq2Fun; U Michigan,1.0,R1,gateway,active_person_count
+National Deep Inference Fabric; Northeastern U,1.0,R1,gateway,active_person_count
+Harvest; UC San Diego,1.0,R1,gateway,active_person_count
+OpenGHM; Purdue U,1.0,R1,gateway,active_person_count
+NAIRR Sandbox; SDSC,1.0,R1,gateway,active_person_count
+GTAP; Purdue U,1.0,R1,gateway,active_person_count
+SciGaP; Georgia Tech,6.0,R1,gateway,active_allocation_count
+COSMIC2; U Michigan,6.0,R1,gateway,active_allocation_count
+Gridchem Chemistry; UIUC,5.0,R1,gateway,active_allocation_count
+CyberGIS ; UIUC,5.0,R1,gateway,active_allocation_count
+OneSciencePlace 3; SDSC,4.0,R1,gateway,active_allocation_count
+Open Science Grid; USC,3.0,R1,gateway,active_allocation_count
+Seq2Fun; U Michigan,3.0,R1,gateway,active_allocation_count
+TAS; SUNY Buffalo,2.0,R1,gateway,active_allocation_count
+ampgatewayuser; Georgia Tech,2.0,R1,gateway,active_allocation_count
+Genepattern; UC San Diego,2.0,R1,gateway,active_allocation_count
+Harvest; UC San Diego,2.0,R1,gateway,active_allocation_count
+Cipres; UC San Diego,1.0,R1,gateway,active_allocation_count
+Ultrascan3; UT Hlth Sci Ctr Houston,1.0,R1,gateway,active_allocation_count
+Neuroscience Gateway; UC San Diego,1.0,R1,gateway,active_allocation_count
+lddmmproc; Johns Hopkins U,1.0,R1,gateway,active_allocation_count
+waterhub; Purdue U,1.0,R1,gateway,active_allocation_count
+Galaxy; Penn State U,1.0,R1,gateway,active_allocation_count
+dREG; Cornell U,1.0,R1,gateway,active_allocation_count
+SimVascular; Stanford U,1.0,R1,gateway,active_allocation_count
+uscms; Fermilab,1.0,R1,gateway,active_allocation_count
+OpenTopography; UC San Diego,1.0,R1,gateway,active_allocation_count
+MiGA Gateway; Georgia Tech,1.0,R1,gateway,active_allocation_count
+SnowVisionGateway; U South Carolina,1.0,R1,gateway,active_allocation_count
+GeoABM-COVID; UC San Diego,1.0,R1,gateway,active_allocation_count
+PermafrostGateway; U Connecticut,1.0,R1,gateway,active_allocation_count
+Gkeyll; Indiana U,1.0,R1,gateway,active_allocation_count
+OneSciencePlace 2; SDSC,1.0,R1,gateway,active_allocation_count
+Quakeworx; USC,1.0,R1,gateway,active_allocation_count
+Space Use Ecology Gateway; UC San Diego,1.0,R1,gateway,active_allocation_count
+ED2 model leveraging singularity; NCSA,1.0,R1,gateway,active_allocation_count
+National Deep Inference Fabric; Northeastern U,1.0,R1,gateway,active_allocation_count
+OpenGHM; Purdue U,1.0,R1,gateway,active_allocation_count
+NAIRR Sandbox; SDSC,1.0,R1,gateway,active_allocation_count
+GTAP; Purdue U,1.0,R1,gateway,active_allocation_count
+wholenode,2048074523.6758,R1,queue,total_ace
+compute,1446073494.042,R1,queue,total_ace
+shared,1164185522.74,R1,queue,total_ace
+skx,1112121607.4615,R1,queue,total_ace
+RM,1082869134.9429,R1,queue,total_ace
+gpuA100x4,739758441.4499,R1,queue,total_ace
+spr,736442473.6415,R1,queue,total_ace
+ghx4,719358793.1873,R1,queue,total_ace
+GPU-shared,600382966.2487,R1,queue,total_ace
+RM-shared,544736013.226,R1,queue,total_ace
+gpuA40x4,344506974.6085,R1,queue,total_ace
+icx,307531594.8593,R1,queue,total_ace
+wide,237477972.7993,R1,queue,total_ace
+GPU,236192573.7102,R1,queue,total_ace
+skx-normal,230973852.143,R1,queue,total_ace
+cpu,230262964.7514,R1,queue,total_ace
+standard,172045018.6537,R1,queue,total_ace
+normal,165494778.7136,R1,queue,total_ace
+gpuH200x8,120598110.924,R1,queue,total_ace
+gpuA100x8,119696324.6616,R1,queue,total_ace
+icx-normal,55348889.1384,R1,queue,total_ace
+RM-512,49831193.3371,R1,queue,total_ace
+skx-large,44463368.8939,R1,queue,total_ace
+ghx4-interactive,44084444.8188,R1,queue,total_ace
+EM,35881743.3402,R1,queue,total_ace
+gpuA100x4-interactive,31261371.015,R1,queue,total_ace
+skx-dev,30214871.4206,R1,queue,total_ace
+ai,26784106.3073,R1,queue,total_ace
+h100,25998115.1663,R1,queue,total_ace
+large-shared,25867990.3924,R1,queue,total_ace
+NA,25167339.8216,R1,queue,total_ace
+highmem,14789529.1035,R1,queue,total_ace
+pvc,12496647.701,R1,queue,total_ace
+gpuA40x4-interactive,12182556.6161,R1,queue,total_ace
+gpuH200x8-interactive,11376333.2709,R1,queue,total_ace
+large,8037838.4179,R1,queue,total_ace
+long,7734448.3124,R1,queue,total_ace
+GPU-small,7608675.7752,R1,queue,total_ace
+flat-quadrant,5111533.9697,R1,queue,total_ace
+nvdimm,4495971.5516,R1,queue,total_ace
+preempt,3846756.8782,R1,queue,total_ace
+gpu-debug,2493689.0636,R1,queue,total_ace
+klhudson,2130751.8872,R1,queue,total_ace
+cpu-interactive,2126225.9654,R1,queue,total_ace
+gpuA100x8-interactive,2024381.6832,R1,queue,total_ace
+RM-small,1939741.4686,R1,queue,total_ace
+large-mem,1650435.4607,R1,queue,total_ace
+debug,1451271.3207,R1,queue,total_ace
+gpuMI100x8,1195440.8884,R1,queue,total_ace
+extended,1162162.8299,R1,queue,total_ace
+gpuH200x8-long,1120511.1985,R1,queue,total_ace
+development,909110.4872,R1,queue,total_ace
+gpu-v100,841528.854,R1,queue,total_ace
+gpu-preempt,774425.4788,R1,queue,total_ace
+amd-rtx,718150.2277,R1,queue,total_ace
+sdf,676824.5056,R1,queue,total_ace
+staff,594651.569,R1,queue,total_ace
+sdash,593656.4976,R1,queue,total_ace
+cloud,541468.713,R1,queue,total_ace
+gpuA40x4-long,442515.9399,R1,queue,total_ace
+xlarge-mem,404878.0336,R1,queue,total_ace
+gpuA40x4-preempt,315031.0063,R1,queue,total_ace
+cpu-preempt,287697.673,R1,queue,total_ace
+rtx-small,216470.7717,R1,queue,total_ace
+gpu-t4,176250.5459,R1,queue,total_ace
+gpuA100x4-preempt,138227.3379,R1,queue,total_ace
+gpu_debug,109703.2878,R1,queue,total_ace
+medium,34517.8115,R1,queue,total_ace
+gpuMI100x8-interactive,23264.7077,R1,queue,total_ace
+short,8158.2132,R1,queue,total_ace
+bittware,7145.5487,R1,queue,total_ace
+applications,5696.3005,R1,queue,total_ace
+profiling,3325.7221,R1,queue,total_ace
+nextsilicon,1699.1703,R1,queue,total_ace
+nec,990.4548,R1,queue,total_ace
+gpuA100x4-mig,978.6013,R1,queue,total_ace
+,487.741,R1,queue,total_ace
+simcenter,413.6253,R1,queue,total_ace
+all-nodes,340.1335,R1,queue,total_ace
+memverge,146.8588,R1,queue,total_ace
+ood-short,70.7468,R1,queue,total_ace
+milan-64core,36.6835,R1,queue,total_ace
+skylake-36core,35.0615,R1,queue,total_ace
+batch,9.9819,R1,queue,total_ace
+d5005,0.8734,R1,queue,total_ace
+hugepage-medium,0.0,R1,queue,total_ace
+shared,36872741.0,R1,queue,job_count
+RM-shared,22521880.0,R1,queue,job_count
+cpu,9103627.0,R1,queue,job_count
+gpuA100x4,3112252.0,R1,queue,job_count
+GPU-shared,2728014.0,R1,queue,job_count
+gpuA40x4,2423182.0,R1,queue,job_count
+ghx4,1886913.0,R1,queue,job_count
+RM,1729686.0,R1,queue,job_count
+wholenode,1271129.0,R1,queue,job_count
+compute,1083565.0,R1,queue,job_count
+skx,922247.0,R1,queue,job_count
+debug,623589.0,R1,queue,job_count
+NA,581190.0,R1,queue,job_count
+gpuA40x4-interactive,574129.0,R1,queue,job_count
+GPU,518012.0,R1,queue,job_count
+spr,478455.0,R1,queue,job_count
+skx-normal,421617.0,R1,queue,job_count
+normal,398092.0,R1,queue,job_count
+skx-dev,377875.0,R1,queue,job_count
+gpuA100x4-interactive,367634.0,R1,queue,job_count
+ghx4-interactive,347448.0,R1,queue,job_count
+gpuA100x8,297288.0,R1,queue,job_count
+standard,294040.0,R1,queue,job_count
+icx,176426.0,R1,queue,job_count
+RM-small,169110.0,R1,queue,job_count
+wide,124936.0,R1,queue,job_count
+cpu-interactive,104534.0,R1,queue,job_count
+gpuH200x8,101083.0,R1,queue,job_count
+icx-normal,96495.0,R1,queue,job_count
+preempt,96481.0,R1,queue,job_count
+GPU-small,76480.0,R1,queue,job_count
+ai,71712.0,R1,queue,job_count
+gpuH200x8-interactive,65068.0,R1,queue,job_count
+gpuA40x4-preempt,63785.0,R1,queue,job_count
+RM-512,61447.0,R1,queue,job_count
+development,50940.0,R1,queue,job_count
+gpu-debug,49083.0,R1,queue,job_count
+pvc,46945.0,R1,queue,job_count
+highmem,37127.0,R1,queue,job_count
+cpu-preempt,24800.0,R1,queue,job_count
+gpuMI100x8,24626.0,R1,queue,job_count
+EM,19405.0,R1,queue,job_count
+large-shared,18915.0,R1,queue,job_count
+h100,14923.0,R1,queue,job_count
+gpuA100x8-interactive,13084.0,R1,queue,job_count
+gpuA100x4-preempt,10615.0,R1,queue,job_count
+gpu_debug,10321.0,R1,queue,job_count
+long,7197.0,R1,queue,job_count
+extended,6026.0,R1,queue,job_count
+flat-quadrant,5998.0,R1,queue,job_count
+large,5703.0,R1,queue,job_count
+short,4936.0,R1,queue,job_count
+gpu-preempt,4930.0,R1,queue,job_count
+applications,3820.0,R1,queue,job_count
+gpu-v100,3273.0,R1,queue,job_count
+sdf,3141.0,R1,queue,job_count
+xlarge-mem,3014.0,R1,queue,job_count
+nvdimm,2702.0,R1,queue,job_count
+gpu-t4,1782.0,R1,queue,job_count
+medium,1511.0,R1,queue,job_count
+large-mem,1406.0,R1,queue,job_count
+gpuMI100x8-interactive,1127.0,R1,queue,job_count
+staff,866.0,R1,queue,job_count
+rtx-small,771.0,R1,queue,job_count
+skylake-36core,619.0,R1,queue,job_count
+skx-large,512.0,R1,queue,job_count
+klhudson,451.0,R1,queue,job_count
+bittware,379.0,R1,queue,job_count
+cloud,308.0,R1,queue,job_count
+nextsilicon,167.0,R1,queue,job_count
+amd-rtx,157.0,R1,queue,job_count
+sdash,145.0,R1,queue,job_count
+nec,123.0,R1,queue,job_count
+ood-short,44.0,R1,queue,job_count
+gpuA40x4-long,36.0,R1,queue,job_count
+profiling,32.0,R1,queue,job_count
+,31.0,R1,queue,job_count
+all-nodes,31.0,R1,queue,job_count
+milan-64core,27.0,R1,queue,job_count
+gpuH200x8-long,26.0,R1,queue,job_count
+gpuA100x4-mig,13.0,R1,queue,job_count
+memverge,12.0,R1,queue,job_count
+simcenter,4.0,R1,queue,job_count
+hugepage-medium,2.0,R1,queue,job_count
+batch,1.0,R1,queue,job_count
+d5005,1.0,R1,queue,job_count
+shared,1472.0,R1,queue,active_pi_count
+gpuA100x4,1368.0,R1,queue,active_pi_count
+gpu,1278.0,R1,queue,active_pi_count
+GPU-shared,1194.0,R1,queue,active_pi_count
+cpu,1060.0,R1,queue,active_pi_count
+gpuA40x4,1053.0,R1,queue,active_pi_count
+RM,993.0,R1,queue,active_pi_count
+gpuA100x4-interactive,962.0,R1,queue,active_pi_count
+RM-shared,896.0,R1,queue,active_pi_count
+debug,876.0,R1,queue,active_pi_count
+gpuA40x4-interactive,833.0,R1,queue,active_pi_count
+compute,805.0,R1,queue,active_pi_count
+ghx4,771.0,R1,queue,active_pi_count
+RM-small,695.0,R1,queue,active_pi_count
+wholenode,611.0,R1,queue,active_pi_count
+gpuA100x8,606.0,R1,queue,active_pi_count
+skx-dev,598.0,R1,queue,active_pi_count
+gpuH200x8,590.0,R1,queue,active_pi_count
+ghx4-interactive,584.0,R1,queue,active_pi_count
+skx,515.0,R1,queue,active_pi_count
+cpu-interactive,474.0,R1,queue,active_pi_count
+gpu-debug,466.0,R1,queue,active_pi_count
+gpuH200x8-interactive,383.0,R1,queue,active_pi_count
+GPU-small,349.0,R1,queue,active_pi_count
+spr,343.0,R1,queue,active_pi_count
+icx,341.0,R1,queue,active_pi_count
+skx-normal,304.0,R1,queue,active_pi_count
+normal,293.0,R1,queue,active_pi_count
+RM-512,290.0,R1,queue,active_pi_count
+highmem,252.0,R1,queue,active_pi_count
+gpuA40x4-preempt,246.0,R1,queue,active_pi_count
+development,243.0,R1,queue,active_pi_count
+gpuA100x8-interactive,235.0,R1,queue,active_pi_count
+gpuMI100x8,224.0,R1,queue,active_pi_count
+pvc,222.0,R1,queue,active_pi_count
+ai,202.0,R1,queue,active_pi_count
+standard,187.0,R1,queue,active_pi_count
+large-shared,180.0,R1,queue,active_pi_count
+EM,170.0,R1,queue,active_pi_count
+gpuA100x4-preempt,169.0,R1,queue,active_pi_count
+h100,166.0,R1,queue,active_pi_count
+icx-normal,158.0,R1,queue,active_pi_count
+wide,151.0,R1,queue,active_pi_count
+cpu-preempt,119.0,R1,queue,active_pi_count
+gpuMI100x8-interactive,116.0,R1,queue,active_pi_count
+applications,112.0,R1,queue,active_pi_count
+gpu_debug,111.0,R1,queue,active_pi_count
+preempt,99.0,R1,queue,active_pi_count
+long,87.0,R1,queue,active_pi_count
+nvdimm,84.0,R1,queue,active_pi_count
+NA,79.0,R1,queue,active_pi_count
+gpu-preempt,27.0,R1,queue,active_pi_count
+rtx-small,25.0,R1,queue,active_pi_count
+short,25.0,R1,queue,active_pi_count
+flat-quadrant,22.0,R1,queue,active_pi_count
+amd-rtx,16.0,R1,queue,active_pi_count
+large,16.0,R1,queue,active_pi_count
+extended,14.0,R1,queue,active_pi_count
+skx-large,13.0,R1,queue,active_pi_count
+,12.0,R1,queue,active_pi_count
+gpu-v100,12.0,R1,queue,active_pi_count
+large-mem,11.0,R1,queue,active_pi_count
+medium,10.0,R1,queue,active_pi_count
+gpu-t4,8.0,R1,queue,active_pi_count
+nec,8.0,R1,queue,active_pi_count
+milan-64core,7.0,R1,queue,active_pi_count
+xlarge-mem,7.0,R1,queue,active_pi_count
+sdf,6.0,R1,queue,active_pi_count
+bittware,5.0,R1,queue,active_pi_count
+all-nodes,4.0,R1,queue,active_pi_count
+profiling,4.0,R1,queue,active_pi_count
+skylake-36core,4.0,R1,queue,active_pi_count
+staff,3.0,R1,queue,active_pi_count
+gpuA100x4-mig,2.0,R1,queue,active_pi_count
+nextsilicon,2.0,R1,queue,active_pi_count
+batch,1.0,R1,queue,active_pi_count
+cloud,1.0,R1,queue,active_pi_count
+d5005,1.0,R1,queue,active_pi_count
+gpuA40x4-long,1.0,R1,queue,active_pi_count
+gpuH200x8-long,1.0,R1,queue,active_pi_count
+hugepage-medium,1.0,R1,queue,active_pi_count
+klhudson,1.0,R1,queue,active_pi_count
+memverge,1.0,R1,queue,active_pi_count
+ood-short,1.0,R1,queue,active_pi_count
+sdash,1.0,R1,queue,active_pi_count
+simcenter,1.0,R1,queue,active_pi_count
+shared,11850.0,R1,queue,active_person_count
+GPU-shared,6302.0,R1,queue,active_person_count
+RM-shared,5737.0,R1,queue,active_person_count
+RM,4668.0,R1,queue,active_person_count
+gpuA40x4,3734.0,R1,queue,active_person_count
+RM-small,3612.0,R1,queue,active_person_count
+gpu,3363.0,R1,queue,active_person_count
+wholenode,3352.0,R1,queue,active_person_count
+gpuA100x4,3245.0,R1,queue,active_person_count
+compute,3230.0,R1,queue,active_person_count
+gpuA40x4-interactive,3141.0,R1,queue,active_person_count
+cpu,3042.0,R1,queue,active_person_count
+debug,2463.0,R1,queue,active_person_count
+gpuA100x4-interactive,2086.0,R1,queue,active_person_count
+skx-dev,1558.0,R1,queue,active_person_count
+ghx4,1534.0,R1,queue,active_person_count
+GPU-small,1513.0,R1,queue,active_person_count
+skx,1173.0,R1,queue,active_person_count
+cpu-interactive,1124.0,R1,queue,active_person_count
+gpu-debug,1032.0,R1,queue,active_person_count
+gpuA100x8,1031.0,R1,queue,active_person_count
+ghx4-interactive,980.0,R1,queue,active_person_count
+gpuH200x8,942.0,R1,queue,active_person_count
+skx-normal,836.0,R1,queue,active_person_count
+normal,829.0,R1,queue,active_person_count
+development,683.0,R1,queue,active_person_count
+icx,677.0,R1,queue,active_person_count
+spr,651.0,R1,queue,active_person_count
+gpuH200x8-interactive,570.0,R1,queue,active_person_count
+highmem,559.0,R1,queue,active_person_count
+RM-512,480.0,R1,queue,active_person_count
+pvc,394.0,R1,queue,active_person_count
+gpuA100x8-interactive,366.0,R1,queue,active_person_count
+standard,364.0,R1,queue,active_person_count
+gpuA40x4-preempt,325.0,R1,queue,active_person_count
+large-shared,291.0,R1,queue,active_person_count
+gpuMI100x8,286.0,R1,queue,active_person_count
+ai,281.0,R1,queue,active_person_count
+icx-normal,280.0,R1,queue,active_person_count
+h100,272.0,R1,queue,active_person_count
+wide,243.0,R1,queue,active_person_count
+EM,232.0,R1,queue,active_person_count
+gpuA100x4-preempt,216.0,R1,queue,active_person_count
+gpu_debug,214.0,R1,queue,active_person_count
+applications,181.0,R1,queue,active_person_count
+NA,138.0,R1,queue,active_person_count
+cpu-preempt,135.0,R1,queue,active_person_count
+long,128.0,R1,queue,active_person_count
+gpuMI100x8-interactive,126.0,R1,queue,active_person_count
+preempt,126.0,R1,queue,active_person_count
+nvdimm,122.0,R1,queue,active_person_count
+sdf,57.0,R1,queue,active_person_count
+short,46.0,R1,queue,active_person_count
+flat-quadrant,45.0,R1,queue,active_person_count
+gpu-preempt,37.0,R1,queue,active_person_count
+rtx-small,32.0,R1,queue,active_person_count
+gpu-v100,27.0,R1,queue,active_person_count
+amd-rtx,20.0,R1,queue,active_person_count
+large,20.0,R1,queue,active_person_count
+extended,18.0,R1,queue,active_person_count
+nec,18.0,R1,queue,active_person_count
+medium,15.0,R1,queue,active_person_count
+skx-large,15.0,R1,queue,active_person_count
+large-mem,14.0,R1,queue,active_person_count
+,13.0,R1,queue,active_person_count
+bittware,10.0,R1,queue,active_person_count
+gpu-t4,10.0,R1,queue,active_person_count
+milan-64core,9.0,R1,queue,active_person_count
+xlarge-mem,8.0,R1,queue,active_person_count
+cloud,7.0,R1,queue,active_person_count
+profiling,6.0,R1,queue,active_person_count
+skylake-36core,6.0,R1,queue,active_person_count
+all-nodes,5.0,R1,queue,active_person_count
+nextsilicon,5.0,R1,queue,active_person_count
+staff,5.0,R1,queue,active_person_count
+gpuA100x4-mig,2.0,R1,queue,active_person_count
+gpuA40x4-long,2.0,R1,queue,active_person_count
+memverge,2.0,R1,queue,active_person_count
+ood-short,2.0,R1,queue,active_person_count
+batch,1.0,R1,queue,active_person_count
+d5005,1.0,R1,queue,active_person_count
+gpuH200x8-long,1.0,R1,queue,active_person_count
+hugepage-medium,1.0,R1,queue,active_person_count
+klhudson,1.0,R1,queue,active_person_count
+sdash,1.0,R1,queue,active_person_count
+simcenter,1.0,R1,queue,active_person_count
+shared,1868.0,R1,queue,active_allocation_count
+gpuA100x4,1681.0,R1,queue,active_allocation_count
+gpu,1493.0,R1,queue,active_allocation_count
+GPU-shared,1486.0,R1,queue,active_allocation_count
+gpuA40x4,1306.0,R1,queue,active_allocation_count
+cpu,1265.0,R1,queue,active_allocation_count
+RM,1265.0,R1,queue,active_allocation_count
+RM-shared,1174.0,R1,queue,active_allocation_count
+gpuA100x4-interactive,1170.0,R1,queue,active_allocation_count
+debug,1056.0,R1,queue,active_allocation_count
+compute,1052.0,R1,queue,active_allocation_count
+gpuA40x4-interactive,1028.0,R1,queue,active_allocation_count
+ghx4,929.0,R1,queue,active_allocation_count
+RM-small,868.0,R1,queue,active_allocation_count
+wholenode,745.0,R1,queue,active_allocation_count
+gpuA100x8,744.0,R1,queue,active_allocation_count
+skx-dev,725.0,R1,queue,active_allocation_count
+gpuH200x8,701.0,R1,queue,active_allocation_count
+ghx4-interactive,690.0,R1,queue,active_allocation_count
+skx,615.0,R1,queue,active_allocation_count
+cpu-interactive,591.0,R1,queue,active_allocation_count
+gpu-debug,540.0,R1,queue,active_allocation_count
+GPU-small,452.0,R1,queue,active_allocation_count
+gpuH200x8-interactive,450.0,R1,queue,active_allocation_count
+icx,409.0,R1,queue,active_allocation_count
+spr,409.0,R1,queue,active_allocation_count
+RM-512,335.0,R1,queue,active_allocation_count
+skx-normal,332.0,R1,queue,active_allocation_count
+normal,304.0,R1,queue,active_allocation_count
+gpuA100x8-interactive,286.0,R1,queue,active_allocation_count
+highmem,277.0,R1,queue,active_allocation_count
+gpuA40x4-preempt,273.0,R1,queue,active_allocation_count
+development,254.0,R1,queue,active_allocation_count
+gpuMI100x8,249.0,R1,queue,active_allocation_count
+pvc,232.0,R1,queue,active_allocation_count
+large-shared,210.0,R1,queue,active_allocation_count
+ai,209.0,R1,queue,active_allocation_count
+standard,208.0,R1,queue,active_allocation_count
+EM,183.0,R1,queue,active_allocation_count
+gpuA100x4-preempt,177.0,R1,queue,active_allocation_count
+h100,176.0,R1,queue,active_allocation_count
+icx-normal,166.0,R1,queue,active_allocation_count
+wide,159.0,R1,queue,active_allocation_count
+applications,127.0,R1,queue,active_allocation_count
+cpu-preempt,125.0,R1,queue,active_allocation_count
+gpuMI100x8-interactive,120.0,R1,queue,active_allocation_count
+gpu_debug,117.0,R1,queue,active_allocation_count
+preempt,106.0,R1,queue,active_allocation_count
+long,92.0,R1,queue,active_allocation_count
+nvdimm,90.0,R1,queue,active_allocation_count
+NA,84.0,R1,queue,active_allocation_count
+short,30.0,R1,queue,active_allocation_count
+gpu-preempt,28.0,R1,queue,active_allocation_count
+rtx-small,27.0,R1,queue,active_allocation_count
+flat-quadrant,23.0,R1,queue,active_allocation_count
+large,18.0,R1,queue,active_allocation_count
+amd-rtx,17.0,R1,queue,active_allocation_count
+extended,14.0,R1,queue,active_allocation_count
+skx-large,14.0,R1,queue,active_allocation_count
+,12.0,R1,queue,active_allocation_count
+gpu-v100,12.0,R1,queue,active_allocation_count
+large-mem,11.0,R1,queue,active_allocation_count
+medium,11.0,R1,queue,active_allocation_count
+gpu-t4,8.0,R1,queue,active_allocation_count
+milan-64core,8.0,R1,queue,active_allocation_count
+nec,8.0,R1,queue,active_allocation_count
+sdf,8.0,R1,queue,active_allocation_count
+xlarge-mem,7.0,R1,queue,active_allocation_count
+bittware,6.0,R1,queue,active_allocation_count
+skylake-36core,5.0,R1,queue,active_allocation_count
+all-nodes,4.0,R1,queue,active_allocation_count
+profiling,4.0,R1,queue,active_allocation_count
+staff,3.0,R1,queue,active_allocation_count
+gpuA100x4-mig,2.0,R1,queue,active_allocation_count
+nextsilicon,2.0,R1,queue,active_allocation_count
+ood-short,2.0,R1,queue,active_allocation_count
+batch,1.0,R1,queue,active_allocation_count
+cloud,1.0,R1,queue,active_allocation_count
+d5005,1.0,R1,queue,active_allocation_count
+gpuA40x4-long,1.0,R1,queue,active_allocation_count
+gpuH200x8-long,1.0,R1,queue,active_allocation_count
+hugepage-medium,1.0,R1,queue,active_allocation_count
+klhudson,1.0,R1,queue,active_allocation_count
+memverge,1.0,R1,queue,active_allocation_count
+sdash,1.0,R1,queue,active_allocation_count
+simcenter,1.0,R1,queue,active_allocation_count
+California,1914911653.1287,R1,pi_institution_state,total_ace
+Illinois,1385228323.0395,R1,pi_institution_state,total_ace
+New York,1284055292.158,R1,pi_institution_state,total_ace
+Pennsylvania,1178299640.9009,R1,pi_institution_state,total_ace
+Michigan,981189677.9587,R1,pi_institution_state,total_ace
+Wisconsin,841464607.1495,R1,pi_institution_state,total_ace
+Texas,674582831.992,R1,pi_institution_state,total_ace
+Massachusetts,643415171.6264,R1,pi_institution_state,total_ace
+Indiana,445519229.8958,R1,pi_institution_state,total_ace
+Florida,314098119.5333,R1,pi_institution_state,total_ace
+New Jersey,300010087.9656,R1,pi_institution_state,total_ace
+Colorado,196520985.9629,R1,pi_institution_state,total_ace
+Iowa,187258583.0682,R1,pi_institution_state,total_ace
+Connecticut,172616204.0052,R1,pi_institution_state,total_ace
+Arizona,168491242.8723,R1,pi_institution_state,total_ace
+Maryland,165401347.9319,R1,pi_institution_state,total_ace
+Delaware,161663463.9716,R1,pi_institution_state,total_ace
+Washington,155334188.6581,R1,pi_institution_state,total_ace
+Virginia,152590821.2615,R1,pi_institution_state,total_ace
+North Carolina,142890022.5841,R1,pi_institution_state,total_ace
+Georgia,135486684.8836,R1,pi_institution_state,total_ace
+Oklahoma,129793738.0997,R1,pi_institution_state,total_ace
+Ohio,110977212.3027,R1,pi_institution_state,total_ace
+Missouri,105927317.8614,R1,pi_institution_state,total_ace
+Utah,98292800.549,R1,pi_institution_state,total_ace
+South Carolina,89645256.5974,R1,pi_institution_state,total_ace
+District of Columbia,86270379.9364,R1,pi_institution_state,total_ace
+Kentucky,84823135.1925,R1,pi_institution_state,total_ace
+Tennessee,83506291.2222,R1,pi_institution_state,total_ace
+Alabama,81496383.6796,R1,pi_institution_state,total_ace
+West Virginia,69780245.6797,R1,pi_institution_state,total_ace
+Oregon,67091724.125,R1,pi_institution_state,total_ace
+Arkansas,41882975.3572,R1,pi_institution_state,total_ace
+Minnesota,35529049.2233,R1,pi_institution_state,total_ace
+Mississippi,29049475.8251,R1,pi_institution_state,total_ace
+Kansas,26424882.0263,R1,pi_institution_state,total_ace
+New Mexico,25714097.3236,R1,pi_institution_state,total_ace
+Rhode Island,20778190.904,R1,pi_institution_state,total_ace
+Nevada,20064323.6634,R1,pi_institution_state,total_ace
+Louisiana,13161508.8901,R1,pi_institution_state,total_ace
+Hawaii,12260333.77,R1,pi_institution_state,total_ace
+Montana,10932892.0082,R1,pi_institution_state,total_ace
+Maine,8528896.6249,R1,pi_institution_state,total_ace
+Nebraska,5514304.0739,R1,pi_institution_state,total_ace
+New Hampshire,3927231.5179,R1,pi_institution_state,total_ace
+North Dakota,1865938.4865,R1,pi_institution_state,total_ace
+Vermont,1529885.5824,R1,pi_institution_state,total_ace
+Idaho,662835.3609,R1,pi_institution_state,total_ace
+Wyoming,29896.1882,R1,pi_institution_state,total_ace
+California,14954966.0,R1,pi_institution_state,job_count
+Pennsylvania,13225085.0,R1,pi_institution_state,job_count
+Michigan,12044385.0,R1,pi_institution_state,job_count
+New York,11644824.0,R1,pi_institution_state,job_count
+Illinois,8076814.0,R1,pi_institution_state,job_count
+Massachusetts,5507086.0,R1,pi_institution_state,job_count
+Texas,3432740.0,R1,pi_institution_state,job_count
+Indiana,2516841.0,R1,pi_institution_state,job_count
+Maryland,1670068.0,R1,pi_institution_state,job_count
+Nevada,1630375.0,R1,pi_institution_state,job_count
+Colorado,1557974.0,R1,pi_institution_state,job_count
+Wisconsin,1544504.0,R1,pi_institution_state,job_count
+Florida,1502064.0,R1,pi_institution_state,job_count
+Oklahoma,1281199.0,R1,pi_institution_state,job_count
+New Jersey,971379.0,R1,pi_institution_state,job_count
+Alabama,960901.0,R1,pi_institution_state,job_count
+Missouri,904383.0,R1,pi_institution_state,job_count
+Georgia,713091.0,R1,pi_institution_state,job_count
+Virginia,638404.0,R1,pi_institution_state,job_count
+District of Columbia,637135.0,R1,pi_institution_state,job_count
+New Mexico,475191.0,R1,pi_institution_state,job_count
+Ohio,449844.0,R1,pi_institution_state,job_count
+West Virginia,447883.0,R1,pi_institution_state,job_count
+Arizona,402146.0,R1,pi_institution_state,job_count
+Iowa,397084.0,R1,pi_institution_state,job_count
+Delaware,357058.0,R1,pi_institution_state,job_count
+North Carolina,320077.0,R1,pi_institution_state,job_count
+Connecticut,318431.0,R1,pi_institution_state,job_count
+Minnesota,313277.0,R1,pi_institution_state,job_count
+Kentucky,249292.0,R1,pi_institution_state,job_count
+Utah,208730.0,R1,pi_institution_state,job_count
+Washington,203719.0,R1,pi_institution_state,job_count
+Tennessee,181513.0,R1,pi_institution_state,job_count
+Oregon,163578.0,R1,pi_institution_state,job_count
+South Carolina,142679.0,R1,pi_institution_state,job_count
+Louisiana,126477.0,R1,pi_institution_state,job_count
+Kansas,79120.0,R1,pi_institution_state,job_count
+Montana,65589.0,R1,pi_institution_state,job_count
+Hawaii,65479.0,R1,pi_institution_state,job_count
+Mississippi,46058.0,R1,pi_institution_state,job_count
+Rhode Island,34277.0,R1,pi_institution_state,job_count
+Maine,26343.0,R1,pi_institution_state,job_count
+Arkansas,11905.0,R1,pi_institution_state,job_count
+North Dakota,5864.0,R1,pi_institution_state,job_count
+New Hampshire,5727.0,R1,pi_institution_state,job_count
+Nebraska,4978.0,R1,pi_institution_state,job_count
+Vermont,4124.0,R1,pi_institution_state,job_count
+Wyoming,1836.0,R1,pi_institution_state,job_count
+Idaho,1773.0,R1,pi_institution_state,job_count
+California,967.0,R1,pi_institution_state,active_pi_count
+Illinois,835.0,R1,pi_institution_state,active_pi_count
+Pennsylvania,826.0,R1,pi_institution_state,active_pi_count
+New York,352.0,R1,pi_institution_state,active_pi_count
+Texas,325.0,R1,pi_institution_state,active_pi_count
+Indiana,279.0,R1,pi_institution_state,active_pi_count
+Massachusetts,242.0,R1,pi_institution_state,active_pi_count
+Florida,186.0,R1,pi_institution_state,active_pi_count
+Michigan,173.0,R1,pi_institution_state,active_pi_count
+Georgia,124.0,R1,pi_institution_state,active_pi_count
+Colorado,109.0,R1,pi_institution_state,active_pi_count
+New Jersey,106.0,R1,pi_institution_state,active_pi_count
+Maryland,103.0,R1,pi_institution_state,active_pi_count
+Virginia,88.0,R1,pi_institution_state,active_pi_count
+North Carolina,85.0,R1,pi_institution_state,active_pi_count
+Washington,76.0,R1,pi_institution_state,active_pi_count
+Wisconsin,72.0,R1,pi_institution_state,active_pi_count
+Iowa,69.0,R1,pi_institution_state,active_pi_count
+Tennessee,69.0,R1,pi_institution_state,active_pi_count
+Arizona,67.0,R1,pi_institution_state,active_pi_count
+Ohio,61.0,R1,pi_institution_state,active_pi_count
+Missouri,54.0,R1,pi_institution_state,active_pi_count
+Connecticut,50.0,R1,pi_institution_state,active_pi_count
+Alabama,47.0,R1,pi_institution_state,active_pi_count
+District of Columbia,39.0,R1,pi_institution_state,active_pi_count
+Oklahoma,37.0,R1,pi_institution_state,active_pi_count
+Minnesota,33.0,R1,pi_institution_state,active_pi_count
+Delaware,32.0,R1,pi_institution_state,active_pi_count
+South Carolina,32.0,R1,pi_institution_state,active_pi_count
+Rhode Island,31.0,R1,pi_institution_state,active_pi_count
+Utah,30.0,R1,pi_institution_state,active_pi_count
+Kansas,28.0,R1,pi_institution_state,active_pi_count
+New Mexico,28.0,R1,pi_institution_state,active_pi_count
+Oregon,24.0,R1,pi_institution_state,active_pi_count
+Kentucky,22.0,R1,pi_institution_state,active_pi_count
+Louisiana,20.0,R1,pi_institution_state,active_pi_count
+Hawaii,19.0,R1,pi_institution_state,active_pi_count
+Nevada,18.0,R1,pi_institution_state,active_pi_count
+Mississippi,15.0,R1,pi_institution_state,active_pi_count
+New Hampshire,14.0,R1,pi_institution_state,active_pi_count
+Montana,11.0,R1,pi_institution_state,active_pi_count
+West Virginia,10.0,R1,pi_institution_state,active_pi_count
+Arkansas,9.0,R1,pi_institution_state,active_pi_count
+North Dakota,9.0,R1,pi_institution_state,active_pi_count
+Vermont,8.0,R1,pi_institution_state,active_pi_count
+Nebraska,7.0,R1,pi_institution_state,active_pi_count
+Idaho,4.0,R1,pi_institution_state,active_pi_count
+Maine,4.0,R1,pi_institution_state,active_pi_count
+Wyoming,2.0,R1,pi_institution_state,active_pi_count
+Pennsylvania,7089.0,R1,pi_institution_state,active_person_count
+Indiana,6610.0,R1,pi_institution_state,active_person_count
+Illinois,4656.0,R1,pi_institution_state,active_person_count
+California,4270.0,R1,pi_institution_state,active_person_count
+Texas,2973.0,R1,pi_institution_state,active_person_count
+New York,1175.0,R1,pi_institution_state,active_person_count
+Massachusetts,1006.0,R1,pi_institution_state,active_person_count
+Michigan,554.0,R1,pi_institution_state,active_person_count
+Florida,455.0,R1,pi_institution_state,active_person_count
+New Jersey,335.0,R1,pi_institution_state,active_person_count
+Georgia,333.0,R1,pi_institution_state,active_person_count
+Mississippi,309.0,R1,pi_institution_state,active_person_count
+North Carolina,298.0,R1,pi_institution_state,active_person_count
+Tennessee,284.0,R1,pi_institution_state,active_person_count
+Kentucky,277.0,R1,pi_institution_state,active_person_count
+Washington,259.0,R1,pi_institution_state,active_person_count
+Colorado,241.0,R1,pi_institution_state,active_person_count
+Maryland,240.0,R1,pi_institution_state,active_person_count
+Delaware,216.0,R1,pi_institution_state,active_person_count
+Ohio,212.0,R1,pi_institution_state,active_person_count
+Virginia,198.0,R1,pi_institution_state,active_person_count
+Wisconsin,189.0,R1,pi_institution_state,active_person_count
+Arizona,185.0,R1,pi_institution_state,active_person_count
+Iowa,179.0,R1,pi_institution_state,active_person_count
+Missouri,160.0,R1,pi_institution_state,active_person_count
+Connecticut,157.0,R1,pi_institution_state,active_person_count
+District of Columbia,119.0,R1,pi_institution_state,active_person_count
+Alabama,117.0,R1,pi_institution_state,active_person_count
+Minnesota,114.0,R1,pi_institution_state,active_person_count
+Oklahoma,107.0,R1,pi_institution_state,active_person_count
+New Mexico,100.0,R1,pi_institution_state,active_person_count
+South Carolina,94.0,R1,pi_institution_state,active_person_count
+Oregon,72.0,R1,pi_institution_state,active_person_count
+Utah,68.0,R1,pi_institution_state,active_person_count
+Kansas,62.0,R1,pi_institution_state,active_person_count
+Nevada,59.0,R1,pi_institution_state,active_person_count
+Rhode Island,58.0,R1,pi_institution_state,active_person_count
+Arkansas,49.0,R1,pi_institution_state,active_person_count
+Hawaii,43.0,R1,pi_institution_state,active_person_count
+Louisiana,42.0,R1,pi_institution_state,active_person_count
+North Dakota,35.0,R1,pi_institution_state,active_person_count
+Montana,32.0,R1,pi_institution_state,active_person_count
+Maine,26.0,R1,pi_institution_state,active_person_count
+West Virginia,23.0,R1,pi_institution_state,active_person_count
+New Hampshire,21.0,R1,pi_institution_state,active_person_count
+Vermont,16.0,R1,pi_institution_state,active_person_count
+Nebraska,11.0,R1,pi_institution_state,active_person_count
+Idaho,8.0,R1,pi_institution_state,active_person_count
+Wyoming,2.0,R1,pi_institution_state,active_person_count
+California,1277.0,R1,pi_institution_state,active_allocation_count
+Illinois,1134.0,R1,pi_institution_state,active_allocation_count
+Pennsylvania,1129.0,R1,pi_institution_state,active_allocation_count
+New York,452.0,R1,pi_institution_state,active_allocation_count
+Texas,407.0,R1,pi_institution_state,active_allocation_count
+Indiana,348.0,R1,pi_institution_state,active_allocation_count
+Massachusetts,344.0,R1,pi_institution_state,active_allocation_count
+Michigan,260.0,R1,pi_institution_state,active_allocation_count
+Florida,217.0,R1,pi_institution_state,active_allocation_count
+Georgia,144.0,R1,pi_institution_state,active_allocation_count
+Colorado,138.0,R1,pi_institution_state,active_allocation_count
+New Jersey,129.0,R1,pi_institution_state,active_allocation_count
+Maryland,112.0,R1,pi_institution_state,active_allocation_count
+North Carolina,108.0,R1,pi_institution_state,active_allocation_count
+Virginia,104.0,R1,pi_institution_state,active_allocation_count
+Iowa,90.0,R1,pi_institution_state,active_allocation_count
+Arizona,89.0,R1,pi_institution_state,active_allocation_count
+Wisconsin,89.0,R1,pi_institution_state,active_allocation_count
+Washington,88.0,R1,pi_institution_state,active_allocation_count
+Tennessee,85.0,R1,pi_institution_state,active_allocation_count
+Ohio,76.0,R1,pi_institution_state,active_allocation_count
+Missouri,65.0,R1,pi_institution_state,active_allocation_count
+Connecticut,63.0,R1,pi_institution_state,active_allocation_count
+Alabama,60.0,R1,pi_institution_state,active_allocation_count
+District of Columbia,55.0,R1,pi_institution_state,active_allocation_count
+Delaware,50.0,R1,pi_institution_state,active_allocation_count
+South Carolina,45.0,R1,pi_institution_state,active_allocation_count
+Minnesota,38.0,R1,pi_institution_state,active_allocation_count
+Oklahoma,37.0,R1,pi_institution_state,active_allocation_count
+Utah,37.0,R1,pi_institution_state,active_allocation_count
+Kentucky,36.0,R1,pi_institution_state,active_allocation_count
+Rhode Island,36.0,R1,pi_institution_state,active_allocation_count
+New Mexico,34.0,R1,pi_institution_state,active_allocation_count
+Oregon,30.0,R1,pi_institution_state,active_allocation_count
+Kansas,29.0,R1,pi_institution_state,active_allocation_count
+Louisiana,25.0,R1,pi_institution_state,active_allocation_count
+Hawaii,23.0,R1,pi_institution_state,active_allocation_count
+Mississippi,21.0,R1,pi_institution_state,active_allocation_count
+Nevada,20.0,R1,pi_institution_state,active_allocation_count
+New Hampshire,17.0,R1,pi_institution_state,active_allocation_count
+Montana,14.0,R1,pi_institution_state,active_allocation_count
+Arkansas,13.0,R1,pi_institution_state,active_allocation_count
+Nebraska,11.0,R1,pi_institution_state,active_allocation_count
+North Dakota,11.0,R1,pi_institution_state,active_allocation_count
+West Virginia,11.0,R1,pi_institution_state,active_allocation_count
+Vermont,9.0,R1,pi_institution_state,active_allocation_count
+Maine,5.0,R1,pi_institution_state,active_allocation_count
+Idaho,4.0,R1,pi_institution_state,active_allocation_count
+Wyoming,2.0,R1,pi_institution_state,active_allocation_count

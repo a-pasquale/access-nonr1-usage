@@ -1,0 +1,736 @@
+pi_institution,cohort,tier,carnegie_instnm,match_method,UNITID,msi,C21BASIC,STABBR,total_ace,total_cpu_hours,total_node_hours,job_count,active_pi_count,active_allocation_count,active_person_count
+UIUC - University of Illinois at Urbana-Champaign,R1,R1,University of Illinois Urbana-Champaign,exact,145637.0,,15.0,IL,1042434391.5403,610405185.2964,12374906.1208,6077958.0,641.0,901.0,3150.0
+U Wisconsin-Madison - University of Wisconsin-Madison,R1,R1,University of Wisconsin-Madison,exact,240444.0,,15.0,WI,838738793.3121,720812453.7386,10342207.925,1506626.0,65.0,81.0,170.0
+U Michigan - University of Michigan,R1,R1,University of Michigan-Ann Arbor,override,170976.0,,15.0,MI,729082973.1112,467223575.9222,28406997.9008,11223839.0,133.0,210.0,444.0
+CMU - Carnegie Mellon University,R1,R1,Carnegie Mellon University,exact,211440.0,,15.0,PA,654135189.4691,257370315.3214,8281931.8219,8333772.0,550.0,738.0,3693.0
+Columbia U - Columbia University in the City of New York,R1,R1,Columbia University in the City of New York,exact,190150.0,,15.0,NY,558535069.5614,453644369.5528,6068905.4072,1556691.0,86.0,111.0,280.0
+"UC San Diego - University of California, San Diego",R1,R1,University of California-San Diego,exact,110680.0,,15.0,CA,482729657.7453,288219533.0411,11805861.1731,7386987.0,284.0,373.0,2054.0
+Cornell U - Cornell University,R1,R1,Cornell University,exact,190415.0,,15.0,NY,381748804.2922,274503250.7669,5963289.9978,8175914.0,113.0,142.0,456.0
+"UCLA - University of California, Los Angeles",R1,R1,University of California-Los Angeles,exact,110662.0,,15.0,CA,355248437.8314,289217157.0803,5201145.35,1515939.0,112.0,167.0,302.0
+TACC - University of Texas at Austin,R1,R1,The University of Texas at Austin,exact,228778.0,,15.0,TX,302133619.4398,225873037.2864,4050030.9547,1285447.0,64.0,89.0,259.0
+"UC Santa Barbara - University of California, Santa Barbara",R1,R1,University of California-Santa Barbara,exact,110705.0,,15.0,CA,289578285.4826,307818512.3753,3700133.2378,1720376.0,59.0,86.0,348.0
+Penn State U - Pennsylvania State University,R1,R1,Pennsylvania State University-Main Campus,exact,214777.0,,15.0,PA,266608284.1101,198186043.2025,6197825.8447,1768920.0,76.0,91.0,355.0
+MIT - Massachusetts Institute of Technology,R1,R1,Massachusetts Institute of Technology,exact,166683.0,,15.0,MA,254374990.2053,196489182.35,7548195.0417,2881441.0,86.0,114.0,498.0
+IU - Indiana University,R1,R1,Indiana University-Bloomington,override,151351.0,,15.0,IN,241765998.0036,159185052.095,2318844.0067,360133.0,15.0,18.0,79.0
+Michigan State U - Michigan State University,R1,R1,Michigan State University,exact,171100.0,,15.0,MI,221588803.4188,221998762.4772,3477252.8119,496966.0,24.0,30.0,67.0
+Caltech - California Institute of Technology,R1,R1,California Institute of Technology,exact,110404.0,,15.0,CA,211403345.4364,209388737.9239,3358117.3767,459447.0,56.0,73.0,136.0
+"UC Berkeley - University of California, Berkeley",R1,R1,University of California-Berkeley,exact,110635.0,,15.0,CA,203595376.8794,187585167.1236,5428905.6031,1468653.0,111.0,126.0,402.0
+Iowa State U - Iowa State University,R1,R1,Iowa State University,exact,153603.0,,15.0,IA,184760925.1981,163678580.2131,2516361.9467,306927.0,59.0,78.0,157.0
+Purdue - Purdue University,R1,R1,Purdue University-Main Campus,exact,243780.0,,15.0,IN,182539801.36,155540169.8728,3395926.905,1603670.0,233.0,292.0,6446.0
+U Chicago - University of Chicago,R1,R1,University of Chicago,exact,144050.0,,15.0,IL,171636868.1764,124454070.8753,2548751.3769,226489.0,42.0,46.0,134.0
+UDEL - University of Delaware,R1,R1,University of Delaware,exact,130943.0,,15.0,DE,161663463.9716,111666318.6217,2665675.5164,357058.0,32.0,50.0,216.0
+Stanford - Stanford University,R1,R1,Stanford University,exact,243744.0,,15.0,CA,154742094.0795,124906552.4989,1813903.5453,126629.0,89.0,110.0,207.0
+U Florida - University of Florida,R1,R1,University of Florida,exact,134130.0,,15.0,FL,144711710.6494,143293032.3317,2482110.5467,328454.0,25.0,30.0,54.0
+Princeton U - Princeton University,R1,R1,Princeton University,exact,186131.0,,15.0,NJ,144195780.398,132524848.0033,2660886.2428,114504.0,35.0,43.0,57.0
+U Pittsburgh - University of Pittsburgh,R1,R1,University of Pittsburgh-Pittsburgh Campus,override,215293.0,,15.0,PA,143295118.5975,106720501.1181,3178406.7836,1537778.0,75.0,89.0,251.0
+U Washington - University of Washington,R1,R1,University of Washington-Seattle Campus,override,236948.0,,15.0,WA,139906181.2964,131612581.1533,2485099.6647,163455.0,55.0,65.0,220.0
+"Rutgers U - Rutgers, the State University of New Jersey",R1,R1,Rutgers University-New Brunswick,override,186380.0,,15.0,NJ,133726288.7267,105287505.7083,2172203.7397,510682.0,45.0,50.0,187.0
+U Oklahoma - University of Oklahoma,R1,R1,University of Oklahoma-Norman Campus,override,207500.0,,15.0,OK,127628344.9997,109560400.7358,2266216.6553,1278392.0,27.0,27.0,91.0
+Georgia Tech - Georgia Institute of Technology,R1,R1,Georgia Institute of Technology-Main Campus,exact,139755.0,,15.0,GA,124306110.1753,82031880.6444,2081724.63,580131.0,96.0,112.0,255.0
+"Colorado-Boulder - University of Colorado, Boulder",R1,R1,University of Colorado Boulder,exact,126614.0,,15.0,CO,114932912.4711,105861699.2103,1596273.0467,123469.0,52.0,69.0,101.0
+U Virginia - University of Virginia,R1,R1,University of Virginia-Main Campus,exact,234076.0,,15.0,VA,114608564.2273,79087955.1889,1154671.0097,321225.0,30.0,34.0,56.0
+Yale U - Yale University,R1,R1,Yale University,exact,130794.0,,15.0,CT,108194409.5078,107276686.0425,2130594.7456,270183.0,28.0,37.0,75.0
+Northwestern U - Northwestern University,R1,R1,Northwestern University,exact,147767.0,,15.0,IL,102272494.354,83396621.16,1900863.72,974283.0,54.0,65.0,170.0
+SUNY Binghamton - SUNY at Binghamton,R1,R1,Binghamton University,override,196079.0,,15.0,NY,101963376.8794,73381934.1742,1741955.4575,315369.0,20.0,29.0,92.0
+Arizona State U - Arizona State University,R1,R1,Arizona State University Campus Immersion,override,104151.0,,15.0,AZ,93361046.4783,82393838.4806,1148673.7464,358954.0,34.0,52.0,119.0
+TTU - Texas Tech University,R1,R1,Texas Tech University,exact,229115.0,,15.0,TX,91840759.1241,49454358.4631,1104650.8333,23227.0,15.0,17.0,23.0
+Harvard U - Harvard University,R1,R1,Harvard University,exact,166027.0,,15.0,MA,87804700.1061,70115057.6028,898646.3256,435407.0,32.0,57.0,73.0
+U South Carolina - University of South Carolina,R1,R1,University of South Carolina-Columbia,override,218663.0,,15.0,SC,86968796.1819,77485614.6761,1132699.3742,138910.0,25.0,36.0,76.0
+Rice U - Rice University,R1,R1,Rice University,exact,227757.0,,15.0,TX,84902008.7342,58424299.1228,1878414.7403,277880.0,37.0,42.0,160.0
+Johns Hopkins U - Johns Hopkins University,R1,R1,Johns Hopkins University,exact,162928.0,,15.0,MD,82180863.1855,71652430.89,2317288.8136,341890.0,43.0,50.0,102.0
+UKY - University of Kentucky,R1,R1,University of Kentucky,exact,157085.0,,15.0,KY,79078431.9671,63797592.9378,6614322.8367,156605.0,17.0,31.0,265.0
+RIT - Rochester Institute of Technology,R2,R2,Rochester Institute of Technology,exact,195003.0,,16.0,NY,77578422.3595,65550161.5289,1796470.5344,325277.0,12.0,18.0,47.0
+U Rochester - University of Rochester,R1,R1,University of Rochester,exact,195030.0,,15.0,NY,76017772.0382,58936011.0256,1373630.5283,143544.0,17.0,18.0,37.0
+"U Maryland - University of Maryland, College Park",R1,R1,University of Maryland - College Park,exact,163286.0,,15.0,MD,75966500.7174,54421796.1178,1930892.4472,1255126.0,31.0,32.0,89.0
+U Arizona - University of Arizona,R1,R1,University of Arizona,exact,104179.0,,15.0,AZ,75123896.4377,62248429.7806,1041873.8017,43167.0,32.0,36.0,65.0
+Brandeis U - Brandeis University,R1,R1,Brandeis University,exact,165015.0,,15.0,MA,75016997.3174,52925333.3781,5442618.5211,644958.0,5.0,6.0,51.0
+"UC Davis - University of California, Davis",R1,R1,University of California-Davis,exact,110644.0,,15.0,CA,72389660.3656,47352528.8058,2187916.5303,616470.0,62.0,86.0,265.0
+West Virginia U - West Virginia University,R1,R1,West Virginia University,exact,238032.0,,15.0,WV,69780245.6797,73370863.9222,1419949.4528,447883.0,10.0,11.0,23.0
+Northeastern U - Northeastern University,R1,R1,Northeastern University,exact,167358.0,,15.0,MA,68977407.0747,33175548.5503,602899.8119,955809.0,46.0,59.0,186.0
+TAMU - Texas A&M University,R1,R1,Texas A & M University-College Station,override,228723.0,,15.0,TX,66876709.9632,55658477.9456,3194738.9822,1389759.0,95.0,107.0,1004.0
+UT Arlington - University of Texas at Arlington,R1,R1,The University of Texas at Arlington,exact,228769.0,,15.0,TX,64812318.6724,43998117.7203,867694.7172,102668.0,13.0,26.0,943.0
+U Central Florida - University of Central Florida,R1,R1,University of Central Florida,exact,132903.0,,15.0,FL,64483699.295,45375629.2292,1892259.1186,454886.0,87.0,93.0,212.0
+U Connecticut - University of Connecticut,R1,R1,University of Connecticut,exact,129020.0,,15.0,CT,64421794.4975,131387768.5919,2602642.7467,48248.0,22.0,26.0,82.0
+Oregon State U - Oregon State University,R1,R1,Oregon State University,exact,209542.0,,15.0,OR,63413792.8754,39305607.3997,759874.7614,134383.0,19.0,21.0,50.0
+Washington U - Washington University in St. Louis,R1,R1,Washington University in St Louis,exact,179867.0,,15.0,MO,61794934.057,63892269.5433,1084790.0758,556347.0,21.0,24.0,84.0
+"U Mass, Lowell - University of Massachusetts, Lowell",R1,R1,University of Massachusetts-Lowell,exact,166513.0,,16.0,MA,59758539.6469,47442904.4492,889561.0467,197662.0,7.0,15.0,16.0
+Ohio State U - Ohio State University,R1,R1,Ohio State University-Main Campus,exact,204796.0,,15.0,OH,59519166.0116,39011389.3656,671027.9256,334962.0,25.0,30.0,93.0
+Duke U - Duke University,R1,R1,Duke University,exact,198419.0,,15.0,NC,59460745.0246,77248275.4181,1374909.8628,148642.0,23.0,31.0,87.0
+Florida State U - Florida State University,R1,R1,Florida State University,exact,134097.0,,15.0,FL,58099276.686,67513609.5753,803406.1861,68754.0,21.0,27.0,80.0
+U Pennsylvania - University of Pennsylvania,R1,R1,University of Pennsylvania,exact,215062.0,,15.0,PA,58080747.6449,43123691.7122,1734219.8119,596380.0,57.0,77.0,219.0
+Auburn U - Auburn University,R1,R1,Auburn University,exact,100858.0,,15.0,AL,52447873.8536,39241291.0564,585038.2119,123662.0,15.0,23.0,49.0
+U Utah - University of Utah,R1,R1,University of Utah,exact,230764.0,,15.0,UT,52420749.5165,42832246.1683,475537.71,190003.0,24.0,30.0,43.0
+"NICS - University of Tennessee, Knoxville",R1,R1,The University of Tennessee-Knoxville,exact,221759.0,,15.0,TN,49745698.0473,31583286.1289,608506.1828,78266.0,42.0,55.0,226.0
+Salk Institute - Salk Institute for Biological Studies,Non-academic,Non-academic,,keyword,,,,,48893835.049,45139702.7867,917993.91,495300.0,2.0,2.0,39.0
+SUNY Stony Brook - SUNY at Stony Brook,R1,R1,Stony Brook University,override,196097.0,,15.0,NY,47955904.548,35109941.7064,747111.5528,94993.0,18.0,26.0,79.0
+Stevens Inst of Tech - Stevens Institute of Technology,R2,R2,Stevens Institute of Technology,exact,186867.0,,16.0,NJ,47572042.9222,27925183.9061,993786.3044,451427.0,11.0,21.0,64.0
+Howard U - Howard University,R1,R1,Howard University,exact,131520.0,HBCU,16.0,DC,45978874.9142,37236344.2247,619656.3283,65673.0,15.0,24.0,51.0
+"UC Riverside - University of California, Riverside",R1,R1,University of California-Riverside,exact,110671.0,,15.0,CA,45763020.2758,43679347.2711,745670.5211,267685.0,40.0,47.0,98.0
+Colorado State U - Colorado State University,R1,R1,Colorado State University-Fort Collins,override,126818.0,,15.0,CO,44371136.6897,29876479.3814,1454422.0931,462986.0,17.0,22.0,58.0
+BYU - Brigham Young University,R1,R1,Brigham Young University,exact,230038.0,,16.0,UT,42686397.5295,30087460.8131,571931.7672,15396.0,3.0,4.0,20.0
+NC State U - North Carolina State University,R1,R1,North Carolina State University at Raleigh,override,199193.0,,15.0,NC,42121593.6116,38184333.2056,594236.7303,126240.0,35.0,44.0,139.0
+U Arkansas - University of Arkansas,R1,R1,University of Arkansas,exact,106397.0,,15.0,AR,41882975.3572,22730459.8383,384372.1172,11905.0,9.0,13.0,49.0
+WPI - Worcester Polytechnic Institute,R1,R1,Worcester Polytechnic Institute,exact,168421.0,,16.0,MA,39164125.6473,26510280.3353,599805.1944,106594.0,10.0,21.0,36.0
+"U Alabama, Huntsville - University of Alabama, Huntsville",R2,R2,University of Alabama in Huntsville,override,100706.0,,15.0,AL,38948348.119,35746978.7942,480171.3975,9135.0,4.0,7.0,14.0
+"UC Irvine - University of California, Irvine",R1,R1,University of California-Irvine,exact,110653.0,,15.0,CA,37548587.56,32404241.2111,607740.3881,144904.0,37.0,44.0,95.0
+Syracuse U - Syracuse University,R1,R1,Syracuse University,exact,196413.0,,15.0,NY,37510905.8581,23949580.5817,473002.9969,94913.0,21.0,27.0,43.0
+"UNC - University of North Carolina, Chapel Hill",R1,R1,University of North Carolina at Chapel Hill,exact,199120.0,,15.0,NC,37241507.3929,24269669.8192,371766.6725,36907.0,17.0,21.0,36.0
+"U Illinois, Chicago - University of Illinois at Chicago",R1,R1,University of Illinois Chicago,exact,145600.0,,15.0,IL,35974208.7466,28064732.1789,623619.5414,255212.0,74.0,84.0,164.0
+U Minn - University of Minnesota,R1,R1,University of Minnesota-Twin Cities,override,174066.0,,15.0,MN,35529049.2233,25874626.0708,476024.7661,313277.0,33.0,38.0,114.0
+RPI - Rensselaer Polytechnic Institute,R1,R1,Rensselaer Polytechnic Institute,exact,194824.0,,15.0,NY,33746638.9669,51426220.1769,1217361.2625,114308.0,25.0,32.0,72.0
+IIT - Illinois Institute of Technology,R2,R2,Illinois Institute of Technology,exact,145725.0,,16.0,IL,32877266.9536,10600485.2653,762658.5886,220729.0,33.0,50.0,97.0
+Ohio U - Ohio University,R1,R1,Ohio University-Main Campus,exact,204857.0,,15.0,OH,27609615.9461,22929304.6819,435593.4617,38911.0,7.0,10.0,38.0
+Boston U - Boston University,R1,R1,Boston University,exact,164988.0,,15.0,MA,27027914.5299,15375261.9869,396493.7672,164501.0,27.0,32.0,58.0
+U Mississippi - University of Mississippi,R1,R1,University of Mississippi,exact,176017.0,,15.0,MS,26099890.6981,26398186.0053,317697.3492,15189.0,5.0,8.0,22.0
+Colorado Sch of Mines - Colorado School of Mines,R1,R1,Colorado School of Mines,exact,126775.0,,15.0,CO,25325508.1415,21585342.0508,800724.0553,121276.0,29.0,31.0,50.0
+U Miami - University of Miami,R1,R1,University of Miami,exact,135726.0,,15.0,FL,24981057.8327,26823915.6972,1407120.5478,458411.0,8.0,17.0,28.0
+Fermilab - Fermi National Accelerator Laboratory,Non-academic,Non-academic,,keyword,,,,,23033572.4,98996639.9072,1643451.0433,524.0,2.0,2.0,2.0
+Wayne State U - Wayne State University,R1,R1,Wayne State University,exact,172644.0,,15.0,MI,23002878.6574,20313299.2014,1404805.0892,296644.0,5.0,7.0,19.0
+NM State U - New Mexico State University,R1,R1,New Mexico State University-Main Campus,exact,188030.0,,16.0,NM,22962434.8369,26417564.3172,733991.7803,465705.0,12.0,17.0,46.0
+U Alabama - University of Alabama,R1,R1,The University of Alabama,exact,100751.0,,15.0,AL,22834586.9362,18947216.1656,984047.0936,819576.0,18.0,23.0,60.0
+NJIT - New Jersey Institute of Technology,R1,R1,New Jersey Institute of Technology,exact,185828.0,,15.0,NJ,22088018.8409,17342709.0514,1039639.2511,346193.0,26.0,36.0,91.0
+NCSA - National Center for Supercomputing Applications,R1,R1,,r1-unit,,,,,21682054.0271,10069528.7172,156115.9308,412156.0,13.0,31.0,1486.0
+USC - University of Southern California,R1,R1,University of Southern California,exact,123961.0,,15.0,CA,21631682.8249,8818481.9758,475646.2556,915508.0,45.0,58.0,157.0
+UT Dallas - University of Texas at Dallas,R1,R1,The University of Texas at Dallas,exact,228787.0,,15.0,TX,21104959.6357,10740066.8958,227303.7833,76145.0,18.0,27.0,62.0
+George Washington U - George Washington University,R1,R1,George Washington University,exact,131469.0,,15.0,DC,20285707.7796,17757915.9986,2223834.7569,500751.0,8.0,12.0,25.0
+Georgetown U - Georgetown University,R1,R1,Georgetown University,exact,131496.0,,15.0,DC,19950831.3681,6311599.2708,317267.7811,70295.0,14.0,17.0,40.0
+Lehigh U - Lehigh University,R1,R1,Lehigh University,exact,213543.0,,16.0,PA,19916173.0613,22431107.7975,424612.5914,32538.0,26.0,29.0,55.0
+CIW - Carnegie Institution for Science,Non-academic,Non-academic,,keyword,,,,,19668637.7191,17729235.3792,995100.3775,40034.0,4.0,5.0,7.0
+"UC Santa Cruz - University of California, Santa Cruz",R1,R1,University of California-Santa Cruz,exact,110714.0,,15.0,CA,19329610.8304,18674120.2703,210215.8883,46300.0,26.0,32.0,91.0
+U Kansas - University of Kansas,R1,R1,University of Kansas,exact,155317.0,,15.0,KS,19281544.9498,9293421.7492,239628.7369,35188.0,14.0,15.0,35.0
+U Memphis - University of Memphis,R1,R1,University of Memphis,exact,220862.0,,15.0,TN,18685739.3474,11967695.3092,228669.7703,2174.0,6.0,7.0,10.0
+U Notre Dame - University of Notre Dame,R1,R1,University of Notre Dame,exact,152080.0,,15.0,IN,18126243.9329,11832553.2325,1276285.2122,549465.0,26.0,31.0,77.0
+"UNLV - University of Nevada, Las Vegas",R1,R1,University of Nevada-Las Vegas,exact,182281.0,,15.0,NV,18050955.2686,14767332.6481,550017.5731,102498.0,11.0,13.0,51.0
+Space Sci Inst - Space Science Institute,Non-academic,Non-academic,,keyword,,,,,17377188.7204,40664034.5036,685484.7867,3781.0,4.0,4.0,5.0
+"U Mass, Amherst - University of Massachusetts, Amherst",R1,R1,University of Massachusetts-Amherst,exact,166629.0,,15.0,MA,17286669.0374,14955864.7192,488684.5125,86526.0,13.0,18.0,33.0
+U Cincinnati - University of Cincinnati,R1,R1,University of Cincinnati-Main Campus,exact,201885.0,,15.0,OH,17187550.5646,7574116.4372,297761.8411,28531.0,11.0,13.0,47.0
+Virginia Tech - Virginia Polytechnic Institute and State University,R1,R1,Virginia Polytechnic Institute and State University,exact,233921.0,,15.0,VA,17037730.1142,6548696.9619,158195.5314,298549.0,23.0,23.0,44.0
+"Predictive Science - Predictive Science, Inc.",Non-academic,Non-academic,,keyword,,,,,16945009.9195,10151489.0836,129188.2411,2483.0,2.0,3.0,8.0
+Naval Postgrad School - Naval Postgraduate School,RCU,RCU,Naval Postgraduate School,exact,119678.0,,18.0,CA,16390510.8241,16029157.6667,126375.2628,2496.0,4.0,5.0,4.0
+Institute for Advanced Study - Institute for Advanced Study,Non-academic,Non-academic,,keyword,,,,,15755347.6823,14535947.3478,261499.3589,474603.0,8.0,11.0,10.0
+Washington State U - Washington State University,R1,R1,Washington State University,exact,236939.0,,15.0,WA,15428007.3617,12359202.3014,154246.5308,40264.0,21.0,23.0,39.0
+"U Missouri, Columbia - University of Missouri, Columbia",R1,R1,University of Missouri-Columbia,exact,178396.0,,15.0,MO,15023140.6825,9364188.2289,194548.9958,44949.0,10.0,9.0,21.0
+Temple U - Temple University,R1,R1,Temple University,exact,216339.0,,15.0,PA,14502510.4498,14766032.5633,382822.0022,39235.0,17.0,18.0,37.0
+Weill Cornell Med College - Weill Cornell Medical College,R1,R1,Weill Medical College of Cornell University,override,190424.0,,27.0,NY,14430018.7161,3496086.7228,312586.7897,1067928.0,19.0,21.0,29.0
+SUNY Buffalo - SUNY at Buffalo,R1,R1,University at Buffalo,override,196088.0,,15.0,NY,14049530.6008,8552136.9289,222624.7622,64662.0,17.0,22.0,48.0
+UT Med Branch - University of Texas Medical Branch at Galveston,R2,R2,The University of Texas Medical Branch at Galveston,exact,228653.0,,27.0,TX,14031884.3346,6415885.2947,116327.3797,9486.0,1.0,2.0,4.0
+"Cal Poly Pomona - California State Polytechnic University, Pomona",R2,R2,California State Polytechnic University-Pomona,exact,110529.0,,18.0,CA,13984434.5873,4084131.9733,207982.7256,1521420.0,8.0,11.0,188.0
+CSU-Fullerton - California State University-Fullerton,R2,R2,California State University-Fullerton,exact,110565.0,,16.0,CA,13822422.2347,8653172.8061,159986.8661,24353.0,12.0,19.0,26.0
+thewaterinstitute.org - The Water Institute of the Gulf,Non-academic,Non-academic,,keyword,,,,,13665212.8018,13665213.8511,1031125.7397,140649.0,6.0,6.0,13.0
+Child Mind - Child Mind Institute,Non-academic,Non-academic,,keyword,,,,,13209902.1773,12578979.0108,1110416.5756,2538078.0,7.0,12.0,40.0
+Vanderbilt U - Vanderbilt University,R1,R1,Vanderbilt University,exact,221999.0,,15.0,TN,13169761.8067,17575265.7747,753406.4342,91258.0,18.0,20.0,45.0
+"U Missouri, Kansas City - University of Missouri, Kansas City",R1,R1,University of Missouri-Kansas City,exact,178402.0,,16.0,MO,12544083.2242,11002508.8664,672693.4414,292827.0,11.0,17.0,25.0
+U Rhode Island - University of Rhode Island,R1,R1,University of Rhode Island,exact,217484.0,,16.0,RI,12235499.9064,23186697.5842,338097.6269,5932.0,11.0,16.0,19.0
+"U Hawaii, Manoa - University of Hawaii, Manoa",R1,R1,University of Hawaii at Manoa,exact,141574.0,,15.0,HI,12090162.206,8885536.3753,206336.6014,65013.0,17.0,21.0,40.0
+UT Southwestern Med Ctr - University of Texas Southwestern Medical Center,R1,R1,University of Texas Southwestern Medical Center,exact,228635.0,,27.0,TX,11535047.9755,2587629.8439,124797.8919,102380.0,3.0,3.0,6.0
+"UC Merced - University of California, Merced",R1,R1,University of California-Merced,exact,445188.0,,16.0,CA,11513873.3545,4779040.085,324484.0525,113710.0,17.0,24.0,47.0
+Fox Chase Cancer Ctr - Fox Chase Cancer Center,Non-academic,Non-academic,,keyword,,,,,11399003.4313,14040551.8497,2628895.2578,297554.0,3.0,4.0,11.0
+"CU Denver - University of Colorado, Denver",R1,R1,University of Colorado Denver/Anschutz Medical Campus,override,126562.0,,15.0,CO,11321100.7549,14582010.1978,261452.3644,34451.0,8.0,11.0,28.0
+Florida Intl U - Florida International University,R1,R1,Florida International University,exact,133951.0,,15.0,FL,11051325.9717,9003174.0364,944480.7444,104982.0,23.0,27.0,32.0
+Missouri S&T - Missouri University of Science and Technology,R1,R1,Missouri University of Science and Technology,exact,178411.0,,16.0,MO,11022174.4338,6248556.8358,98946.8711,7705.0,4.0,6.0,17.0
+College of Wm & Mary - College of William and Mary,R1,R1,William & Mary,override,231624.0,,16.0,VA,10381001.0606,3927230.0228,81526.5097,9227.0,15.0,16.0,26.0
+Tulane U - Tulane University,R1,R1,Tulane University of Louisiana,override,160755.0,,15.0,LA,10100391.9147,10162346.1419,239114.2744,122484.0,10.0,15.0,26.0
+George Mason U - George Mason University,R1,R1,George Mason University,exact,232186.0,,15.0,VA,10065461.6008,9135590.3564,172422.8033,8670.0,15.0,25.0,60.0
+"U Mass, Dartmouth - University of Massachusetts, Dartmouth",R2,R2,University of Massachusetts-Dartmouth,exact,167987.0,,16.0,MA,10052739.5346,9781455.6883,185931.4314,40525.0,4.0,5.0,323.0
+Harvey Mudd College - Harvey Mudd College,RCU,RCU,Harvey Mudd College,exact,115409.0,,21.0,CA,9873316.4889,8336282.0256,157264.1656,56790.0,14.0,18.0,58.0
+ORNL - Oak Ridge National Laboratory,Non-academic,Non-academic,,keyword,,,,,9270500.4679,7271495.0011,154187.2606,14452.0,7.0,8.0,14.0
+Loyola U Chicago - Loyola University Chicago,R1,R1,Loyola University Chicago,exact,146719.0,,16.0,IL,9085340.3207,2100946.7506,222542.5647,120378.0,6.0,8.0,28.0
+Western U Health Sci - Western University of Health Sciences,RCU,RCU,Western University of Health Sciences,exact,112525.0,,25.0,CA,8889869.6113,3496595.7297,132712.7322,4552.0,1.0,3.0,5.0
+CIG - Computational Infrastructure for Geodynamics,Non-academic,Non-academic,,keyword,,,,,8828853.2036,9122639.0753,192683.7392,6557.0,1.0,1.0,24.0
+Duquesne U - Duquesne University,R2,R2,Duquesne University,exact,212106.0,,16.0,PA,8589089.8996,8080834.355,158633.2492,25201.0,2.0,2.0,11.0
+Brown U - Brown University,R1,R1,Brown University,exact,217156.0,,15.0,RI,8542690.9976,7523650.0353,98594.6219,28345.0,20.0,20.0,39.0
+U Maine - University of Maine,R1,R1,University of Maine,exact,161253.0,,15.0,ME,8528896.6249,6179872.7511,162566.7128,26343.0,4.0,5.0,26.0
+Florida A&M U - Florida A&M University,R2,R2,Florida Agricultural and Mechanical University,override,133650.0,HBCU,16.0,FL,8418813.4007,12717304.8903,203308.5089,14608.0,2.0,5.0,8.0
+Baylor U - Baylor University,R1,R1,Baylor University,exact,223232.0,,15.0,TX,8280357.1028,6104041.6806,101725.7872,41914.0,23.0,26.0,38.0
+LANL - Los Alamos National Laboratory,Non-academic,Non-academic,,keyword,,,,,8164511.5728,2349591.6764,139149.2525,434383.0,4.0,3.0,8.0
+Drexel U - Drexel University,R1,R1,Drexel University,exact,212054.0,,15.0,PA,7957476.8233,8158805.3556,181938.1964,101905.0,10.0,12.0,68.0
+Prarieview - Prarieview A&M,R2,R2,Prairie View A & M University,override,227526.0,HBCU,16.0,TX,7949327.3442,6688539.0692,97667.6928,20618.0,1.0,3.0,98.0
+U Houston - University of Houston,R1,R1,University of Houston,exact,225511.0,,15.0,TX,7892350.2402,6008633.2458,142866.8975,23060.0,13.0,15.0,31.0
+Alamgir Research Inc,Non-academic,Non-academic,,keyword,,,,,7660376.817,7660385.7622,488048.5742,28880.0,1.0,4.0,1.0
+Michigan Tech - Michigan Technological University,R1,R1,Michigan Technological University,exact,171128.0,,16.0,MI,7498500.5927,6210075.7075,127140.2903,24582.0,11.0,13.0,22.0
+Bowling Green State U - Bowling Green State University,R2,R2,Bowling Green State University-Main Campus,exact,201441.0,,16.0,OH,7424267.016,6929852.6389,324294.7319,14177.0,4.0,5.0,15.0
+U South Florida - University of South Florida,R1,R1,University of South Florida,exact,137351.0,,15.0,FL,7306587.1857,3151395.7964,83332.9669,39281.0,14.0,14.0,28.0
+Emory U - Emory University,R1,R1,Emory University,exact,139658.0,,15.0,GA,7267379.7492,6196991.3939,354496.8969,51755.0,12.0,16.0,30.0
+Kansas State U - Kansas State University,R1,R1,Kansas State University,exact,155399.0,,15.0,KS,7143337.0765,2648326.3983,76005.5075,43932.0,14.0,14.0,27.0
+Villanova U - Villanova University,R2,R2,Villanova University,exact,216597.0,,16.0,PA,7092954.3952,3003166.9572,76905.4728,5178.0,11.0,13.0,18.0
+Montana State U - Montana State University,R1,R1,Montana State University,exact,180461.0,,15.0,MT,7067468.4634,5385952.7372,83525.4017,18356.0,6.0,9.0,12.0
+SUNY Albany - SUNY at Albany,R1,R1,University at Albany,override,196060.0,,15.0,NY,7015698.4216,6442677.7189,60578.8911,5994.0,3.0,6.0,15.0
+PSC - Pittsburgh Supercomputing Center,R1,R1,,r1-unit,,,,,6664033.5642,1906875.0328,73588.88,52636.0,9.0,66.0,2539.0
+Southern Conn State U - Southern Connecticut State University,R2,R2,Southern Connecticut State University,exact,130493.0,,18.0,CT,6658386.2998,6650850.5217,62842.2397,9211.0,1.0,2.0,2.0
+Other,Foreign/Unknown,Unknown,,unknown-list,,,,,6555598.1034,6753673.3842,197292.2553,18006.0,12.0,12.0,45.0
+Long Island U - Long Island University,R2,R2,Long Island University,exact,192448.0,,16.0,NY,6392480.3793,6291494.5208,49666.8406,353.0,1.0,2.0,2.0
+NC A&T State U - North Carolina A&T State University,R2,R2,North Carolina A & T State University,exact,199102.0,HBCU,16.0,NC,6337370.8903,6345101.3061,62064.2717,3251.0,4.0,5.0,21.0
+"U Alabama, Birmingham - University of Alabama, Birmingham",R1,R1,University of Alabama at Birmingham,exact,100663.0,,15.0,AL,6213922.8898,5854132.0283,102176.6869,17663.0,14.0,14.0,8.0
+U Mass Med Sch - University of Massachusetts Chan Medical School,R2,R2,University of Massachusetts Chan Medical School,exact,166708.0,,27.0,MA,6181011.1673,2451569.41,93166.9642,51572.0,6.0,10.0,13.0
+LCPRA - Louisiana Coastal Protection & Restoration Authority,Non-academic,Non-academic,,keyword,,,,,6094130.8878,6094620.2481,85612.0072,53242.0,1.0,1.0,28.0
+Chapman U - Chapman University,R2,R2,Chapman University,exact,111948.0,,16.0,CA,5890811.7787,5855074.9781,113356.9247,3569.0,5.0,5.0,7.0
+Clark Atlanta U - Clark Atlanta University,R2,R2,Clark Atlanta University,exact,138947.0,HBCU,16.0,GA,5805345.8107,5217306.7906,82210.37,12392.0,2.0,3.0,12.0
+College of Charleston - College of Charleston,RCU,RCU,College of Charleston,exact,217819.0,,19.0,SC,5789041.4873,15476335.8647,322357.8217,364.0,1.0,1.0,2.0
+U Louisville - University of Louisville,R1,R1,University of Louisville,exact,157289.0,,15.0,KY,5744703.2254,1372905.0442,106122.8358,92687.0,5.0,5.0,12.0
+U North Texas - University of North Texas,R1,R1,University of North Texas,exact,227216.0,,15.0,TX,5552606.6504,4505907.615,59532.975,9273.0,13.0,14.0,28.0
+Washington U Sch of Med - Washington University School of Medicine,R1,R1,Washington University in St Louis,override,179867.0,,15.0,MO,5542070.7468,1945541.6481,62137.7889,2506.0,3.0,4.0,6.0
+New Mexico Highlands U - New Mexico Highlands University,RCU,RCU,New Mexico Highlands University,exact,187897.0,,18.0,NM,5539866.1177,3422296.1289,29121.6225,11011.0,1.0,3.0,1.0
+Reed College - Reed College,RCU,RCU,Reed College,exact,209922.0,,21.0,OR,5516805.7895,2556823.1544,177829.8903,19492.0,4.0,6.0,18.0
+Vassar College - Vassar College,RCU,RCU,Vassar College,exact,197133.0,,21.0,NY,5477749.0798,5477741.4558,81947.5536,4289.0,2.0,3.0,8.0
+"U Nebraska, Lincoln - University of Nebraska, Lincoln",R1,R1,University of Nebraska-Lincoln,exact,181464.0,,15.0,NE,5473452.8667,3934888.7506,73825.8669,4951.0,6.0,9.0,10.0
+GiwoTech Inc.,Non-academic,Non-academic,,keyword,,,,,5422890.2614,745585.8839,62699.8175,8180.0,2.0,1.0,8.0
+"Solid Power Operating, Inc.",Non-academic,Non-academic,,keyword,,,,,5336302.2023,3248870.7039,93431.0164,13091.0,1.0,1.0,4.0
+Allen Institute - Allen Institute for Brain Science,Non-academic,Non-academic,,keyword,,,,,5285469.9607,3276779.1306,95674.5372,77369.0,1.0,2.0,2.0
+Tufts U - Tufts University,R1,R1,Tufts University,exact,168148.0,,15.0,MA,5176128.3923,7867655.7847,145903.4389,12029.0,5.0,7.0,35.0
+New Mexico Tech - New Mexico Institute of Mining and Technology,RCU,RCU,New Mexico Institute of Mining and Technology,exact,187967.0,,20.0,NM,4983624.6803,5040064.0594,100931.0994,6209.0,3.0,5.0,21.0
+Gallaudet U - Gallaudet University,RCU,RCU,Gallaudet University,exact,131450.0,,17.0,DC,4874605.777,209707.7772,98914.3269,8076.0,2.0,5.0,30.0
+U Pacific - University of the Pacific,Other academic,Other academic,University of the Pacific,override:not-in-carnegie-file,120883.0,,17.0,CA,4745961.0706,4466484.9928,268778.5064,200149.0,6.0,9.0,10.0
+CSU-Monterey Bay - California State University-Monterey Bay,RCU,RCU,California State University-Monterey Bay,exact,409698.0,,18.0,CA,4542148.1066,3207673.865,88338.8214,24476.0,1.0,3.0,1.0
+CUNY - City University of New York,R1,R1,CUNY Graduate School and University Center,override,190576.0,,15.0,NY,4516378.1895,2059706.0625,59591.9669,2978.0,5.0,7.0,14.0
+U North Georgia - University of North Georgia,Other academic,Other academic,University of North Georgia,override:not-in-carnegie-file,482680.0,,18.0,GA,4505772.9116,2898115.7433,48972.9133,14299.0,4.0,10.0,49.0
+HPC Advisory Council - HPC Advisory Council,Non-academic,Non-academic,,keyword,,,,,4492840.6014,4362289.4089,35084.4194,22585.0,1.0,4.0,58.0
+STScI - Space Telescope Science Institute,Non-academic,Non-academic,,keyword,,,,,4398120.4068,2963274.4694,56812.0306,133097.0,9.0,11.0,10.0
+Harvard-Smithsonian CFA - Harvard-Smithsonian Center for Astrophysics,R1,R1,,r1-unit,,,,,4323320.1073,4588770.9333,120551.1269,13295.0,9.0,13.0,19.0
+AMNH - American Museum of Natural History,Non-academic,Non-academic,,keyword,,,,,4207831.4305,6903566.4019,112684.96,3799.0,3.0,4.0,8.0
+Robert Morris U - Robert Morris University,Other academic,Other academic,Robert Morris University,override:not-in-carnegie-file,215655.0,,17.0,PA,4178754.5075,4179797.3289,51137.4706,8295.0,2.0,6.0,7.0
+Miami U - Miami University,R2,R2,Miami University-Oxford,override,204024.0,,16.0,OH,4132479.2563,2152168.1536,35169.3497,3832.0,2.0,4.0,5.0
+CWorthy,Non-academic,Non-academic,,keyword,,,,,4118890.0119,4118856.475,35441.1831,7221.0,1.0,2.0,13.0
+Harvard Med Sch - Harvard Medical School,R1,R1,Harvard University,override,166027.0,,15.0,MA,4089173.8724,3800851.3228,32823.8867,8380.0,3.0,5.0,5.0
+Portland State U - Portland State University,R2,R2,Portland State University,exact,209807.0,,16.0,OR,4084365.5874,3974607.2311,111690.5056,96396.0,4.0,5.0,66.0
+CUNY City College - CUNY The City College of New York,R2,R2,CUNY City College,override,190567.0,,16.0,NY,4001029.509,1478069.6961,72737.1247,10322.0,8.0,9.0,13.0
+"Brigham and Women's Hospital, Boston - Brigham and Women's Hospital, Boston",Non-academic,Non-academic,,keyword,,,,,3990797.804,3218754.7733,39127.8489,32591.0,3.0,4.0,3.0
+Tuskegee U - Tuskegee University,RCU,RCU,Tuskegee University,exact,102377.0,HBCU,19.0,AL,3973328.3424,3318017.9825,42391.62,14359.0,2.0,4.0,4.0
+DSU - Delaware State University,R2,R2,Delaware State University,exact,130934.0,HBCU,19.0,DE,3943054.339,1256975.265,39807.5136,5106.0,3.0,4.0,13.0
+Dartmouth College - Dartmouth College,R1,R1,Dartmouth College,exact,182670.0,,15.0,NH,3895382.3695,2597087.0697,44863.3314,5400.0,11.0,14.0,18.0
+CSU-Fresno - California State University-Fresno,R2,R2,California State University-Fresno,exact,110556.0,,16.0,CA,3866879.1565,4618853.5392,89972.8853,7825.0,4.0,4.0,25.0
+U Montana - University of Montana,R1,R1,The University of Montana,exact,180489.0,,15.0,MT,3865423.5448,3865754.7783,60246.4756,47233.0,5.0,5.0,20.0
+JHU APL - Johns Hopkins University Applied Physics Lab,R1,R1,,r1-unit,,,,,3823940.982,3979602.2694,46355.0142,8417.0,8.0,9.0,16.0
+U Pittsburgh Sch of Med - University of Pittsburgh School of Medicine,R1,R1,University of Pittsburgh-Pittsburgh Campus,override,215293.0,,15.0,PA,3790123.4013,2858462.65,187056.9303,756743.0,7.0,11.0,33.0
+"UNC Charlotte - University of North Carolina, Charlotte",R1,R1,University of North Carolina at Charlotte,exact,199139.0,,16.0,NC,3783662.8611,3396001.9733,32750.16,3856.0,3.0,4.0,14.0
+U Indianapolis - University of Indianapolis,Other academic,Other academic,University of Indianapolis,override:not-in-carnegie-file,151263.0,,17.0,IN,3761110.8616,7380525.2794,113487.9256,8554.0,2.0,4.0,4.0
+SUNY Downstate Med Ctr - SUNY Downstate Health Sciences University,RCU,RCU,SUNY Downstate Health Sciences University,exact,196255.0,,25.0,NY,3745225.6535,4673125.8753,121519.3481,105468.0,3.0,4.0,13.0
+U Oregon - University of Oregon,R1,R1,University of Oregon,exact,209551.0,,15.0,OR,3677931.2496,2780644.3678,62882.9178,29195.0,5.0,9.0,22.0
+CWRU - Case Western Reserve University,R1,R1,Case Western Reserve University,exact,201645.0,,15.0,OH,3529118.7223,1404400.2625,31427.1614,5901.0,10.0,14.0,24.0
+bpc.edu - Brewton-Parker College,Other academic,Other academic,,keyword,139205.0,,22.0,GA,3464422.4842,2568406.3069,39429.5553,8490.0,1.0,3.0,1.0
+LBNL - Lawrence Berkeley National Laboratory,Non-academic,Non-academic,,keyword,,,,,3402040.4267,2116002.0811,35545.3283,17836.0,7.0,8.0,12.0
+UT San Antonio - University of Texas at San Antonio,R1,R1,The University of Texas at San Antonio,exact,229027.0,,15.0,TX,3349614.1993,2939755.1372,61009.7847,8150.0,8.0,15.0,22.0
+StonyBrook - Stony Brook Supercomputing Center,R1,R1,,r1-unit,,,,,3344457.6705,14039173.5925,324889.1247,5027.0,2.0,2.0,2.0
+Haverford College - Haverford College,RCU,RCU,Haverford College,exact,212911.0,,21.0,PA,3324884.8961,3215392.3233,181317.2258,140139.0,3.0,7.0,19.0
+"UC San Francisco - University of California, San Francisco",R1,R1,University of California-San Francisco,exact,110699.0,,27.0,CA,3306639.3412,284887.9536,20226.6439,17896.0,7.0,9.0,8.0
+White Dwarf Research Corporation,Non-academic,Non-academic,,keyword,,,,,3265342.9409,2655399.72,55320.8275,821.0,1.0,2.0,2.0
+Clarkson U - Clarkson University,R2,R2,Clarkson University,exact,190044.0,,16.0,NY,3252513.8187,3002081.585,86284.8664,250964.0,6.0,9.0,22.0
+Florida Atlantic U - Florida Atlantic University,R1,R1,Florida Atlantic University,exact,133669.0,,16.0,FL,3227205.3154,2865464.2603,22889.4094,1200.0,5.0,6.0,16.0
+Central Michigan U - Central Michigan University,R2,R2,Central Michigan University,exact,169248.0,,16.0,MI,3218534.6559,13229549.6189,199054.2806,2178.0,3.0,5.0,9.0
+Utah State U - Utah State University,R1,R1,Utah State University,exact,230728.0,,15.0,UT,3185653.503,3108337.77,25115.4975,3331.0,3.0,3.0,5.0
+NIST - National Institute of Standards and Technology,Non-academic,Non-academic,,keyword,,,,,3127739.0979,1491862.1275,29751.3119,5525.0,7.0,8.0,20.0
+LIBD - Lieber Institute for Brain Development,Non-academic,Non-academic,,keyword,,,,,3083969.1809,938523.8119,142584.3828,19409.0,1.0,1.0,3.0
+Middle Tenn State U - Middle Tennessee State University,R2,R2,Middle Tennessee State University,exact,220978.0,,16.0,TN,3046357.8514,2055296.0031,71377.4533,32546.0,11.0,15.0,145.0
+Lamont-Doherty Earth Obs - Lamont-Doherty Earth Observatory,R1,R1,,r1-unit,,,,,2997278.6824,787080.4356,29391.6558,2516.0,2.0,4.0,5.0
+W Texas A&M U - West Texas A&M University,RCU,RCU,West Texas A & M University,exact,229814.0,,18.0,TX,2915214.1743,5691081.5669,115620.3636,18943.0,5.0,7.0,49.0
+Colorado Mesa U - Colorado Mesa University,Other academic,Other academic,Colorado Mesa University,override:not-in-carnegie-file,127556.0,,22.0,CO,2831040.1148,1961098.3047,88068.4072,18274.0,1.0,1.0,3.0
+Murray State U - Murray State University,RCU,RCU,Murray State University,exact,157401.0,,18.0,KY,2813501.4037,2792457.0919,84734.2767,11750.0,2.0,6.0,63.0
+IU Indy - Indiana University Indianapolis,R1,R1,Indiana University–Purdue University-Indianapolis,override,151111.0,,16.0,IN,2795677.2101,681693.7653,21098.3367,2131.0,3.0,3.0,8.0
+Lamar U - Lamar University,R2,R2,Lamar University,exact,226091.0,,17.0,TX,2778633.1025,2523348.1503,25481.9706,3378.0,4.0,5.0,15.0
+CUNY Brooklyn College - CUNY Brooklyn College,RCU,RCU,CUNY Brooklyn College,exact,190549.0,,18.0,NY,2771968.1827,844274.8553,53857.5522,14709.0,4.0,6.0,20.0
+U New Mexico - University of New Mexico,R1,R1,University of New Mexico-Main Campus,exact,187985.0,,15.0,NM,2751662.4867,2062522.8642,37193.0828,9486.0,16.0,17.0,54.0
+U Wisconsin-Milwaukee - University of Wisconsin-Milwaukee,R1,R1,University of Wisconsin-Milwaukee,exact,240453.0,,15.0,WI,2725813.8374,1256767.0331,217832.6269,37878.0,7.0,8.0,19.0
+TSRI - Scripps Research Institute,Non-academic,Non-academic,,keyword,,,,,2658708.0916,1315220.6761,1049651.4119,330160.0,3.0,4.0,5.0
+ANL - Argonne National Laboratory,Non-academic,Non-academic,,keyword,,,,,2605427.1633,1194403.1419,23753.3833,84586.0,10.0,14.0,41.0
+Eastern Illinois U - Eastern Illinois University,Other academic,Other academic,Eastern Illinois University,override:not-in-carnegie-file,144892.0,,18.0,IL,2552880.2795,2552722.2925,280999.9622,989006.0,2.0,6.0,17.0
+U Iowa - University of Iowa,R1,R1,University of Iowa,exact,153658.0,,15.0,IA,2497273.941,5311001.2439,163096.5428,90138.0,9.0,11.0,21.0
+NETL - National Energy Technology Laboratory,Non-academic,Non-academic,,keyword,,,,,2491743.0906,1919675.1131,35577.7647,5013.0,6.0,7.0,9.0
+Mississippi State U - Mississippi State University,R1,R1,Mississippi State University,exact,176080.0,,15.0,MS,2436973.4856,5514901.5731,102969.8111,11579.0,5.0,8.0,273.0
+UT El Paso - University of Texas at El Paso,R1,R1,The University of Texas at El Paso,exact,228796.0,,15.0,TX,2358116.9131,3122891.1872,55412.5664,39578.0,7.0,9.0,384.0
+San Diego State U - San Diego State University,R1,R1,San Diego State University,exact,122409.0,,16.0,CA,2314937.5507,1879942.14,171066.7889,111741.0,17.0,30.0,72.0
+WHOI - Woods Hole Oceanographic Institution,Non-academic,Non-academic,,keyword,,,,,2303594.9841,881519.5114,13959.2922,3393.0,3.0,5.0,8.0
+Tennessee Tech - Tennessee Technological University,R2,R2,Tennessee Technological University,exact,221847.0,,16.0,TN,2296159.2114,2097033.1244,20028.9383,3289.0,10.0,13.0,42.0
+Georgia State U - Georgia State University,R1,R1,Georgia State University,exact,139940.0,,15.0,GA,2245822.5716,939669.1639,38750.2803,64741.0,9.0,9.0,40.0
+Jefferson Lab - Jefferson Laboratory,Non-academic,Non-academic,,keyword,,,,,2231188.2213,5471338.7822,153280.8269,376.0,1.0,1.0,2.0
+Epsilon Delta Labs - Epsilon Delta Labs,Non-academic,Non-academic,,keyword,,,,,2221373.0114,3906138.2431,94189.4617,5611.0,1.0,3.0,2.0
+VAI - Van Andel Institute,Non-academic,Non-academic,,keyword,,,,,2206334.893,2206197.08,23330.4469,2373.0,1.0,1.0,1.0
+NOAA - National Oceanic and Atmospheric Administration,Non-academic,Non-academic,,keyword,,,,,2173511.0113,648251.3411,18040.2864,1856.0,1.0,1.0,5.0
+Sonoma State U - Sonoma State University,RCU,RCU,Sonoma State University,exact,123572.0,,18.0,CA,2168091.0849,1755854.825,111901.6425,132103.0,1.0,2.0,2.0
+Oklahoma State U - Oklahoma State University,R1,R1,Oklahoma State University-Main Campus,exact,207388.0,,15.0,OK,2165393.1,3403578.8633,55580.7708,2807.0,10.0,10.0,16.0
+CSU-Northridge - California State University-Northridge,RCU,RCU,California State University-Northridge,exact,110608.0,,18.0,CA,2153073.8037,1448275.1547,22606.77,4153.0,3.0,4.0,5.0
+"SIU Carbondale - Southern Illinois University, Carbondale",R1,R1,Southern Illinois University-Carbondale,exact,149222.0,,16.0,IL,2142965.8744,982663.0503,21774.8278,10338.0,6.0,6.0,15.0
+Rowan U - Rowan University,R2,R2,Rowan University,exact,184782.0,,16.0,NJ,2131648.013,2032482.3861,93970.9319,47760.0,13.0,15.0,51.0
+US Naval Acad - US Naval Academy,RCU,RCU,United States Naval Academy,override,164155.0,,21.0,MD,2121538.9606,197008.0619,39399.9961,1339.0,2.0,2.0,2.0
+"Tokyo Electron America, Inc. - Tokyo Electron America",Non-academic,Non-academic,,keyword,,,,,2092085.2205,752318.1986,20681.8608,7412.0,4.0,4.0,7.0
+UT Rio Grande Valley - University of Texas Rio Grande Valley,R2,R2,The University of Texas Rio Grande Valley,exact,227368.0,,16.0,TX,2080432.8405,1023484.2706,21043.2478,23233.0,11.0,13.0,29.0
+U San Diego - University of San Diego,R2,R2,University of San Diego,exact,122436.0,,16.0,CA,2050640.0898,1915965.1447,14977.6092,415.0,3.0,5.0,8.0
+Ursinus College - Ursinus College,Other academic,Other academic,,keyword,216524.0,,21.0,PA,2017764.3022,373877.2208,5029.2364,1689.0,1.0,3.0,5.0
+"U Nevada, Reno - University of Nevada, Reno",R1,R1,University of Nevada-Reno,exact,182290.0,,15.0,NV,2013368.3948,846641.3636,54763.3744,1527877.0,7.0,7.0,8.0
+Centre College - Centre College,Other academic,Other academic,,keyword,156408.0,,21.0,KY,1991741.8429,1976670.08,15559.8256,1514.0,1.0,3.0,14.0
+Med U of SC - Medical University of South Carolina,R1,R1,Medical University of South Carolina,exact,218335.0,,27.0,SC,1964824.8799,1693547.4067,15831.5931,2577.0,1.0,1.0,7.0
+Air Liquide - Air Liquide (US),Non-academic,Non-academic,,keyword,,,,,1953900.9296,302580.29,7126.7394,2291.0,1.0,2.0,6.0
+NYU - New York University,R1,R1,New York University,exact,193900.0,,15.0,NY,1953230.7692,2839120.2822,52986.2564,778.0,4.0,4.0,6.0
+Swarthmore College - Swarthmore College,RCU,RCU,Swarthmore College,exact,216287.0,,21.0,PA,1944534.4064,1862975.1264,20487.8464,4778.0,4.0,5.0,28.0
+"U Maryland, Baltimore Co - University of Maryland, Baltimore County",R1,R1,University of Maryland-Baltimore County,exact,163268.0,,15.0,MD,1931085.9068,2357584.5514,38574.4244,2880.0,5.0,5.0,17.0
+Hope College - Hope College,RCU,RCU,Hope College,exact,170301.0,,21.0,MI,1907765.5499,1823898.0653,14374.9561,1099.0,1.0,2.0,6.0
+U Tenn System - University of Tennessee System,R1,R1,The University of Tennessee-Knoxville,override,221759.0,,15.0,TN,1895619.9389,1895619.0494,46696.8642,9780.0,2.0,2.0,3.0
+Louisiana State U - Louisiana State University,R1,R1,Louisiana State University and Agricultural & Mechanical College,override,159391.0,,15.0,LA,1886453.0538,648049.1758,14345.195,691.0,5.0,5.0,9.0
+Austin Peay State U - Austin Peay State University,RCU,RCU,Austin Peay State University,exact,219602.0,,18.0,TN,1884339.0105,2455054.4631,219260.5114,11377.0,5.0,7.0,31.0
+CCM - County College of Morris,Other academic,Other academic,,academic-list,184180.0,,2.0,NJ,1879342.4418,1879341.3708,14682.3564,2231.0,1.0,1.0,2.0
+CUNY Staten Island - CUNY College of Staten Island,RCU,RCU,College of Staten Island CUNY,override,190558.0,,18.0,NY,1876754.8818,724053.1044,11447.6264,5951.0,6.0,6.0,17.0
+Marquette U - Marquette University,R2,R2,Marquette University,exact,239105.0,,16.0,WI,1859169.131,918927.8864,20373.2736,7127.0,3.0,4.0,8.0
+CUNY Baruch College - CUNY Baruch College,Other academic,Other academic,,keyword,,,,,1855048.9737,891187.6617,26554.2142,2907.0,5.0,7.0,11.0
+Oberlin College - Oberlin College,Other academic,Other academic,,keyword,204501.0,,21.0,OH,1847734.4813,972347.0122,37891.5075,8584.0,1.0,2.0,7.0
+SRNL - Savannah River National Laboratory,Non-academic,Non-academic,,keyword,,,,,1834766.1114,1709437.5106,28420.7172,2112.0,1.0,2.0,2.0
+"U Nebraska, Omaha - University of Nebraska, Omaha",R2,R2,University of Nebraska at Omaha,exact,181394.0,,16.0,NE,1826747.8944,95424.0203,13831.9192,1600.0,2.0,2.0,3.0
+KBR - KBR,Non-academic,Non-academic,,keyword,,,,,1761647.3891,733701.7114,17068.7503,2024.0,3.0,3.0,5.0
+Thomas Jefferson U - Thomas Jefferson University,R2,R2,Thomas Jefferson University,exact,216366.0,,16.0,PA,1744758.625,1744758.2839,844290.4772,335420.0,2.0,2.0,5.0
+"UNC Wilmington - University of North Carolina, Wilmington",R2,R2,University of North Carolina Wilmington,exact,199218.0,,16.0,NC,1741177.1165,2018623.12,33003.0617,2426.0,5.0,6.0,23.0
+Drake U - Drake University,Other academic,Other academic,Drake University,override:not-in-carnegie-file,153269.0,,17.0,IA,1726139.3724,3246661.3167,54651.4122,2439.0,1.0,1.0,28.0
+CUNY Lehman College - CUNY Lehman College,RCU,RCU,CUNY Lehman College,exact,190637.0,,18.0,NY,1688158.8371,1290519.2992,41881.3086,2363.0,2.0,3.0,2.0
+West Chester U - West Chester University of Pennsylvania,R2,R2,West Chester University of Pennsylvania,exact,216764.0,,16.0,PA,1676371.9508,571475.8664,7773.8472,4076.0,3.0,4.0,48.0
+U Georgia - University of Georgia,R1,R1,University of Georgia,exact,139959.0,,15.0,GA,1667372.3875,563447.7125,326359.1575,16464.0,7.0,7.0,9.0
+Marian U - Marian University,RCU,RCU,Marian University,exact,151786.0,,17.0,IN,1633493.6677,1427165.455,17332.2069,22695.0,2.0,3.0,8.0
+CUNY Graduate School and University Center - CUNY Graduate School and University Center,R1,R1,CUNY Graduate School and University Center,exact,190576.0,,15.0,NY,1614684.6341,471275.7664,19522.7478,4236.0,4.0,5.0,6.0
+Missouri State U - Missouri State University,RCU,RCU,Missouri State University-Springfield,override,179566.0,,17.0,MO,1594732.672,925249.6175,15817.4528,9544.0,2.0,3.0,4.0
+US FDA - US Food and Drug Administration,Non-academic,Non-academic,,keyword,,,,,1582288.8515,689151.6589,11574.5581,2276.0,4.0,3.0,3.0
+Baylor College of Med - Baylor College of Medicine,R1,R1,Baylor College of Medicine,exact,223223.0,,27.0,TX,1573387.3604,878001.6086,16498.0794,4024.0,6.0,6.0,11.0
+UC Berkeley Extension - UC Berkeley Extension,R1,R1,,r1-unit,,,,,1556527.2943,1555058.3822,12148.8936,158.0,1.0,2.0,2.0
+U Vermont - University of Vermont,R1,R1,University of Vermont,exact,231174.0,,16.0,VT,1529885.5824,573003.5006,19078.9814,4124.0,8.0,9.0,16.0
+"Erudio Bio, Inc.",Non-academic,Non-academic,,keyword,,,,,1525625.5537,28036.4644,28036.4644,1337.0,1.0,2.0,2.0
+U Houston-Downtown - University of Houston-Downtown,Other academic,Other academic,University of Houston-Downtown,override:not-in-carnegie-file,225432.0,,18.0,TX,1519995.1338,1519989.0675,11974.4083,1499.0,2.0,3.0,2.0
+U Toledo - University of Toledo,R1,R1,University of Toledo,exact,206084.0,,16.0,OH,1473568.7816,1409312.3217,12839.6183,38623.0,3.0,4.0,4.0
+Rose-Hulman Tech - Rose-Hulman Institute of Technology,Other academic,Other academic,Rose-Hulman Institute of Technology,override:not-in-carnegie-file,152318.0,,28.0,IN,1461536.0908,1330289.2147,33153.9339,30680.0,3.0,5.0,5.0
+Coastal Carolina U - Coastal Carolina University,RCU,RCU,Coastal Carolina University,exact,218724.0,,18.0,SC,1443774.2841,1317131.7756,25558.9875,91346.0,2.0,4.0,97.0
+UT Hlth Sci Ctr Houston - University of Texas Health Science Center at Houston,R1,R1,The University of Texas Health Science Center at Houston,exact,229300.0,,27.0,TX,1440888.0155,64442.1969,6778.7017,13388.0,2.0,2.0,4.0
+JPL - Jet Propulsion Laboratory,Non-academic,Non-academic,,keyword,,,,,1423349.9283,1057824.0317,10217.8017,10201.0,4.0,4.0,6.0
+Inertia Enterprises Inc.,Non-academic,Non-academic,,keyword,,,,,1417979.038,1337496.1122,13598.0439,2018.0,5.0,5.0,6.0
+U Northern Iowa - University of Northern Iowa,RCU,RCU,University of Northern Iowa,exact,154095.0,,18.0,IA,1413471.9571,1314165.3881,39573.0681,45945.0,2.0,3.0,3.0
+Massachusetts Eye and Ear,Non-academic,Non-academic,,keyword,,,,,1411954.4575,167456.0819,14689.2614,209.0,1.0,1.0,1.0
+Winona State U - Winona State University,Other academic,Other academic,Winona State University,override:not-in-carnegie-file,175272.0,,19.0,MN,1401367.8957,1385481.23,22971.1139,12454.0,1.0,4.0,135.0
+U Houston-Clear Lake - University of Houston-Clear Lake,Other academic,Other academic,,keyword,225414.0,,17.0,TX,1400095.7015,105334.5347,7340.6753,5006.0,3.0,3.0,7.0
+Brigham and Women's Hospital - Brigham and Women's Hospital,Non-academic,Non-academic,,keyword,,,,,1387637.0329,125072.82,6623.0686,2627.0,4.0,4.0,8.0
+Santa Clara U - Santa Clara University,RCU,RCU,Santa Clara University,exact,122931.0,,17.0,CA,1383013.1636,171956.2078,37019.09,32010.0,2.0,3.0,19.0
+SUNY College Buffalo - SUNY College at Buffalo,Other academic,Other academic,,keyword,,,,,1368979.1004,1235580.1006,13368.1761,2161.0,1.0,5.0,7.0
+ATTMOS Inc.,Non-academic,Non-academic,,keyword,,,,,1361695.1775,380772.6369,92176.5972,41181.0,1.0,1.0,4.0
+U South Alabama - University of South Alabama,R2,R2,University of South Alabama,exact,102094.0,,16.0,AL,1349043.858,944162.0797,11049.2975,1657.0,1.0,1.0,5.0
+U Dayton - University of Dayton,R1,R1,University of Dayton,exact,202480.0,,16.0,OH,1324444.0701,227962.7711,10896.0528,2716.0,4.0,4.0,5.0
+Union College - Union College,Other academic,Other academic,Union College,override:not-in-carnegie-file,157863.0,,20.0,KY,1314570.7156,161244.745,18298.8472,1992.0,3.0,4.0,7.0
+"UPR Mayaguez - University of Puerto Rico, Mayaguez",R2,R2,University of Puerto Rico-Mayaguez,exact,243197.0,,19.0,PR,1309428.9101,728407.3517,17255.0617,9074.0,7.0,9.0,33.0
+  - Utah Tech University,Other academic,Other academic,,keyword,230171.0,,22.0,UT,1284747.3953,191147.3733,5923.7833,7612.0,1.0,3.0,15.0
+SIO - Scripps Institution of Oceanography,R1,R1,,r1-unit,,,,,1230178.6761,862724.7314,14244.6956,4743.0,4.0,6.0,15.0
+U North Dakota - University of North Dakota,R1,R1,University of North Dakota,exact,200280.0,,16.0,ND,1205850.8953,339808.3192,13126.7283,4656.0,5.0,6.0,26.0
+Moffitt Cancer Center,Non-academic,Non-academic,,keyword,,,,,1194860.0661,132588.6153,16557.0786,975.0,3.0,3.0,13.0
+[C]Worthy - [C]Worthy,Non-academic,Non-academic,,keyword,,,,,1194403.5186,1017685.715,9601.0622,1313.0,2.0,2.0,4.0
+CSU-Sacramento - California State University-Sacramento,R2,R2,California State University-Sacramento,exact,110617.0,,18.0,CA,1189075.4258,1026093.7503,953651.0503,114185.0,4.0,4.0,9.0
+afit.edu - Air Force Institute of Technology (AFIT),R2,R2,Air Force Institute of Technology-Graduate School of Engineering & Management,override,200697.0,,16.0,OH,1166847.3392,1166848.0672,9123.3344,5567.0,1.0,2.0,9.0
+Fairleigh Dickinson U - Fairleigh Dickinson University,Other academic,Other academic,,keyword,,,,,1160544.014,967530.5344,18798.7353,2566.0,4.0,5.0,10.0
+Chatham U - Chatham University,Other academic,Other academic,Chatham University,override:not-in-carnegie-file,211556.0,,17.0,PA,1155117.3498,1206122.3778,33310.2267,4167.0,1.0,4.0,18.0
+Towson U - Towson University,RCU,RCU,Towson University,exact,164076.0,,18.0,MD,1123273.6914,555831.8806,21404.1361,27983.0,7.0,10.0,62.0
+LMUNET - Lincoln Memorial University,Other academic,Other academic,Lincoln Memorial University,override:not-in-carnegie-file,220631.0,,17.0,TN,1119263.0857,615362.5547,5032.0892,1225.0,1.0,1.0,2.0
+University of Findlay,Other academic,Other academic,University of Findlay,override:not-in-carnegie-file,202763.0,,17.0,OH,1108652.692,63716.1253,3944.7775,4454.0,2.0,2.0,6.0
+Navajo Tech - Navajo Technical University,Other academic,Other academic,Navajo Technical University,override:not-in-carnegie-file,187596.0,TCU,33.0,NM,1097969.0561,1097969.3156,8577.8853,507.0,1.0,2.0,1.0
+Whitworth U - Whitworth University,Other academic,Other academic,,keyword,237066.0,,19.0,WA,1074862.8112,99811.2478,19961.6292,2264.0,1.0,1.0,5.0
+Manhattan College - Manhattan College,Other academic,Other academic,,keyword,192703.0,,18.0,NY,1029550.8141,936075.6042,21892.9053,9560.0,7.0,3.0,5.0
+U District of Columbia - University of the District of Columbia,RCU,RCU,University of the District of Columbia,exact,131399.0,HBCU,19.0,DC,1026468.5258,1026468.6428,8032.2183,5281.0,1.0,1.0,4.0
+"Cal Poly - California Polytechnic State University, San Luis Obispo",RCU,RCU,California Polytechnic State University-San Luis Obispo,exact,110422.0,,18.0,CA,1010895.0028,215662.4203,16935.7111,22147.0,9.0,12.0,66.0
+SDSC - San Diego Supercomputer Center,R1,R1,,r1-unit,,,,,1009821.1991,675786.2694,19667.7975,37685.0,6.0,8.0,83.0
+Monmouth U - Monmouth University,RCU,RCU,Monmouth University,exact,185572.0,,18.0,NJ,957693.5554,957693.4989,7482.0094,493.0,1.0,1.0,8.0
+Mt Sinai Sch of Med - Icahn School of Medicine at Mount Sinai,R2,R2,Icahn School of Medicine at Mount Sinai,exact,193405.0,,27.0,NY,939347.8071,323917.3711,19318.9047,906.0,2.0,2.0,2.0
+"OncoC4, Inc.",Non-academic,Non-academic,,keyword,,,,,938671.1585,225653.1422,3567.8306,311.0,1.0,1.0,1.0
+Bates College - Bates College,Other academic,Other academic,,keyword,160977.0,,21.0,ME,933970.1791,223779.2986,3501.3094,84.0,1.0,1.0,3.0
+Morgan State U - Morgan State University,R2,R2,Morgan State University,exact,163453.0,HBCU,16.0,MD,923589.9931,193450.6644,18201.4917,6520.0,9.0,10.0,14.0
+Boise State U - Boise State University,R2,R2,Boise State University,exact,142115.0,,16.0,ID,915875.3509,259652.5483,3908.3153,1321.0,4.0,6.0,54.0
+Mederrata - Mederrata,Non-academic,Non-academic,,keyword,,,,,915697.1739,105016.7247,7965.9919,2169.0,1.0,2.0,2.0
+NSF - National Science Foundation,Non-academic,Non-academic,,keyword,,,,,896882.775,3633200.3331,56248.1667,1038.0,1.0,1.0,1.0
+Marine Biological Lab - Marine Biological Laboratory,Non-academic,Non-academic,,keyword,,,,,881106.4945,376082.0572,4100.6183,416.0,2.0,2.0,4.0
+Columbia River Inter-Tribal - Columbia River Inter-Tribal Fish Commission,Non-academic,Non-academic,,keyword,,,,,873395.0964,833986.5133,8077.6492,1562.0,1.0,1.0,6.0
+CAIDA - Center for Applied Internet Data Analysis,Non-academic,Non-academic,,keyword,,,,,851177.1165,741948.0206,8454.7658,3407.0,3.0,3.0,17.0
+Bowie State U - Bowie State University,RCU,RCU,Bowie State University,exact,162007.0,HBCU,18.0,MD,835004.9286,82220.7092,2886.1467,1183.0,7.0,8.0,13.0
+Wake Forest U - Wake Forest University,R2,R2,Wake Forest University,exact,199847.0,,16.0,NC,828006.2387,199329.1089,3483.0539,448.0,1.0,1.0,4.0
+Augusta U - Augusta University,R2,R2,Augusta University,exact,482149.0,,16.0,GA,825199.451,825201.1486,6974.2403,5997.0,3.0,5.0,21.0
+U Akron - University of Akron,R2,R2,University of Akron Main Campus,exact,200800.0,,16.0,OH,799326.4708,753333.4811,8099.6397,1922.0,2.0,3.0,30.0
+Western Illinois U - Western Illinois University,RCU,RCU,Western Illinois University,exact,149772.0,,18.0,IL,795745.4614,782373.9097,18548.2842,30216.0,2.0,5.0,65.0
+San Diego Zoo - San Diego Zoo Institute for Conservation Research,Non-academic,Non-academic,,keyword,,,,,795508.5158,320067.5144,107544.2153,117984.0,1.0,1.0,2.0
+3ds - Dassault Systems,Non-academic,Non-academic,,keyword,,,,,775028.2613,775028.1606,6263.9267,1743.0,1.0,1.0,1.0
+"simonsfoundation - Simons Foundation, Flatiron Institute",Non-academic,Non-academic,,keyword,,,,,772939.2975,1787629.6703,60763.7711,3545.0,5.0,5.0,10.0
+Westmont College - Westmont College,Other academic,Other academic,,keyword,125727.0,,21.0,CA,767013.6627,963544.3481,24305.0292,13391.0,2.0,2.0,16.0
+"Aeolus Labs, Inc.",Non-academic,Non-academic,,keyword,,,,,754184.6653,754186.9892,11833.3192,6669.0,1.0,1.0,3.0
+UT Hlth Sci Ctr San Antonio - University of Texas Health Science Center at San Antonio,R1,R1,The University of Texas Health Science Center at San Antonio,exact,228644.0,,27.0,TX,752112.2965,689347.7458,9294.4506,23362.0,2.0,2.0,2.0
+Beth Israel Deaconess Med Ctr - Beth Israel Deaconess Medical Center,Non-academic,Non-academic,,keyword,,,,,750693.3683,750693.7169,23824.6003,24109.0,1.0,1.0,4.0
+San Francisco State U - San Francisco State University,R2,R2,San Francisco State University,exact,122597.0,,16.0,CA,748656.3104,689562.9439,8775.8636,2459.0,6.0,6.0,6.0
+LSU New Orleans - LSU New Orleans,R1,R1,,r1-unit,,,,,746784.2036,746830.4417,35001.035,2334.0,1.0,1.0,1.0
+Xavier U - Xavier University of Louisiana,RCU,RCU,Xavier University of Louisiana,exact,160904.0,HBCU,19.0,LA,739198.5776,473334.7672,4155.1733,786.0,2.0,2.0,11.0
+Cincinnati Children's Hosp - Cincinnati Children's Hospital Medical Center,Non-academic,Non-academic,,keyword,,,,,727095.1401,727095.2653,249742.5833,186581.0,2.0,2.0,6.0
+Clemson U - Clemson University,R1,R1,Clemson University,exact,217882.0,,15.0,SC,711635.5356,207981.7406,3863.5842,1192.0,6.0,8.0,11.0
+Mass Gen Hospital - Massachusetts General Hospital,Non-academic,Non-academic,,keyword,,,,,700263.5224,336537.7225,12090.0219,4369.0,4.0,4.0,5.0
+University of Dallas,Other academic,Other academic,University of Dallas,override:not-in-carnegie-file,224323.0,,18.0,TX,693155.5306,467735.7014,5814.7456,15509.0,2.0,3.0,18.0
+U Idaho - University of Idaho,R1,R1,University of Idaho,exact,142285.0,,16.0,ID,662835.3609,514116.5581,11079.0281,1773.0,4.0,4.0,8.0
+ND State U - North Dakota State University,R1,R1,North Dakota State University-Main Campus,exact,200332.0,,15.0,ND,660087.5912,447618.6992,5363.5114,1208.0,4.0,5.0,9.0
+W Michigan U - Western Michigan University,R2,R2,Western Michigan University,exact,172699.0,,16.0,MI,658477.6343,101149.0386,3685.4736,1399.0,3.0,3.0,3.0
+"U Maryland, Baltimore - University of Maryland, Baltimore",R1,R1,University of Maryland - Baltimore,exact,163259.0,,27.0,MD,655524.7364,457778.7922,20011.9658,20407.0,8.0,8.0,10.0
+Washington and Lee U - Washington and Lee University,Other academic,Other academic,Washington and Lee University,override:not-in-carnegie-file,234207.0,,21.0,VA,644547.2581,622256.9486,4983.0522,574.0,3.0,3.0,5.0
+Carbon to Sea Initiative,Non-academic,Non-academic,,keyword,,,,,636117.9113,502290.4764,5885.6864,1108.0,1.0,1.0,3.0
+San Jose State U - San Jose State University,R2,R2,San Jose State University,exact,122755.0,,18.0,CA,635491.0475,130528.4786,6062.6692,1252.0,2.0,2.0,4.0
+up - University of Portland,Other academic,Other academic,University of Portland,override:not-in-carnegie-file,209825.0,,19.0,OR,627251.6065,610794.9933,25004.0839,10184.0,1.0,1.0,12.0
+CUNY Hunter College - CUNY Hunter College,R2,R2,CUNY Hunter College,exact,190594.0,,18.0,NY,625850.0218,535277.5133,7987.27,5750.0,2.0,2.0,8.0
+JHU Sch of Med - Johns Hopkins University School of Medicine,R1,R1,,r1-unit,,,,,617072.3064,353979.605,21171.7689,40720.0,3.0,3.0,5.0
+WEMSS Lab - WEMSS Lab,Non-academic,Non-academic,,keyword,,,,,599129.0785,143642.3811,1995.1661,366.0,1.0,1.0,3.0
+Hofstra U - Hofstra University,R2,R2,Hofstra University,exact,191649.0,,17.0,NY,595823.9441,97249.1767,2059.5442,3412.0,2.0,2.0,2.0
+columbiasc - Columbia College SC,Other academic,Other academic,,keyword,,,,,576843.2217,576759.9533,8841.3408,1123.0,2.0,3.0,7.0
+SD Sch of Mines & Tech - South Dakota School of Mines and Technology,RCU,RCU,South Dakota School of Mines and Technology,exact,219347.0,,19.0,SD,572769.8546,562944.2992,4438.2608,300.0,3.0,3.0,5.0
+"CU Anschutz - University of Colorado, Anschutz Medical Campus",R1,R1,University of Colorado Denver/Anschutz Medical Campus,override,126562.0,,15.0,CO,562276.8732,311562.9014,29479.6756,815454.0,3.0,5.0,5.0
+USDA ARS MWA - USDA Agricultural Research Service Midwest Area,Non-academic,Non-academic,,keyword,,,,,555563.1668,555563.2267,5559.3131,8729.0,1.0,1.0,1.0
+CSU-San Marcos - California State University-San Marcos,RCU,RCU,California State University-San Marcos,exact,366711.0,,18.0,CA,545692.0581,323388.6092,5621.7514,1018.0,2.0,2.0,2.0
+Seattle U - Seattle University,RCU,RCU,Seattle University,exact,236595.0,,17.0,WA,541890.4486,470924.2889,18526.6192,157361.0,3.0,6.0,27.0
+U Hartford - University of Hartford,Other academic,Other academic,University of Hartford,override:not-in-carnegie-file,129525.0,,17.0,CT,539950.9639,395365.385,3743.5975,127.0,2.0,2.0,5.0
+Augsburg University,Other academic,Other academic,Augsburg University,override:not-in-carnegie-file,173045.0,,18.0,MN,537016.1582,537015.9267,11514.9689,1514.0,1.0,1.0,3.0
+Fordham U - Fordham University,R2,R2,Fordham University,exact,191241.0,,16.0,NY,524856.5725,107944.0553,6722.2936,13535.0,3.0,3.0,8.0
+Merrimack College - Merrimack College,Other academic,Other academic,,keyword,166850.0,,18.0,MA,520045.792,17652.5092,5159.3503,374.0,1.0,2.0,6.0
+CSU-San Bernardino - California State University-San Bernardino,RCU,RCU,California State University-San Bernardino,exact,110510.0,,16.0,CA,477386.8613,774418.9331,24155.1311,409.0,6.0,7.0,8.0
+DMU - Des Moines University,RCU,RCU,Des Moines University-Osteopathic Medical Center,override,154156.0,,25.0,IA,471313.9934,17169.4392,7326.4769,640.0,2.0,2.0,4.0
+Kettering U - Kettering Unversity,Non-academic,Non-academic,,keyword,,,,,461163.7657,115956.2169,4175.2839,575.0,2.0,2.0,3.0
+Point Loma Nazarene University,Other academic,Other academic,,keyword,121309.0,,18.0,CA,456918.5851,455601.7778,7118.7778,9529.0,1.0,2.0,12.0
+Cavendish-Labs - Cavendish Labs,Non-academic,Non-academic,,keyword,,,,,455073.4294,342897.9853,3070.5094,1718.0,2.0,2.0,7.0
+Arkansas State U - Arkansas State University,R2,R2,Arkansas State University,exact,106458.0,,16.0,AR,450251.5441,133795.8019,4192.2286,4345.0,2.0,3.0,2.0
+Bucknell U - Bucknell University,RCU,RCU,Bucknell University,exact,211291.0,,21.0,PA,448779.7118,409008.6486,8964.475,32565.0,2.0,3.0,9.0
+Wesleyan U - Wesleyan University,RCU,RCU,Wesleyan University,exact,130697.0,,21.0,CT,436929.3156,59457.3681,7917.425,2403.0,1.0,1.0,3.0
+BioHybrid Solutions,Non-academic,Non-academic,,keyword,,,,,434717.9487,160886.1528,2754.1597,188.0,1.0,1.0,1.0
+Spelman College - Spelman College,RCU,RCU,Spelman College,exact,141060.0,HBCU,21.0,GA,434667.5401,283952.67,2360.6756,609.0,1.0,1.0,1.0
+U Southern Mississippi - University of Southern Mississippi,R1,R1,University of Southern Mississippi,exact,176372.0,,15.0,MS,433005.9268,269303.7456,3343.0797,3546.0,2.0,2.0,10.0
+U Sciences Philadelphia - University of the Sciences in Philadelphia,Other academic,Other academic,,keyword,,,,,432905.1095,40198.3444,1004.9586,34.0,1.0,1.0,1.0
+Rockefeller U - Rockefeller University,R2,R2,The Rockefeller University,exact,195049.0,,27.0,NY,429460.4779,206980.7881,24521.8428,971.0,1.0,2.0,1.0
+Va Inst of Marine Sci - Virginia Institute of Marine Science,R1,R1,,r1-unit,,,,,412652.3177,412626.8089,3223.6469,109.0,1.0,1.0,1.0
+U Virgin Islands - University of the Virgin Islands,RCU,RCU,University of the Virgin Islands,exact,243665.0,HBCU,20.0,VI,412611.6414,412611.2356,3223.5253,2409.0,1.0,1.0,4.0
+NC Central U - North Carolina Central University,RCU,RCU,North Carolina Central University,exact,199157.0,HBCU,18.0,NC,403048.1003,438270.7892,7628.0344,13204.0,4.0,5.0,12.0
+Trinity College - Trinity College,RCU,RCU,Trinity College,exact,130590.0,,21.0,CT,401835.049,395060.7542,3650.1242,510.0,3.0,3.0,3.0
+Skidmore College - Skidmore College,Other academic,Other academic,,keyword,195526.0,,21.0,NY,394766.6105,392703.4653,22486.6961,8862.0,2.0,2.0,15.0
+Kennesaw State U - Kennesaw State University,R2,R2,Kennesaw State University,exact,486840.0,,16.0,GA,390146.3597,33926.9139,3396.2519,1151.0,2.0,2.0,10.0
+Youngstown State U - Youngstown State University,RCU,RCU,Youngstown State University,exact,206695.0,,18.0,OH,386810.7805,392122.72,5098.1658,18066.0,2.0,3.0,2.0
+The Carnegie Observatories - Observatories of the Carnegie Institution of Washington,Non-academic,Non-academic,,keyword,,,,,386446.3161,1735719.7328,26937.8417,145.0,1.0,1.0,1.0
+Modulus Discovery,Non-academic,Non-academic,,keyword,,,,,380250.7954,380422.8978,2975.5886,355.0,1.0,1.0,1.0
+atsu - A.T. Still University,Other academic,Other academic,,keyword,,,,,375346.3098,34853.6375,6970.7275,221.0,1.0,1.0,1.0
+E Tenn State U - East Tennessee State University,R2,R2,East Tennessee State University,exact,220075.0,,16.0,TN,374840.3519,371085.7717,7479.7608,1568.0,4.0,4.0,36.0
+Atrium Health - Atrium Health,Non-academic,Non-academic,,keyword,,,,,374299.9563,2870891.8539,246970.8194,7064.0,1.0,1.0,1.0
+Amherst College - Amherst College,RCU,RCU,Amherst College,exact,164465.0,,21.0,MA,373766.6729,2375590.2844,95584.0497,523.0,1.0,1.0,1.0
+High Point - High Point University,Other academic,Other academic,,keyword,198695.0,,22.0,NC,373617.9425,38723.0625,4151.6042,2349.0,2.0,5.0,23.0
+The Children's Hospital of Philadelphia - The Children's Hospital of Philadelphia,Non-academic,Non-academic,,keyword,,,,,372407.0123,372406.7533,2909.4611,61.0,1.0,1.0,1.0
+Desert Res Inst - Desert Research Institute,Non-academic,Non-academic,,keyword,,,,,357346.185,357341.7122,2792.6978,131.0,1.0,2.0,1.0
+Planetary Sci Inst - Planetary Science Institute,Non-academic,Non-academic,,keyword,,,,,354056.5226,264814.8267,5516.9528,252.0,1.0,2.0,1.0
+VMI - Virginia Military Institute,Non-academic,Non-academic,,keyword,,,,,347513.2572,351870.3006,11653.9242,1493.0,3.0,4.0,5.0
+NASA Goddard - NASA Goddard Space Flight Center,Non-academic,Non-academic,,keyword,,,,,336348.9925,336348.6392,3237.1425,161.0,1.0,2.0,3.0
+Aeolus Labs,Non-academic,Non-academic,,keyword,,,,,333787.2606,333787.1867,3421.5756,1214.0,2.0,2.0,4.0
+Kent State U - Kent State University,R1,R1,Kent State University at Kent,override,203517.0,,15.0,OH,333748.2064,5005.45,5005.45,200.0,1.0,1.0,1.0
+Texas State U - Texas State University,R2,R2,Texas State University,exact,228459.0,,16.0,TX,330164.2024,23138.7069,1495.675,1596.0,4.0,5.0,11.0
+Broad Institute - Broad Institute of MIT and Harvard,R1,R1,,r1-unit,,,,,323859.5046,98870.5389,6104.6775,287.0,1.0,1.0,1.0
+Oakland U - Oakland University,R2,R2,Oakland University,exact,171571.0,,16.0,MI,302943.7894,2361834.8039,49521.0161,399.0,2.0,2.0,4.0
+CSU-Los Angeles - California State University-Los Angeles,R2,R2,California State University-Los Angeles,exact,110592.0,,18.0,CA,300506.5818,56667.3008,5561.2139,5998.0,4.0,4.0,291.0
+"U Alaska, Fairbanks - University of Alaska, Fairbanks",R2,R2,University of Alaska Fairbanks,exact,102614.0,,16.0,AK,300205.6273,191391.6808,3936.2858,1204.0,3.0,3.0,3.0
+Mayo Clinic,Non-academic,Non-academic,,keyword,,,,,298751.8872,298751.5244,2415.4883,609.0,1.0,1.0,1.0
+Northern Illinois U - Northern Illinois University,R2,R2,Northern Illinois University,exact,147703.0,,16.0,IL,296590.0555,209283.0508,11151.9103,1605.0,1.0,1.0,1.0
+Thiel College - Thiel College,Other academic,Other academic,Thiel College,override:not-in-carnegie-file,216357.0,,22.0,PA,292243.5586,27136.8722,3965.1689,213.0,1.0,1.0,1.0
+"Indiana U, Bloomington - Indiana University, Bloomington",R1,R1,Indiana University-Bloomington,exact,151351.0,,15.0,IN,291509.3892,78333.885,1414.9944,1442.0,4.0,5.0,14.0
+U Manchester - University of Manchester,Foreign/Unknown,Foreign,,foreign-list,,,,,284432.0918,85037.7311,824.2622,135.0,1.0,2.0,1.0
+Grand Valley State U - Grand Valley State University,RCU,RCU,Grand Valley State University,exact,170082.0,,17.0,MI,272304.9473,271909.7411,11093.3375,27076.0,2.0,2.0,3.0
+Alfred U - Alfred University,RCU,RCU,Alfred University,exact,188641.0,,18.0,NY,270518.4353,11257.1786,5622.4408,11466.0,4.0,5.0,8.0
+Komplexity AI LLC,Non-academic,Non-academic,,keyword,,,,,268546.0104,6120.7647,3990.7247,370.0,1.0,1.0,1.0
+Indiana U of Penn - Indiana University of Pennsylvania,R2,R2,Indiana University of Pennsylvania-Main Campus,exact,213020.0,,16.0,PA,266673.9035,307334.4875,4864.1292,3467.0,2.0,2.0,39.0
+CUNY City Tech - CUNY New York City College of Technology,RCU,RCU,CUNY New York City College of Technology,exact,190655.0,,22.0,NY,257177.8651,23452.1331,754.0292,178.0,1.0,1.0,2.0
+Elon U - Elon University,RCU,RCU,Elon University,exact,198516.0,,17.0,NC,255818.0797,255533.1469,2008.9897,1689.0,1.0,1.0,1.0
+Seoul Natl U - Seoul National University,Foreign/Unknown,Foreign,,foreign-list,,,,,250304.8225,662106.7122,12332.3614,1129.0,1.0,1.0,6.0
+NC Sch Sci and Math - North Carolina School of Science and Mathematics,Other academic,Other academic,,academic-list,,,,,243441.3875,163808.9747,4165.6189,1090.0,1.0,1.0,54.0
+"U Louisiana, Lafayette - University of Louisiana, Lafayette",R1,R1,University of Louisiana at Lafayette,exact,160658.0,,15.0,LA,242850.209,174703.9503,5456.9028,421.0,3.0,3.0,4.0
+Cleveland State U - Cleveland State University,R2,R2,Cleveland State University,exact,202134.0,,16.0,OH,242679.0193,180147.9967,6563.0972,2843.0,1.0,1.0,1.0
+WV State U - West Virginia State University,RCU,RCU,West Virginia State University,exact,237899.0,HBCU,20.0,WV,241623.3078,103746.5161,1483.6956,1636.0,2.0,5.0,17.0
+IPHC - International Pacific Halibut Commission,Non-academic,Non-academic,,keyword,,,,,241081.1654,163571.6369,33231.4547,287615.0,1.0,1.0,1.0
+IUPU Fort Wayne - Indiana University-Purdue University Fort Wayne,Other academic,Other academic,,keyword,,,,,238909.227,43207.4878,1603.0119,1189.0,2.0,2.0,5.0
+Nova SE U - Nova Southeastern University,R1,R1,Nova Southeastern University,exact,136215.0,,16.0,FL,237256.5974,244126.6428,29602.2644,46096.0,3.0,3.0,7.0
+Kean U - Kean University,R2,R2,Kean University,exact,185262.0,,17.0,NJ,232546.8838,216493.1667,4572.5336,20768.0,3.0,3.0,7.0
+Allegheny College - Allegheny College,Other academic,Other academic,,keyword,210669.0,,21.0,PA,232027.9493,22678.88,2227.3192,322.0,2.0,2.0,4.0
+Jackson State U - Jackson State University,R2,R2,Jackson State University,exact,175856.0,HBCU,16.0,MS,231639.7779,231639.6322,3032.0447,170.0,2.0,2.0,4.0
+East Carolina U - East Carolina University,R1,R1,East Carolina University,exact,198464.0,,16.0,NC,230707.3429,45683.7222,1334.1311,2938.0,6.0,7.0,25.0
+"U Illinois, Springfield - University of Illinois at Springfield",RCU,RCU,University of Illinois Springfield,exact,148654.0,,18.0,IL,223051.9683,1761.3747,1512.1603,341.0,3.0,4.0,9.0
+Fairfield U - Fairfield University,Other academic,Other academic,Fairfield University,override:not-in-carnegie-file,129242.0,,17.0,CT,222593.1749,24930.4533,259.6922,8.0,1.0,1.0,1.0
+KGI - Keck Graduate Institute,RCU,RCU,Keck Graduate Institute,exact,440031.0,,18.0,CA,222243.4338,222243.9606,2611.7364,530.0,1.0,1.0,2.0
+NIH - National Institutes of Health,Non-academic,Non-academic,,keyword,,,,,222035.311,12929.2117,1634.7586,10596.0,1.0,1.0,1.0
+Dana-Farber Cancer Inst - Dana-Farber Cancer Institute,Non-academic,Non-academic,,keyword,,,,,217564.9136,217513.7314,10533.3742,135514.0,1.0,1.0,8.0
+"Northern California Institute for Research and Education, Inc.",Non-academic,Non-academic,,keyword,,,,,214003.4937,42552.9556,2201.4806,397.0,1.0,1.0,1.0
+Ferris - Ferris State University,Other academic,Other academic,Ferris State University,override:not-in-carnegie-file,169910.0,,17.0,MI,212531.0375,212532.8656,37481.8672,35656.0,1.0,1.0,6.0
+General Electric - General Electric Company,Non-academic,Non-academic,,keyword,,,,,209294.4039,209294.3022,3769.4133,4051.0,1.0,1.0,1.0
+Ball State U - Ball State University,R2,R2,Ball State University,exact,150136.0,,16.0,IN,203752.0744,169793.7867,1330.2358,240.0,1.0,1.0,11.0
+U West Florida - University of West Florida,R2,R2,University of West Florida,exact,138354.0,,18.0,FL,197051.9683,186229.8119,2077.2981,6214.0,2.0,4.0,42.0
+umces.edu - University of Maryland Center for Environmental Science,R1,R1,,r1-unit,,,,,194975.981,7817.8053,686.525,477.0,3.0,3.0,3.0
+Philander Smith College - Philander Smith College,Other academic,Other academic,,keyword,,,,,193734.7308,193773.4547,2170.4519,148.0,1.0,1.0,1.0
+U British Columbia - University of British Columbia,Foreign/Unknown,Foreign,,foreign-list,,,,,193164.0152,188281.1508,1646.7047,309.0,2.0,2.0,5.0
+Cooper Union College - Cooper Union College,Other academic,Other academic,,keyword,,,,,186471.2708,3286.7742,3255.5364,476.0,1.0,1.0,1.0
+CCT-LSU - LSU Center for Computation and Technology,R1,R1,,r1-unit,,,,,185029.509,119748.4481,753.0539,547.0,1.0,1.0,2.0
+Bryn Mawr College - Bryn Mawr College,RCU,RCU,Bryn Mawr College,exact,211273.0,,21.0,PA,182673.1549,252862.0797,3469.4703,191.0,3.0,3.0,4.0
+"UNC Pembroke - University of North Carolina, Pembroke",Other academic,Other academic,,keyword,199281.0,,18.0,NC,182107.1807,182107.0025,45863.7308,26371.0,1.0,1.0,2.0
+"CRAFT Tech - Combustion Research and Flow Technology, Inc.",Non-academic,Non-academic,,keyword,,,,,181268.3262,151056.9956,1180.1328,545.0,1.0,1.0,3.0
+Illinois State U - Illinois State University,R2,R2,Illinois State University,exact,145813.0,,16.0,IL,180968.9937,30967.4517,570.5503,7557.0,4.0,8.0,237.0
+Contramont Research,Non-academic,Non-academic,,keyword,,,,,180960.3843,43216.0786,682.2236,133.0,1.0,1.0,3.0
+Calif Dept of Water Resources - California Department of Water Resources,Non-academic,Non-academic,,keyword,,,,,179557.8015,89481.2,1864.1917,5679.0,1.0,1.0,1.0
+"CSRS, a Westwood Company",Non-academic,Non-academic,,keyword,,,,,178457.5457,178458.0067,7761.0928,2543.0,1.0,1.0,1.0
+Wellesley College - Wellesley College,RCU,RCU,Wellesley College,exact,168218.0,,21.0,MA,172903.3627,11269.5872,959.4319,240.0,1.0,1.0,22.0
+Scripps College - Scripps College,Other academic,Other academic,,keyword,123165.0,,21.0,CA,171465.5936,171294.1297,1463.4433,617.0,2.0,2.0,8.0
+U Hawaii System Office - University of Hawaii System Office,R1,R1,,r1-unit,,,,,169778.2769,36731.0592,665.6964,465.0,1.0,1.0,2.0
+Hendrix College - Hendrix College,Other academic,Other academic,,keyword,107080.0,,21.0,AR,166956.0172,62127.5083,2266.0517,329.0,1.0,1.0,3.0
+Spatiolyx LLC,Non-academic,Non-academic,,keyword,,,,,165664.4831,21817.6425,1349.2069,1185.0,1.0,1.0,1.0
+GGC - Georgia Gwinnett College,Other academic,Other academic,,keyword,447689.0,,22.0,GA,159966.0615,136959.2781,2771.5547,131.0,1.0,2.0,1.0
+NLM - National Library of Medicine,Non-academic,Non-academic,,keyword,,,,,149144.301,8437.6481,1024.5025,3931.0,1.0,1.0,2.0
+moravian - Moravian University,Other academic,Other academic,Moravian University,override:not-in-carnegie-file,214157.0,,20.0,PA,147445.2555,49997.3097,2136.9564,2420.0,2.0,4.0,33.0
+U Detroit Mercy - University of Detroit Mercy,RCU,RCU,University of Detroit Mercy,exact,169716.0,,17.0,MI,145304.8849,145305.1078,1143.1189,3051.0,1.0,3.0,63.0
+U Northern Colorado - University of Northern Colorado,R2,R2,University of Northern Colorado,exact,127741.0,,17.0,CO,143771.5391,70278.8556,3319.7008,5157.0,1.0,1.0,1.0
+Northern Fei Tian College,Foreign/Unknown,Foreign,,foreign-list,,,,,142403.3938,40996.6356,1975.2878,1185.0,1.0,1.0,2.0
+Florida Southern College - Florida Southern College,Other academic,Other academic,,keyword,134079.0,,19.0,FL,141436.5213,135265.4756,3614.5381,1821.0,1.0,1.0,43.0
+Southwest Res Inst - Southwest Research Institute,Non-academic,Non-academic,,keyword,,,,,137301.1417,137282.4247,52374.6139,1450.0,1.0,1.0,1.0
+GE HealthCare,Non-academic,Non-academic,,keyword,,,,,136965.5,136965.6806,4539.8158,9827.0,1.0,1.0,3.0
+Texas A&M U-San Antonio - Texas A&M University-San Antonio,Other academic,Other academic,Texas A & M University-San Antonio,override:not-in-carnegie-file,459949.0,,18.0,TX,136848.2126,200865.3353,5833.5022,2014.0,1.0,2.0,14.0
+Pace U - Pace University,RCU,RCU,Pace University,exact,194310.0,,17.0,NY,135750.2028,39026.7972,2454.6714,3348.0,1.0,1.0,1.0
+GA - General Atomics,Non-academic,Non-academic,,keyword,,,,,134526.6704,26145.5206,3204.4947,1136.0,2.0,2.0,9.0
+Williams College - Williams College,RCU,RCU,Williams College,exact,168342.0,,21.0,MA,132788.8203,274677.5489,5808.0303,237.0,1.0,1.0,4.0
+ARKA Group L.P.,Non-academic,Non-academic,,keyword,,,,,128933.6827,128933.4431,117311.9906,5475.0,1.0,1.0,1.0
+Marshall U - Marshall University,R2,R2,Marshall University,exact,237525.0,,16.0,WV,128773.2235,1938.19,757.8072,2925.0,1.0,4.0,78.0
+"Ursa Simulation, Inc.",Non-academic,Non-academic,,keyword,,,,,127622.06,127419.6097,997.1411,277.0,1.0,1.0,2.0
+Bethune-Cookman U - Bethune-Cookman University,Other academic,Other academic,,keyword,132602.0,HBCU,21.0,FL,124150.3525,124150.3583,1067.8686,140.0,1.0,1.0,1.0
+James Madison U - James Madison University,R2,R2,James Madison University,exact,232423.0,,16.0,VA,123129.2033,44281.57,2765.945,1177.0,2.0,2.0,8.0
+Apollodyne,Non-academic,Non-academic,,keyword,,,,,121757.5644,121758.1556,7834.5692,775.0,1.0,1.0,1.0
+"CUNY York College - York College, City University of New York",Other academic,Other academic,,keyword,,,,,121171.2521,197828.7353,3523.6436,668.0,1.0,1.0,1.0
+Savannah State U - Savannah State University,Other academic,Other academic,Savannah State University,override:not-in-carnegie-file,140960.0,HBCU,20.0,GA,119379.3749,15499.7858,2080.1375,2110.0,1.0,1.0,4.0
+Saginaw Valley State University,RCU,RCU,Saginaw Valley State University,exact,172051.0,,18.0,MI,119211.6788,119211.8269,1078.4758,7725.0,1.0,1.0,35.0
+CUNY Manhattan CC - CUNY Borough of Manhattan Community College,Other academic,Other academic,,academic-list,190521.0,,1.0,NY,117289.1634,25691.3431,1120.6175,1618.0,2.0,2.0,2.0
+College of Wooster - College of Wooster,Other academic,Other academic,,keyword,206589.0,,21.0,OH,116531.5366,116531.5556,910.4028,270.0,1.0,1.0,1.0
+Trine U - Trine University,Other academic,Other academic,Trine University,override:not-in-carnegie-file,152567.0,,22.0,IN,114884.2723,114884.0978,1950.1275,1521.0,1.0,1.0,13.0
+DHS - US Department of Homeland Security,Non-academic,Non-academic,,keyword,,,,,113269.1996,111944.2222,901.0517,174.0,1.0,1.0,10.0
+Mt Sinai Med Ctr - Mount Sinai Medical Center,Non-academic,Non-academic,,keyword,,,,,112652.8168,369182.3408,7851.4944,411.0,1.0,1.0,1.0
+TACC - Texas Advanced Computing Center,R1,R1,,r1-unit,,,,,112008.2351,56003.0647,944.2994,327.0,2.0,2.0,5.0
+Aventusoft LLC,Non-academic,Non-academic,,keyword,,,,,107761.3076,22412.8578,808.1578,166.0,2.0,2.0,2.0
+Florida Polytechnic U - Florida Polytechnic University,Other academic,Other academic,,keyword,482936.0,,22.0,FL,106170.9402,53068.1747,829.4497,327.0,1.0,1.0,2.0
+jjay.cuny.edu - CUNY John Jay College,Other academic,Other academic,,keyword,,,,,103417.5557,102620.0294,11529.8506,4341.0,1.0,2.0,3.0
+L3 Scientific Applications Consulting LLC,Non-academic,Non-academic,,keyword,,,,,102444.3197,99633.0606,823.1525,412.0,1.0,2.0,3.0
+Gettysburg College - Gettysburg College,Other academic,Other academic,,keyword,212674.0,,21.0,PA,100834.6123,73661.8044,3737.2503,102.0,3.0,3.0,3.0
+Florida Gulf Coast U - Florida Gulf Coast University,RCU,RCU,Florida Gulf Coast University,exact,433660.0,,17.0,FL,100605.777,81573.3156,1188.4044,28.0,1.0,1.0,1.0
+U Wisconsin-Parkside - University of Wisconsin-Parkside,Other academic,Other academic,University of Wisconsin-Parkside,override:not-in-carnegie-file,240374.0,,19.0,WI,97852.7669,68314.3878,1691.8981,190.0,1.0,1.0,1.0
+Southern Arkansas U - Southern Arkansas University,Other academic,Other academic,Southern Arkansas University Main Campus,override:not-in-carnegie-file,107983.0,,18.0,AR,95552.0619,92436.2333,1840.0533,222.0,1.0,1.0,1.0
+NGHS - Northeast Georgia Health System,Non-academic,Non-academic,,keyword,,,,,95338.4491,93529.4789,744.9056,470.0,1.0,1.0,1.0
+Benedictine College - Benedictine College,Other academic,Other academic,,keyword,154712.0,,22.0,KS,95171.3769,19728.9172,789.9767,210.0,1.0,1.0,3.0
+PNL - Pacific Northwest National Laboratory,Non-academic,Non-academic,,keyword,,,,,92650.8204,4096.8228,775.0458,686.0,1.0,1.0,6.0
+Boston College - Boston College,R1,R1,Boston College,exact,164924.0,,15.0,MA,91346.185,6281.19,2059.8728,197.0,1.0,2.0,11.0
+Morehouse College - Morehouse College,RCU,RCU,Morehouse College,exact,140553.0,HBCU,21.0,GA,90895.2524,90891.1053,751.3694,547.0,2.0,2.0,2.0
+U Wisconsin-Whitewater - University of Wisconsin-Whitewater,Other academic,Other academic,,keyword,240189.0,,18.0,WI,89611.3295,78111.9622,788.0822,476.0,2.0,2.0,2.0
+QodeX Quantum,Non-academic,Non-academic,,keyword,,,,,89392.9752,2910.5178,821.7672,92.0,1.0,1.0,2.0
+NCAR - NSF National Center for Atmospheric Research,Non-academic,Non-academic,,keyword,,,,,87813.8374,86068.025,754.2978,3376.0,3.0,3.0,5.0
+USGS - US Geological Survey,Non-academic,Non-academic,,keyword,,,,,84622.2472,103703.4344,5637.7203,58.0,1.0,1.0,1.0
+Claflin U - Claflin University,Other academic,Other academic,Claflin University,override:not-in-carnegie-file,217873.0,HBCU,21.0,SC,84181.1716,80787.4586,702.4633,871.0,1.0,1.0,4.0
+Utah Valley U - Utah Valley University,Other academic,Other academic,,keyword,230737.0,,18.0,UT,83649.8846,126702.4569,2130.7472,1161.0,2.0,3.0,26.0
+U Pittsburgh Johnstown - University of Pittsburgh at Johnstown,Other academic,Other academic,,keyword,215284.0,,22.0,PA,82207.8732,82207.8825,664.2869,253.0,2.0,3.0,2.0
+Einstein College of Med - Albert Einstein College of Medicine,R2,R2,Albert Einstein College of Medicine,exact,385415.0,,27.0,NY,81416.1832,730.1625,730.0664,183.0,1.0,1.0,2.0
+Univ of Mississippi Medical Center - University of Mississippi Medical Center,R1,R1,,r1-unit,,,,,79605.7146,79606.3158,2200.4744,15744.0,3.0,3.0,4.0
+Warren Wilson College - Warren Wilson College,Other academic,Other academic,,keyword,199865.0,,21.0,NC,79176.2431,79114.9425,2472.3422,567.0,1.0,1.0,7.0
+Wichita State U - Wichita State University,R2,R2,Wichita State University,exact,156125.0,,16.0,KS,77256.0983,6602.2725,1043.5386,552.0,5.0,5.0,9.0
+Westminster College - Westminster College,Other academic,Other academic,,keyword,179946.0,,21.0,MO,76544.2635,76544.5333,598.0042,899.0,1.0,2.0,23.0
+W Washington U - Western Washington University,RCU,RCU,Western Washington University,exact,237011.0,,18.0,WA,73774.908,73758.5111,578.2461,110.0,2.0,4.0,4.0
+"U Arkansas, Med. Sci - University of Arkansas for Medical Sciences",R2,R2,University of Arkansas for Medical Sciences,exact,106263.0,,27.0,AR,73068.4385,569434.0147,6717.4728,520.0,1.0,1.0,2.0
+ODU - Old Dominion University,R1,R1,Old Dominion University,exact,232982.0,,15.0,VA,72891.2596,42817.7089,787.0522,484.0,4.0,4.0,5.0
+Olds Research,Non-academic,Non-academic,,keyword,,,,,72821.2615,49404.1356,706.6617,1530.0,1.0,1.0,69.0
+EDF - Environmental Defense Fund,Non-academic,Non-academic,,keyword,,,,,72158.9619,57488.3628,565.8303,636.0,1.0,1.0,1.0
+"U Michigan, Dearborn - University of Michigan, Dearborn",R2,R2,University of Michigan-Dearborn,exact,171137.0,,18.0,MI,68983.2179,2821.8483,540.0375,218.0,1.0,1.0,1.0
+Texas A&M AgriLife Research - Texas A&M AgriLife Research,R1,R1,,r1-unit,,,,,64137.2512,216622.8906,16374.5192,12055.0,4.0,4.0,6.0
+Embry-Riddle U - Embry-Riddle Aeronautical University,R2,R2,Embry-Riddle Aeronautical University-Daytona Beach,override,133553.0,,18.0,FL,62627.1134,53055.1314,478.0397,222.0,2.0,2.0,3.0
+W Kentucky U - Western Kentucky University,RCU,RCU,Western Kentucky University,exact,157951.0,,17.0,KY,61817.7054,19942.1378,193.8833,28.0,1.0,1.0,3.0
+Winston-Salem State U - Winston-Salem State University,RCU,RCU,Winston-Salem State University,exact,199999.0,HBCU,17.0,NC,59116.3516,141026.6292,2305.0856,502.0,1.0,2.0,5.0
+"BRI City of Hope - Beckman Research Institute, City of Hope",Non-academic,Non-academic,,keyword,,,,,58854.7009,8679.3717,868.0317,280.0,1.0,1.0,1.0
+Hampton U - Hampton University,R2,R2,Hampton University,exact,232265.0,HBCU,17.0,VA,58771.3519,6879.1747,1619.8575,198.0,2.0,2.0,2.0
+Nazareth College - Nazareth College,Other academic,Other academic,,keyword,,,,,57473.3296,57155.3689,1786.1053,1986.0,1.0,1.0,8.0
+Cornell College,Other academic,Other academic,Cornell College,override:not-in-carnegie-file,153162.0,,21.0,IA,57284.0477,57283.4711,755.1922,12783.0,1.0,1.0,1.0
+Tennessee State U - Tennessee State University,R2,R2,Tennessee State University,exact,221838.0,HBCU,16.0,TN,55160.8959,55160.9244,430.9447,172.0,1.0,1.0,1.0
+U Richmond - University of Richmond,RCU,RCU,University of Richmond,exact,233374.0,,21.0,VA,54352.8604,8079.2125,1009.4117,24.0,1.0,1.0,1.0
+Davidson College - Davidson College,RCU,RCU,Davidson College,exact,198385.0,,21.0,NC,53872.4811,53872.2789,429.0914,195.0,1.0,1.0,2.0
+Wake Forest Sch of Med - Wake Forest School of Medicine,R1,R1,,r1-unit,,,,,51806.351,24071.4864,2093.6042,1494.0,1.0,1.0,2.0
+Sound Ethics Inc.,Non-academic,Non-academic,,keyword,,,,,50926.9449,7124.8656,735.3289,515.0,1.0,1.0,2.0
+Slippery Rock U - Slippery Rock University,Other academic,Other academic,,keyword,,,,,50811.5291,50816.8289,397.2372,82.0,2.0,2.0,3.0
+Texas A&M University–Texarkana,Other academic,Other academic,Texas A & M University-Texarkana,override:not-in-carnegie-file,224545.0,,19.0,TX,50413.1262,50413.6261,814.7942,693.0,1.0,1.0,1.0
+US Army - US Army,Non-academic,Non-academic,,keyword,,,,,49521.9914,14897.2156,1073.2403,208.0,1.0,1.0,1.0
+Lenoir–Rhyne University,Other academic,Other academic,,keyword,198835.0,,18.0,NC,49039.7405,4251.3014,384.1028,247.0,1.0,1.0,2.0
+U San Francisco - University of San Francisco,R2,R2,University of San Francisco,exact,122612.0,,17.0,CA,48302.9509,24124.0644,1507.7553,307.0,1.0,1.0,2.0
+SCCWRP - Southern California Coastal Water Research Project,Non-academic,Non-academic,,keyword,,,,,47820.5752,47771.57,374.5239,201.0,1.0,1.0,1.0
+Clark U - Clark University,R2,R2,Clark University,exact,165334.0,,16.0,MA,47045.9792,6802.0147,1634.9753,253.0,1.0,1.0,1.0
+U Mary Washington - University of Mary Washington,Other academic,Other academic,University of Mary Washington,override:not-in-carnegie-file,232681.0,,21.0,VA,46937.0516,148104.0178,2625.8922,1396.0,1.0,1.0,9.0
+U Scranton - University of Scranton,Other academic,Other academic,University of Scranton,override:not-in-carnegie-file,215929.0,,18.0,PA,46602.4081,42152.8425,1230.9381,898.0,1.0,1.0,1.0
+Columbus State U - Columbus State University,Other academic,Other academic,Columbus State University,override:not-in-carnegie-file,139366.0,,18.0,GA,45941.9802,4983.4619,323.4728,340.0,1.0,2.0,3.0
+Texas Christian U - Texas Christian University,R2,R2,Texas Christian University,exact,228875.0,,16.0,TX,45372.138,419.4572,386.1369,1485.0,1.0,1.0,18.0
+Memorial Sloan Kettering - Memorial Sloan Kettering Cancer Center,Non-academic,Non-academic,,keyword,,,,,43986.6492,43986.2733,853.2628,1607.0,1.0,1.0,1.0
+SUNY ESF - SUNY College of Environmental Science and Forestry,R2,R2,SUNY College of Environmental Science and Forestry,exact,196103.0,,16.0,NY,43946.8463,852.7589,89.0583,44.0,1.0,1.0,2.0
+AMD - Advanced Micro Devices,Non-academic,Non-academic,,keyword,,,,,42877.9088,32190.84,670.6425,41.0,1.0,1.0,1.0
+Oklahoma School of Science and Math - Oklahoma School of Science and Math,Other academic,Other academic,,academic-list,,,,,41852.8916,37085.4311,410.8358,102.0,1.0,2.0,1.0
+CSU-Chico - California State University-Chico,RCU,RCU,California State University-Chico,exact,110538.0,,18.0,CA,41598.2282,3206.9208,340.4006,691.0,4.0,5.0,12.0
+"U Nebraska, Med Ctr - University of Nebraska Medical Center",R1,R1,University of Nebraska Medical Center,exact,181428.0,,27.0,NE,40851.2072,36467.7917,564.5167,27.0,1.0,2.0,1.0
+UPMC Shadyside Hosp - UPMC Shadyside Hospital,Non-academic,Non-academic,,keyword,,,,,40015.8463,39854.3617,313.5411,44.0,1.0,1.0,1.0
+Lake Forest College - Lake Forest College,Other academic,Other academic,Lake Forest College,override:not-in-carnegie-file,146481.0,,21.0,IL,38541.0194,38540.9689,1527.8908,223.0,1.0,1.0,2.0
+U New Haven - University of New Haven,RCU,RCU,University of New Haven,exact,129941.0,,18.0,CT,37805.228,37805.3089,752.0739,118.0,1.0,1.0,1.0
+Oregon Health & Sci U - Oregon Health and Science University,R2,R2,Oregon Health & Science University,exact,209490.0,,27.0,OR,37252.4799,34495.5942,592.5086,582.0,1.0,1.0,4.0
+"Dominican U, New York - Dominican University New York",Other academic,Other academic,,keyword,190761.0,,17.0,NY,35743.2154,34248.9478,1107.4872,125.0,1.0,1.0,1.0
+American U - American University,R1,R1,American University,exact,131159.0,,16.0,DC,35508.8901,21461.5867,372.0314,371.0,1.0,1.0,2.0
+Virginia State U - Virginia State University,R2,R2,Virginia State University,exact,234155.0,HBCU,19.0,VA,34411.8785,24653.1333,513.6069,260.0,1.0,1.0,4.0
+CFD Research Corp.,Non-academic,Non-academic,,keyword,,,,,34372.0756,2639.1625,117.9189,109.0,1.0,1.0,2.0
+City of Hope - City of Hope,Non-academic,Non-academic,,keyword,,,,,33977.1664,4961.4161,335.1739,171.0,1.0,1.0,1.0
+"Texas A&M Kingsville - Texas A&M University, Kingsville",R2,R2,Texas A & M University-Kingsville,exact,228705.0,,16.0,TX,32787.8221,28821.85,370.9467,333.0,2.0,3.0,5.0
+Cal State East Bay - California State University East Bay,RCU,RCU,California State University-East Bay,exact,110574.0,,16.0,CA,32188.159,7393.8911,404.7572,1155.0,2.0,2.0,13.0
+U New Hampshire - University of New Hampshire,R1,R1,University of New Hampshire-Main Campus,exact,183044.0,,15.0,NH,31849.1484,9321.1158,488.2331,327.0,3.0,3.0,3.0
+Wheaton College - Wheaton College,Other academic,Other academic,Wheaton College,override:not-in-carnegie-file,149781.0,,21.0,IL,31746.4595,31746.2844,1299.8081,225.0,1.0,1.0,1.0
+Individual/Unaffiliated - Individual / Unaffiliated,Foreign/Unknown,Unknown,,unknown-list,,,,,30840.6014,30840.4622,240.9411,398.0,1.0,1.0,1.0
+Eastern Michigan U - Eastern Michigan University,R2,R2,Eastern Michigan University,exact,169798.0,,16.0,MI,30242.186,30231.85,1458.915,52.0,1.0,1.0,1.0
+U Wyoming - University of Wyoming,R1,R1,University of Wyoming,exact,240727.0,,16.0,WY,29896.1882,25693.8753,1028.7122,1836.0,2.0,2.0,2.0
+St. Thomas Aquinas College,Other academic,Other academic,,keyword,195243.0,,20.0,NY,29560.5465,842.8158,302.4336,465.0,1.0,1.0,2.0
+Uniformed Services U - Uniformed Services University of the Health Sciences,R1,R1,,r1-unit,,,,,26484.7464,9390.3894,436.7247,115.0,1.0,1.0,1.0
+Self Employed - Self Employed,Foreign/Unknown,Unknown,,unknown-list,,,,,26457.1714,457.7625,393.6936,43.0,1.0,1.0,1.0
+Francis Marion U - Francis Marion University,Other academic,Other academic,Francis Marion University,override:not-in-carnegie-file,218061.0,,19.0,SC,25278.3081,18988.7278,396.7183,429.0,1.0,3.0,1.0
+"U Tennessee Martin - University of Tennessee, Martin",Other academic,Other academic,The University of Tennessee-Martin,override:not-in-carnegie-file,221768.0,,19.0,TN,24966.9973,24965.3914,195.4264,163.0,1.0,1.0,1.0
+Prairie View A&M - Prairie View A&M University,R2,R2,Prairie View A & M University,exact,227526.0,HBCU,16.0,TX,23042.1112,8275.0114,1462.6197,1135.0,4.0,6.0,19.0
+Iona University,Other academic,Other academic,Iona University,override:not-in-carnegie-file,191931.0,,18.0,NY,22290.8478,12750.9808,397.5839,880.0,1.0,1.0,2.0
+CAS - Czech Academy of Sciences,Foreign/Unknown,Foreign,,foreign-list,,,,,22010.2315,22010.175,171.9958,119.0,1.0,1.0,2.0
+SJU NY - St. Joseph's University (NY),Other academic,Other academic,St. Joseph's University-New York,override:not-in-carnegie-file,,,,,21694.4288,21696.1122,2895.0139,1911.0,1.0,2.0,21.0
+Eckerd College - Eckerd College,Other academic,Other academic,Eckerd College,override:not-in-carnegie-file,133492.0,,21.0,FL,21517.4995,16108.5022,335.5558,85.0,1.0,1.0,1.0
+VCOM - Edward Via College of Osteopathic Medicine,RCU,RCU,Edward Via College of Osteopathic Medicine,exact,442806.0,,25.0,VA,20662.4244,2314.22,96.4258,268.0,1.0,1.0,1.0
+"Cal Poly Humboldt - California State Polytechnic University, Humboldt",RCU,RCU,California State Polytechnic University-Humboldt,exact,115755.0,,18.0,CA,20345.8731,17805.6803,784.8731,3551.0,1.0,1.0,34.0
+Stanford Medicine - Stanford University School of Medicine,R1,R1,,r1-unit,,,,,19916.4015,5185.1364,1025.6414,135.0,2.0,2.0,3.0
+Sungkyunkwan U - Sungkyunkwan University,Foreign/Unknown,Foreign,,foreign-list,,,,,19878.096,19878.3264,832.9169,44.0,1.0,1.0,1.0
+Catholic U - Catholic University of America,R1,R1,The Catholic University of America,exact,131283.0,,16.0,DC,19456.9842,17208.6133,150.9964,45.0,1.0,1.0,1.0
+Albright College - Albright College,Other academic,Other academic,,keyword,210571.0,,21.0,PA,19168.7566,19086.44,1590.5367,546.0,1.0,1.0,1.0
+IOCB Boston - Institute of Organic Chemistry and Biochemistry Boston,Foreign/Unknown,Foreign,,foreign-list,,,,,19002.9322,19003.2933,185.7197,315.0,1.0,1.0,2.0
+Georgia Southern U - Georgia Southern University,R2,R2,Georgia Southern University,exact,139931.0,,16.0,GA,18783.2054,19285.7589,1139.7872,312.0,2.0,4.0,3.0
+Smith College - Smith College,RCU,RCU,Smith College,exact,167835.0,,21.0,MA,18756.7534,1125.2119,252.5175,259.0,1.0,1.0,1.0
+Wistar Inst - Wistar Institute,Non-academic,Non-academic,,keyword,,,,,17829.6837,1654.8339,331.2075,2373.0,2.0,2.0,2.0
+DePauw U - DePauw University,Other academic,Other academic,DePauw University,override:not-in-carnegie-file,150400.0,,21.0,IN,17696.0509,7325.2961,411.7467,217.0,2.0,2.0,17.0
+St. John's U - St. John's University,RCU,RCU,St. John's University-New York,override,195809.0,,17.0,NY,17182.9808,3139.3614,187.8864,357.0,1.0,1.0,5.0
+Adelphi U - Adelphi University,Other academic,Other academic,Adelphi University,override:not-in-carnegie-file,188429.0,,17.0,NY,16959.8852,16959.8508,217.7464,175.0,1.0,1.0,2.0
+Jackson Lab Genomic Med - The Jackson Laboratory for Genomic Medicine,Non-academic,Non-academic,,keyword,,,,,16759.4984,15427.6806,517.5219,1034.0,1.0,1.0,2.0
+U Michigan Medical - University of Michigan Medical School,R1,R1,,r1-unit,,,,,16522.1786,3926.5983,1042.6531,2354.0,1.0,1.0,3.0
+SFEI - San Francisco Estuary Institute,Non-academic,Non-academic,,keyword,,,,,14993.8237,12495.0044,97.6172,24.0,1.0,1.0,1.0
+Black Diamond Project Corp,Non-academic,Non-academic,,keyword,,,,,14234.0757,596.2722,11.8981,32.0,1.0,1.0,1.0
+Abilene Christian U - Abilene Christian University,R2,R2,Abilene Christian University,exact,222178.0,,17.0,TX,13343.3152,106838.7794,1156.0708,772.0,1.0,1.0,1.0
+Seattle Children's Res Inst - Seattle Children's Research Institute,Non-academic,Non-academic,,keyword,,,,,13202.196,33462.1333,866.7172,497.0,1.0,1.0,1.0
+Fort Valley State U - Fort Valley State University,RCU,RCU,Fort Valley State University,exact,139719.0,HBCU,20.0,GA,13198.4528,2843.1311,101.9736,66.0,1.0,1.0,5.0
+USRA - Universities Space Research Association,Non-academic,Non-academic,,keyword,,,,,13079.0442,10640.8203,186.3378,17.0,2.0,2.0,2.0
+Virginia Commonwealth U - Virginia Commonwealth University,R1,R1,Virginia Commonwealth University,exact,234030.0,,15.0,VA,12520.6813,12520.8428,183.9153,140.0,1.0,1.0,8.0
+Pittsford Central School District,Other academic,Other academic,,academic-list,,,,,12514.3178,1957.1328,178.6597,239.0,1.0,1.0,1.0
+MCPHS U - Massachusetts College of Pharmacy and Health Sciences,Other academic,Other academic,,keyword,,,,,11585.8756,10562.0533,656.8317,636.0,1.0,1.0,1.0
+WC - Wheaton College (Massachusetts),Other academic,Other academic,,keyword,168281.0,,21.0,MA,9662.6115,9662.66,402.6108,79.0,1.0,1.0,1.0
+Vanderbilt U Med Ctr - Vanderbilt University Medical Center,R1,R1,,r1-unit,,,,,9472.0819,879.5292,175.9058,35.0,1.0,1.0,1.0
+IIT Bombay - Indian Institute of Technology Bombay,Foreign/Unknown,Foreign,,foreign-list,,,,,9101.254,241.8953,15.4708,38.0,1.0,1.0,2.0
+Drew University - Drew University,RCU,RCU,Charles R Drew University of Medicine and Science,override,111966.0,,26.0,CA,8138.2494,774.82,120.9011,184.0,1.0,1.0,9.0
+U Denver - University of Denver,R1,R1,University of Denver,exact,127060.0,,15.0,CO,8051.0325,32099.3822,523.755,338.0,1.0,1.0,1.0
+U Maryland U College - University of Maryland University College,Other academic,Other academic,University of Maryland Global Campus,override:not-in-carnegie-file,,,,,8047.7884,1827.2994,34.7433,162.0,1.0,1.0,1.0
+U Glasgow - University of Glasgow,Foreign/Unknown,Foreign,,foreign-list,,,,,7385.1145,13300.8411,215.2322,32.0,1.0,1.0,1.0
+Aquinas College,Other academic,Other academic,,keyword,168786.0,,21.0,MI,7381.3713,380.1028,39.9606,130.0,1.0,1.0,1.0
+NASA Ames - NASA Ames Research Center,Non-academic,Non-academic,,keyword,,,,,6594.0483,2128.2925,107.9608,43.0,2.0,2.0,2.0
+Siena College - Siena College,Other academic,Other academic,Siena College,override:not-in-carnegie-file,195474.0,,20.0,NY,6377.94,1404.0667,29.2514,177.0,1.0,1.0,8.0
+Northern Arizona U - Northern Arizona University,R1,R1,Northern Arizona University,exact,105330.0,,16.0,AZ,6299.9563,5897.6178,49.2122,25.0,1.0,1.0,1.0
+Southern U A&M - Southern University and A&M College,R2,R2,Southern University and A & M College,exact,160621.0,HBCU,16.0,LA,6135.7539,623.7275,130.6056,160.0,2.0,2.0,3.0
+Retired - Retired,Foreign/Unknown,Unknown,,unknown-list,,,,,5848.5245,5848.9644,127.7589,335.0,1.0,1.0,1.0
+BenU - Benedictine University,Other academic,Other academic,,keyword,145619.0,,18.0,IL,5777.9026,5741.1022,179.4094,120.0,1.0,1.0,2.0
+US DoE - US Department of Energy,Non-academic,Non-academic,,keyword,,,,,5683.4487,705.5036,55.2119,315.0,1.0,1.0,1.0
+U Pittsburgh Cancer Inst - University of Pittsburgh Cancer Institute,R1,R1,,r1-unit,,,,,5526.1089,5525.8694,71.2475,151.0,1.0,1.0,2.0
+Middle Georgia State University,Other academic,Other academic,Middle Georgia State University,override:not-in-carnegie-file,482158.0,,19.0,GA,5517.9986,1096.0092,109.1708,104.0,1.0,1.0,1.0
+Ithaca College - Ithaca College,Other academic,Other academic,,keyword,191968.0,,18.0,NY,5471.2084,5046.5086,5045.2864,715.0,1.0,1.0,2.0
+"U Minn, Duluth - University of Minnesota, Duluth",RCU,RCU,University of Minnesota-Duluth,exact,174233.0,,18.0,MN,5395.5955,2808.6167,195.7281,484.0,1.0,2.0,39.0
+SMCM - St. Mary's College of Maryland,Other academic,Other academic,,keyword,163912.0,,21.0,MD,5303.8867,643.6525,83.4806,269.0,1.0,1.0,2.0
+NIA - National Institute of Aerospace,Non-academic,Non-academic,,keyword,,,,,5227.6499,27.4039,27.4039,43.0,1.0,2.0,2.0
+Lawrence Technological - Lawrence Technological University,RCU,RCU,Lawrence Technological University,exact,170675.0,,18.0,MI,5176.9917,423.0983,80.9733,54.0,1.0,1.0,3.0
+"Dominican U, Calif. - Dominican University of California",Other academic,Other academic,,keyword,113698.0,,19.0,CA,5148.7928,5148.7467,80.4492,4.0,1.0,1.0,1.0
+Nocturnal Inc.,Non-academic,Non-academic,,keyword,,,,,5059.4547,303.71,75.9275,23.0,1.0,1.0,1.0
+NSF's NOIRLab Headquarters - National Optical-Infrared Astronomy Research Laboratory,Non-academic,Non-academic,,keyword,,,,,4973.236,2316.2244,44.7578,62.0,1.0,1.0,2.0
+Alfred State - Alfred State College,Other academic,Other academic,,keyword,,,,,4925.3229,325.0778,20.51,36.0,1.0,1.0,1.0
+U Maryland School of Medicine - University of Maryland School of Medicine,R1,R1,,r1-unit,,,,,4899.3699,6159.9128,257.4228,36.0,1.0,1.0,1.0
+Tarleton State U - Tarleton State University,R2,R2,Tarleton State University,exact,228529.0,,16.0,TX,4894.2542,10828.7617,188.8514,32.0,1.0,1.0,3.0
+Penn State Greater Allegheny - Penn State Greater Allegheny,Non-academic,Non-academic,,keyword,,,,,4872.1692,18165.1442,339.6267,17.0,1.0,1.0,1.0
+Caldwell University,Other academic,Other academic,,keyword,183910.0,,19.0,NJ,4799.9251,1203.0044,37.3769,44.0,1.0,1.0,1.0
+Monell Chem Senses Ctr - Monell Chemical Senses Center,Non-academic,Non-academic,,keyword,,,,,4759.4984,4759.8517,79.5883,74.0,1.0,1.0,1.0
+Docugami,Non-academic,Non-academic,,keyword,,,,,4725.4351,392.1967,6.0472,20.0,1.0,1.0,3.0
+Physical Studies Inst - Physical Studies Institute LLC,Non-academic,Non-academic,,keyword,,,,,4614.0121,3669.4981,2136.1361,1584.0,1.0,3.0,1.0
+IEEE Computer Society - IEEE Computer Society,Non-academic,Non-academic,,keyword,,,,,4600.7861,2730.48,56.885,173.0,1.0,1.0,1.0
+College of the Holy Cross - College of the Holy Cross,Other academic,Other academic,,keyword,166124.0,,21.0,MA,4575.7065,4575.6089,35.7469,48.0,1.0,1.0,1.0
+Southern Oregon U - Southern Oregon University,Other academic,Other academic,,keyword,210146.0,,18.0,OR,4232.0794,4223.7106,34.2881,165.0,1.0,1.0,3.0
+Seton Hall U - Seton Hall University,R2,R2,Seton Hall University,exact,186584.0,,16.0,NJ,4191.2783,4191.2889,32.7444,141.0,1.0,1.0,2.0
+SRI International - SRI International,Non-academic,Non-academic,,keyword,,,,,3907.1683,734.7656,18.3372,35.0,1.0,1.0,1.0
+Claremont McKenna College - Claremont McKenna College,RCU,RCU,Claremont McKenna College,exact,112260.0,,21.0,CA,3808.7217,175.4497,22.8989,81.0,2.0,2.0,4.0
+Roanoke College - Roanoke College,Other academic,Other academic,,keyword,233426.0,,21.0,VA,3642.2734,3642.1867,40.5506,131.0,1.0,1.0,3.0
+Meharry Med College - Meharry Medical College,RCU,RCU,Meharry Medical College,exact,220792.0,HBCU,25.0,TN,3551.438,3122.0794,240.5167,624.0,2.0,2.0,17.0
+Peptilogics Inc.,Non-academic,Non-academic,,keyword,,,,,3433.6515,680.525,31.0336,86.0,1.0,1.0,2.0
+Ames Lab - Ames Laboratory,Non-academic,Non-academic,,keyword,,,,,3155.7801,3155.7442,24.9825,49.0,1.0,2.0,1.0
+ETAMU - East Texas A&M University,R2,R2,East Texas A & M University,exact,224554.0,,17.0,TX,2961.0082,4914.5697,4413.2442,11722.0,1.0,1.0,4.0
+Jacksonville U - Jacksonville University,Other academic,Other academic,,keyword,134945.0,,18.0,FL,2780.9595,2109.9411,1099.3572,768.0,1.0,1.0,1.0
+"U Arkansas, Little Rock - University of Arkansas, Little Rock",R2,R2,University of Arkansas at Little Rock,exact,106245.0,,16.0,AR,2481.5023,338.1183,74.0761,38.0,1.0,2.0,2.0
+Elmhurst University,Other academic,Other academic,,keyword,144962.0,,18.0,IL,2464.1587,2464.0356,19.2503,58.0,1.0,1.0,1.0
+William Paterson U - William Paterson University,Other academic,Other academic,,keyword,,,,,2348.119,341.2942,32.3889,34.0,1.0,1.0,5.0
+CSU-Bakersfield - California State University-Bakersfield,RCU,RCU,California State University-Bakersfield,exact,110486.0,,18.0,CA,2026.7016,197.6939,34.5886,45.0,1.0,1.0,3.0
+"UPR Rio Piedras - University of Puerto Rico, Rio Piedras",R2,R2,University of Puerto Rico-Rio Piedras,exact,243221.0,,16.0,PR,1998.7523,385.4356,46.7883,88.0,4.0,5.0,7.0
+KWAAI,Non-academic,Non-academic,,keyword,,,,,1929.6276,105.9589,9.2425,7.0,1.0,1.0,2.0
+franciscan - Franciscan University of Steubenville,Other academic,Other academic,,keyword,205957.0,,19.0,OH,1882.2135,1882.1297,637.7325,142.0,1.0,2.0,1.0
+S Methodist U - Southern Methodist University,R1,R1,Southern Methodist University,exact,228246.0,,16.0,TX,1830.1828,354.9658,7.3742,103.0,1.0,1.0,1.0
+Fort Lewis College - Fort Lewis College,RCU,RCU,Fort Lewis College,exact,127185.0,,22.0,CO,1804.6042,1503.9889,142.1236,63.0,1.0,1.0,2.0
+SMA at Aberdeen High School - Science and Mathematics Academy at Aberdeen High School,Other academic,Other academic,,academic-list,,,,,1773.4107,293.5619,81.3442,384.0,1.0,2.0,3.0
+HHMI - Howard Hughes Medical Institute,Non-academic,Non-academic,,keyword,,,,,1723.3764,146.2933,4.8708,24.0,1.0,1.0,1.0
+"Merit Network, Inc.",Non-academic,Non-academic,,keyword,,,,,1621.6857,150.5944,30.1189,25.0,1.0,1.0,1.0
+Campbellsville U - Campbellsville University,Other academic,Other academic,,keyword,156365.0,,18.0,KY,1495.5393,62.345,62.345,8.0,1.0,1.0,1.0
+Internet2 - Internet2,Non-academic,Non-academic,,keyword,,,,,1427.4128,159.7414,18.8511,171.0,4.0,4.0,52.0
+New England College,Other academic,Other academic,,keyword,182980.0,,18.0,NH,1400.2121,130.7111,3.2678,14.0,1.0,1.0,1.0
+Utica University,Other academic,Other academic,,keyword,197045.0,,18.0,NY,1325.5974,148.2267,3.0881,10.0,1.0,1.0,2.0
+Lafayette College - Lafayette College,Other academic,Other academic,,keyword,213385.0,,21.0,PA,1307.3804,15.48,12.6464,28.0,1.0,1.0,1.0
+Capitol Technology University,Other academic,Other academic,,keyword,162061.0,,17.0,MD,1286.9175,144.1333,6.0056,2.0,1.0,1.0,1.0
+Mote Marine Laboratory and Aquarium,Non-academic,Non-academic,,keyword,,,,,1279.3063,463.7422,9.3017,45.0,1.0,1.0,2.0
+Albany State U - Albany State University,Other academic,Other academic,,keyword,138716.0,HBCU,19.0,GA,1203.6933,1003.065,22.2369,30.0,1.0,1.0,6.0
+Macalester College - Macalester College,Other academic,Other academic,,keyword,173902.0,,21.0,MN,1157.2774,1157.4133,25.8358,19.0,1.0,1.0,1.0
+APUS - American Public University System,Other academic,Other academic,,keyword,449339.0,,18.0,WV,1149.5415,1150.2056,1150.2056,80.0,1.0,1.0,1.0
+Bradley U - Bradley University,Other academic,Other academic,,keyword,143358.0,,17.0,IL,1091.7712,812.5853,49.84,103.0,1.0,1.0,5.0
+TAMIU - Texas A&M International University,RCU,RCU,Texas A & M International University,exact,226152.0,,18.0,TX,1040.8634,1103.0689,19.1656,49.0,1.0,1.0,1.0
+Cedar Crest College - Cedar Crest College,Other academic,Other academic,,keyword,211468.0,,20.0,PA,971.2396,176.1147,9.3169,105.0,1.0,1.0,1.0
+St Louis U - Saint Louis University,R1,R1,Saint Louis University,exact,179159.0,,16.0,MO,913.3446,124.2844,18.4442,46.0,4.0,4.0,6.0
+Mount St. Mary's University,Other academic,Other academic,,keyword,119173.0,,18.0,CA,883.7732,6891.8864,166.6517,21.0,1.0,1.0,1.0
+Rosalind Franklin U - Rosalind Franklin University,Other academic,Other academic,,keyword,,,,,783.9541,11.4836,11.4836,8.0,1.0,1.0,1.0
+"U Missouri, St Louis - University of Missouri, Saint Louis",R2,R2,University of Missouri-St Louis,exact,178420.0,,16.0,MO,748.6431,73.1533,5.63,6.0,2.0,2.0,2.0
+Smithsonian Astrophys Obs - Smithsonian Astrophysical Observatory,Non-academic,Non-academic,,keyword,,,,,728.9288,607.5456,6.4542,29.0,1.0,1.0,1.0
+"Tandav-Sci, Inc.",Non-academic,Non-academic,,keyword,,,,,682.0138,73.8422,7.8075,123.0,1.0,1.0,1.0
+Saint Anselm College - Saint Anselm College,Other academic,Other academic,,keyword,183239.0,,21.0,NH,621.7481,571.775,55.1608,87.0,1.0,1.0,2.0
+WILMU - Wilmington University,Other academic,Other academic,,keyword,131113.0,,17.0,DE,564.1026,232.7289,14.5456,3.0,1.0,1.0,1.0
+St Francis U - Saint Francis University,Other academic,Other academic,,keyword,215743.0,,18.0,PA,548.7554,493.0628,331.1839,83.0,1.0,1.0,1.0
+NRAO - National Radio Astronomy Observatory,Non-academic,Non-academic,,keyword,,,,,498.4715,1518.27,37.0425,16.0,1.0,1.0,1.0
+Governors State U - Governors State University,Other academic,Other academic,,keyword,145336.0,,18.0,IL,493.9797,8.3417,7.3403,14.0,1.0,1.0,2.0
+NERSC - National Energy Research Scientific Computing Center,Non-academic,Non-academic,,keyword,,,,,449.8097,5.2339,1.6861,5.0,1.0,1.0,1.0
+Oxnard - Oxnard College,Other academic,Other academic,,academic-list,120421.0,,1.0,CA,407.6362,205.1339,47.6675,255.0,1.0,1.0,1.0
+Smithsonian Institution - Smithsonian Institution,Non-academic,Non-academic,,keyword,,,,,402.0213,190.1525,29.795,32.0,1.0,1.0,1.0
+University of Hawaii,R1,R1,,r1-unit,,,,,393.2872,43.8267,1.8261,1.0,1.0,1.0,1.0
+U Iowa Medicine - University of Iowa Carver College of Medicine,R1,R1,,r1-unit,,,,,383.9291,12.0222,3.0056,19.0,1.0,1.0,1.0
+Conn. College - Connecticut College,Other academic,Other academic,,keyword,128902.0,,21.0,CT,369.081,5.5036,5.4828,5.0,1.0,1.0,1.0
+Hood College - Hood College,Other academic,Other academic,,keyword,162760.0,,18.0,MD,327.4066,171.4267,2.0181,3.0,1.0,1.0,1.0
+SD State U - South Dakota State University,R2,R2,South Dakota State University,exact,219356.0,,16.0,SD,292.2204,68.2228,7.9397,31.0,1.0,1.0,1.0
+Wofford College - Wofford College,Other academic,Other academic,,keyword,218973.0,,21.0,SC,288.1028,67653.1144,2050.7819,1154.0,1.0,2.0,19.0
+RocketML.net - RocketML,Non-academic,Non-academic,,keyword,,,,,262.3994,24.3667,4.8733,8.0,1.0,1.0,1.0
+WHRC - Woodwell Climate Research Center,Non-academic,Non-academic,,keyword,,,,,251.1698,30.26,0.995,5.0,1.0,1.0,1.0
+Microsoft,Non-academic,Non-academic,,keyword,,,,,196.394,580.84,12.1008,18.0,1.0,1.0,1.0
+"AscendArc, Inc.",Non-academic,Non-academic,,keyword,,,,,175.6816,121.5333,2.5319,4.0,1.0,1.0,1.0
+Nvidia - Nvidia Corporation,Non-academic,Non-academic,,keyword,,,,,170.1915,15.8083,3.1617,11.0,1.0,1.0,1.0
+Alabama A&M - Alabama A&M University,RCU,RCU,Alabama A & M University,exact,100654.0,HBCU,18.0,AL,109.1771,5.6611,0.5819,3.0,1.0,1.0,1.0
+Bowdoin College - Bowdoin College,RCU,RCU,Bowdoin College,exact,161004.0,,21.0,ME,97.6979,97.7789,1.5017,29.0,1.0,1.0,1.0
+Children's Mercy Hosp - Children's Mercy Hospital,Non-academic,Non-academic,,keyword,,,,,87.2169,7.39,7.39,76.0,1.0,1.0,1.0
+Last Energy,Non-academic,Non-academic,,keyword,,,,,64.7576,41.8533,0.8719,2.0,1.0,1.0,1.0
+"UNC Greensboro - University of North Carolina, Greensboro",R2,R2,University of North Carolina at Greensboro,exact,199148.0,,16.0,NC,60.141,103.3422,1.4125,4.0,2.0,2.0,3.0
+Augustana U - Augustana University,Other academic,Other academic,,keyword,219000.0,,19.0,SD,40.1772,40.2844,0.3147,6.0,1.0,1.0,1.0
+Virginia Union University,Other academic,Other academic,,keyword,234164.0,HBCU,21.0,VA,37.6817,298.9656,297.5375,84.0,1.0,1.0,3.0
+SURA - Southeastern Universities Research Association,Non-academic,Non-academic,,keyword,,,,,34.188,34.3503,34.3503,26.0,1.0,1.0,1.0
+UT Anderson Cancer Ctr - University of Texas MD Anderson Cancer Center,RCU,RCU,The University of Texas MD Anderson Cancer Center,exact,416801.0,,26.0,TX,31.9421,6.92,0.1442,2.0,1.0,1.0,1.0
+National U - National University,Other academic,Other academic,,keyword,119605.0,,18.0,CA,27.9493,18.3156,0.1528,28.0,1.0,1.0,1.0
+Calvin U. - Calvin University,RCU,RCU,Calvin University,exact,169080.0,,20.0,MI,18.4665,1.0344,1.0344,6.0,1.0,1.0,1.0
+Le Moyne College - Le Moyne College,Other academic,Other academic,,keyword,192323.0,,18.0,NY,12.9765,3.4811,0.5933,13.0,1.0,1.0,1.0
+csuci.edu - California State University-Channel Islands,RCU,RCU,California State University-Channel Islands,exact,441937.0,,20.0,CA,10.9801,0.0047,0.0047,11.0,1.0,1.0,1.0
+Deltares USA,Foreign/Unknown,Foreign,,foreign-list,,,,,10.9801,0.1578,0.0042,11.0,1.0,1.0,1.0
+JBU - John Brown University,Other academic,Other academic,,keyword,107141.0,,19.0,AR,8.9837,5.5022,0.1719,5.0,1.0,1.0,1.0
+Barnard College - Barnard College,RCU,RCU,Barnard College,exact,189097.0,,21.0,NY,6.3635,0.5847,0.1053,3.0,1.0,1.0,2.0
+Widener U - Widener University,Other academic,Other academic,,keyword,216852.0,,17.0,PA,5.8644,5.8567,0.0711,38.0,1.0,1.0,1.0
+Fitchburg State U - Fitchburg State University,Other academic,Other academic,,keyword,165820.0,,18.0,MA,1.9964,2.0028,2.0028,1.0,1.0,1.0,1.0
+Buck Inst - Buck Institute for Research on Aging,Non-academic,Non-academic,,keyword,,,,,1.9964,2.0081,2.0081,1.0,1.0,1.0,1.0
+St. Cloud State University,RCU,RCU,Saint Cloud State University,exact,174783.0,,18.0,MN,1.7468,1.7156,0.1072,1.0,1.0,1.0,1.0
+MU-RCSS - University of Missouri Research Computing Support Services,R1,R1,,r1-unit,,,,,1.3725,1.3453,1.3453,3.0,1.0,1.0,1.0
+Texas Southern U - Texas Southern University,R2,R2,Texas Southern University,exact,229063.0,HBCU,16.0,TX,0.9982,1.0019,1.0019,2.0,1.0,1.0,1.0
+UCAR - University Corporation for Atmospheric Research,Non-academic,Non-academic,,keyword,,,,,0.7486,2.4811,1.4806,2.0,1.0,1.0,1.0
+Wright State U - Wright State University,R2,R2,Wright State University-Main Campus,exact,206604.0,,16.0,OH,0.6239,0.2089,0.0522,2.0,1.0,1.0,1.0
+USDA ARS - USDA Agricultural Research Service,Non-academic,Non-academic,,keyword,,,,,0.4991,0.5047,0.5047,7.0,1.0,1.0,1.0
+Alvin Community College,Other academic,Other academic,,academic-list,222567.0,,9.0,TX,0.2495,2.1022,1.0992,2.0,1.0,1.0,1.0
+Oakland City University,Other academic,Other academic,,keyword,152099.0,,17.0,IN,0.2495,0.2183,0.2183,1.0,1.0,1.0,1.0
+Vanguard USC - Vanguard University of Southern California,Other academic,Other academic,,keyword,123651.0,,19.0,CA,0.1248,0.0019,0.0019,9.0,1.0,1.0,1.0
+Yeshiva U - Yeshiva University,R2,R2,Yeshiva University,exact,197708.0,,17.0,NY,0.1248,0.0108,0.0097,4.0,1.0,1.0,1.0
+Long Island Jewish Hosp - Long Island Jewish Hospital,Non-academic,Non-academic,,keyword,,,,,0.1248,0.0444,0.0006,1.0,1.0,1.0,1.0
+"UPR Med Sci - University of Puerto Rico, Medical Sciences Campus",RCU,RCU,University of Puerto Rico-Medical Sciences,exact,243203.0,,25.0,PR,0.1248,0.1789,0.1789,1.0,1.0,1.0,1.0
+Fayetteville State U - Fayetteville State University,RCU,RCU,Fayetteville State University,exact,198543.0,HBCU,19.0,NC,0.0,0.0094,0.0094,1.0,1.0,1.0,1.0
+Montgomery Botanical Center,Non-academic,Non-academic,,keyword,,,,,0.0,0.0011,0.0011,1.0,1.0,1.0,1.0
+harrisburgu - Harrisburg University,Other academic,Other academic,,keyword,,,,,0.0,0.0006,0.0006,1.0,1.0,1.0,1.0
+nm.org - Northwestern Medicine,Non-academic,Non-academic,,keyword,,,,,0.0,0.005,0.005,1.0,1.0,1.0,1.0

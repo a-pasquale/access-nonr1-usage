@@ -1,0 +1,736 @@
+pi_institution,total_ace,total_cpu_hours,total_node_hours,job_count,active_pi_count,active_allocation_count,active_person_count
+  - Utah Tech University,1284747.3953,191147.3733,5923.7833,7612.0,1.0,3.0,15.0
+3ds - Dassault Systems,775028.2613,775028.1606,6263.9267,1743.0,1.0,1.0,1.0
+AMD - Advanced Micro Devices,42877.9088,32190.84,670.6425,41.0,1.0,1.0,1.0
+AMNH - American Museum of Natural History,4207831.4305,6903566.4019,112684.96,3799.0,3.0,4.0,8.0
+ANL - Argonne National Laboratory,2605427.1633,1194403.1419,23753.3833,84586.0,10.0,14.0,41.0
+APUS - American Public University System,1149.5415,1150.2056,1150.2056,80.0,1.0,1.0,1.0
+ARKA Group L.P.,128933.6827,128933.4431,117311.9906,5475.0,1.0,1.0,1.0
+ATTMOS Inc.,1361695.1775,380772.6369,92176.5972,41181.0,1.0,1.0,4.0
+Abilene Christian U - Abilene Christian University,13343.3152,106838.7794,1156.0708,772.0,1.0,1.0,1.0
+Adelphi U - Adelphi University,16959.8852,16959.8508,217.7464,175.0,1.0,1.0,2.0
+Aeolus Labs,333787.2606,333787.1867,3421.5756,1214.0,2.0,2.0,4.0
+"Aeolus Labs, Inc.",754184.6653,754186.9892,11833.3192,6669.0,1.0,1.0,3.0
+Air Liquide - Air Liquide (US),1953900.9296,302580.29,7126.7394,2291.0,1.0,2.0,6.0
+Alabama A&M - Alabama A&M University,109.1771,5.6611,0.5819,3.0,1.0,1.0,1.0
+Alamgir Research Inc,7660376.817,7660385.7622,488048.5742,28880.0,1.0,4.0,1.0
+Albany State U - Albany State University,1203.6933,1003.065,22.2369,30.0,1.0,1.0,6.0
+Albright College - Albright College,19168.7566,19086.44,1590.5367,546.0,1.0,1.0,1.0
+Alfred State - Alfred State College,4925.3229,325.0778,20.51,36.0,1.0,1.0,1.0
+Alfred U - Alfred University,270518.4353,11257.1786,5622.4408,11466.0,4.0,5.0,8.0
+Allegheny College - Allegheny College,232027.9493,22678.88,2227.3192,322.0,2.0,2.0,4.0
+Allen Institute - Allen Institute for Brain Science,5285469.9607,3276779.1306,95674.5372,77369.0,1.0,2.0,2.0
+Alvin Community College,0.2495,2.1022,1.0992,2.0,1.0,1.0,1.0
+American U - American University,35508.8901,21461.5867,372.0314,371.0,1.0,1.0,2.0
+Ames Lab - Ames Laboratory,3155.7801,3155.7442,24.9825,49.0,1.0,2.0,1.0
+Amherst College - Amherst College,373766.6729,2375590.2844,95584.0497,523.0,1.0,1.0,1.0
+Apollodyne,121757.5644,121758.1556,7834.5692,775.0,1.0,1.0,1.0
+Aquinas College,7381.3713,380.1028,39.9606,130.0,1.0,1.0,1.0
+Arizona State U - Arizona State University,93361046.4783,82393838.4806,1148673.7464,358954.0,34.0,52.0,119.0
+Arkansas State U - Arkansas State University,450251.5441,133795.8019,4192.2286,4345.0,2.0,3.0,2.0
+"AscendArc, Inc.",175.6816,121.5333,2.5319,4.0,1.0,1.0,1.0
+Atrium Health - Atrium Health,374299.9563,2870891.8539,246970.8194,7064.0,1.0,1.0,1.0
+Auburn U - Auburn University,52447873.8536,39241291.0564,585038.2119,123662.0,15.0,23.0,49.0
+Augsburg University,537016.1582,537015.9267,11514.9689,1514.0,1.0,1.0,3.0
+Augusta U - Augusta University,825199.451,825201.1486,6974.2403,5997.0,3.0,5.0,21.0
+Augustana U - Augustana University,40.1772,40.2844,0.3147,6.0,1.0,1.0,1.0
+Austin Peay State U - Austin Peay State University,1884339.0105,2455054.4631,219260.5114,11377.0,5.0,7.0,31.0
+Aventusoft LLC,107761.3076,22412.8578,808.1578,166.0,2.0,2.0,2.0
+"BRI City of Hope - Beckman Research Institute, City of Hope",58854.7009,8679.3717,868.0317,280.0,1.0,1.0,1.0
+BYU - Brigham Young University,42686397.5295,30087460.8131,571931.7672,15396.0,3.0,4.0,20.0
+Ball State U - Ball State University,203752.0744,169793.7867,1330.2358,240.0,1.0,1.0,11.0
+Barnard College - Barnard College,6.3635,0.5847,0.1053,3.0,1.0,1.0,2.0
+Bates College - Bates College,933970.1791,223779.2986,3501.3094,84.0,1.0,1.0,3.0
+Baylor College of Med - Baylor College of Medicine,1573387.3604,878001.6086,16498.0794,4024.0,6.0,6.0,11.0
+Baylor U - Baylor University,8280357.1028,6104041.6806,101725.7872,41914.0,23.0,26.0,38.0
+BenU - Benedictine University,5777.9026,5741.1022,179.4094,120.0,1.0,1.0,2.0
+Benedictine College - Benedictine College,95171.3769,19728.9172,789.9767,210.0,1.0,1.0,3.0
+Beth Israel Deaconess Med Ctr - Beth Israel Deaconess Medical Center,750693.3683,750693.7169,23824.6003,24109.0,1.0,1.0,4.0
+Bethune-Cookman U - Bethune-Cookman University,124150.3525,124150.3583,1067.8686,140.0,1.0,1.0,1.0
+BioHybrid Solutions,434717.9487,160886.1528,2754.1597,188.0,1.0,1.0,1.0
+Black Diamond Project Corp,14234.0757,596.2722,11.8981,32.0,1.0,1.0,1.0
+Boise State U - Boise State University,915875.3509,259652.5483,3908.3153,1321.0,4.0,6.0,54.0
+Boston College - Boston College,91346.185,6281.19,2059.8728,197.0,1.0,2.0,11.0
+Boston U - Boston University,27027914.5299,15375261.9869,396493.7672,164501.0,27.0,32.0,58.0
+Bowdoin College - Bowdoin College,97.6979,97.7789,1.5017,29.0,1.0,1.0,1.0
+Bowie State U - Bowie State University,835004.9286,82220.7092,2886.1467,1183.0,7.0,8.0,13.0
+Bowling Green State U - Bowling Green State University,7424267.016,6929852.6389,324294.7319,14177.0,4.0,5.0,15.0
+Bradley U - Bradley University,1091.7712,812.5853,49.84,103.0,1.0,1.0,5.0
+Brandeis U - Brandeis University,75016997.3174,52925333.3781,5442618.5211,644958.0,5.0,6.0,51.0
+Brigham and Women's Hospital - Brigham and Women's Hospital,1387637.0329,125072.82,6623.0686,2627.0,4.0,4.0,8.0
+"Brigham and Women's Hospital, Boston - Brigham and Women's Hospital, Boston",3990797.804,3218754.7733,39127.8489,32591.0,3.0,4.0,3.0
+Broad Institute - Broad Institute of MIT and Harvard,323859.5046,98870.5389,6104.6775,287.0,1.0,1.0,1.0
+Brown U - Brown University,8542690.9976,7523650.0353,98594.6219,28345.0,20.0,20.0,39.0
+Bryn Mawr College - Bryn Mawr College,182673.1549,252862.0797,3469.4703,191.0,3.0,3.0,4.0
+Buck Inst - Buck Institute for Research on Aging,1.9964,2.0081,2.0081,1.0,1.0,1.0,1.0
+Bucknell U - Bucknell University,448779.7118,409008.6486,8964.475,32565.0,2.0,3.0,9.0
+CAIDA - Center for Applied Internet Data Analysis,851177.1165,741948.0206,8454.7658,3407.0,3.0,3.0,17.0
+CAS - Czech Academy of Sciences,22010.2315,22010.175,171.9958,119.0,1.0,1.0,2.0
+CCM - County College of Morris,1879342.4418,1879341.3708,14682.3564,2231.0,1.0,1.0,2.0
+CCT-LSU - LSU Center for Computation and Technology,185029.509,119748.4481,753.0539,547.0,1.0,1.0,2.0
+CFD Research Corp.,34372.0756,2639.1625,117.9189,109.0,1.0,1.0,2.0
+CIG - Computational Infrastructure for Geodynamics,8828853.2036,9122639.0753,192683.7392,6557.0,1.0,1.0,24.0
+CIW - Carnegie Institution for Science,19668637.7191,17729235.3792,995100.3775,40034.0,4.0,5.0,7.0
+CMU - Carnegie Mellon University,654135189.4691,257370315.3214,8281931.8219,8333772.0,550.0,738.0,3693.0
+"CRAFT Tech - Combustion Research and Flow Technology, Inc.",181268.3262,151056.9956,1180.1328,545.0,1.0,1.0,3.0
+"CSRS, a Westwood Company",178457.5457,178458.0067,7761.0928,2543.0,1.0,1.0,1.0
+CSU-Bakersfield - California State University-Bakersfield,2026.7016,197.6939,34.5886,45.0,1.0,1.0,3.0
+CSU-Chico - California State University-Chico,41598.2282,3206.9208,340.4006,691.0,4.0,5.0,12.0
+CSU-Fresno - California State University-Fresno,3866879.1565,4618853.5392,89972.8853,7825.0,4.0,4.0,25.0
+CSU-Fullerton - California State University-Fullerton,13822422.2347,8653172.8061,159986.8661,24353.0,12.0,19.0,26.0
+CSU-Los Angeles - California State University-Los Angeles,300506.5818,56667.3008,5561.2139,5998.0,4.0,4.0,291.0
+CSU-Monterey Bay - California State University-Monterey Bay,4542148.1066,3207673.865,88338.8214,24476.0,1.0,3.0,1.0
+CSU-Northridge - California State University-Northridge,2153073.8037,1448275.1547,22606.77,4153.0,3.0,4.0,5.0
+CSU-Sacramento - California State University-Sacramento,1189075.4258,1026093.7503,953651.0503,114185.0,4.0,4.0,9.0
+CSU-San Bernardino - California State University-San Bernardino,477386.8613,774418.9331,24155.1311,409.0,6.0,7.0,8.0
+CSU-San Marcos - California State University-San Marcos,545692.0581,323388.6092,5621.7514,1018.0,2.0,2.0,2.0
+"CU Anschutz - University of Colorado, Anschutz Medical Campus",562276.8732,311562.9014,29479.6756,815454.0,3.0,5.0,5.0
+"CU Denver - University of Colorado, Denver",11321100.7549,14582010.1978,261452.3644,34451.0,8.0,11.0,28.0
+CUNY - City University of New York,4516378.1895,2059706.0625,59591.9669,2978.0,5.0,7.0,14.0
+CUNY Baruch College - CUNY Baruch College,1855048.9737,891187.6617,26554.2142,2907.0,5.0,7.0,11.0
+CUNY Brooklyn College - CUNY Brooklyn College,2771968.1827,844274.8553,53857.5522,14709.0,4.0,6.0,20.0
+CUNY City College - CUNY The City College of New York,4001029.509,1478069.6961,72737.1247,10322.0,8.0,9.0,13.0
+CUNY City Tech - CUNY New York City College of Technology,257177.8651,23452.1331,754.0292,178.0,1.0,1.0,2.0
+CUNY Graduate School and University Center - CUNY Graduate School and University Center,1614684.6341,471275.7664,19522.7478,4236.0,4.0,5.0,6.0
+CUNY Hunter College - CUNY Hunter College,625850.0218,535277.5133,7987.27,5750.0,2.0,2.0,8.0
+CUNY Lehman College - CUNY Lehman College,1688158.8371,1290519.2992,41881.3086,2363.0,2.0,3.0,2.0
+CUNY Manhattan CC - CUNY Borough of Manhattan Community College,117289.1634,25691.3431,1120.6175,1618.0,2.0,2.0,2.0
+CUNY Staten Island - CUNY College of Staten Island,1876754.8818,724053.1044,11447.6264,5951.0,6.0,6.0,17.0
+"CUNY York College - York College, City University of New York",121171.2521,197828.7353,3523.6436,668.0,1.0,1.0,1.0
+CWRU - Case Western Reserve University,3529118.7223,1404400.2625,31427.1614,5901.0,10.0,14.0,24.0
+CWorthy,4118890.0119,4118856.475,35441.1831,7221.0,1.0,2.0,13.0
+"Cal Poly - California Polytechnic State University, San Luis Obispo",1010895.0028,215662.4203,16935.7111,22147.0,9.0,12.0,66.0
+"Cal Poly Humboldt - California State Polytechnic University, Humboldt",20345.8731,17805.6803,784.8731,3551.0,1.0,1.0,34.0
+"Cal Poly Pomona - California State Polytechnic University, Pomona",13984434.5873,4084131.9733,207982.7256,1521420.0,8.0,11.0,188.0
+Cal State East Bay - California State University East Bay,32188.159,7393.8911,404.7572,1155.0,2.0,2.0,13.0
+Caldwell University,4799.9251,1203.0044,37.3769,44.0,1.0,1.0,1.0
+Calif Dept of Water Resources - California Department of Water Resources,179557.8015,89481.2,1864.1917,5679.0,1.0,1.0,1.0
+Caltech - California Institute of Technology,211403345.4364,209388737.9239,3358117.3767,459447.0,56.0,73.0,136.0
+Calvin U. - Calvin University,18.4665,1.0344,1.0344,6.0,1.0,1.0,1.0
+Campbellsville U - Campbellsville University,1495.5393,62.345,62.345,8.0,1.0,1.0,1.0
+Capitol Technology University,1286.9175,144.1333,6.0056,2.0,1.0,1.0,1.0
+Carbon to Sea Initiative,636117.9113,502290.4764,5885.6864,1108.0,1.0,1.0,3.0
+Catholic U - Catholic University of America,19456.9842,17208.6133,150.9964,45.0,1.0,1.0,1.0
+Cavendish-Labs - Cavendish Labs,455073.4294,342897.9853,3070.5094,1718.0,2.0,2.0,7.0
+Cedar Crest College - Cedar Crest College,971.2396,176.1147,9.3169,105.0,1.0,1.0,1.0
+Central Michigan U - Central Michigan University,3218534.6559,13229549.6189,199054.2806,2178.0,3.0,5.0,9.0
+Centre College - Centre College,1991741.8429,1976670.08,15559.8256,1514.0,1.0,3.0,14.0
+Chapman U - Chapman University,5890811.7787,5855074.9781,113356.9247,3569.0,5.0,5.0,7.0
+Chatham U - Chatham University,1155117.3498,1206122.3778,33310.2267,4167.0,1.0,4.0,18.0
+Child Mind - Child Mind Institute,13209902.1773,12578979.0108,1110416.5756,2538078.0,7.0,12.0,40.0
+Children's Mercy Hosp - Children's Mercy Hospital,87.2169,7.39,7.39,76.0,1.0,1.0,1.0
+Cincinnati Children's Hosp - Cincinnati Children's Hospital Medical Center,727095.1401,727095.2653,249742.5833,186581.0,2.0,2.0,6.0
+City of Hope - City of Hope,33977.1664,4961.4161,335.1739,171.0,1.0,1.0,1.0
+Claflin U - Claflin University,84181.1716,80787.4586,702.4633,871.0,1.0,1.0,4.0
+Claremont McKenna College - Claremont McKenna College,3808.7217,175.4497,22.8989,81.0,2.0,2.0,4.0
+Clark Atlanta U - Clark Atlanta University,5805345.8107,5217306.7906,82210.37,12392.0,2.0,3.0,12.0
+Clark U - Clark University,47045.9792,6802.0147,1634.9753,253.0,1.0,1.0,1.0
+Clarkson U - Clarkson University,3252513.8187,3002081.585,86284.8664,250964.0,6.0,9.0,22.0
+Clemson U - Clemson University,711635.5356,207981.7406,3863.5842,1192.0,6.0,8.0,11.0
+Cleveland State U - Cleveland State University,242679.0193,180147.9967,6563.0972,2843.0,1.0,1.0,1.0
+Coastal Carolina U - Coastal Carolina University,1443774.2841,1317131.7756,25558.9875,91346.0,2.0,4.0,97.0
+College of Charleston - College of Charleston,5789041.4873,15476335.8647,322357.8217,364.0,1.0,1.0,2.0
+College of Wm & Mary - College of William and Mary,10381001.0606,3927230.0228,81526.5097,9227.0,15.0,16.0,26.0
+College of Wooster - College of Wooster,116531.5366,116531.5556,910.4028,270.0,1.0,1.0,1.0
+College of the Holy Cross - College of the Holy Cross,4575.7065,4575.6089,35.7469,48.0,1.0,1.0,1.0
+Colorado Mesa U - Colorado Mesa University,2831040.1148,1961098.3047,88068.4072,18274.0,1.0,1.0,3.0
+Colorado Sch of Mines - Colorado School of Mines,25325508.1415,21585342.0508,800724.0553,121276.0,29.0,31.0,50.0
+Colorado State U - Colorado State University,44371136.6897,29876479.3814,1454422.0931,462986.0,17.0,22.0,58.0
+"Colorado-Boulder - University of Colorado, Boulder",114932912.4711,105861699.2103,1596273.0467,123469.0,52.0,69.0,101.0
+Columbia River Inter-Tribal - Columbia River Inter-Tribal Fish Commission,873395.0964,833986.5133,8077.6492,1562.0,1.0,1.0,6.0
+Columbia U - Columbia University in the City of New York,558535069.5614,453644369.5528,6068905.4072,1556691.0,86.0,111.0,280.0
+Columbus State U - Columbus State University,45941.9802,4983.4619,323.4728,340.0,1.0,2.0,3.0
+Conn. College - Connecticut College,369.081,5.5036,5.4828,5.0,1.0,1.0,1.0
+Contramont Research,180960.3843,43216.0786,682.2236,133.0,1.0,1.0,3.0
+Cooper Union College - Cooper Union College,186471.2708,3286.7742,3255.5364,476.0,1.0,1.0,1.0
+Cornell College,57284.0477,57283.4711,755.1922,12783.0,1.0,1.0,1.0
+Cornell U - Cornell University,381748804.2922,274503250.7669,5963289.9978,8175914.0,113.0,142.0,456.0
+DHS - US Department of Homeland Security,113269.1996,111944.2222,901.0517,174.0,1.0,1.0,10.0
+DMU - Des Moines University,471313.9934,17169.4392,7326.4769,640.0,2.0,2.0,4.0
+DSU - Delaware State University,3943054.339,1256975.265,39807.5136,5106.0,3.0,4.0,13.0
+Dana-Farber Cancer Inst - Dana-Farber Cancer Institute,217564.9136,217513.7314,10533.3742,135514.0,1.0,1.0,8.0
+Dartmouth College - Dartmouth College,3895382.3695,2597087.0697,44863.3314,5400.0,11.0,14.0,18.0
+Davidson College - Davidson College,53872.4811,53872.2789,429.0914,195.0,1.0,1.0,2.0
+DePauw U - DePauw University,17696.0509,7325.2961,411.7467,217.0,2.0,2.0,17.0
+Deltares USA,10.9801,0.1578,0.0042,11.0,1.0,1.0,1.0
+Desert Res Inst - Desert Research Institute,357346.185,357341.7122,2792.6978,131.0,1.0,2.0,1.0
+Docugami,4725.4351,392.1967,6.0472,20.0,1.0,1.0,3.0
+"Dominican U, Calif. - Dominican University of California",5148.7928,5148.7467,80.4492,4.0,1.0,1.0,1.0
+"Dominican U, New York - Dominican University New York",35743.2154,34248.9478,1107.4872,125.0,1.0,1.0,1.0
+Drake U - Drake University,1726139.3724,3246661.3167,54651.4122,2439.0,1.0,1.0,28.0
+Drew University - Drew University,8138.2494,774.82,120.9011,184.0,1.0,1.0,9.0
+Drexel U - Drexel University,7957476.8233,8158805.3556,181938.1964,101905.0,10.0,12.0,68.0
+Duke U - Duke University,59460745.0246,77248275.4181,1374909.8628,148642.0,23.0,31.0,87.0
+Duquesne U - Duquesne University,8589089.8996,8080834.355,158633.2492,25201.0,2.0,2.0,11.0
+E Tenn State U - East Tennessee State University,374840.3519,371085.7717,7479.7608,1568.0,4.0,4.0,36.0
+EDF - Environmental Defense Fund,72158.9619,57488.3628,565.8303,636.0,1.0,1.0,1.0
+ETAMU - East Texas A&M University,2961.0082,4914.5697,4413.2442,11722.0,1.0,1.0,4.0
+East Carolina U - East Carolina University,230707.3429,45683.7222,1334.1311,2938.0,6.0,7.0,25.0
+Eastern Illinois U - Eastern Illinois University,2552880.2795,2552722.2925,280999.9622,989006.0,2.0,6.0,17.0
+Eastern Michigan U - Eastern Michigan University,30242.186,30231.85,1458.915,52.0,1.0,1.0,1.0
+Eckerd College - Eckerd College,21517.4995,16108.5022,335.5558,85.0,1.0,1.0,1.0
+Einstein College of Med - Albert Einstein College of Medicine,81416.1832,730.1625,730.0664,183.0,1.0,1.0,2.0
+Elmhurst University,2464.1587,2464.0356,19.2503,58.0,1.0,1.0,1.0
+Elon U - Elon University,255818.0797,255533.1469,2008.9897,1689.0,1.0,1.0,1.0
+Embry-Riddle U - Embry-Riddle Aeronautical University,62627.1134,53055.1314,478.0397,222.0,2.0,2.0,3.0
+Emory U - Emory University,7267379.7492,6196991.3939,354496.8969,51755.0,12.0,16.0,30.0
+Epsilon Delta Labs - Epsilon Delta Labs,2221373.0114,3906138.2431,94189.4617,5611.0,1.0,3.0,2.0
+"Erudio Bio, Inc.",1525625.5537,28036.4644,28036.4644,1337.0,1.0,2.0,2.0
+Fairfield U - Fairfield University,222593.1749,24930.4533,259.6922,8.0,1.0,1.0,1.0
+Fairleigh Dickinson U - Fairleigh Dickinson University,1160544.014,967530.5344,18798.7353,2566.0,4.0,5.0,10.0
+Fayetteville State U - Fayetteville State University,0.0,0.0094,0.0094,1.0,1.0,1.0,1.0
+Fermilab - Fermi National Accelerator Laboratory,23033572.4,98996639.9072,1643451.0433,524.0,2.0,2.0,2.0
+Ferris - Ferris State University,212531.0375,212532.8656,37481.8672,35656.0,1.0,1.0,6.0
+Fitchburg State U - Fitchburg State University,1.9964,2.0028,2.0028,1.0,1.0,1.0,1.0
+Florida A&M U - Florida A&M University,8418813.4007,12717304.8903,203308.5089,14608.0,2.0,5.0,8.0
+Florida Atlantic U - Florida Atlantic University,3227205.3154,2865464.2603,22889.4094,1200.0,5.0,6.0,16.0
+Florida Gulf Coast U - Florida Gulf Coast University,100605.777,81573.3156,1188.4044,28.0,1.0,1.0,1.0
+Florida Intl U - Florida International University,11051325.9717,9003174.0364,944480.7444,104982.0,23.0,27.0,32.0
+Florida Polytechnic U - Florida Polytechnic University,106170.9402,53068.1747,829.4497,327.0,1.0,1.0,2.0
+Florida Southern College - Florida Southern College,141436.5213,135265.4756,3614.5381,1821.0,1.0,1.0,43.0
+Florida State U - Florida State University,58099276.686,67513609.5753,803406.1861,68754.0,21.0,27.0,80.0
+Fordham U - Fordham University,524856.5725,107944.0553,6722.2936,13535.0,3.0,3.0,8.0
+Fort Lewis College - Fort Lewis College,1804.6042,1503.9889,142.1236,63.0,1.0,1.0,2.0
+Fort Valley State U - Fort Valley State University,13198.4528,2843.1311,101.9736,66.0,1.0,1.0,5.0
+Fox Chase Cancer Ctr - Fox Chase Cancer Center,11399003.4313,14040551.8497,2628895.2578,297554.0,3.0,4.0,11.0
+Francis Marion U - Francis Marion University,25278.3081,18988.7278,396.7183,429.0,1.0,3.0,1.0
+GA - General Atomics,134526.6704,26145.5206,3204.4947,1136.0,2.0,2.0,9.0
+GE HealthCare,136965.5,136965.6806,4539.8158,9827.0,1.0,1.0,3.0
+GGC - Georgia Gwinnett College,159966.0615,136959.2781,2771.5547,131.0,1.0,2.0,1.0
+Gallaudet U - Gallaudet University,4874605.777,209707.7772,98914.3269,8076.0,2.0,5.0,30.0
+General Electric - General Electric Company,209294.4039,209294.3022,3769.4133,4051.0,1.0,1.0,1.0
+George Mason U - George Mason University,10065461.6008,9135590.3564,172422.8033,8670.0,15.0,25.0,60.0
+George Washington U - George Washington University,20285707.7796,17757915.9986,2223834.7569,500751.0,8.0,12.0,25.0
+Georgetown U - Georgetown University,19950831.3681,6311599.2708,317267.7811,70295.0,14.0,17.0,40.0
+Georgia Southern U - Georgia Southern University,18783.2054,19285.7589,1139.7872,312.0,2.0,4.0,3.0
+Georgia State U - Georgia State University,2245822.5716,939669.1639,38750.2803,64741.0,9.0,9.0,40.0
+Georgia Tech - Georgia Institute of Technology,124306110.1753,82031880.6444,2081724.63,580131.0,96.0,112.0,255.0
+Gettysburg College - Gettysburg College,100834.6123,73661.8044,3737.2503,102.0,3.0,3.0,3.0
+GiwoTech Inc.,5422890.2614,745585.8839,62699.8175,8180.0,2.0,1.0,8.0
+Governors State U - Governors State University,493.9797,8.3417,7.3403,14.0,1.0,1.0,2.0
+Grand Valley State U - Grand Valley State University,272304.9473,271909.7411,11093.3375,27076.0,2.0,2.0,3.0
+HHMI - Howard Hughes Medical Institute,1723.3764,146.2933,4.8708,24.0,1.0,1.0,1.0
+HPC Advisory Council - HPC Advisory Council,4492840.6014,4362289.4089,35084.4194,22585.0,1.0,4.0,58.0
+Hampton U - Hampton University,58771.3519,6879.1747,1619.8575,198.0,2.0,2.0,2.0
+Harvard Med Sch - Harvard Medical School,4089173.8724,3800851.3228,32823.8867,8380.0,3.0,5.0,5.0
+Harvard U - Harvard University,87804700.1061,70115057.6028,898646.3256,435407.0,32.0,57.0,73.0
+Harvard-Smithsonian CFA - Harvard-Smithsonian Center for Astrophysics,4323320.1073,4588770.9333,120551.1269,13295.0,9.0,13.0,19.0
+Harvey Mudd College - Harvey Mudd College,9873316.4889,8336282.0256,157264.1656,56790.0,14.0,18.0,58.0
+Haverford College - Haverford College,3324884.8961,3215392.3233,181317.2258,140139.0,3.0,7.0,19.0
+Hendrix College - Hendrix College,166956.0172,62127.5083,2266.0517,329.0,1.0,1.0,3.0
+High Point - High Point University,373617.9425,38723.0625,4151.6042,2349.0,2.0,5.0,23.0
+Hofstra U - Hofstra University,595823.9441,97249.1767,2059.5442,3412.0,2.0,2.0,2.0
+Hood College - Hood College,327.4066,171.4267,2.0181,3.0,1.0,1.0,1.0
+Hope College - Hope College,1907765.5499,1823898.0653,14374.9561,1099.0,1.0,2.0,6.0
+Howard U - Howard University,45978874.9142,37236344.2247,619656.3283,65673.0,15.0,24.0,51.0
+IEEE Computer Society - IEEE Computer Society,4600.7861,2730.48,56.885,173.0,1.0,1.0,1.0
+IIT - Illinois Institute of Technology,32877266.9536,10600485.2653,762658.5886,220729.0,33.0,50.0,97.0
+IIT Bombay - Indian Institute of Technology Bombay,9101.254,241.8953,15.4708,38.0,1.0,1.0,2.0
+IOCB Boston - Institute of Organic Chemistry and Biochemistry Boston,19002.9322,19003.2933,185.7197,315.0,1.0,1.0,2.0
+IPHC - International Pacific Halibut Commission,241081.1654,163571.6369,33231.4547,287615.0,1.0,1.0,1.0
+IU - Indiana University,241765998.0036,159185052.095,2318844.0067,360133.0,15.0,18.0,79.0
+IU Indy - Indiana University Indianapolis,2795677.2101,681693.7653,21098.3367,2131.0,3.0,3.0,8.0
+IUPU Fort Wayne - Indiana University-Purdue University Fort Wayne,238909.227,43207.4878,1603.0119,1189.0,2.0,2.0,5.0
+Illinois State U - Illinois State University,180968.9937,30967.4517,570.5503,7557.0,4.0,8.0,237.0
+Indiana U of Penn - Indiana University of Pennsylvania,266673.9035,307334.4875,4864.1292,3467.0,2.0,2.0,39.0
+"Indiana U, Bloomington - Indiana University, Bloomington",291509.3892,78333.885,1414.9944,1442.0,4.0,5.0,14.0
+Individual/Unaffiliated - Individual / Unaffiliated,30840.6014,30840.4622,240.9411,398.0,1.0,1.0,1.0
+Inertia Enterprises Inc.,1417979.038,1337496.1122,13598.0439,2018.0,5.0,5.0,6.0
+Institute for Advanced Study - Institute for Advanced Study,15755347.6823,14535947.3478,261499.3589,474603.0,8.0,11.0,10.0
+Internet2 - Internet2,1427.4128,159.7414,18.8511,171.0,4.0,4.0,52.0
+Iona University,22290.8478,12750.9808,397.5839,880.0,1.0,1.0,2.0
+Iowa State U - Iowa State University,184760925.1981,163678580.2131,2516361.9467,306927.0,59.0,78.0,157.0
+Ithaca College - Ithaca College,5471.2084,5046.5086,5045.2864,715.0,1.0,1.0,2.0
+JBU - John Brown University,8.9837,5.5022,0.1719,5.0,1.0,1.0,1.0
+JHU APL - Johns Hopkins University Applied Physics Lab,3823940.982,3979602.2694,46355.0142,8417.0,8.0,9.0,16.0
+JHU Sch of Med - Johns Hopkins University School of Medicine,617072.3064,353979.605,21171.7689,40720.0,3.0,3.0,5.0
+JPL - Jet Propulsion Laboratory,1423349.9283,1057824.0317,10217.8017,10201.0,4.0,4.0,6.0
+Jackson Lab Genomic Med - The Jackson Laboratory for Genomic Medicine,16759.4984,15427.6806,517.5219,1034.0,1.0,1.0,2.0
+Jackson State U - Jackson State University,231639.7779,231639.6322,3032.0447,170.0,2.0,2.0,4.0
+Jacksonville U - Jacksonville University,2780.9595,2109.9411,1099.3572,768.0,1.0,1.0,1.0
+James Madison U - James Madison University,123129.2033,44281.57,2765.945,1177.0,2.0,2.0,8.0
+Jefferson Lab - Jefferson Laboratory,2231188.2213,5471338.7822,153280.8269,376.0,1.0,1.0,2.0
+Johns Hopkins U - Johns Hopkins University,82180863.1855,71652430.89,2317288.8136,341890.0,43.0,50.0,102.0
+KBR - KBR,1761647.3891,733701.7114,17068.7503,2024.0,3.0,3.0,5.0
+KGI - Keck Graduate Institute,222243.4338,222243.9606,2611.7364,530.0,1.0,1.0,2.0
+KWAAI,1929.6276,105.9589,9.2425,7.0,1.0,1.0,2.0
+Kansas State U - Kansas State University,7143337.0765,2648326.3983,76005.5075,43932.0,14.0,14.0,27.0
+Kean U - Kean University,232546.8838,216493.1667,4572.5336,20768.0,3.0,3.0,7.0
+Kennesaw State U - Kennesaw State University,390146.3597,33926.9139,3396.2519,1151.0,2.0,2.0,10.0
+Kent State U - Kent State University,333748.2064,5005.45,5005.45,200.0,1.0,1.0,1.0
+Kettering U - Kettering Unversity,461163.7657,115956.2169,4175.2839,575.0,2.0,2.0,3.0
+Komplexity AI LLC,268546.0104,6120.7647,3990.7247,370.0,1.0,1.0,1.0
+L3 Scientific Applications Consulting LLC,102444.3197,99633.0606,823.1525,412.0,1.0,2.0,3.0
+LANL - Los Alamos National Laboratory,8164511.5728,2349591.6764,139149.2525,434383.0,4.0,3.0,8.0
+LBNL - Lawrence Berkeley National Laboratory,3402040.4267,2116002.0811,35545.3283,17836.0,7.0,8.0,12.0
+LCPRA - Louisiana Coastal Protection & Restoration Authority,6094130.8878,6094620.2481,85612.0072,53242.0,1.0,1.0,28.0
+LIBD - Lieber Institute for Brain Development,3083969.1809,938523.8119,142584.3828,19409.0,1.0,1.0,3.0
+LMUNET - Lincoln Memorial University,1119263.0857,615362.5547,5032.0892,1225.0,1.0,1.0,2.0
+LSU New Orleans - LSU New Orleans,746784.2036,746830.4417,35001.035,2334.0,1.0,1.0,1.0
+Lafayette College - Lafayette College,1307.3804,15.48,12.6464,28.0,1.0,1.0,1.0
+Lake Forest College - Lake Forest College,38541.0194,38540.9689,1527.8908,223.0,1.0,1.0,2.0
+Lamar U - Lamar University,2778633.1025,2523348.1503,25481.9706,3378.0,4.0,5.0,15.0
+Lamont-Doherty Earth Obs - Lamont-Doherty Earth Observatory,2997278.6824,787080.4356,29391.6558,2516.0,2.0,4.0,5.0
+Last Energy,64.7576,41.8533,0.8719,2.0,1.0,1.0,1.0
+Lawrence Technological - Lawrence Technological University,5176.9917,423.0983,80.9733,54.0,1.0,1.0,3.0
+Le Moyne College - Le Moyne College,12.9765,3.4811,0.5933,13.0,1.0,1.0,1.0
+Lehigh U - Lehigh University,19916173.0613,22431107.7975,424612.5914,32538.0,26.0,29.0,55.0
+Lenoir–Rhyne University,49039.7405,4251.3014,384.1028,247.0,1.0,1.0,2.0
+Long Island Jewish Hosp - Long Island Jewish Hospital,0.1248,0.0444,0.0006,1.0,1.0,1.0,1.0
+Long Island U - Long Island University,6392480.3793,6291494.5208,49666.8406,353.0,1.0,2.0,2.0
+Louisiana State U - Louisiana State University,1886453.0538,648049.1758,14345.195,691.0,5.0,5.0,9.0
+Loyola U Chicago - Loyola University Chicago,9085340.3207,2100946.7506,222542.5647,120378.0,6.0,8.0,28.0
+MCPHS U - Massachusetts College of Pharmacy and Health Sciences,11585.8756,10562.0533,656.8317,636.0,1.0,1.0,1.0
+MIT - Massachusetts Institute of Technology,254374990.2053,196489182.35,7548195.0417,2881441.0,86.0,114.0,498.0
+MU-RCSS - University of Missouri Research Computing Support Services,1.3725,1.3453,1.3453,3.0,1.0,1.0,1.0
+Macalester College - Macalester College,1157.2774,1157.4133,25.8358,19.0,1.0,1.0,1.0
+Manhattan College - Manhattan College,1029550.8141,936075.6042,21892.9053,9560.0,7.0,3.0,5.0
+Marian U - Marian University,1633493.6677,1427165.455,17332.2069,22695.0,2.0,3.0,8.0
+Marine Biological Lab - Marine Biological Laboratory,881106.4945,376082.0572,4100.6183,416.0,2.0,2.0,4.0
+Marquette U - Marquette University,1859169.131,918927.8864,20373.2736,7127.0,3.0,4.0,8.0
+Marshall U - Marshall University,128773.2235,1938.19,757.8072,2925.0,1.0,4.0,78.0
+Mass Gen Hospital - Massachusetts General Hospital,700263.5224,336537.7225,12090.0219,4369.0,4.0,4.0,5.0
+Massachusetts Eye and Ear,1411954.4575,167456.0819,14689.2614,209.0,1.0,1.0,1.0
+Mayo Clinic,298751.8872,298751.5244,2415.4883,609.0,1.0,1.0,1.0
+Med U of SC - Medical University of South Carolina,1964824.8799,1693547.4067,15831.5931,2577.0,1.0,1.0,7.0
+Mederrata - Mederrata,915697.1739,105016.7247,7965.9919,2169.0,1.0,2.0,2.0
+Meharry Med College - Meharry Medical College,3551.438,3122.0794,240.5167,624.0,2.0,2.0,17.0
+Memorial Sloan Kettering - Memorial Sloan Kettering Cancer Center,43986.6492,43986.2733,853.2628,1607.0,1.0,1.0,1.0
+"Merit Network, Inc.",1621.6857,150.5944,30.1189,25.0,1.0,1.0,1.0
+Merrimack College - Merrimack College,520045.792,17652.5092,5159.3503,374.0,1.0,2.0,6.0
+Miami U - Miami University,4132479.2563,2152168.1536,35169.3497,3832.0,2.0,4.0,5.0
+Michigan State U - Michigan State University,221588803.4188,221998762.4772,3477252.8119,496966.0,24.0,30.0,67.0
+Michigan Tech - Michigan Technological University,7498500.5927,6210075.7075,127140.2903,24582.0,11.0,13.0,22.0
+Microsoft,196.394,580.84,12.1008,18.0,1.0,1.0,1.0
+Middle Georgia State University,5517.9986,1096.0092,109.1708,104.0,1.0,1.0,1.0
+Middle Tenn State U - Middle Tennessee State University,3046357.8514,2055296.0031,71377.4533,32546.0,11.0,15.0,145.0
+Mississippi State U - Mississippi State University,2436973.4856,5514901.5731,102969.8111,11579.0,5.0,8.0,273.0
+Missouri S&T - Missouri University of Science and Technology,11022174.4338,6248556.8358,98946.8711,7705.0,4.0,6.0,17.0
+Missouri State U - Missouri State University,1594732.672,925249.6175,15817.4528,9544.0,2.0,3.0,4.0
+Modulus Discovery,380250.7954,380422.8978,2975.5886,355.0,1.0,1.0,1.0
+Moffitt Cancer Center,1194860.0661,132588.6153,16557.0786,975.0,3.0,3.0,13.0
+Monell Chem Senses Ctr - Monell Chemical Senses Center,4759.4984,4759.8517,79.5883,74.0,1.0,1.0,1.0
+Monmouth U - Monmouth University,957693.5554,957693.4989,7482.0094,493.0,1.0,1.0,8.0
+Montana State U - Montana State University,7067468.4634,5385952.7372,83525.4017,18356.0,6.0,9.0,12.0
+Montgomery Botanical Center,0.0,0.0011,0.0011,1.0,1.0,1.0,1.0
+Morehouse College - Morehouse College,90895.2524,90891.1053,751.3694,547.0,2.0,2.0,2.0
+Morgan State U - Morgan State University,923589.9931,193450.6644,18201.4917,6520.0,9.0,10.0,14.0
+Mote Marine Laboratory and Aquarium,1279.3063,463.7422,9.3017,45.0,1.0,1.0,2.0
+Mount St. Mary's University,883.7732,6891.8864,166.6517,21.0,1.0,1.0,1.0
+Mt Sinai Med Ctr - Mount Sinai Medical Center,112652.8168,369182.3408,7851.4944,411.0,1.0,1.0,1.0
+Mt Sinai Sch of Med - Icahn School of Medicine at Mount Sinai,939347.8071,323917.3711,19318.9047,906.0,2.0,2.0,2.0
+Murray State U - Murray State University,2813501.4037,2792457.0919,84734.2767,11750.0,2.0,6.0,63.0
+NASA Ames - NASA Ames Research Center,6594.0483,2128.2925,107.9608,43.0,2.0,2.0,2.0
+NASA Goddard - NASA Goddard Space Flight Center,336348.9925,336348.6392,3237.1425,161.0,1.0,2.0,3.0
+NC A&T State U - North Carolina A&T State University,6337370.8903,6345101.3061,62064.2717,3251.0,4.0,5.0,21.0
+NC Central U - North Carolina Central University,403048.1003,438270.7892,7628.0344,13204.0,4.0,5.0,12.0
+NC Sch Sci and Math - North Carolina School of Science and Mathematics,243441.3875,163808.9747,4165.6189,1090.0,1.0,1.0,54.0
+NC State U - North Carolina State University,42121593.6116,38184333.2056,594236.7303,126240.0,35.0,44.0,139.0
+NCAR - NSF National Center for Atmospheric Research,87813.8374,86068.025,754.2978,3376.0,3.0,3.0,5.0
+NCSA - National Center for Supercomputing Applications,21682054.0271,10069528.7172,156115.9308,412156.0,13.0,31.0,1486.0
+ND State U - North Dakota State University,660087.5912,447618.6992,5363.5114,1208.0,4.0,5.0,9.0
+NERSC - National Energy Research Scientific Computing Center,449.8097,5.2339,1.6861,5.0,1.0,1.0,1.0
+NETL - National Energy Technology Laboratory,2491743.0906,1919675.1131,35577.7647,5013.0,6.0,7.0,9.0
+NGHS - Northeast Georgia Health System,95338.4491,93529.4789,744.9056,470.0,1.0,1.0,1.0
+NIA - National Institute of Aerospace,5227.6499,27.4039,27.4039,43.0,1.0,2.0,2.0
+"NICS - University of Tennessee, Knoxville",49745698.0473,31583286.1289,608506.1828,78266.0,42.0,55.0,226.0
+NIH - National Institutes of Health,222035.311,12929.2117,1634.7586,10596.0,1.0,1.0,1.0
+NIST - National Institute of Standards and Technology,3127739.0979,1491862.1275,29751.3119,5525.0,7.0,8.0,20.0
+NJIT - New Jersey Institute of Technology,22088018.8409,17342709.0514,1039639.2511,346193.0,26.0,36.0,91.0
+NLM - National Library of Medicine,149144.301,8437.6481,1024.5025,3931.0,1.0,1.0,2.0
+NM State U - New Mexico State University,22962434.8369,26417564.3172,733991.7803,465705.0,12.0,17.0,46.0
+NOAA - National Oceanic and Atmospheric Administration,2173511.0113,648251.3411,18040.2864,1856.0,1.0,1.0,5.0
+NRAO - National Radio Astronomy Observatory,498.4715,1518.27,37.0425,16.0,1.0,1.0,1.0
+NSF - National Science Foundation,896882.775,3633200.3331,56248.1667,1038.0,1.0,1.0,1.0
+NSF's NOIRLab Headquarters - National Optical-Infrared Astronomy Research Laboratory,4973.236,2316.2244,44.7578,62.0,1.0,1.0,2.0
+NYU - New York University,1953230.7692,2839120.2822,52986.2564,778.0,4.0,4.0,6.0
+National U - National University,27.9493,18.3156,0.1528,28.0,1.0,1.0,1.0
+Navajo Tech - Navajo Technical University,1097969.0561,1097969.3156,8577.8853,507.0,1.0,2.0,1.0
+Naval Postgrad School - Naval Postgraduate School,16390510.8241,16029157.6667,126375.2628,2496.0,4.0,5.0,4.0
+Nazareth College - Nazareth College,57473.3296,57155.3689,1786.1053,1986.0,1.0,1.0,8.0
+New England College,1400.2121,130.7111,3.2678,14.0,1.0,1.0,1.0
+New Mexico Highlands U - New Mexico Highlands University,5539866.1177,3422296.1289,29121.6225,11011.0,1.0,3.0,1.0
+New Mexico Tech - New Mexico Institute of Mining and Technology,4983624.6803,5040064.0594,100931.0994,6209.0,3.0,5.0,21.0
+Nocturnal Inc.,5059.4547,303.71,75.9275,23.0,1.0,1.0,1.0
+Northeastern U - Northeastern University,68977407.0747,33175548.5503,602899.8119,955809.0,46.0,59.0,186.0
+Northern Arizona U - Northern Arizona University,6299.9563,5897.6178,49.2122,25.0,1.0,1.0,1.0
+"Northern California Institute for Research and Education, Inc.",214003.4937,42552.9556,2201.4806,397.0,1.0,1.0,1.0
+Northern Fei Tian College,142403.3938,40996.6356,1975.2878,1185.0,1.0,1.0,2.0
+Northern Illinois U - Northern Illinois University,296590.0555,209283.0508,11151.9103,1605.0,1.0,1.0,1.0
+Northwestern U - Northwestern University,102272494.354,83396621.16,1900863.72,974283.0,54.0,65.0,170.0
+Nova SE U - Nova Southeastern University,237256.5974,244126.6428,29602.2644,46096.0,3.0,3.0,7.0
+Nvidia - Nvidia Corporation,170.1915,15.8083,3.1617,11.0,1.0,1.0,1.0
+ODU - Old Dominion University,72891.2596,42817.7089,787.0522,484.0,4.0,4.0,5.0
+ORNL - Oak Ridge National Laboratory,9270500.4679,7271495.0011,154187.2606,14452.0,7.0,8.0,14.0
+Oakland City University,0.2495,0.2183,0.2183,1.0,1.0,1.0,1.0
+Oakland U - Oakland University,302943.7894,2361834.8039,49521.0161,399.0,2.0,2.0,4.0
+Oberlin College - Oberlin College,1847734.4813,972347.0122,37891.5075,8584.0,1.0,2.0,7.0
+Ohio State U - Ohio State University,59519166.0116,39011389.3656,671027.9256,334962.0,25.0,30.0,93.0
+Ohio U - Ohio University,27609615.9461,22929304.6819,435593.4617,38911.0,7.0,10.0,38.0
+Oklahoma School of Science and Math - Oklahoma School of Science and Math,41852.8916,37085.4311,410.8358,102.0,1.0,2.0,1.0
+Oklahoma State U - Oklahoma State University,2165393.1,3403578.8633,55580.7708,2807.0,10.0,10.0,16.0
+Olds Research,72821.2615,49404.1356,706.6617,1530.0,1.0,1.0,69.0
+"OncoC4, Inc.",938671.1585,225653.1422,3567.8306,311.0,1.0,1.0,1.0
+Oregon Health & Sci U - Oregon Health and Science University,37252.4799,34495.5942,592.5086,582.0,1.0,1.0,4.0
+Oregon State U - Oregon State University,63413792.8754,39305607.3997,759874.7614,134383.0,19.0,21.0,50.0
+Other,6555598.1034,6753673.3842,197292.2553,18006.0,12.0,12.0,45.0
+Oxnard - Oxnard College,407.6362,205.1339,47.6675,255.0,1.0,1.0,1.0
+PNL - Pacific Northwest National Laboratory,92650.8204,4096.8228,775.0458,686.0,1.0,1.0,6.0
+PSC - Pittsburgh Supercomputing Center,6664033.5642,1906875.0328,73588.88,52636.0,9.0,66.0,2539.0
+Pace U - Pace University,135750.2028,39026.7972,2454.6714,3348.0,1.0,1.0,1.0
+Penn State Greater Allegheny - Penn State Greater Allegheny,4872.1692,18165.1442,339.6267,17.0,1.0,1.0,1.0
+Penn State U - Pennsylvania State University,266608284.1101,198186043.2025,6197825.8447,1768920.0,76.0,91.0,355.0
+Peptilogics Inc.,3433.6515,680.525,31.0336,86.0,1.0,1.0,2.0
+Philander Smith College - Philander Smith College,193734.7308,193773.4547,2170.4519,148.0,1.0,1.0,1.0
+Physical Studies Inst - Physical Studies Institute LLC,4614.0121,3669.4981,2136.1361,1584.0,1.0,3.0,1.0
+Pittsford Central School District,12514.3178,1957.1328,178.6597,239.0,1.0,1.0,1.0
+Planetary Sci Inst - Planetary Science Institute,354056.5226,264814.8267,5516.9528,252.0,1.0,2.0,1.0
+Point Loma Nazarene University,456918.5851,455601.7778,7118.7778,9529.0,1.0,2.0,12.0
+Portland State U - Portland State University,4084365.5874,3974607.2311,111690.5056,96396.0,4.0,5.0,66.0
+Prairie View A&M - Prairie View A&M University,23042.1112,8275.0114,1462.6197,1135.0,4.0,6.0,19.0
+Prarieview - Prarieview A&M,7949327.3442,6688539.0692,97667.6928,20618.0,1.0,3.0,98.0
+"Predictive Science - Predictive Science, Inc.",16945009.9195,10151489.0836,129188.2411,2483.0,2.0,3.0,8.0
+Princeton U - Princeton University,144195780.398,132524848.0033,2660886.2428,114504.0,35.0,43.0,57.0
+Purdue - Purdue University,182539801.36,155540169.8728,3395926.905,1603670.0,233.0,292.0,6446.0
+QodeX Quantum,89392.9752,2910.5178,821.7672,92.0,1.0,1.0,2.0
+RIT - Rochester Institute of Technology,77578422.3595,65550161.5289,1796470.5344,325277.0,12.0,18.0,47.0
+RPI - Rensselaer Polytechnic Institute,33746638.9669,51426220.1769,1217361.2625,114308.0,25.0,32.0,72.0
+Reed College - Reed College,5516805.7895,2556823.1544,177829.8903,19492.0,4.0,6.0,18.0
+Retired - Retired,5848.5245,5848.9644,127.7589,335.0,1.0,1.0,1.0
+Rice U - Rice University,84902008.7342,58424299.1228,1878414.7403,277880.0,37.0,42.0,160.0
+Roanoke College - Roanoke College,3642.2734,3642.1867,40.5506,131.0,1.0,1.0,3.0
+Robert Morris U - Robert Morris University,4178754.5075,4179797.3289,51137.4706,8295.0,2.0,6.0,7.0
+Rockefeller U - Rockefeller University,429460.4779,206980.7881,24521.8428,971.0,1.0,2.0,1.0
+RocketML.net - RocketML,262.3994,24.3667,4.8733,8.0,1.0,1.0,1.0
+Rosalind Franklin U - Rosalind Franklin University,783.9541,11.4836,11.4836,8.0,1.0,1.0,1.0
+Rose-Hulman Tech - Rose-Hulman Institute of Technology,1461536.0908,1330289.2147,33153.9339,30680.0,3.0,5.0,5.0
+Rowan U - Rowan University,2131648.013,2032482.3861,93970.9319,47760.0,13.0,15.0,51.0
+"Rutgers U - Rutgers, the State University of New Jersey",133726288.7267,105287505.7083,2172203.7397,510682.0,45.0,50.0,187.0
+S Methodist U - Southern Methodist University,1830.1828,354.9658,7.3742,103.0,1.0,1.0,1.0
+SCCWRP - Southern California Coastal Water Research Project,47820.5752,47771.57,374.5239,201.0,1.0,1.0,1.0
+SD Sch of Mines & Tech - South Dakota School of Mines and Technology,572769.8546,562944.2992,4438.2608,300.0,3.0,3.0,5.0
+SD State U - South Dakota State University,292.2204,68.2228,7.9397,31.0,1.0,1.0,1.0
+SDSC - San Diego Supercomputer Center,1009821.1991,675786.2694,19667.7975,37685.0,6.0,8.0,83.0
+SFEI - San Francisco Estuary Institute,14993.8237,12495.0044,97.6172,24.0,1.0,1.0,1.0
+SIO - Scripps Institution of Oceanography,1230178.6761,862724.7314,14244.6956,4743.0,4.0,6.0,15.0
+"SIU Carbondale - Southern Illinois University, Carbondale",2142965.8744,982663.0503,21774.8278,10338.0,6.0,6.0,15.0
+SJU NY - St. Joseph's University (NY),21694.4288,21696.1122,2895.0139,1911.0,1.0,2.0,21.0
+SMA at Aberdeen High School - Science and Mathematics Academy at Aberdeen High School,1773.4107,293.5619,81.3442,384.0,1.0,2.0,3.0
+SMCM - St. Mary's College of Maryland,5303.8867,643.6525,83.4806,269.0,1.0,1.0,2.0
+SRI International - SRI International,3907.1683,734.7656,18.3372,35.0,1.0,1.0,1.0
+SRNL - Savannah River National Laboratory,1834766.1114,1709437.5106,28420.7172,2112.0,1.0,2.0,2.0
+STScI - Space Telescope Science Institute,4398120.4068,2963274.4694,56812.0306,133097.0,9.0,11.0,10.0
+SUNY Albany - SUNY at Albany,7015698.4216,6442677.7189,60578.8911,5994.0,3.0,6.0,15.0
+SUNY Binghamton - SUNY at Binghamton,101963376.8794,73381934.1742,1741955.4575,315369.0,20.0,29.0,92.0
+SUNY Buffalo - SUNY at Buffalo,14049530.6008,8552136.9289,222624.7622,64662.0,17.0,22.0,48.0
+SUNY College Buffalo - SUNY College at Buffalo,1368979.1004,1235580.1006,13368.1761,2161.0,1.0,5.0,7.0
+SUNY Downstate Med Ctr - SUNY Downstate Health Sciences University,3745225.6535,4673125.8753,121519.3481,105468.0,3.0,4.0,13.0
+SUNY ESF - SUNY College of Environmental Science and Forestry,43946.8463,852.7589,89.0583,44.0,1.0,1.0,2.0
+SUNY Stony Brook - SUNY at Stony Brook,47955904.548,35109941.7064,747111.5528,94993.0,18.0,26.0,79.0
+SURA - Southeastern Universities Research Association,34.188,34.3503,34.3503,26.0,1.0,1.0,1.0
+Saginaw Valley State University,119211.6788,119211.8269,1078.4758,7725.0,1.0,1.0,35.0
+Saint Anselm College - Saint Anselm College,621.7481,571.775,55.1608,87.0,1.0,1.0,2.0
+Salk Institute - Salk Institute for Biological Studies,48893835.049,45139702.7867,917993.91,495300.0,2.0,2.0,39.0
+San Diego State U - San Diego State University,2314937.5507,1879942.14,171066.7889,111741.0,17.0,30.0,72.0
+San Diego Zoo - San Diego Zoo Institute for Conservation Research,795508.5158,320067.5144,107544.2153,117984.0,1.0,1.0,2.0
+San Francisco State U - San Francisco State University,748656.3104,689562.9439,8775.8636,2459.0,6.0,6.0,6.0
+San Jose State U - San Jose State University,635491.0475,130528.4786,6062.6692,1252.0,2.0,2.0,4.0
+Santa Clara U - Santa Clara University,1383013.1636,171956.2078,37019.09,32010.0,2.0,3.0,19.0
+Savannah State U - Savannah State University,119379.3749,15499.7858,2080.1375,2110.0,1.0,1.0,4.0
+Scripps College - Scripps College,171465.5936,171294.1297,1463.4433,617.0,2.0,2.0,8.0
+Seattle Children's Res Inst - Seattle Children's Research Institute,13202.196,33462.1333,866.7172,497.0,1.0,1.0,1.0
+Seattle U - Seattle University,541890.4486,470924.2889,18526.6192,157361.0,3.0,6.0,27.0
+Self Employed - Self Employed,26457.1714,457.7625,393.6936,43.0,1.0,1.0,1.0
+Seoul Natl U - Seoul National University,250304.8225,662106.7122,12332.3614,1129.0,1.0,1.0,6.0
+Seton Hall U - Seton Hall University,4191.2783,4191.2889,32.7444,141.0,1.0,1.0,2.0
+Siena College - Siena College,6377.94,1404.0667,29.2514,177.0,1.0,1.0,8.0
+Skidmore College - Skidmore College,394766.6105,392703.4653,22486.6961,8862.0,2.0,2.0,15.0
+Slippery Rock U - Slippery Rock University,50811.5291,50816.8289,397.2372,82.0,2.0,2.0,3.0
+Smith College - Smith College,18756.7534,1125.2119,252.5175,259.0,1.0,1.0,1.0
+Smithsonian Astrophys Obs - Smithsonian Astrophysical Observatory,728.9288,607.5456,6.4542,29.0,1.0,1.0,1.0
+Smithsonian Institution - Smithsonian Institution,402.0213,190.1525,29.795,32.0,1.0,1.0,1.0
+"Solid Power Operating, Inc.",5336302.2023,3248870.7039,93431.0164,13091.0,1.0,1.0,4.0
+Sonoma State U - Sonoma State University,2168091.0849,1755854.825,111901.6425,132103.0,1.0,2.0,2.0
+Sound Ethics Inc.,50926.9449,7124.8656,735.3289,515.0,1.0,1.0,2.0
+Southern Arkansas U - Southern Arkansas University,95552.0619,92436.2333,1840.0533,222.0,1.0,1.0,1.0
+Southern Conn State U - Southern Connecticut State University,6658386.2998,6650850.5217,62842.2397,9211.0,1.0,2.0,2.0
+Southern Oregon U - Southern Oregon University,4232.0794,4223.7106,34.2881,165.0,1.0,1.0,3.0
+Southern U A&M - Southern University and A&M College,6135.7539,623.7275,130.6056,160.0,2.0,2.0,3.0
+Southwest Res Inst - Southwest Research Institute,137301.1417,137282.4247,52374.6139,1450.0,1.0,1.0,1.0
+Space Sci Inst - Space Science Institute,17377188.7204,40664034.5036,685484.7867,3781.0,4.0,4.0,5.0
+Spatiolyx LLC,165664.4831,21817.6425,1349.2069,1185.0,1.0,1.0,1.0
+Spelman College - Spelman College,434667.5401,283952.67,2360.6756,609.0,1.0,1.0,1.0
+St Francis U - Saint Francis University,548.7554,493.0628,331.1839,83.0,1.0,1.0,1.0
+St Louis U - Saint Louis University,913.3446,124.2844,18.4442,46.0,4.0,4.0,6.0
+St. Cloud State University,1.7468,1.7156,0.1072,1.0,1.0,1.0,1.0
+St. John's U - St. John's University,17182.9808,3139.3614,187.8864,357.0,1.0,1.0,5.0
+St. Thomas Aquinas College,29560.5465,842.8158,302.4336,465.0,1.0,1.0,2.0
+Stanford - Stanford University,154742094.0795,124906552.4989,1813903.5453,126629.0,89.0,110.0,207.0
+Stanford Medicine - Stanford University School of Medicine,19916.4015,5185.1364,1025.6414,135.0,2.0,2.0,3.0
+Stevens Inst of Tech - Stevens Institute of Technology,47572042.9222,27925183.9061,993786.3044,451427.0,11.0,21.0,64.0
+StonyBrook - Stony Brook Supercomputing Center,3344457.6705,14039173.5925,324889.1247,5027.0,2.0,2.0,2.0
+Sungkyunkwan U - Sungkyunkwan University,19878.096,19878.3264,832.9169,44.0,1.0,1.0,1.0
+Swarthmore College - Swarthmore College,1944534.4064,1862975.1264,20487.8464,4778.0,4.0,5.0,28.0
+Syracuse U - Syracuse University,37510905.8581,23949580.5817,473002.9969,94913.0,21.0,27.0,43.0
+TACC - Texas Advanced Computing Center,112008.2351,56003.0647,944.2994,327.0,2.0,2.0,5.0
+TACC - University of Texas at Austin,302133619.4398,225873037.2864,4050030.9547,1285447.0,64.0,89.0,259.0
+TAMIU - Texas A&M International University,1040.8634,1103.0689,19.1656,49.0,1.0,1.0,1.0
+TAMU - Texas A&M University,66876709.9632,55658477.9456,3194738.9822,1389759.0,95.0,107.0,1004.0
+TSRI - Scripps Research Institute,2658708.0916,1315220.6761,1049651.4119,330160.0,3.0,4.0,5.0
+TTU - Texas Tech University,91840759.1241,49454358.4631,1104650.8333,23227.0,15.0,17.0,23.0
+"Tandav-Sci, Inc.",682.0138,73.8422,7.8075,123.0,1.0,1.0,1.0
+Tarleton State U - Tarleton State University,4894.2542,10828.7617,188.8514,32.0,1.0,1.0,3.0
+Temple U - Temple University,14502510.4498,14766032.5633,382822.0022,39235.0,17.0,18.0,37.0
+Tennessee State U - Tennessee State University,55160.8959,55160.9244,430.9447,172.0,1.0,1.0,1.0
+Tennessee Tech - Tennessee Technological University,2296159.2114,2097033.1244,20028.9383,3289.0,10.0,13.0,42.0
+Texas A&M AgriLife Research - Texas A&M AgriLife Research,64137.2512,216622.8906,16374.5192,12055.0,4.0,4.0,6.0
+"Texas A&M Kingsville - Texas A&M University, Kingsville",32787.8221,28821.85,370.9467,333.0,2.0,3.0,5.0
+Texas A&M U-San Antonio - Texas A&M University-San Antonio,136848.2126,200865.3353,5833.5022,2014.0,1.0,2.0,14.0
+Texas A&M University–Texarkana,50413.1262,50413.6261,814.7942,693.0,1.0,1.0,1.0
+Texas Christian U - Texas Christian University,45372.138,419.4572,386.1369,1485.0,1.0,1.0,18.0
+Texas Southern U - Texas Southern University,0.9982,1.0019,1.0019,2.0,1.0,1.0,1.0
+Texas State U - Texas State University,330164.2024,23138.7069,1495.675,1596.0,4.0,5.0,11.0
+The Carnegie Observatories - Observatories of the Carnegie Institution of Washington,386446.3161,1735719.7328,26937.8417,145.0,1.0,1.0,1.0
+The Children's Hospital of Philadelphia - The Children's Hospital of Philadelphia,372407.0123,372406.7533,2909.4611,61.0,1.0,1.0,1.0
+Thiel College - Thiel College,292243.5586,27136.8722,3965.1689,213.0,1.0,1.0,1.0
+Thomas Jefferson U - Thomas Jefferson University,1744758.625,1744758.2839,844290.4772,335420.0,2.0,2.0,5.0
+"Tokyo Electron America, Inc. - Tokyo Electron America",2092085.2205,752318.1986,20681.8608,7412.0,4.0,4.0,7.0
+Towson U - Towson University,1123273.6914,555831.8806,21404.1361,27983.0,7.0,10.0,62.0
+Trine U - Trine University,114884.2723,114884.0978,1950.1275,1521.0,1.0,1.0,13.0
+Trinity College - Trinity College,401835.049,395060.7542,3650.1242,510.0,3.0,3.0,3.0
+Tufts U - Tufts University,5176128.3923,7867655.7847,145903.4389,12029.0,5.0,7.0,35.0
+Tulane U - Tulane University,10100391.9147,10162346.1419,239114.2744,122484.0,10.0,15.0,26.0
+Tuskegee U - Tuskegee University,3973328.3424,3318017.9825,42391.62,14359.0,2.0,4.0,4.0
+U Akron - University of Akron,799326.4708,753333.4811,8099.6397,1922.0,2.0,3.0,30.0
+U Alabama - University of Alabama,22834586.9362,18947216.1656,984047.0936,819576.0,18.0,23.0,60.0
+"U Alabama, Birmingham - University of Alabama, Birmingham",6213922.8898,5854132.0283,102176.6869,17663.0,14.0,14.0,8.0
+"U Alabama, Huntsville - University of Alabama, Huntsville",38948348.119,35746978.7942,480171.3975,9135.0,4.0,7.0,14.0
+"U Alaska, Fairbanks - University of Alaska, Fairbanks",300205.6273,191391.6808,3936.2858,1204.0,3.0,3.0,3.0
+U Arizona - University of Arizona,75123896.4377,62248429.7806,1041873.8017,43167.0,32.0,36.0,65.0
+U Arkansas - University of Arkansas,41882975.3572,22730459.8383,384372.1172,11905.0,9.0,13.0,49.0
+"U Arkansas, Little Rock - University of Arkansas, Little Rock",2481.5023,338.1183,74.0761,38.0,1.0,2.0,2.0
+"U Arkansas, Med. Sci - University of Arkansas for Medical Sciences",73068.4385,569434.0147,6717.4728,520.0,1.0,1.0,2.0
+U British Columbia - University of British Columbia,193164.0152,188281.1508,1646.7047,309.0,2.0,2.0,5.0
+U Central Florida - University of Central Florida,64483699.295,45375629.2292,1892259.1186,454886.0,87.0,93.0,212.0
+U Chicago - University of Chicago,171636868.1764,124454070.8753,2548751.3769,226489.0,42.0,46.0,134.0
+U Cincinnati - University of Cincinnati,17187550.5646,7574116.4372,297761.8411,28531.0,11.0,13.0,47.0
+U Connecticut - University of Connecticut,64421794.4975,131387768.5919,2602642.7467,48248.0,22.0,26.0,82.0
+U Dayton - University of Dayton,1324444.0701,227962.7711,10896.0528,2716.0,4.0,4.0,5.0
+U Denver - University of Denver,8051.0325,32099.3822,523.755,338.0,1.0,1.0,1.0
+U Detroit Mercy - University of Detroit Mercy,145304.8849,145305.1078,1143.1189,3051.0,1.0,3.0,63.0
+U District of Columbia - University of the District of Columbia,1026468.5258,1026468.6428,8032.2183,5281.0,1.0,1.0,4.0
+U Florida - University of Florida,144711710.6494,143293032.3317,2482110.5467,328454.0,25.0,30.0,54.0
+U Georgia - University of Georgia,1667372.3875,563447.7125,326359.1575,16464.0,7.0,7.0,9.0
+U Glasgow - University of Glasgow,7385.1145,13300.8411,215.2322,32.0,1.0,1.0,1.0
+U Hartford - University of Hartford,539950.9639,395365.385,3743.5975,127.0,2.0,2.0,5.0
+U Hawaii System Office - University of Hawaii System Office,169778.2769,36731.0592,665.6964,465.0,1.0,1.0,2.0
+"U Hawaii, Manoa - University of Hawaii, Manoa",12090162.206,8885536.3753,206336.6014,65013.0,17.0,21.0,40.0
+U Houston - University of Houston,7892350.2402,6008633.2458,142866.8975,23060.0,13.0,15.0,31.0
+U Houston-Clear Lake - University of Houston-Clear Lake,1400095.7015,105334.5347,7340.6753,5006.0,3.0,3.0,7.0
+U Houston-Downtown - University of Houston-Downtown,1519995.1338,1519989.0675,11974.4083,1499.0,2.0,3.0,2.0
+U Idaho - University of Idaho,662835.3609,514116.5581,11079.0281,1773.0,4.0,4.0,8.0
+"U Illinois, Chicago - University of Illinois at Chicago",35974208.7466,28064732.1789,623619.5414,255212.0,74.0,84.0,164.0
+"U Illinois, Springfield - University of Illinois at Springfield",223051.9683,1761.3747,1512.1603,341.0,3.0,4.0,9.0
+U Indianapolis - University of Indianapolis,3761110.8616,7380525.2794,113487.9256,8554.0,2.0,4.0,4.0
+U Iowa - University of Iowa,2497273.941,5311001.2439,163096.5428,90138.0,9.0,11.0,21.0
+U Iowa Medicine - University of Iowa Carver College of Medicine,383.9291,12.0222,3.0056,19.0,1.0,1.0,1.0
+U Kansas - University of Kansas,19281544.9498,9293421.7492,239628.7369,35188.0,14.0,15.0,35.0
+"U Louisiana, Lafayette - University of Louisiana, Lafayette",242850.209,174703.9503,5456.9028,421.0,3.0,3.0,4.0
+U Louisville - University of Louisville,5744703.2254,1372905.0442,106122.8358,92687.0,5.0,5.0,12.0
+U Maine - University of Maine,8528896.6249,6179872.7511,162566.7128,26343.0,4.0,5.0,26.0
+U Manchester - University of Manchester,284432.0918,85037.7311,824.2622,135.0,1.0,2.0,1.0
+U Mary Washington - University of Mary Washington,46937.0516,148104.0178,2625.8922,1396.0,1.0,1.0,9.0
+"U Maryland - University of Maryland, College Park",75966500.7174,54421796.1178,1930892.4472,1255126.0,31.0,32.0,89.0
+U Maryland School of Medicine - University of Maryland School of Medicine,4899.3699,6159.9128,257.4228,36.0,1.0,1.0,1.0
+U Maryland U College - University of Maryland University College,8047.7884,1827.2994,34.7433,162.0,1.0,1.0,1.0
+"U Maryland, Baltimore - University of Maryland, Baltimore",655524.7364,457778.7922,20011.9658,20407.0,8.0,8.0,10.0
+"U Maryland, Baltimore Co - University of Maryland, Baltimore County",1931085.9068,2357584.5514,38574.4244,2880.0,5.0,5.0,17.0
+U Mass Med Sch - University of Massachusetts Chan Medical School,6181011.1673,2451569.41,93166.9642,51572.0,6.0,10.0,13.0
+"U Mass, Amherst - University of Massachusetts, Amherst",17286669.0374,14955864.7192,488684.5125,86526.0,13.0,18.0,33.0
+"U Mass, Dartmouth - University of Massachusetts, Dartmouth",10052739.5346,9781455.6883,185931.4314,40525.0,4.0,5.0,323.0
+"U Mass, Lowell - University of Massachusetts, Lowell",59758539.6469,47442904.4492,889561.0467,197662.0,7.0,15.0,16.0
+U Memphis - University of Memphis,18685739.3474,11967695.3092,228669.7703,2174.0,6.0,7.0,10.0
+U Miami - University of Miami,24981057.8327,26823915.6972,1407120.5478,458411.0,8.0,17.0,28.0
+U Michigan - University of Michigan,729082973.1112,467223575.9222,28406997.9008,11223839.0,133.0,210.0,444.0
+U Michigan Medical - University of Michigan Medical School,16522.1786,3926.5983,1042.6531,2354.0,1.0,1.0,3.0
+"U Michigan, Dearborn - University of Michigan, Dearborn",68983.2179,2821.8483,540.0375,218.0,1.0,1.0,1.0
+U Minn - University of Minnesota,35529049.2233,25874626.0708,476024.7661,313277.0,33.0,38.0,114.0
+"U Minn, Duluth - University of Minnesota, Duluth",5395.5955,2808.6167,195.7281,484.0,1.0,2.0,39.0
+U Mississippi - University of Mississippi,26099890.6981,26398186.0053,317697.3492,15189.0,5.0,8.0,22.0
+"U Missouri, Columbia - University of Missouri, Columbia",15023140.6825,9364188.2289,194548.9958,44949.0,10.0,9.0,21.0
+"U Missouri, Kansas City - University of Missouri, Kansas City",12544083.2242,11002508.8664,672693.4414,292827.0,11.0,17.0,25.0
+"U Missouri, St Louis - University of Missouri, Saint Louis",748.6431,73.1533,5.63,6.0,2.0,2.0,2.0
+U Montana - University of Montana,3865423.5448,3865754.7783,60246.4756,47233.0,5.0,5.0,20.0
+"U Nebraska, Lincoln - University of Nebraska, Lincoln",5473452.8667,3934888.7506,73825.8669,4951.0,6.0,9.0,10.0
+"U Nebraska, Med Ctr - University of Nebraska Medical Center",40851.2072,36467.7917,564.5167,27.0,1.0,2.0,1.0
+"U Nebraska, Omaha - University of Nebraska, Omaha",1826747.8944,95424.0203,13831.9192,1600.0,2.0,2.0,3.0
+"U Nevada, Reno - University of Nevada, Reno",2013368.3948,846641.3636,54763.3744,1527877.0,7.0,7.0,8.0
+U New Hampshire - University of New Hampshire,31849.1484,9321.1158,488.2331,327.0,3.0,3.0,3.0
+U New Haven - University of New Haven,37805.228,37805.3089,752.0739,118.0,1.0,1.0,1.0
+U New Mexico - University of New Mexico,2751662.4867,2062522.8642,37193.0828,9486.0,16.0,17.0,54.0
+U North Dakota - University of North Dakota,1205850.8953,339808.3192,13126.7283,4656.0,5.0,6.0,26.0
+U North Georgia - University of North Georgia,4505772.9116,2898115.7433,48972.9133,14299.0,4.0,10.0,49.0
+U North Texas - University of North Texas,5552606.6504,4505907.615,59532.975,9273.0,13.0,14.0,28.0
+U Northern Colorado - University of Northern Colorado,143771.5391,70278.8556,3319.7008,5157.0,1.0,1.0,1.0
+U Northern Iowa - University of Northern Iowa,1413471.9571,1314165.3881,39573.0681,45945.0,2.0,3.0,3.0
+U Notre Dame - University of Notre Dame,18126243.9329,11832553.2325,1276285.2122,549465.0,26.0,31.0,77.0
+U Oklahoma - University of Oklahoma,127628344.9997,109560400.7358,2266216.6553,1278392.0,27.0,27.0,91.0
+U Oregon - University of Oregon,3677931.2496,2780644.3678,62882.9178,29195.0,5.0,9.0,22.0
+U Pacific - University of the Pacific,4745961.0706,4466484.9928,268778.5064,200149.0,6.0,9.0,10.0
+U Pennsylvania - University of Pennsylvania,58080747.6449,43123691.7122,1734219.8119,596380.0,57.0,77.0,219.0
+U Pittsburgh - University of Pittsburgh,143295118.5975,106720501.1181,3178406.7836,1537778.0,75.0,89.0,251.0
+U Pittsburgh Cancer Inst - University of Pittsburgh Cancer Institute,5526.1089,5525.8694,71.2475,151.0,1.0,1.0,2.0
+U Pittsburgh Johnstown - University of Pittsburgh at Johnstown,82207.8732,82207.8825,664.2869,253.0,2.0,3.0,2.0
+U Pittsburgh Sch of Med - University of Pittsburgh School of Medicine,3790123.4013,2858462.65,187056.9303,756743.0,7.0,11.0,33.0
+U Rhode Island - University of Rhode Island,12235499.9064,23186697.5842,338097.6269,5932.0,11.0,16.0,19.0
+U Richmond - University of Richmond,54352.8604,8079.2125,1009.4117,24.0,1.0,1.0,1.0
+U Rochester - University of Rochester,76017772.0382,58936011.0256,1373630.5283,143544.0,17.0,18.0,37.0
+U San Diego - University of San Diego,2050640.0898,1915965.1447,14977.6092,415.0,3.0,5.0,8.0
+U San Francisco - University of San Francisco,48302.9509,24124.0644,1507.7553,307.0,1.0,1.0,2.0
+U Sciences Philadelphia - University of the Sciences in Philadelphia,432905.1095,40198.3444,1004.9586,34.0,1.0,1.0,1.0
+U Scranton - University of Scranton,46602.4081,42152.8425,1230.9381,898.0,1.0,1.0,1.0
+U South Alabama - University of South Alabama,1349043.858,944162.0797,11049.2975,1657.0,1.0,1.0,5.0
+U South Carolina - University of South Carolina,86968796.1819,77485614.6761,1132699.3742,138910.0,25.0,36.0,76.0
+U South Florida - University of South Florida,7306587.1857,3151395.7964,83332.9669,39281.0,14.0,14.0,28.0
+U Southern Mississippi - University of Southern Mississippi,433005.9268,269303.7456,3343.0797,3546.0,2.0,2.0,10.0
+U Tenn System - University of Tennessee System,1895619.9389,1895619.0494,46696.8642,9780.0,2.0,2.0,3.0
+"U Tennessee Martin - University of Tennessee, Martin",24966.9973,24965.3914,195.4264,163.0,1.0,1.0,1.0
+U Toledo - University of Toledo,1473568.7816,1409312.3217,12839.6183,38623.0,3.0,4.0,4.0
+U Utah - University of Utah,52420749.5165,42832246.1683,475537.71,190003.0,24.0,30.0,43.0
+U Vermont - University of Vermont,1529885.5824,573003.5006,19078.9814,4124.0,8.0,9.0,16.0
+U Virgin Islands - University of the Virgin Islands,412611.6414,412611.2356,3223.5253,2409.0,1.0,1.0,4.0
+U Virginia - University of Virginia,114608564.2273,79087955.1889,1154671.0097,321225.0,30.0,34.0,56.0
+U Washington - University of Washington,139906181.2964,131612581.1533,2485099.6647,163455.0,55.0,65.0,220.0
+U West Florida - University of West Florida,197051.9683,186229.8119,2077.2981,6214.0,2.0,4.0,42.0
+U Wisconsin-Madison - University of Wisconsin-Madison,838738793.3121,720812453.7386,10342207.925,1506626.0,65.0,81.0,170.0
+U Wisconsin-Milwaukee - University of Wisconsin-Milwaukee,2725813.8374,1256767.0331,217832.6269,37878.0,7.0,8.0,19.0
+U Wisconsin-Parkside - University of Wisconsin-Parkside,97852.7669,68314.3878,1691.8981,190.0,1.0,1.0,1.0
+U Wisconsin-Whitewater - University of Wisconsin-Whitewater,89611.3295,78111.9622,788.0822,476.0,2.0,2.0,2.0
+U Wyoming - University of Wyoming,29896.1882,25693.8753,1028.7122,1836.0,2.0,2.0,2.0
+"UC Berkeley - University of California, Berkeley",203595376.8794,187585167.1236,5428905.6031,1468653.0,111.0,126.0,402.0
+UC Berkeley Extension - UC Berkeley Extension,1556527.2943,1555058.3822,12148.8936,158.0,1.0,2.0,2.0
+"UC Davis - University of California, Davis",72389660.3656,47352528.8058,2187916.5303,616470.0,62.0,86.0,265.0
+"UC Irvine - University of California, Irvine",37548587.56,32404241.2111,607740.3881,144904.0,37.0,44.0,95.0
+"UC Merced - University of California, Merced",11513873.3545,4779040.085,324484.0525,113710.0,17.0,24.0,47.0
+"UC Riverside - University of California, Riverside",45763020.2758,43679347.2711,745670.5211,267685.0,40.0,47.0,98.0
+"UC San Diego - University of California, San Diego",482729657.7453,288219533.0411,11805861.1731,7386987.0,284.0,373.0,2054.0
+"UC San Francisco - University of California, San Francisco",3306639.3412,284887.9536,20226.6439,17896.0,7.0,9.0,8.0
+"UC Santa Barbara - University of California, Santa Barbara",289578285.4826,307818512.3753,3700133.2378,1720376.0,59.0,86.0,348.0
+"UC Santa Cruz - University of California, Santa Cruz",19329610.8304,18674120.2703,210215.8883,46300.0,26.0,32.0,91.0
+UCAR - University Corporation for Atmospheric Research,0.7486,2.4811,1.4806,2.0,1.0,1.0,1.0
+"UCLA - University of California, Los Angeles",355248437.8314,289217157.0803,5201145.35,1515939.0,112.0,167.0,302.0
+UDEL - University of Delaware,161663463.9716,111666318.6217,2665675.5164,357058.0,32.0,50.0,216.0
+UIUC - University of Illinois at Urbana-Champaign,1042434391.5403,610405185.2964,12374906.1208,6077958.0,641.0,901.0,3150.0
+UKY - University of Kentucky,79078431.9671,63797592.9378,6614322.8367,156605.0,17.0,31.0,265.0
+"UNC - University of North Carolina, Chapel Hill",37241507.3929,24269669.8192,371766.6725,36907.0,17.0,21.0,36.0
+"UNC Charlotte - University of North Carolina, Charlotte",3783662.8611,3396001.9733,32750.16,3856.0,3.0,4.0,14.0
+"UNC Greensboro - University of North Carolina, Greensboro",60.141,103.3422,1.4125,4.0,2.0,2.0,3.0
+"UNC Pembroke - University of North Carolina, Pembroke",182107.1807,182107.0025,45863.7308,26371.0,1.0,1.0,2.0
+"UNC Wilmington - University of North Carolina, Wilmington",1741177.1165,2018623.12,33003.0617,2426.0,5.0,6.0,23.0
+"UNLV - University of Nevada, Las Vegas",18050955.2686,14767332.6481,550017.5731,102498.0,11.0,13.0,51.0
+UPMC Shadyside Hosp - UPMC Shadyside Hospital,40015.8463,39854.3617,313.5411,44.0,1.0,1.0,1.0
+"UPR Mayaguez - University of Puerto Rico, Mayaguez",1309428.9101,728407.3517,17255.0617,9074.0,7.0,9.0,33.0
+"UPR Med Sci - University of Puerto Rico, Medical Sciences Campus",0.1248,0.1789,0.1789,1.0,1.0,1.0,1.0
+"UPR Rio Piedras - University of Puerto Rico, Rio Piedras",1998.7523,385.4356,46.7883,88.0,4.0,5.0,7.0
+US Army - US Army,49521.9914,14897.2156,1073.2403,208.0,1.0,1.0,1.0
+US DoE - US Department of Energy,5683.4487,705.5036,55.2119,315.0,1.0,1.0,1.0
+US FDA - US Food and Drug Administration,1582288.8515,689151.6589,11574.5581,2276.0,4.0,3.0,3.0
+US Naval Acad - US Naval Academy,2121538.9606,197008.0619,39399.9961,1339.0,2.0,2.0,2.0
+USC - University of Southern California,21631682.8249,8818481.9758,475646.2556,915508.0,45.0,58.0,157.0
+USDA ARS - USDA Agricultural Research Service,0.4991,0.5047,0.5047,7.0,1.0,1.0,1.0
+USDA ARS MWA - USDA Agricultural Research Service Midwest Area,555563.1668,555563.2267,5559.3131,8729.0,1.0,1.0,1.0
+USGS - US Geological Survey,84622.2472,103703.4344,5637.7203,58.0,1.0,1.0,1.0
+USRA - Universities Space Research Association,13079.0442,10640.8203,186.3378,17.0,2.0,2.0,2.0
+UT Anderson Cancer Ctr - University of Texas MD Anderson Cancer Center,31.9421,6.92,0.1442,2.0,1.0,1.0,1.0
+UT Arlington - University of Texas at Arlington,64812318.6724,43998117.7203,867694.7172,102668.0,13.0,26.0,943.0
+UT Dallas - University of Texas at Dallas,21104959.6357,10740066.8958,227303.7833,76145.0,18.0,27.0,62.0
+UT El Paso - University of Texas at El Paso,2358116.9131,3122891.1872,55412.5664,39578.0,7.0,9.0,384.0
+UT Hlth Sci Ctr Houston - University of Texas Health Science Center at Houston,1440888.0155,64442.1969,6778.7017,13388.0,2.0,2.0,4.0
+UT Hlth Sci Ctr San Antonio - University of Texas Health Science Center at San Antonio,752112.2965,689347.7458,9294.4506,23362.0,2.0,2.0,2.0
+UT Med Branch - University of Texas Medical Branch at Galveston,14031884.3346,6415885.2947,116327.3797,9486.0,1.0,2.0,4.0
+UT Rio Grande Valley - University of Texas Rio Grande Valley,2080432.8405,1023484.2706,21043.2478,23233.0,11.0,13.0,29.0
+UT San Antonio - University of Texas at San Antonio,3349614.1993,2939755.1372,61009.7847,8150.0,8.0,15.0,22.0
+UT Southwestern Med Ctr - University of Texas Southwestern Medical Center,11535047.9755,2587629.8439,124797.8919,102380.0,3.0,3.0,6.0
+Uniformed Services U - Uniformed Services University of the Health Sciences,26484.7464,9390.3894,436.7247,115.0,1.0,1.0,1.0
+Union College - Union College,1314570.7156,161244.745,18298.8472,1992.0,3.0,4.0,7.0
+Univ of Mississippi Medical Center - University of Mississippi Medical Center,79605.7146,79606.3158,2200.4744,15744.0,3.0,3.0,4.0
+University of Dallas,693155.5306,467735.7014,5814.7456,15509.0,2.0,3.0,18.0
+University of Findlay,1108652.692,63716.1253,3944.7775,4454.0,2.0,2.0,6.0
+University of Hawaii,393.2872,43.8267,1.8261,1.0,1.0,1.0,1.0
+"Ursa Simulation, Inc.",127622.06,127419.6097,997.1411,277.0,1.0,1.0,2.0
+Ursinus College - Ursinus College,2017764.3022,373877.2208,5029.2364,1689.0,1.0,3.0,5.0
+Utah State U - Utah State University,3185653.503,3108337.77,25115.4975,3331.0,3.0,3.0,5.0
+Utah Valley U - Utah Valley University,83649.8846,126702.4569,2130.7472,1161.0,2.0,3.0,26.0
+Utica University,1325.5974,148.2267,3.0881,10.0,1.0,1.0,2.0
+VAI - Van Andel Institute,2206334.893,2206197.08,23330.4469,2373.0,1.0,1.0,1.0
+VCOM - Edward Via College of Osteopathic Medicine,20662.4244,2314.22,96.4258,268.0,1.0,1.0,1.0
+VMI - Virginia Military Institute,347513.2572,351870.3006,11653.9242,1493.0,3.0,4.0,5.0
+Va Inst of Marine Sci - Virginia Institute of Marine Science,412652.3177,412626.8089,3223.6469,109.0,1.0,1.0,1.0
+Vanderbilt U - Vanderbilt University,13169761.8067,17575265.7747,753406.4342,91258.0,18.0,20.0,45.0
+Vanderbilt U Med Ctr - Vanderbilt University Medical Center,9472.0819,879.5292,175.9058,35.0,1.0,1.0,1.0
+Vanguard USC - Vanguard University of Southern California,0.1248,0.0019,0.0019,9.0,1.0,1.0,1.0
+Vassar College - Vassar College,5477749.0798,5477741.4558,81947.5536,4289.0,2.0,3.0,8.0
+Villanova U - Villanova University,7092954.3952,3003166.9572,76905.4728,5178.0,11.0,13.0,18.0
+Virginia Commonwealth U - Virginia Commonwealth University,12520.6813,12520.8428,183.9153,140.0,1.0,1.0,8.0
+Virginia State U - Virginia State University,34411.8785,24653.1333,513.6069,260.0,1.0,1.0,4.0
+Virginia Tech - Virginia Polytechnic Institute and State University,17037730.1142,6548696.9619,158195.5314,298549.0,23.0,23.0,44.0
+Virginia Union University,37.6817,298.9656,297.5375,84.0,1.0,1.0,3.0
+W Kentucky U - Western Kentucky University,61817.7054,19942.1378,193.8833,28.0,1.0,1.0,3.0
+W Michigan U - Western Michigan University,658477.6343,101149.0386,3685.4736,1399.0,3.0,3.0,3.0
+W Texas A&M U - West Texas A&M University,2915214.1743,5691081.5669,115620.3636,18943.0,5.0,7.0,49.0
+W Washington U - Western Washington University,73774.908,73758.5111,578.2461,110.0,2.0,4.0,4.0
+WC - Wheaton College (Massachusetts),9662.6115,9662.66,402.6108,79.0,1.0,1.0,1.0
+WEMSS Lab - WEMSS Lab,599129.0785,143642.3811,1995.1661,366.0,1.0,1.0,3.0
+WHOI - Woods Hole Oceanographic Institution,2303594.9841,881519.5114,13959.2922,3393.0,3.0,5.0,8.0
+WHRC - Woodwell Climate Research Center,251.1698,30.26,0.995,5.0,1.0,1.0,1.0
+WILMU - Wilmington University,564.1026,232.7289,14.5456,3.0,1.0,1.0,1.0
+WPI - Worcester Polytechnic Institute,39164125.6473,26510280.3353,599805.1944,106594.0,10.0,21.0,36.0
+WV State U - West Virginia State University,241623.3078,103746.5161,1483.6956,1636.0,2.0,5.0,17.0
+Wake Forest Sch of Med - Wake Forest School of Medicine,51806.351,24071.4864,2093.6042,1494.0,1.0,1.0,2.0
+Wake Forest U - Wake Forest University,828006.2387,199329.1089,3483.0539,448.0,1.0,1.0,4.0
+Warren Wilson College - Warren Wilson College,79176.2431,79114.9425,2472.3422,567.0,1.0,1.0,7.0
+Washington State U - Washington State University,15428007.3617,12359202.3014,154246.5308,40264.0,21.0,23.0,39.0
+Washington U - Washington University in St. Louis,61794934.057,63892269.5433,1084790.0758,556347.0,21.0,24.0,84.0
+Washington U Sch of Med - Washington University School of Medicine,5542070.7468,1945541.6481,62137.7889,2506.0,3.0,4.0,6.0
+Washington and Lee U - Washington and Lee University,644547.2581,622256.9486,4983.0522,574.0,3.0,3.0,5.0
+Wayne State U - Wayne State University,23002878.6574,20313299.2014,1404805.0892,296644.0,5.0,7.0,19.0
+Weill Cornell Med College - Weill Cornell Medical College,14430018.7161,3496086.7228,312586.7897,1067928.0,19.0,21.0,29.0
+Wellesley College - Wellesley College,172903.3627,11269.5872,959.4319,240.0,1.0,1.0,22.0
+Wesleyan U - Wesleyan University,436929.3156,59457.3681,7917.425,2403.0,1.0,1.0,3.0
+West Chester U - West Chester University of Pennsylvania,1676371.9508,571475.8664,7773.8472,4076.0,3.0,4.0,48.0
+West Virginia U - West Virginia University,69780245.6797,73370863.9222,1419949.4528,447883.0,10.0,11.0,23.0
+Western Illinois U - Western Illinois University,795745.4614,782373.9097,18548.2842,30216.0,2.0,5.0,65.0
+Western U Health Sci - Western University of Health Sciences,8889869.6113,3496595.7297,132712.7322,4552.0,1.0,3.0,5.0
+Westminster College - Westminster College,76544.2635,76544.5333,598.0042,899.0,1.0,2.0,23.0
+Westmont College - Westmont College,767013.6627,963544.3481,24305.0292,13391.0,2.0,2.0,16.0
+Wheaton College - Wheaton College,31746.4595,31746.2844,1299.8081,225.0,1.0,1.0,1.0
+White Dwarf Research Corporation,3265342.9409,2655399.72,55320.8275,821.0,1.0,2.0,2.0
+Whitworth U - Whitworth University,1074862.8112,99811.2478,19961.6292,2264.0,1.0,1.0,5.0
+Wichita State U - Wichita State University,77256.0983,6602.2725,1043.5386,552.0,5.0,5.0,9.0
+Widener U - Widener University,5.8644,5.8567,0.0711,38.0,1.0,1.0,1.0
+William Paterson U - William Paterson University,2348.119,341.2942,32.3889,34.0,1.0,1.0,5.0
+Williams College - Williams College,132788.8203,274677.5489,5808.0303,237.0,1.0,1.0,4.0
+Winona State U - Winona State University,1401367.8957,1385481.23,22971.1139,12454.0,1.0,4.0,135.0
+Winston-Salem State U - Winston-Salem State University,59116.3516,141026.6292,2305.0856,502.0,1.0,2.0,5.0
+Wistar Inst - Wistar Institute,17829.6837,1654.8339,331.2075,2373.0,2.0,2.0,2.0
+Wofford College - Wofford College,288.1028,67653.1144,2050.7819,1154.0,1.0,2.0,19.0
+Wright State U - Wright State University,0.6239,0.2089,0.0522,2.0,1.0,1.0,1.0
+Xavier U - Xavier University of Louisiana,739198.5776,473334.7672,4155.1733,786.0,2.0,2.0,11.0
+Yale U - Yale University,108194409.5078,107276686.0425,2130594.7456,270183.0,28.0,37.0,75.0
+Yeshiva U - Yeshiva University,0.1248,0.0108,0.0097,4.0,1.0,1.0,1.0
+Youngstown State U - Youngstown State University,386810.7805,392122.72,5098.1658,18066.0,2.0,3.0,2.0
+[C]Worthy - [C]Worthy,1194403.5186,1017685.715,9601.0622,1313.0,2.0,2.0,4.0
+afit.edu - Air Force Institute of Technology (AFIT),1166847.3392,1166848.0672,9123.3344,5567.0,1.0,2.0,9.0
+atsu - A.T. Still University,375346.3098,34853.6375,6970.7275,221.0,1.0,1.0,1.0
+bpc.edu - Brewton-Parker College,3464422.4842,2568406.3069,39429.5553,8490.0,1.0,3.0,1.0
+columbiasc - Columbia College SC,576843.2217,576759.9533,8841.3408,1123.0,2.0,3.0,7.0
+csuci.edu - California State University-Channel Islands,10.9801,0.0047,0.0047,11.0,1.0,1.0,1.0
+franciscan - Franciscan University of Steubenville,1882.2135,1882.1297,637.7325,142.0,1.0,2.0,1.0
+harrisburgu - Harrisburg University,0.0,0.0006,0.0006,1.0,1.0,1.0,1.0
+jjay.cuny.edu - CUNY John Jay College,103417.5557,102620.0294,11529.8506,4341.0,1.0,2.0,3.0
+moravian - Moravian University,147445.2555,49997.3097,2136.9564,2420.0,2.0,4.0,33.0
+nm.org - Northwestern Medicine,0.0,0.005,0.005,1.0,1.0,1.0,1.0
+"simonsfoundation - Simons Foundation, Flatiron Institute",772939.2975,1787629.6703,60763.7711,3545.0,5.0,5.0,10.0
+thewaterinstitute.org - The Water Institute of the Gulf,13665212.8018,13665213.8511,1031125.7397,140649.0,6.0,6.0,13.0
+umces.edu - University of Maryland Center for Environmental Science,194975.981,7817.8053,686.525,477.0,3.0,3.0,3.0
+up - University of Portland,627251.6065,610794.9933,25004.0839,10184.0,1.0,1.0,12.0

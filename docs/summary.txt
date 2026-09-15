@@ -1,0 +1,13 @@
+window 2022-09-01 .. 2026-09-14
+total ACE (B) 13.8
+R1 usage share 93.2%
+non-R1 academic usage share 4.3%
+non-R1 academic project share 12.2%
+non-R1 academic credit share 11.5%
+retention R1 93.0% / non-R1 75.0%
+never-used R1: 7/218 (3.2%)
+never-used R2: 6/99 (6.1%)
+never-used RCU: 20/98 (20.4%)
+never-used Other academic: 68/166 (41.0%)
+never-used Non-academic: 49/155 (31.6%)
+HBCU with usage 33/102, TCU 1/35

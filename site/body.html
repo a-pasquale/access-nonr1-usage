@@ -1,0 +1,141 @@
+<div class="wrap">
+<header class="masthead">
+  <div class="eyebrow">ACCESS-CI · PI-institution usage analysis · <span class="d" data-v="meta.start" data-f="mon"></span> – <span class="d" data-v="meta.end" data-f="mon"></span></div>
+  <h1>Beyond the R1s</h1>
+  <p class="dek">Non-R1 academic institutions hold <span class="d" data-v="meta.nonr1_proj_share" data-f="pct0"></span> of current ACCESS projects and generate <span class="d" data-v="meta.nonr1_share" data-f="pct0"></span> of the compute. The gap does not open at the award — it opens afterward, in activation and persistence. This page measures where, and what would move it.</p>
+  <div class="meta"><span>Built <span class="d" data-v="built"></span> · <a href="__REPO_URL__">source &amp; pipeline</a></span><span>Source: XDMoD Jobs realm + ACCESS Allocations current projects</span><span>Tiers: Carnegie 2025 Research Activity Designations</span><span>MSI flags: IPEDS HD2023</span></div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<section id="share">
+  <div class="eyebrow">01 · The gap</div>
+  <h2>Awards are broadly distributed. Usage is not.</h2>
+  <p class="lede">Every ACCESS project's PI institution was tagged with its Carnegie 2025 research tier. R1 institutions run <span class="d" data-v="meta.r1_share" data-f="pct0"></span> of all ACCESS Credit Equivalents (ACEs) charged since the program began. R2s, Research Colleges &amp; Universities (RCUs) and non-designated colleges together run <span class="d" data-v="meta.nonr1_share" data-f="pct1"></span> — from <span class="d" data-v="meta.nonr1_inst"></span> distinct institutions.</p>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Share of current projects, awarded credits, and four-year usage, by tier</div><div class="fig-sub">Percent of program total · hover for values</div></div>
+    <div class="legend"><span><i style="background:var(--ink-3);opacity:.35"></i>Current projects</span><span><i style="background:var(--ink-3);opacity:.7"></i>Awarded ACCESS Credits</span><span><i style="background:var(--accent)"></i>ACEs consumed</span></div>
+    <div id="c-shares"></div>
+  </div>
+  <div class="callout"><p>Read the ratio, not the levels. R1s convert their project share into usage at <strong><span class="d" data-v="ratio.R1" data-f="x"></span></strong>. R2s convert at <strong><span class="d" data-v="ratio.R2" data-f="x"></span></strong>, RCUs at <strong><span class="d" data-v="ratio.RCU" data-f="x"></span></strong>, and non-designated colleges at <strong><span class="d" data-v="ratio.Other academic" data-f="x"></span></strong>. Allocations review is not what is holding non-R1 usage down — non-R1 PIs receive awards at roughly three times the rate they consume them.</p></div>
+</section>
+
+<section id="trend">
+  <div class="eyebrow">02 · The trend</div>
+  <h2>Non-R1 usage has doubled, and its share is edging up.</h2>
+  <p class="lede">Non-R1 academic consumption grew from <span class="d" data-v="py.first.nonR1" data-f="m"></span> ACEs in <span class="d" data-v="py.first.py"></span> to <span class="d" data-v="py.last.nonR1" data-f="m"></span> in <span class="d" data-v="py.last.py"></span> (complete program years only, September–August). Share moved from <span class="d" data-v="py.first.share" data-f="pct1"></span> to <span class="d" data-v="py.last.share" data-f="pct1"></span>, with the most recent four quarters between <span class="d" data-v="q4.min" data-f="pct1"></span> and <span class="d" data-v="q4.max" data-f="pct1"></span>. The number of non-R1 institutions active in a quarter went from <span class="d" data-v="active.first"></span> to <span class="d" data-v="active.last"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Non-R1 academic ACEs per quarter</div><div class="fig-sub">Millions · stacked by tier</div></div>
+      <div class="legend"><span><i style="background:var(--r2)"></i>R2</span><span><i style="background:var(--rcu)"></i>RCU</span><span><i style="background:var(--oth)"></i>Other academic</span></div>
+      <div id="c-quarterly"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Non-R1 academic share of all ACEs</div><div class="fig-sub">Percent per quarter</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--accent)"></i>Share</span></div>
+      <div id="c-share-line"></div>
+    </div>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Institutions with any usage in the quarter</div><div class="fig-sub">Distinct PI institutions</div></div>
+    <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+    <div id="c-active"></div>
+  </div>
+</section>
+
+<section id="retention">
+  <div class="eyebrow">03 · Persistence</div>
+  <h2>The actionable gap is retention, not recruitment.</h2>
+  <p class="lede">An R1 institution that runs jobs in a given quarter is still running them four quarters later <span class="d" data-v="ret.r1min" data-f="pct0"></span>–<span class="d" data-v="ret.r1max" data-f="pct0"></span> of the time. For non-R1 academic institutions the figure averages <span class="d" data-v="meta.retention_nonr1" data-f="pct0"></span> and has never exceeded <span class="d" data-v="ret.nrmax" data-f="pct0"></span>. Over the whole window, the median R1 has had usage in <span class="d" data-v="pers.R1" data-f="n1"></span> of <span class="d" data-v="months_possible"></span> months; the median RCU in <span class="d" data-v="pers.RCU" data-f="n1"></span>; the median non-designated college in <span class="d" data-v="pers.Other academic" data-f="n1"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Four-quarter institution retention</div><div class="fig-sub">% of institutions active in quarter Q that were also active in Q+4</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+      <div id="c-retention"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">How long institutions stay engaged</div><div class="fig-sub">Months with any usage, of <span class="d" data-v="months_possible"></span> possible</div></div>
+      <div class="tbl" style="margin-top:8px;border:none"><table id="t-persist"></table></div>
+    </div>
+  </div>
+  <div class="callout"><p><span class="d" data-v="persle3.Other academic" data-f="pct0"></span> of non-designated colleges that have ever used ACCESS did so in <strong>three or fewer months</strong> total. That is a one-project, one-semester pattern: a PI gets an Explore award, runs a few jobs, and does not come back. The intervention is support during and after the first project, not more outreach before it.</p></div>
+</section>
+
+<section id="funnel">
+  <div class="eyebrow">04 · The funnel</div>
+  <h2>Many non-R1 awards never produce a single job.</h2>
+  <p class="lede">Joining the <span class="d" data-v="meta.total_projects" data-f="int"></span> current projects against the full XDMoD job record shows how many awarded institutions have never charged a job to any ACCESS resource. Among R1s it is <span class="d" data-v="never.R1" data-f="pct0"></span> (largely name-matching noise). Among non-designated colleges it is <span class="d" data-v="never.Other academic" data-f="pct0"></span>.</p>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Institutions holding a current award with zero usage ever</div><div class="fig-sub">% of institutions with ≥1 current project</div></div>
+      <div id="c-never"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Allocation tier of current projects</div><div class="fig-sub">% of projects · R1 vs. non-R1 academic</div></div>
+      <div class="legend"><span><i style="background:var(--r1);opacity:.35"></i>Explore</span><span><i style="background:var(--r1);opacity:.6"></i>Discover</span><span><i style="background:var(--r1);opacity:.85"></i>Accelerate</span><span><i style="background:var(--r1)"></i>Maximize</span></div>
+      <div id="c-board"></div>
+    </div>
+  </div>
+  <div class="prose">
+    <p>Non-R1 projects are heavily concentrated in Explore: <span class="d" data-v="board_projects.nonR1.Explore" data-f="pct0"></span> of non-R1 academic current projects versus <span class="d" data-v="board_projects.R1.Explore" data-f="pct0"></span> for R1s. Only <span class="d" data-v="board_projects.nonR1_n.Maximize"></span> of <span class="d" data-v="meta.nonr1_projects" data-f="int"></span> non-R1 academic projects are Maximize awards, against <span class="d" data-v="board_projects.R1_n.Maximize" data-f="int"></span> of <span class="d" data-v="r1_projects" data-f="int"></span> for R1s. By usage volume the contrast is sharper still — Maximize allocations carry <span class="d" data-v="board_usage.R1.Maximize" data-f="pct0"></span> of R1 ACEs but <span class="d" data-v="board_usage.nonR1.Maximize" data-f="pct0"></span> of non-R1 ACEs. Non-R1 volume growth, if it comes, has to come from PIs moving up from Explore to Discover and Accelerate, which is a support and proposal-writing problem more than an access problem.</p>
+    <p>The never-used list is short enough to work through by hand. It includes institutions with several current projects and no recorded usage — <span class="d" data-v="never_list"></span> — and the full list is in <code>project_institutions.csv</code>.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="eyebrow">05 · How they compute</div>
+  <h2>Conventional HPC at lower volume — not a different kind of user.</h2>
+  <p class="lede">Non-R1 PIs are not a small-job, interactive population. Their jobs look like R1 jobs — mostly 9–256 cores, mostly running 18+ hours — but they land on the general-purpose CPU systems and skip the GPU and AI resources. Gateways carry almost none of their usage; one gateway, ChemCompute at Sonoma State, accounts for 95% of non-R1 gateway jobs.</p>
+  <div class="fig">
+    <div class="fig-head"><div class="fig-title">Where the ACEs land</div><div class="fig-sub">% of each cohort's total usage, top 10 resources by non-R1 usage</div></div>
+    <div class="legend"><span><i style="background:var(--r1)"></i>R1</span><span><i style="background:var(--accent)"></i>Non-R1 academic</span></div>
+    <div id="c-resources"></div>
+  </div>
+  <div class="twin">
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Seasonality</div><div class="fig-sub">% of usage by calendar month, complete years (<span class="d" data-v="seas_years"></span>)</div></div>
+      <div class="legend"><span><i class="line" style="background:var(--r1)"></i>R1</span><span><i class="line" style="background:var(--accent)"></i>Non-R1 academic</span></div>
+      <div id="c-season"></div>
+    </div>
+    <div class="fig">
+      <div class="fig-head"><div class="fig-title">Allocation tier of usage</div><div class="fig-sub">% of each cohort's ACEs by board type</div></div>
+      <div class="legend"><span><i style="background:var(--r1);opacity:.35"></i>Explore</span><span><i style="background:var(--r1);opacity:.6"></i>Discover</span><span><i style="background:var(--r1);opacity:.85"></i>Accelerate</span><span><i style="background:var(--r1)"></i>Maximize</span><span><i style="background:var(--non)"></i>Legacy Research</span></div>
+      <div id="c-board-usage"></div>
+    </div>
+  </div>
+  <div class="prose"><p>Non-R1 usage dips in January–February and peaks May–July and again in November, consistent with faculty at teaching-heavy institutions computing between semesters. Disciplinary mix differs too: chemistry is 16% of non-R1 ACEs versus 9% for R1s, and non-R1 PIs are under-represented in computer science (21% of non-R1 PIs vs. 33% of R1 PIs). Geographically, New York, California and New Jersey dominate non-R1 volume; Puerto Rico has 12 active non-R1 PIs and no R1 usage at all.</p></div>
+</section>
+
+<section id="who">
+  <div class="eyebrow">06 · Who they are</div>
+  <h2>The leading non-R1 users, and the MSIs among them.</h2>
+  <p class="lede">The largest non-R1 consumers are technical institutes and regional publics with a handful of committed PIs. Of 102 HBCUs, <span class="d" data-v="hbcu_summary.n"></span> have had a PI run jobs; of 35 tribal colleges, <span class="d" data-v="hbcu_summary.tcu"></span>. Together they are <span class="d" data-v="hbcu_summary.share_all" data-f="pct2"></span> of all usage but <span class="d" data-v="hbcu_summary.share_nonr1" data-f="pct0"></span> of non-R1 academic usage — HBCUs punch above their weight within the cohort, though half of the HBCU total is Howard alone, and most active HBCUs have a single PI.</p>
+  <div class="twin">
+    <div>
+      <div class="eyebrow" style="margin-top:28px">Top non-R1 academic institutions by usage</div>
+      <div class="tbl"><table id="t-top"></table></div>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-top:28px">HBCUs and tribal colleges with usage</div>
+      <div class="tbl"><table id="t-hbcu"></table></div>
+    </div>
+  </div>
+</section>
+
+<section id="recs">
+  <div class="eyebrow">07 · What would move it</div>
+  <h2>Three interventions the data points at.</h2>
+  <div class="recs">
+    <div class="rec"><div class="n">Activation</div><h3>Call the awarded-never-used list.</h3><p><span class="d" data-v="never_nonr1_total"></span> non-R1 academic institutions hold a current award and have never run a job. They have already cleared the hardest hurdle. A first-job concierge — login, environment, one submitted batch script — is the cheapest usage ACCESS can buy.</p></div>
+    <div class="rec"><div class="n">Persistence</div><h3>Support the first project through its second semester.</h3><p>Non-R1 four-quarter retention runs <span class="d" data-v="meta.retention_nonr1" data-f="pct0"></span> against <span class="d" data-v="meta.retention_r1" data-f="pct0"></span> for R1s, and <span class="d" data-v="persle3.Other academic" data-f="pct0"></span> of non-designated colleges use compute for three months or fewer. Scheduled check-ins at months 3 and 9 of an Explore award, timed to the January and summer dips, target the drop-off directly.</p></div>
+    <div class="rec"><div class="n">Growth</div><h3>Nudge sustained Explore users into Discover.</h3><p><span class="d" data-v="board_projects.nonR1.Explore" data-f="pct0"></span> of non-R1 projects are Explore and only <span class="d" data-v="board_projects.nonR1_n.Maximize"></span> are Maximize. PIs with usage in six of the last twelve months are the graduation candidates; a templated Discover request and a resource-fit conversation (most are on Expanse and Bridges-2 RM) turns participation into volume.</p></div>
+  </div>
+</section>
+
+<div class="method">
+  <h3>Method and caveats</h3>
+  <p>Usage is from the ACCESS XDMoD Jobs realm, <span class="d" data-v="meta.start"></span> to <span class="d" data-v="meta.end"></span>, grouped by PI institution (<span class="d" data-v="meta.inst_used"></span> institutions, <span class="d" data-v="meta.total_ace"></span>B ACEs, reconciling exactly to XDMoD's unfiltered total). Institutions were matched to the Carnegie 2025 Research Activity Designations public data file by normalized name, with manual overrides (<code>data/overrides.json</code>) for campus-system naming (e.g. "University of Michigan" → Ann Arbor); every R1 match was hand-checked. Units of R1s (NCSA, PSC, SDSC, TACC, medical schools, observatories) were folded into R1. Institutions not in the Carnegie research file were classed as other academic, non-academic (labs, industry, hospitals, government, nonprofits) or foreign/unknown by name. Non-academic PIs (2.4% of usage) are shown for completeness but excluded from "non-R1 academic".</p>
+  <p>Awarded projects are the <span class="d" data-v="meta.total_projects" data-f="int"></span> current projects in the ACCESS Allocations public feed at the time of the pull, with awarded credits summed from ACCESS Credits line items. "Never used" means the institution has no XDMoD job record at all in the four-year window; the R1 figure is mostly name variants and should be read as noise. HBCU and tribal-college flags are from IPEDS HD2023 via UNITID; IPEDS carries no HSI flag. Retention counts an institution as active in a quarter if any job was charged; partial quarters are excluded from quarterly charts. Program years run September–August.</p>
+</div>
+</div>
+<div class="tip" id="tip"></div>

@@ -1,0 +1,115 @@
+<script>
+const D = __DATA__;
+D.built = __BUILT__;
+const $ = s => document.querySelector(s);
+const fmt = (n,d=1) => n.toLocaleString('en-US',{maximumFractionDigits:d,minimumFractionDigits:d});
+const fmtI = n => n.toLocaleString('en-US');
+const tip = $('#tip');
+function showTip(e,html){tip.innerHTML=html;tip.classList.add('on');tip.style.left=e.clientX+'px';tip.style.top=e.clientY+'px';}
+function hideTip(){tip.classList.remove('on');}
+function svgEl(w,h){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('viewBox',`0 0 ${w} ${h}`);s.setAttribute('role','img');return s;}
+function el(n,a,txt){const e=document.createElementNS('http://www.w3.org/2000/svg',n);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;return e;}
+function hit(e,html){e.addEventListener('mousemove',ev=>showTip(ev,html));e.addEventListener('mouseleave',hideTip);}
+const TIER_COLOR={R1:'var(--r1)',R2:'var(--r2)',RCU:'var(--rcu)','Other academic':'var(--oth)','Non-academic':'var(--non)'};
+const pillCls={R1:'r1',R2:'r2',RCU:'rcu','Other academic':'oth'};
+const niceMax=v=>{const p=Math.pow(10,Math.floor(Math.log10(v)));const m=v/p;const s=m<=1?1:m<=2?2:m<=2.5?2.5:m<=3?3:m<=4?4:m<=5?5:m<=6?6:m<=8?8:10;return s*p;};
+
+
+// ---- derived values used by the prose ----
+(()=>{const sh=Object.fromEntries(D.shares.map(s=>[s.tier,s]));D.ratio=Object.fromEntries(D.shares.map(s=>[s.tier,s.projects?s.usage/s.projects:0]));
+ D.py.first=D.py[0];D.py.last=D.py[D.py.length-1];const q4=D.quarterly.slice(-4).map(q=>q.share);D.q4={min:Math.min(...q4),max:Math.max(...q4)};
+ D.active={first:D.active_inst[0].nonR1,last:D.active_inst[D.active_inst.length-1].nonR1};
+ D.ret={r1min:Math.min(...D.retention.R1),r1max:Math.max(...D.retention.R1),nrmax:Math.max(...D.retention.nonR1)};
+ D.pers=Object.fromEntries(D.persistence.map(p=>[p.tier,p.median]));D.persle3=Object.fromEntries(D.persistence.map(p=>[p.tier,p.le3]));
+ D.never=Object.fromEntries(D.never_used.map(n=>[n.tier,n.pct]));D.never_nonr1_total=D.never_used.filter(n=>['R2','RCU','Other academic'].includes(n.tier)).reduce((a,n)=>a+n.never,0);
+ D.never_list=D.never_examples.slice(0,3).map(e=>`${e.name} (${e.projects})`).join(', ');D.r1_projects=sh.R1.nproj;D.seas_years=D.seasonality.years.join(', ');
+})();
+const get=(o,p)=>p.split('.').reduce((a,k)=>a==null?a:a[k],o);
+const F={pct0:v=>fmt(v,0)+'%',pct1:v=>fmt(v,1)+'%',pct2:v=>fmt(v,2)+'%',x:v=>fmt(v,2)+'\u00d7',m:v=>fmt(v,0)+'M',n1:v=>fmt(v,1),int:v=>fmtI(v),mon:v=>{const d=new Date(v+'T00:00:00');return d.toLocaleString('en-US',{month:'short',year:'numeric'})}};
+document.querySelectorAll('.d').forEach(e=>{const v=get(D,e.dataset.v);const f=e.dataset.f;e.textContent=v==null?'–':f?F[f](v):String(v);});
+
+// KPIs
+(()=>{const m=D.meta;$('#kpis').innerHTML=`
+<div class="kpi"><div class="v">${m.r1_share}<small>%</small></div><div class="l">of all ACEs charged since 2022 came from R1 PIs</div></div>
+<div class="kpi hot"><div class="v">${m.nonr1_share}<small>%</small></div><div class="l">from non-R1 academic PIs — vs. ${m.nonr1_proj_share}% of current projects</div></div>
+<div class="kpi"><div class="v">${m.nonr1_inst}</div><div class="l">non-R1 academic institutions with usage, of ${m.inst_used} total</div></div>
+<div class="kpi"><div class="v">${m.retention_nonr1}<small>%</small></div><div class="l">non-R1 four-quarter retention, against ${m.retention_r1}% for R1s</div></div>`;})();
+
+// 1. shares grouped horizontal bars
+(()=>{const rows=D.shares;const W=900,L=150,R=70,T=8,rowH=70,bh=14,gap=4;const H=T+rows.length*rowH+24;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+ [0,25,50,75,100].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-24,class:'grid'}));s.appendChild(el('text',{x:x(v),y:H-6,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh*1.5+gap+4,'text-anchor':'end',class:'cat'},r.tier));
+  const series=[['projects',r.projects,'var(--ink-3)',.35,'Current projects'],['credits',r.credits,'var(--ink-3)',.7,'Awarded credits'],['usage',r.usage,'var(--accent)',1,'ACEs consumed']];
+  series.forEach(([k,v,c,o,name],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);
+   const b=el('rect',{x:L,y,width:w,height:bh,fill:c,opacity:o,rx:0,class:'bar'});s.appendChild(b);
+   s.appendChild(el('text',{x:L+w+6,y:y+bh-3,class:'lbl'+(k==='usage'?'':' muted')},fmt(v,r.tier==='R1'?1:v<10?2:1)+'%'));
+   hit(b,`${r.tier} · ${name}: <b>${fmt(v,2)}%</b>`);});
+ });$('#c-shares').appendChild(s);})();
+
+// generic stacked column
+function stackedColumns(sel,data,keys,colors,opts={}){const W=560,H=300,L=44,R=10,T=14,B=40;const s=svgEl(W,H);const n=data.length;const bw=Math.min(24,(W-L-R)/n*0.62);const step=(W-L-R)/n;
+ const max=niceMax(Math.max(...data.map(d=>keys.reduce((a,k)=>a+(d[k]||0),0))));const y=v=>T+(H-T-B)*(1-v/max);
+ const ticks=5;for(let i=0;i<=ticks;i++){const v=max*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,0)));}
+ data.forEach((d,i)=>{const cx=L+step*i+step/2;let acc=0;const tot=keys.reduce((a,k)=>a+(d[k]||0),0);
+  keys.forEach((k,j)=>{const v=d[k]||0;if(!v)return;const y1=y(acc+v),y2=y(acc);const h=Math.max(y2-y1-2,0);const last=(j===keys.length-1)||keys.slice(j+1).every(kk=>!d[kk]);
+   const r=el('rect',{x:cx-bw/2,y:y1,width:bw,height:h,fill:colors[j],rx:last?4:0});if(last){r.setAttribute('ry',4);}s.appendChild(r);
+   if(last&&h>0){const sq=el('rect',{x:cx-bw/2,y:y1+4,width:bw,height:Math.max(h-4,0),fill:colors[j]});s.appendChild(sq);}
+   hit(r,`${d.q} · ${opts.names?opts.names[j]:k}: <b>${fmt(v,1)}</b> · total ${fmt(tot,1)}`);acc+=v;});
+  if(i%2===0||n<10)s.appendChild(el('text',{x:cx,y:H-B+18,'text-anchor':'middle',class:'tick'},d.q.replace('20','’')));
+  if(i===n-1)s.appendChild(el('text',{x:cx,y:y(tot)-8,'text-anchor':'middle',class:'lbl'},fmt(tot,0)));
+ });$(sel).appendChild(s);}
+stackedColumns('#c-quarterly',D.quarterly,['R2','RCU','Other'],['var(--r2)','var(--rcu)','var(--oth)'],{names:['R2','RCU','Other academic']});
+
+// generic multi-line
+function lines(sel,labels,series,opts={}){const W=opts.w||560,H=opts.h||300,L=44,R=opts.r||56,T=14,B=40;const s=svgEl(W,H);const n=labels.length;const x=i=>L+(W-L-R)*(n===1?0:i/(n-1));
+ let lo=opts.min!=null?opts.min:Math.min(...series.flatMap(q=>q.v));let hi=opts.max!=null?opts.max:niceMax(Math.max(...series.flatMap(q=>q.v)));if(opts.min==null)lo=0;
+ const y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo));const ticks=opts.ticks||5;
+ for(let i=0;i<=ticks;i++){const v=lo+(hi-lo)*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,opts.dec||0)+(opts.unit||'')));}
+ labels.forEach((l,i)=>{if(i%(opts.every||2)===0)s.appendChild(el('text',{x:x(i),y:H-B+18,'text-anchor':'middle',class:'tick'},l.replace('20','’')));});
+ series.forEach(q=>{if(q.area){const p=q.v.map((v,i)=>`${x(i)},${y(v)}`).join(' L');s.appendChild(el('path',{d:`M${x(0)},${y(lo)} L${p} L${x(n-1)},${y(lo)} Z`,fill:q.area}));}
+  const d=q.v.map((v,i)=>`${i?'L':'M'}${x(i)},${y(v)}`).join(' ');s.appendChild(el('path',{d,fill:'none',stroke:q.c,'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}));
+  q.v.forEach((v,i)=>{const g=el('g',{});g.appendChild(el('circle',{cx:x(i),cy:y(v),r:i===n-1?5:3.5,fill:q.c,stroke:'var(--surface)','stroke-width':2}));g.appendChild(el('circle',{cx:x(i),cy:y(v),r:12,class:'hit'}));hit(g,`${labels[i]} · ${q.name}: <b>${fmt(v,opts.dec||0)}${opts.unit||''}</b>`);s.appendChild(g);});
+  s.appendChild(el('text',{x:x(n-1)+10,y:y(q.v[n-1])+4,class:'lbl'},fmt(q.v[n-1],opts.dec||0)+(opts.unit||'')));});
+ $(sel).appendChild(s);}
+lines('#c-share-line',D.quarterly.map(d=>d.q),[{name:'Non-R1 share',v:D.quarterly.map(d=>d.share),c:'var(--accent)',area:'var(--r2-wash)'}],{unit:'%',dec:1,max:6,ticks:6});
+lines('#c-active',D.active_inst.map(d=>d.q),[{name:'R1',v:D.active_inst.map(d=>d.R1),c:'var(--r1)'},{name:'Non-R1 academic',v:D.active_inst.map(d=>d.nonR1),c:'var(--accent)'}],{max:250,ticks:5,h:300,w:900,r:70});
+lines('#c-retention',D.retention.quarters,[{name:'R1',v:D.retention.R1,c:'var(--r1)'},{name:'Non-R1 academic',v:D.retention.nonR1,c:'var(--accent)'}],{unit:'%',dec:0,min:50,max:100,ticks:5});
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+lines('#c-season',MON,[{name:'R1',v:D.seasonality.R1,c:'var(--r1)'},{name:'Non-R1 academic',v:D.seasonality.nonR1,c:'var(--accent)'}],{unit:'%',dec:0,min:5,max:10,ticks:5,every:1,h:280});
+
+// persistence table
+$('#t-persist').innerHTML=`<thead><tr><th>Tier</th><th class="num">Median months</th><th class="num">≤ 3 months</th><th class="num">≥ 24 months</th></tr></thead><tbody>${D.persistence.map(p=>`<tr><td><span class="pill ${pillCls[p.tier]||''}">${p.tier}</span></td><td class="num">${fmt(p.median,1)}</td><td class="num">${fmt(p.le3,1)}%</td><td class="num">${fmt(p.ge24,1)}%</td></tr>`).join('')}</tbody>`;
+
+// never used horizontal bars
+(()=>{const rows=D.never_used;const W=560,L=150,R=90,T=10,rowH=42,bh=18;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/50*(W-L-R);
+ [0,10,20,30,40,50].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh-4,'text-anchor':'end',class:'cat'},r.tier));const w=Math.max(x(r.pct)-L,1.5);
+  const b=el('rect',{x:L,y,width:w,height:bh,fill:r.tier==='R1'?'var(--r1)':r.tier==='Non-academic'?'var(--non)':'var(--accent)',class:'bar'});s.appendChild(b);
+  s.appendChild(el('text',{x:L+w+6,y:y+bh-4,class:'lbl'},`${fmt(r.pct,0)}%`));s.appendChild(el('text',{x:L+w+6+(r.pct>=10?34:28),y:y+bh-4,class:'lbl muted'},`${r.never} of ${r.total}`));
+  hit(b,`${r.tier}: <b>${r.never}</b> of ${r.total} institutions · ${r.projects} projects never used`);});
+ $('#c-never').appendChild(s);})();
+
+// 100% stacked horizontal for board mix
+function stacked100(sel,rows,keys,colors,names){const W=560,L=150,R=16,T=10,rowH=56,bh=22;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+ [0,25,50,75,100].forEach(v=>{s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh/2+4,'text-anchor':'end',class:'cat'},r.label));let acc=0;
+  keys.forEach((k,j)=>{const v=r.vals[k]||0;if(!v)return;const x0=x(acc),w=Math.max(x(acc+v)-x0-2,0);const b=el('rect',{x:x0,y,width:w,height:bh,fill:colors[j].c,opacity:colors[j].o});s.appendChild(b);
+   if(w>34)s.appendChild(el('text',{x:x0+w/2,y:y+bh/2+4,'text-anchor':'middle',class:'lbl',fill:colors[j].o<0.7?'var(--ink)':'#fff',style:`fill:${colors[j].o<0.7?'var(--ink)':'#fff'}`},fmt(v,0)+'%'));
+   hit(b,`${r.label} · ${names[j]}: <b>${fmt(v,1)}%</b>${r.n?` (${fmtI(r.n[k])} projects)`:''}`);acc+=v;});});
+ $(sel).appendChild(s);}
+const BK=['Explore','Discover','Accelerate','Maximize'];const BC=[{c:'var(--r1)',o:.35},{c:'var(--r1)',o:.6},{c:'var(--r1)',o:.85},{c:'var(--r1)',o:1}];
+stacked100('#c-board',[{label:'R1',vals:D.board_projects.R1,n:D.board_projects.R1_n},{label:'Non-R1 academic',vals:D.board_projects.nonR1,n:D.board_projects.nonR1_n}],BK,BC,BK);
+stacked100('#c-board-usage',[{label:'R1',vals:D.board_usage.R1},{label:'Non-R1 academic',vals:D.board_usage.nonR1}],[...BK,'Research'],[...BC,{c:'var(--non)',o:1}],[...BK,'Legacy Research']);
+
+// resources paired bars
+(()=>{const rows=D.resources;const W=900,L=170,R=60,T=8,rowH=44,bh=12,gap=3;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const max=30;const x=v=>L+v/max*(W-L-R);
+ [0,10,20,30].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+ rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh+gap/2+4,'text-anchor':'end',class:'cat'},r.resource));
+  [['R1',r.R1,'var(--r1)'],['Non-R1 academic',r.nonR1,'var(--accent)']].forEach(([n,v,c],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);const b=el('rect',{x:L,y,width:w,height:bh,fill:c,class:'bar'});s.appendChild(b);
+   s.appendChild(el('text',{x:L+w+6,y:y+bh-2,class:'lbl'+(j?'':' muted')},fmt(v,1)+'%'));hit(b,`${r.resource} · ${n}: <b>${fmt(v,1)}%</b> of cohort ACEs`);});});
+ $('#c-resources').appendChild(s);})();
+
+// tables
+$('#t-top').innerHTML=`<thead><tr><th>Institution</th><th>Tier</th><th class="num">M ACEs</th><th class="num">PIs</th><th class="num">Users</th><th class="num">Active mo.</th></tr></thead><tbody>${D.top_nonr1.map(r=>`<tr><td>${r.name}</td><td><span class="pill ${pillCls[r.tier]||''}">${r.tier}</span></td><td class="num">${fmt(r.ace,1)}</td><td class="num">${r.pis}</td><td class="num">${r.users}</td><td class="num">${r.months??'–'}</td></tr>`).join('')}</tbody>`;
+$('#t-hbcu').innerHTML=`<thead><tr><th>Institution</th><th>Tier</th><th class="num">M ACEs</th><th class="num">PIs</th><th class="num">Users</th></tr></thead><tbody>${D.hbcu.map(r=>`<tr><td>${r.name}${r.msi==='TCU'?' <span class="pill">TCU</span>':''}</td><td><span class="pill ${pillCls[r.tier]||''}">${r.tier}</span></td><td class="num">${fmt(r.ace,2)}</td><td class="num">${r.pis}</td><td class="num">${r.users}</td></tr>`).join('')}<tr><td colspan="5" style="color:var(--ink-3);font-size:13px">${D.hbcu_summary.n} of ${D.hbcu_summary.total} HBCUs and ${D.hbcu_summary.tcu} of ${D.hbcu_summary.tcu_total} tribal colleges have usage · ${D.hbcu_summary.ace}M ACEs total · ${D.hbcu_summary.share_all}% of all usage, ${D.hbcu_summary.share_nonr1}% of non-R1 academic usage</td></tr></tbody>`;
+</script>

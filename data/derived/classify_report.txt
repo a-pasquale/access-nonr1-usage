@@ -1,0 +1,26 @@
+XDMoD PI institutions: 735; total ACE 13,799,409,190.97
+match_method
+exact                            346
+keyword                          249
+override:not-in-carnegie-file     47
+override                          42
+r1-unit                           29
+foreign-list                      10
+academic-list                      8
+unknown-list                       4
+R1 institutions in Carnegie file with no XDMoD match: 2 -> ['The University of Tennessee Health Science Center', 'University of Massachusetts-Boston']
+REVIEW  '  - Utah Tech University'                                             -> Other academic  (fuzzy 88: 'Utah State University')
+REVIEW  'Albany State U - Albany State University'                             -> Other academic  (fuzzy 89: 'Alabama State University')
+REVIEW  'Augustana U - Augustana University'                                   -> Other academic  (fuzzy 95: 'Augusta University')
+REVIEW  'Bradley U - Bradley University'                                       -> Other academic  (fuzzy 86: 'Brandeis University')
+REVIEW  'Dominican U, Calif. - Dominican University of California'             -> Other academic  (fuzzy 86: 'University of California-Irvine')
+REVIEW  'Fitchburg State U - Fitchburg State University'                       -> Other academic  (fuzzy 88: 'Pittsburg State University')
+REVIEW  'JBU - John Brown University'                                          -> Other academic  (fuzzy 86: 'Brown University')
+REVIEW  "Mount St. Mary's University"                                          -> Other academic  (fuzzy 87: 'Marymount University')
+REVIEW  'Oakland City University'                                              -> Other academic  (fuzzy 88: 'Oakland University')
+REVIEW  'Southern Oregon U - Southern Oregon University'                       -> Other academic  (fuzzy 87: 'Georgia Southern University')
+REVIEW  'University of Hawaii'                                                 -> R1              (fuzzy 89: 'University of Hawaii at Hilo')
+REVIEW  'Vanguard USC - Vanguard University of Southern California'            -> Other academic  (fuzzy 88: 'University of Southern California')
+REVIEW  'Virginia Union University'                                            -> Other academic  (fuzzy 89: 'University of Virginia-Main Campus')
+IPEDS name-match for non-Carnegie academic institutions: 123 of 147
+Current projects: 7157; awarded institutions: 738; never-used institutions: 150
