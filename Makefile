@@ -10,6 +10,7 @@ all: fetch classify cohorts analyze site
 fetch:
 	$(PY) $(P)/fetch_reference.py
 	$(PY) $(P)/fetch_xdmod.py
+	$(PY) $(P)/fetch_xdmod_cloud.py
 
 classify:
 	$(PY) $(P)/classify.py
@@ -17,6 +18,7 @@ classify:
 cohorts:
 	$(PY) $(P)/fetch_xdmod_cohorts.py
 	$(PY) $(P)/fetch_xdmod_pis.py
+	$(PY) $(P)/fetch_xdmod_allocations.py
 
 analyze:
 	$(PY) $(P)/analyze.py

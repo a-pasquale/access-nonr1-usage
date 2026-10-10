@@ -141,19 +141,31 @@ def classify_projects(xd, car):
     base = float(next(r["conversionFactor"] for r in cat if r["resourceName"] == "ACCESS Credits"))
     per_credit = {r["resourceName"]: float(r["conversionFactor"]) / base for r in cat if r.get("conversionFactor")}
     alias = {k: v for k, v in O["resource_aliases"].items() if not k.startswith("_")}
-    awards, mapped, unmapped = [], [], {}
+    jobs = set(O["jobs_realm_resources"]["names"])
+    cloud_res = set(O["cloud_resources"]["names"])
+    awards, hpc, cloudx, mapped, unmapped = [], [], [], [], {}
     for p in raw:
-        tot, ok = 0.0, True
+        tot, hp, cx, ok = 0.0, 0.0, 0.0, True
         for res in p.get("resources") or []:
             name = alias.get(res.get("resourceName"), res.get("resourceName"))
             if name in per_credit:
-                tot += float(res.get("allocation") or 0) * per_credit[name]
+                cr = float(res.get("allocation") or 0) * per_credit[name]
+                tot += cr
+                hp += cr if name in jobs else 0.0
+                cx += cr if name in cloud_res else 0.0
             else:
                 ok = False
                 unmapped[name] = unmapped.get(name, 0) + 1
         awards.append(tot)
+        hpc.append(hp)
+        cloudx.append(cx)
         mapped.append(ok)
     df["award"] = awards
+    df["hpc_award"] = hpc      # credits exchanged into resources XDMoD's Jobs realm reports
+    df["cloud_award"] = cloudx  # credits exchanged into Jetstream2, which XDMoD's Cloud realm reports
+    df["unexchanged"] = [sum(float(r.get("allocation") or 0) for r in (p.get("resources") or []) if r.get("resourceName") == "ACCESS Credits")
+                         for p in raw]   # the feed's ACCESS Credits line: what is left after exchanges
+    df["award_mapped"] = mapped   # every resource converts; the amount is approximate for older projects
     df["award_ok"] = [m and str(b) >= AWARD_SINCE for m, b in zip(mapped, df["beginDate"])]
     report.append("Resources with no conversion factor (projects affected): " +
                   ", ".join(f"{k} ({v})" for k, v in sorted(unmapped.items(), key=lambda kv: -kv[1])))
@@ -197,6 +209,21 @@ def main():
     car = load_carnegie()
     hd = load_ipeds()
     xd = pd.read_csv(RAW / "xdmod_by_pi_institution.csv")
+    # Jetstream2 usage (XDMoD Cloud realm), converted to ACCESS Credits; institutions with only cloud usage are added
+    cl_path = RAW / "xdmod_cloud_by_pi_institution.csv"
+    if cl_path.exists():
+        rate = {k: v for k, v in O["cloud_su_per_core_hour"].items() if not k.startswith("_")}
+        cl = pd.read_csv(cl_path)
+        cl["credits"] = cl.core_hours * cl.resource.map(rate)
+        cloud = cl.groupby("pi_institution").credits.sum()
+        new = sorted(set(cloud.index) - set(xd.pi_institution))
+        xd = pd.concat([xd, pd.DataFrame({"pi_institution": new})], ignore_index=True)
+        xd["cloud_ace"] = xd.pi_institution.map(cloud).fillna(0)
+        report.append(f"Cloud realm: {len(cloud)} PI institutions, {cloud.sum():,.0f} credits; {len(new)} have cloud usage only")
+    else:
+        xd["cloud_ace"] = 0.0
+    for col in ("total_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"):
+        xd[col] = xd[col].fillna(0)
     xd["full"] = xd["pi_institution"].str.split(" - ", n=1).str[-1].str.strip()
     xd["n"] = xd["full"].map(norm)
     xd = classify_xdmod(xd, car)
@@ -209,16 +236,17 @@ def main():
     report.insert(0, f"XDMoD PI institutions: {len(xd)}; total ACE {xd.total_ace.sum():,.2f}")
 
     cols = ["pi_institution", "cohort", "tier", "carnegie_instnm", "match_method", "UNITID", "msi", "C21BASIC", "STABBR",
-            "total_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"]
-    xd[cols].sort_values(["total_ace", "pi_institution"], ascending=[False, True], kind="stable").to_csv(DERIVED / "institutions.csv", index=False)
+            "total_ace", "cloud_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"]
+    xd[cols].assign(_u=xd.total_ace + xd.cloud_ace).sort_values(["_u", "pi_institution"], ascending=[False, True], kind="stable").drop(columns="_u").to_csv(DERIVED / "institutions.csv", index=False)
 
     projects, inst = classify_projects(xd, car)
     projects.to_csv(DERIVED / "projects.csv", index=False)
     inst.drop(columns=["n"]).to_csv(DERIVED / "project_institutions.csv", index=False)
     report.append(f"Current projects: {len(projects)}; awarded institutions: {len(inst)}; never-used institutions: {(~inst.ever_used).sum()}")
 
-    cohorts = {"nonR1": xd[xd.cohort.isin(NONR1)]["pi_institution"].tolist(),
-               "R1": xd[xd.cohort == "R1"]["pi_institution"].tolist()}
+    hpc = xd[xd.total_ace > 0]     # Jobs-realm filters only accept institutions with Jobs usage
+    cohorts = {"nonR1": hpc[hpc.cohort.isin(NONR1)]["pi_institution"].tolist(),
+               "R1": hpc[hpc.cohort == "R1"]["pi_institution"].tolist()}
     json.dump(cohorts, open(DERIVED / "cohorts.json", "w"), indent=0)
     (DERIVED / "classify_report.txt").write_text("\n".join(report) + "\n")
     print("\n".join(report[:3]))

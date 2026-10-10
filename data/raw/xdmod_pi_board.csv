@@ -164,7 +164,7 @@ R1,5c819f9da96c,Explore,549665.6061
 R1,0bc3442b0bd7,Explore,549498.4091
 R1,782d3e60b716,Explore,549246.366
 R1,9feadb355bfc,Explore,546947.0335
-R1,260529f44005,Explore,545393.5991
+R1,7ff29239b0a6,Explore,545393.5991
 R1,a986c6e8764e,Explore,541997.7541
 R1,dd8a98ead5fd,Explore,536422.2347
 R1,f52d58a12cd2,Explore,531836.7958
@@ -924,7 +924,7 @@ R1,877ea2f4b363,Explore,194573.9597
 R1,8e67c19c6d98,Explore,194554.6198
 R1,abfb85fd8d2a,Explore,194407.3866
 R1,83f7636c336c,Explore,194330.5259
-R1,a74df24140ce,Explore,194300.3307
+R1,5c45288ba4c1,Explore,194300.3307
 R1,de7d95a1687c,Explore,194273.3795
 R1,d56021d5d31f,Explore,193847.4016
 R1,072bd8b55f01,Explore,193421.1741
@@ -1589,7 +1589,7 @@ R1,385e4d433a04,Explore,76742.2796
 R1,4d281f090a33,Explore,76587.4353
 R1,4af230a36305,Explore,76583.8168
 R1,03726d78cbc7,Explore,76389.9183
-R1,63f00f1e4836,Explore,76095.9511
+R1,d6705f25a1c1,Explore,76095.9511
 R1,12107c1e471d,Explore,75970.9277
 R1,28d468f38fe1,Explore,75628.5483
 R1,ceb8dddfaaed,Explore,75511.0113
@@ -1775,7 +1775,6 @@ R1,f0918a6b3dc5,Explore,52277.9961
 R1,3a55f85562b8,Explore,52191.1535
 R1,dbb77335c414,Explore,52018.5913
 R1,e92f86881253,Explore,51936.9892
-R1,cdab027b1500,Explore,51806.351
 R1,b2c388519715,Explore,51758.5626
 R1,978a86f47157,Explore,51485.5574
 R1,96a793f81463,Explore,51256.2231
@@ -2066,7 +2065,6 @@ R1,749dd43f3097,Explore,26919.0842
 R1,946adb958f45,Explore,26888.8889
 R1,e65335f561b3,Explore,26770.4785
 R1,7c3e45d4eebf,Explore,26552.1243
-R1,3e8d5c25bd82,Explore,26484.7464
 R1,c28436439886,Explore,26407.5114
 R1,8095d0daf6e1,Explore,26376.817
 R1,5b99d9387496,Explore,26351.2384
@@ -3531,7 +3529,7 @@ R1,1f93c20e1c46,Discover,1499482.6876
 R1,ac2584927cf2,Discover,1499472.8305
 R1,cfcde95c31c8,Discover,1499311.6227
 R1,0c97d0af67d3,Discover,1499150.4149
-R1,260529f44005,Discover,1498879.2813
+R1,7ff29239b0a6,Discover,1498879.2813
 R1,2ac3a616ff46,Discover,1498853.7027
 R1,7aef3b138d2f,Discover,1498662.9235
 R1,4972c41b2fe2,Discover,1498621.3738
@@ -3963,7 +3961,6 @@ R1,f59354b9e15b,Discover,747132.8218
 R1,0db7c4e04354,Discover,746935.8039
 R1,78b8780b608a,Discover,746836.1096
 R1,ee1a2400d30d,Discover,746800.549
-R1,d4b09ca19f85,Discover,746784.2036
 R1,fb14ecd17619,Discover,746455.5493
 R1,cd2979a1034d,Discover,746422.609
 R1,d3dd4829433b,Discover,745919.7704
@@ -4042,7 +4039,7 @@ R1,aeaae956ae62,Discover,692554.2454
 R1,10db5dfc1210,Discover,691557.9263
 R1,bd2594c5e3b2,Discover,690914.3428
 R1,5a0c37ed1909,Discover,689507.0185
-R1,a74df24140ce,Discover,688944.538
+R1,5c45288ba4c1,Discover,688944.538
 R1,e74f7766ffd3,Discover,687419.4273
 R1,399acb3fe962,Discover,686490.9851
 R1,481c80da59d5,Discover,686109.1771
@@ -5750,7 +5747,7 @@ R1,c3f426022cb4,Accelerate,4682042.9222
 R1,ccdb31265632,Accelerate,4553726.9948
 R1,16b9feeca83f,Accelerate,4528234.0757
 R1,6adeed9f36e8,Accelerate,4487885.2081
-R1,a74df24140ce,Accelerate,4480534.7807
+R1,5c45288ba4c1,Accelerate,4480534.7807
 R1,4ecbc976aa11,Accelerate,4419775.0328
 R1,3cf06a1262d1,Accelerate,4402957.3897
 R1,bcd5f69d11fa,Accelerate,4391066.8164
@@ -6332,7 +6329,7 @@ R1,ddab8e193e44,Maximize,10009214.2991
 R1,c079b6ee1a78,Maximize,9782119.7829
 R1,19bfa2ceb414,Maximize,9767876.8482
 R1,05148a5158c0,Maximize,9736951.151
-R1,58d98ae592d5,Maximize,9603026.6392
+R1,0317b2ffa994,Maximize,9603026.6392
 R1,66f45610e3c4,Maximize,9600937.3011
 R1,905a8a1ed0dd,Maximize,9484869.6737
 R1,2387ea247d75,Maximize,9482542.891
@@ -6551,6 +6548,7 @@ R2,86b9c4e6d460,Explore,55785.389
 R2,36df3b8c3cb8,Explore,55329.091
 R2,a1bf29536b4c,Explore,55057.3336
 R2,2766b1b7c58a,Explore,54113.9185
+R2,cdab027b1500,Explore,51806.351
 R2,a324af964282,Explore,51794.8718
 R2,de867ccaa232,Explore,51399.3387
 R2,15a69603c56e,Explore,46114.1681
@@ -6697,6 +6695,7 @@ R2,326c22fa34aa,Discover,807129.2033
 R2,1beb61a1de18,Discover,770390.7917
 R2,36bd443324c3,Discover,766383.5548
 R2,7c771347b2bc,Discover,760655.1875
+R2,d4b09ca19f85,Discover,746784.2036
 R2,67fe22ec9319,Discover,746578.0772
 R2,28b5a2989c02,Discover,703869.9857
 R2,c13109d2ecfb,Discover,667017.0316
@@ -6855,12 +6854,13 @@ R2,f2c0a0c883f3,Maximize,865132.697
 RCU,96b477d3c70c,Explore,1912118.2856
 RCU,b83817743609,Explore,1026533.533
 RCU,3bc0601eb04b,Explore,844847.9631
+RCU,d6584d2a1ed4,Explore,807247.2394
 RCU,322f15d65358,Explore,795755.1937
 RCU,d6fb260d8e5f,Explore,630055.8987
 RCU,ff8db8f251c0,Explore,596488.8639
 RCU,7e435641d581,Explore,569582.3819
 RCU,c4a975fa2a49,Explore,551029.7586
-RCU,337ead827c5c,Explore,401700.7923
+RCU,fac563b7e676,Explore,401700.7923
 RCU,2a01ee981bf7,Explore,400474.6397
 RCU,fb7774fa2f4b,Explore,399365.6498
 RCU,6b2bdce2bf77,Explore,399312.8704
@@ -6872,6 +6872,7 @@ RCU,295989c2a1df,Explore,362643.2092
 RCU,98ffbd1ef070,Explore,357042.1112
 RCU,c13d8ab9ae2e,Explore,347123.5885
 RCU,0bb1f4530371,Explore,343116.4764
+RCU,a144e911a5cd,Explore,323923.888
 RCU,f3ed39539de8,Explore,317573.523
 RCU,097536be8e60,Explore,294909.227
 RCU,97f8f97eb8fc,Explore,289085.9068
@@ -6886,6 +6887,7 @@ RCU,dc2bf1f2be1d,Explore,214245.0558
 RCU,f9a11b8e13da,Explore,213726.1214
 RCU,b2c4da3b5943,Explore,208812.7768
 RCU,a965f9173ead,Explore,207801.36
+RCU,517900ae7d68,Explore,204335.7664
 RCU,97786638b75b,Explore,197927.7559
 RCU,f5b60517cdad,Explore,195232.2665
 RCU,13186c360b33,Explore,192188.5333
@@ -6925,6 +6927,7 @@ RCU,404f22aa36db,Explore,39209.4329
 RCU,fa417566d4f5,Explore,38445.9417
 RCU,ddb080950830,Explore,31599.1016
 RCU,ba72627174db,Explore,31442.8848
+RCU,61c510d64cd5,Explore,30334.0196
 RCU,9a2436aaff92,Explore,29394.8468
 RCU,ed1965e88913,Explore,28807.7859
 RCU,33c9e79aa1f7,Explore,27212.5522
@@ -6941,7 +6944,6 @@ RCU,b722ecc61245,Explore,10808.6593
 RCU,e0ef7eb39c90,Explore,9877.9712
 RCU,bfb5ebbb5f26,Explore,9540.7075
 RCU,e8ae92085b22,Explore,9423.4201
-RCU,4820f3f6aed0,Explore,8138.2494
 RCU,36299bf5e8b5,Explore,5395.5955
 RCU,5b7c7bce5e81,Explore,5176.9917
 RCU,bf962a385c2c,Explore,4061.0144
@@ -6956,9 +6958,11 @@ RCU,2d474afcf269,Explore,1359.0367
 RCU,7daeda31c073,Explore,1181.8579
 RCU,a2861bdcd245,Explore,1040.8634
 RCU,569b3885d02d,Explore,990.5796
+RCU,78b7f4b388a9,Explore,783.9541
 RCU,3ae71dfaa6c5,Explore,453.1786
 RCU,059a0cf72285,Explore,388.7953
 RCU,4e8b3cc6968a,Explore,377.1913
+RCU,1575e8711150,Explore,275.0016
 RCU,ffdfe94a72a4,Explore,260.7773
 RCU,0c74c06b5090,Explore,227.0884
 RCU,f951f8a0285a,Explore,167.4465
@@ -6998,12 +7002,13 @@ RCU,0eadc951ff57,Discover,1461048.1003
 RCU,c0086f6415df,Discover,1367486.6804
 RCU,2af821fc00d8,Discover,1346746.8963
 RCU,b4b2f700d24e,Discover,1310370.5783
-RCU,337ead827c5c,Discover,1239135.442
+RCU,fac563b7e676,Discover,1239135.442
 RCU,d6fb260d8e5f,Discover,1221337.4509
 RCU,78b318509694,Discover,1148071.8697
 RCU,d225afb183c9,Discover,1101563.042
 RCU,b960a14ae63f,Discover,1067847.6511
 RCU,74f0bf5138c4,Discover,974377.0666
+RCU,9a1f63f7548c,Discover,922217.8551
 RCU,eb46612df175,Discover,752122.0288
 RCU,3bc0601eb04b,Discover,746776.0933
 RCU,68062d95215f,Discover,746500.5927
@@ -7019,9 +7024,11 @@ RCU,74b07eb02818,Discover,336393.911
 RCU,f5d6f1abd717,Discover,332433.5891
 RCU,bc9ca1e3a2b1,Discover,301776.6548
 RCU,a60669fb1069,Discover,250477.26
+RCU,27e218aee1ab,Discover,248737.1639
 RCU,918278f336ba,Discover,230958.887
 RCU,65e683aef398,Discover,228447.5638
 RCU,e0f8bd54d2b5,Discover,209999.5009
+RCU,c18f88db8e85,Discover,198648.824
 RCU,0eb8ca4682e9,Discover,196357.7266
 RCU,ff8db8f251c0,Discover,153696.9243
 RCU,4503722ef747,Discover,149975.17
@@ -7029,6 +7036,7 @@ RCU,bce3e2fcb8c8,Discover,127699.1703
 RCU,fbb45e9c3cd9,Discover,119820.2009
 RCU,63c4c40dfb1d,Discover,119515.0041
 RCU,e6e34608df61,Discover,116848.8365
+RCU,b0b67aa368e8,Discover,103417.5557
 RCU,a0979ee0b903,Discover,101138.8109
 RCU,a86b533af972,Discover,90853.4531
 RCU,adafc51fa39e,Discover,84087.9656
@@ -7047,8 +7055,10 @@ RCU,12791ae7e907,Discover,16759.6232
 RCU,a4538535c98c,Discover,11386.3622
 RCU,950ad7302db5,Discover,10393.1624
 RCU,f13462493bc7,Discover,10007.3617
+RCU,61c510d64cd5,Discover,9926.3834
 RCU,dbf79305f2f8,Discover,4868.426
 RCU,0218ef83721c,Discover,3803.7307
+RCU,efe54a409663,Discover,2348.119
 RCU,0c74c06b5090,Discover,1990.8915
 RCU,ac331040a68f,Discover,914.7171
 RCU,442ea8b2bff1,Discover,468.401
@@ -7081,7 +7091,6 @@ RCU,adf38f533380,Maximize,2248217.2313
 RCU,c4d5d57a0ad0,Maximize,2203757.5644
 RCU,18aef41e7b9f,Maximize,279156.404
 Other academic,93d73b2bc284,Explore,1024465.9055
-Other academic,d6584d2a1ed4,Explore,807247.2394
 Other academic,a2578c67efc3,Explore,749843.9079
 Other academic,c9961c3ab69e,Explore,745246.4907
 Other academic,d2c2b9cd9102,Explore,692909.6013
@@ -7102,11 +7111,9 @@ Other academic,16bd6fe341a2,Explore,373095.1401
 Other academic,e48ea554a618,Explore,356122.9022
 Other academic,369c0b0ff7ba,Explore,354335.1426
 Other academic,fbe1016af4f3,Explore,347405.8269
-Other academic,a144e911a5cd,Explore,323923.888
 Other academic,a119feb670ca,Explore,318602.0338
 Other academic,d4e2eab49ebf,Explore,292243.5586
 Other academic,0df9b473bcb8,Explore,235817.7054
-Other academic,517900ae7d68,Explore,204335.7664
 Other academic,bb0179df4915,Explore,186471.2708
 Other academic,2d5262b85188,Explore,185445.7546
 Other academic,4acaa8ac3386,Explore,177363.9029
@@ -7152,8 +7159,8 @@ Other academic,af1d88ebdf7c,Explore,36014.5985
 Other academic,b6e6adec2ff9,Explore,35001.934
 Other academic,c3b0716c05bf,Explore,33889.9495
 Other academic,21bb13fe472f,Explore,31901.1791
-Other academic,61c510d64cd5,Explore,30334.0196
 Other academic,d5c5f51d9e1e,Explore,29560.5465
+Other academic,3e8d5c25bd82,Explore,26484.7464
 Other academic,e2b10f094547,Explore,24974.8581
 Other academic,4493fff05de1,Explore,24966.9973
 Other academic,347b7d2c13b6,Explore,24922.9521
@@ -7167,6 +7174,7 @@ Other academic,5d020d3862ec,Explore,13048.849
 Other academic,c468f50624b8,Explore,12514.3178
 Other academic,32398bad98ff,Explore,11585.8756
 Other academic,fdba720745e2,Explore,10528.2925
+Other academic,4820f3f6aed0,Explore,8138.2494
 Other academic,913a9645d56b,Explore,6377.94
 Other academic,730e2783bde2,Explore,5935.3671
 Other academic,4a27776d169a,Explore,5593.2373
@@ -7188,14 +7196,12 @@ Other academic,570d5d5e84a6,Explore,1157.2774
 Other academic,cabaebaf6d5e,Explore,1149.5415
 Other academic,ea9f3804b9c0,Explore,883.7732
 Other academic,0e33cda1a501,Explore,838.1059
-Other academic,78b7f4b388a9,Explore,783.9541
 Other academic,231c4a2597c9,Explore,621.7481
 Other academic,81637f87ea03,Explore,564.1026
 Other academic,fe2d82cbad60,Explore,548.7554
 Other academic,386c0a933642,Explore,504.9598
 Other academic,4b5f4d56149f,Explore,493.9797
 Other academic,db355d163ded,Explore,407.6362
-Other academic,1575e8711150,Explore,275.0016
 Other academic,63ad0397beff,Explore,255.7864
 Other academic,0e9aefadfd9e,Explore,245.9293
 Other academic,2d74c950628e,Explore,236.8208
@@ -7230,7 +7236,6 @@ Other academic,0d587535a537,Discover,1066941.6682
 Other academic,37a986835e8c,Discover,1026068.8752
 Other academic,16bd6fe341a2,Discover,1017207.8108
 Other academic,0b39a0c37c1f,Discover,1004845.7171
-Other academic,9a1f63f7548c,Discover,922217.8551
 Other academic,790b194fb388,Discover,885280.9283
 Other academic,6b7fad11e3c0,Discover,790427.8495
 Other academic,a2578c67efc3,Discover,753406.2013
@@ -7240,12 +7245,10 @@ Other academic,2e45a0af9f33,Discover,505628.5483
 Other academic,7c534321b27d,Discover,373939.6095
 Other academic,000ded0be896,Discover,355525.4851
 Other academic,21bb13fe472f,Discover,251099.008
-Other academic,27e218aee1ab,Discover,248737.1639
 Other academic,28e097237c31,Discover,230692.8692
 Other academic,b4657a8b9cf0,Discover,222593.1749
 Other academic,bc2ad6dccff8,Discover,212649.3231
 Other academic,a119feb670ca,Discover,204719.9451
-Other academic,c18f88db8e85,Discover,198648.824
 Other academic,6c72fb2e044f,Discover,182107.1807
 Other academic,8e175ef4b70a,Discover,173924.1375
 Other academic,aec326495000,Discover,161209.5577
@@ -7254,7 +7257,6 @@ Other academic,0ae18c99af1e,Discover,119379.3749
 Other academic,5775ec79ef55,Discover,116531.5366
 Other academic,8cdeffa4fa6b,Discover,115583.6297
 Other academic,44c20335f75d,Discover,106170.9402
-Other academic,b0b67aa368e8,Discover,103417.5557
 Other academic,4acaa8ac3386,Discover,102986.8364
 Other academic,2e45a0af9f33,Discover,95728.9912
 Other academic,ff596a0e0f0a,Discover,95552.0619
@@ -7270,12 +7272,10 @@ Other academic,c6102081c108,Discover,35653.2535
 Other academic,9bcc9130bc39,Discover,32183.9167
 Other academic,7ba2eb7b9e2b,Discover,16976.3554
 Other academic,fe4f6ebcb2b9,Discover,11931.4992
-Other academic,61c510d64cd5,Discover,9926.3834
 Other academic,2e45a0af9f33,Discover,8676.0247
 Other academic,4e6268fa3b9b,Discover,8483.6234
 Other academic,3a35abbf9a3a,Discover,8047.7884
 Other academic,24084be42fc1,Discover,4799.9251
-Other academic,efe54a409663,Discover,2348.119
 Other academic,f34d2fa410fd,Discover,1552.4362
 Other academic,8c2b0cb8e0e8,Discover,1495.5393
 Other academic,20441fcf5407,Discover,219.7267

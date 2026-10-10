@@ -1,10 +1,8 @@
 INSTNM,tier,State,HERD FY21-23 AVG,med
 SUNY Polytechnic Institute,RCU,NY,387904333.333333,False
-Medical College of Wisconsin,R2,WI,310928333.333333,True
 University of Oklahoma-Health Sciences Center,R2,OK,128185333.333333,True
 Rush University,R2,IL,118222000.0,True
 University of North Texas Health Science Center,RCU,TX,72675000.0,True
-Upstate Medical University,R2,NY,49558333.3333333,True
 Mercer University,R2,GA,49152666.6666667,False
 Texas Tech University Health Sciences Center,R2,TX,45598333.3333333,True
 Morehouse School of Medicine,RCU,GA,44083666.6666667,True
@@ -15,7 +13,6 @@ Touro University,RCU,NY,33847333.333333336,False
 Louisiana State University Health Sciences Center-Shreveport,RCU,LA,29908666.6666667,True
 Teachers College at Columbia University,R2,NY,29832000.0,False
 Montclair State University,R2,NJ,29267000.0,False
-University of South Dakota,R2,SD,29238000.0,False
 Louisiana Tech University,R2,LA,28561333.3333333,False
 Rutgers University-Newark,R2,NJ,27328666.6666667,False
 Creighton University,R2,NE,26434333.3333333,False
@@ -25,14 +22,12 @@ Eastern Virginia Medical School,R2,VA,21857000.0,True
 CUNY Queens College,RCU,NY,20996333.3333333,False
 University of Alaska Anchorage,RCU,AK,20735333.3333333,False
 United States Military Academy,RCU,NY,20343333.3333333,False
-University of Guam,RCU,GU,20178333.3333333,False
 University of Tulsa,R2,OK,19816000.0,False
 University of New Orleans,R2,LA,19762000.0,False
 Southern Illinois University-Edwardsville,RCU,IL,19707666.6666667,False
 Florida Institute of Technology,R2,FL,19253333.3333333,False
 University of North Florida,R2,FL,19148333.3333333,False
 The New School,R2,NY,18726333.3333333,False
-California State University-Long Beach,R2,CA,18133000.0,False
 New York Medical College,RCU,NY,17482000.0,True
 Loma Linda University,R2,CA,17269333.3333333,False
 Alcorn State University,RCU,MS,16664333.333333299,False
@@ -49,11 +44,9 @@ Central State University,RCU,OH,10049333.333333299,False
 Kentucky State University,RCU,KY,9877000.0,False
 University of Maryland Eastern Shore,RCU,MD,9546666.666666666,False
 Oklahoma State University Center for Health Sciences,R2,OK,9542000.0,True
-DePaul University,R2,IL,9434666.66666667,False
 University of Baltimore,RCU,MD,9311000.0,False
 Lincoln University,RCU,MO,9105666.66666667,False
 University of Arkansas at Pine Bluff,RCU,AR,7995000.0,False
-University of Hawaii at Hilo,RCU,HI,7841333.33333333,False
 Langston University,RCU,OK,7777000.0,False
 Rhode Island College,RCU,RI,7652000.0,False
 Claremont Graduate University,R2,CA,7626333.33333333,False
@@ -63,7 +56,6 @@ Rutgers University-Camden,R2,NJ,7049666.66666667,False
 University of Central Oklahoma,RCU,OK,6979000.0,False
 Saint Joseph's University,R2,PA,6879333.33333333,False
 South Carolina State University,R2,SC,6774000.0,False
-Philadelphia College of Osteopathic Medicine,RCU,PA,6770666.66666667,True
 Appalachian State University,R2,NC,6725666.66666667,False
 University of Colorado Colorado Springs,R2,CO,6703666.66666667,False
 Midwestern University-Glendale,RCU,AZ,6595000.0,True
@@ -91,7 +83,6 @@ Norfolk State University,RCU,VA,4701000.0,False
 Toyota Technological Institute at Chicago,RCU,IL,4691000.0,False
 University of Health Sciences and Pharmacy in St. Louis,RCU,MO,4645333.33333333,True
 Universidad Central Del Caribe,RCU,PR,4587333.33333333,True
-Dakota State University,RCU,SD,4451000.0,False
 Fisk University,RCU,TN,4395666.66666667,False
 University of Wisconsin-Stevens Point,RCU,WI,4243333.33333333,False
 Colgate University,RCU,NY,4193000.0,False
@@ -112,7 +103,6 @@ Citadel Military College of South Carolina,RCU,SC,3601333.3333333298,False
 University of Central Arkansas,RCU,AR,3588666.6666666702,False
 Milwaukee School of Engineering,RCU,WI,3351666.6666666702,False
 Stephen F Austin State University,RCU,TX,3349666.6666666702,False
-University of St Thomas,RCU,MN,3300666.6666666702,False
 The University of Texas Permian Basin,RCU,TX,3283333.3333333298,False
 Providence College,RCU,RI,3149500.0,False
 Central Washington University,RCU,WA,3089666.6666666702,False
@@ -123,7 +113,6 @@ Christopher Newport University,RCU,VA,2975000.0,False
 Pomona College,RCU,CA,2961333.3333333298,False
 University of Wisconsin-La Crosse,RCU,WI,2954666.6666666702,False
 Colby College,RCU,ME,2885333.3333333298,False
-Suffolk University,RCU,MA,2869333.3333333298,False
 Pittsburg State University,RCU,KS,2864333.3333333298,False
 Sacred Heart University,RCU,CT,2852500.0,False
 Albany College of Pharmacy and Health Sciences,RCU,NY,2852333.3333333298,True

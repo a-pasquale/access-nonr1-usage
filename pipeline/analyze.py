@@ -9,7 +9,7 @@ Output:  data/derived/report_data.json   (the only thing the page reads)
 import json
 import numpy as np
 import pandas as pd
-from config import RAW, DERIVED, ORDER, NONR1, AWARD_SINCE
+from config import RAW, DERIVED, ROOT, ORDER, NONR1, AWARD_SINCE
 
 TIERS = ["R1", "R2", "RCU", "Other academic", "Non-academic"]
 
@@ -21,6 +21,10 @@ def qlabel(d):
 def main():
     D = {}
     x = pd.read_csv(DERIVED / "institutions.csv")
+    # Usage = batch HPC (Jobs realm ACEs) + Jetstream2 (Cloud realm, converted to credits). Monthly series, resource and
+    # allocation-type breakdowns exist only for the Jobs realm, so trends and cross-tabs below stay HPC-only.
+    x["hpc_ace"] = x.total_ace
+    x["total_ace"] = x.total_ace + x.cloud_ace
     proj = pd.read_csv(DERIVED / "projects.csv")
     pinst = pd.read_csv(DERIVED / "project_institutions.csv")
     start, end = (RAW / "xdmod_window.txt").read_text().split() if (RAW / "xdmod_window.txt").exists() else ("2022-09-01", "")
@@ -36,6 +40,12 @@ def main():
                                    ).reindex(TIERS).fillna(0)
     p["credits"] = pa.groupby("cohort").award.sum().reindex(TIERS).fillna(0)
     tot_ace, tot_p, tot_c = x.total_ace.sum(), len(proj), p.credits.sum()
+    hc = x.groupby("cohort")[["hpc_ace", "cloud_ace"]].sum().reindex(TIERS).fillna(0)
+    D["cloud"] = dict(share_of_total=round(x.cloud_ace.sum() / tot_ace * 100, 1),
+                      tiers=[dict(tier=t, hpc=round(hc.hpc_ace[t] / hc.hpc_ace.sum() * 100, 2), cloud=round(hc.cloud_ace[t] / hc.cloud_ace.sum() * 100, 2),
+                                  cloud_of_own=round(hc.cloud_ace[t] / (hc.hpc_ace[t] + hc.cloud_ace[t]) * 100, 1)) for t in TIERS],
+                      hpc_nonr1_share=round(hc.hpc_ace[NONR1].sum() / x.hpc_ace.sum() * 100, 1),
+                      cloud_only_inst=int(((x.hpc_ace == 0) & (x.cloud_ace > 0)).sum()))
     D["shares"] = [dict(tier=t, usage=round(u.ace[t] / tot_ace * 100, 2), projects=round(p.projects[t] / tot_p * 100, 2),
                         credits=round(p.credits[t] / tot_c * 100, 2), inst_used=int(u.n[t]), inst_awarded=int(p.inst[t]),
                         pis=int(u.pis[t]), users=int(u.users[t]), ace=float(u.ace[t]), nproj=int(p.projects[t])) for t in TIERS]
@@ -76,6 +86,26 @@ def main():
                            n_med=int((car.tier == t).sum() - (car[~car.med].tier == t).sum()),
                            n_xmed=int(((car.tier == t) & ~car.med).sum()),
                            reached_xmed=int(car[(car.tier == t) & ~car.med].INSTNM.isin(reached).sum())) for t in BT]
+    # All current projects, including Maximize: the convertible part of each award at today's factors. Approximate
+    # (rates changed over time, and parts of some older awards sit on retired systems with no factor), but it is the
+    # only view that includes Maximize, which the 2025+ sample barely contains.
+    pall = proj.assign(med=lambda d: d.carnegie_instnm.isin(med))
+    aw_all = pall[~pall.med].groupby("cohort").award.sum().reindex(BT).fillna(0)
+    pj = proj.assign(med=proj.carnegie_instnm.isin(med))
+    pj = pj[~pj.med].groupby("cohort").size().reindex(BT).fillna(0)
+    D["awards_all"] = {t: round(float(aw_all[t] / aw_all.sum() * 100), 1) for t in BT}
+    nr = ["R2", "RCU"]
+    proj_nr, herd_nr, usage_nr = pj[nr].sum() / pj.sum() * 100, h_xm[nr].sum(), u_xm[nr].sum()
+    D["gap_split"] = dict(projects=round(float(proj_nr), 1), herd=round(float(herd_nr), 1), usage=round(float(usage_nr), 1),
+                          awards_recent=round(float(a_xm[nr].sum()), 1), awards_all=round(float(aw_all[nr].sum() / aw_all.sum() * 100), 1),
+                          explained=int(round((proj_nr - herd_nr) / (proj_nr - usage_nr) * 100)),
+                          usage_vs_herd=int(round((1 - usage_nr / herd_nr) * 100)))
+    edr = ps[~ps.med & ps.allocationType.isin(["Explore", "Discover", "Accelerate"])].groupby("cohort").award.sum().reindex(BT).fillna(0)
+    D["gap_split"]["awards_eda_recent"] = round(float(edr[nr].sum() / edr.sum() * 100), 1)
+    mx = proj.assign(med=proj.carnegie_instnm.isin(med))
+    mx = mx[(mx.allocationType == "Maximize") & ~mx.med & mx.cohort.isin(BT)]
+    D["gap_split"]["maximize_projects"] = round(float(mx.cohort.isin(nr).mean() * 100), 1)
+    D["gap_split"]["maximize_n"] = {"nonR1": int(mx.cohort.isin(nr).sum()), "all": int(len(mx))}
     un = car[car.tier.isin(["R2", "RCU"]) & ~car.INSTNM.isin(reached)].sort_values(["HERD FY21-23 AVG", "INSTNM"], ascending=[False, True], kind="stable")
     D["unreached"] = [dict(name=r.INSTNM, tier=r.tier, state=r.State, herd_m=round(r["HERD FY21-23 AVG"] / 1e6, 1), med=bool(r.med))
                       for _, r in un.iterrows()]
@@ -140,6 +170,12 @@ def main():
     bt = mix("board_type", "total_ace")
     keys = [k for k in ["Explore", "Discover", "Accelerate", "Maximize", "Research"] if k in bt.index]
     bt = bt.loc[keys]
+    D["maximize_usage_nonr1"] = round(float(bt.loc["Maximize", "nonR1"] / (bt.loc["Maximize", "R1"] + bt.loc["Maximize", "nonR1"]) * 100), 1)
+    eda = bt.reindex(["Explore", "Discover", "Accelerate"])
+    D["eda_share"] = round(eda.nonR1.sum() / (eda.R1.sum() + eda.nonR1.sum()) * 100, 1)
+    qb = {g: pd.read_csv(RAW / f"xdmod_quarterly_{g}_board_type.csv", index_col=0, parse_dates=True) for g in ["R1", "nonR1"]}
+    q25 = {g: qb[g][qb[g].index >= AWARD_SINCE][["Explore", "Discover", "Accelerate"]].sum().sum() for g in qb}
+    D["eda_share_recent"] = round(q25["nonR1"] / (q25["R1"] + q25["nonR1"]) * 100, 1)
     D["board_usage"] = {g: {k: round(v / bt[g].sum() * 100, 1) for k, v in bt[g].items()} for g in ["R1", "nonR1"]}
     pm = pd.crosstab(proj.cohort, proj.allocationType)
     bk = [k for k in ["Explore", "Discover", "Accelerate", "Maximize"] if k in pm.columns]
@@ -226,8 +262,109 @@ def main():
         r1c, nrc = el[el.grp == "R1"].continued.mean(), el[el.grp == "nonR1"].continued.mean()
         D["pi_tenure"] = dict(rows=rows, by_type=ty, cont_r1=round(r1c * 100, 1), cont_nonr1=round(nrc * 100, 1),
                               cont_nonr1_r1mix=round(nr_at_r1mix * 100, 1), cont6_new=cont6, sub_tier=sub_tier,
-                              pis_per_inst=[dict(tier=t, median=float(x[x.cohort == t].active_pi_count.median()),
-                                                 one=round((x[x.cohort == t].active_pi_count <= 1).mean() * 100, 1)) for t in TIERS[:4]])
+                              pis_per_inst=[dict(tier=t, median=float(x[(x.cohort == t) & (x.hpc_ace > 0)].active_pi_count.median()),
+                                                 one=round((x[(x.cohort == t) & (x.hpc_ace > 0)].active_pi_count <= 1).mean() * 100, 1)) for t in TIERS[:4]])
+
+    # ---- utilization per awarded allocation, by experience and allocation type ---------------
+    # Joins each project to its own XDMoD usage by charge number. The cohort is projects begun in the 12 months before
+    # the window end with at least 3 months elapsed: the feed lists only current projects, so earlier starts are
+    # survivors (12-month projects from early 2025 have already expired). Utilization = usage since the project began /
+    # (measurable credits x elapsed share of a 12-month term), where measurable credits = credits exchanged into batch
+    # HPC (Jobs realm) or Jetstream2 (Cloud realm) + credits not yet exchanged, and usage = Jobs ACEs + Jetstream2
+    # credits. Exchanging is on demand, so exchanged credits alone would make any active project look fully used.
+    # Projects that put every credit into unmeasured resources (storage, OSG, TAMU Launch, ...) are counted separately.
+    # Medians lead because usage is skewed and many projects have not started; 95% intervals are from 2,000 bootstrap
+    # resamples of R1 projects and of non-R1 projects, with the R1 mix weights held fixed.
+    if (RAW / "xdmod_allocation_monthly.csv").exists() and "pi_name" in pd.read_csv(RAW / "xdmod_pi_prior.csv", nrows=1).columns:
+        from fetch_xdmod_pis import h as _h, name_key
+        am = pd.read_csv(RAW / "xdmod_allocation_monthly.csv")
+        prior_names = set(pd.read_csv(RAW / "xdmod_pi_prior.csv").pi_name)
+        pmn = pd.read_csv(RAW / "xdmod_pi_monthly.csv")
+        any_prior = "pi_name" in pmn.columns       # older snapshots lack it: fall back to pre-ACCESS experience only
+        first_month = pmn.groupby("pi_name").month.min() if any_prior else pd.Series(dtype=str)
+        wend = pd.Timestamp(end)
+        pr = pa[pa.allocationType.isin(ET) & pa.cohort.isin(["R1"] + NONR1)].copy()
+        pr["b"] = pd.to_datetime(pr.beginDate)
+        pr = pr[(pr.b > wend - pd.DateOffset(months=12)) & (pr.b <= wend - pd.DateOffset(months=3))]
+        pr["grp"] = pr.cohort.where(pr.cohort == "R1", "nonR1")
+        pr["frac"] = (((wend - pr.b).dt.days / 30.44) / 12).clip(upper=1)
+        pr["avail"] = (pr.hpc_award + pr.cloud_award).clip(upper=pr.award) + pr.unexchanged.clip(lower=0)
+        n_all = pr.groupby("grp").size()
+        none_ex = pr[pr.unexchanged >= pr.award * 0.999].groupby("grp").size().reindex(n_all.index).fillna(0) / n_all * 100
+        unmeasured = pr[pr.avail <= 0].groupby("grp").size().reindex(n_all.index).fillna(0) / n_all * 100
+        pr = pr[pr.avail > 0].copy()
+        pr["expected"] = pr.avail * pr.frac
+        am = am.merge(pr[["requestNumber", "beginDate"]], left_on="allocation", right_on="requestNumber")
+        am = am[am.month >= am.beginDate.str[:7]]
+        pr["usage"] = pr.requestNumber.map(am.groupby("allocation").ace.sum()).fillna(0)
+        pr["hpc_usage"] = pr.usage
+        cpath = RAW / "xdmod_cloud_allocation_monthly.csv"
+        if cpath.exists():
+            rate = {k: v for k, v in json.load(open(ROOT / "data" / "overrides.json"))["cloud_su_per_core_hour"].items() if not k.startswith("_")}
+            ca = pd.read_csv(cpath).assign(credits=lambda d: d.core_hours * d.resource.map(rate))
+            ca = ca.merge(pr[["requestNumber", "beginDate"]], left_on="allocation", right_on="requestNumber")
+            ca = ca[ca.month >= ca.beginDate.str[:7]]
+            pr["cloud_usage"] = pr.requestNumber.map(ca.groupby("allocation").credits.sum()).fillna(0)
+            pr["usage"] = pr.usage + pr.cloud_usage
+        pr["util"] = pr.usage / pr.expected
+        # sensitivity: batch HPC only (Jobs usage over HPC-exchanged + unexchanged credits)
+        hd = (pr.hpc_award.clip(upper=pr.award) + pr.unexchanged.clip(lower=0)) * pr.frac
+        pr["util_hpc"] = (pr.hpc_usage / hd).where(hd > 0)
+        pr["util_ex"] = pr.usage / ((pr.hpc_award + pr.cloud_award).clip(upper=pr.award) * pr.frac).where(pr.hpc_award + pr.cloud_award > 0)
+        key = pr.pi.map(lambda n: _h(name_key(n)))
+        bm = pr.beginDate.str[:7]
+        pr["exp"] = [("Experienced" if (k in prior_names or (any_prior and k in first_month.index and first_month[k] < m)) else "New")
+                     for k, m in zip(key, bm)]
+        pr["kind"] = pr.allocationType.where(pr.allocationType == "Explore", "Discover/Accelerate")
+        CELLS = [(k, e) for k in ["Explore", "Discover/Accelerate"] for e in ["New", "Experienced"]]
+        rng = np.random.default_rng(0)
+
+        def stats(d):
+            return d.util.median(), d.usage.sum() / d.expected.sum()
+
+        def std_median(d, w):
+            # tier median standardized to R1's experience x type mix: weighted mean of within-cell medians
+            m = d.groupby(["kind", "exp"]).util.median()
+            return sum(w[c] * m.get(c, np.nan) for c in CELLS if c in w.index)
+
+        w = pr[pr.grp == "R1"].groupby(["kind", "exp"]).size()
+        w = w / w.sum()
+        r1, nr = pr[pr.grp == "R1"], pr[pr.grp == "nonR1"]
+        boots = []
+        for _ in range(2000):
+            a, b = r1.sample(len(r1), replace=True, random_state=rng.integers(1e9)), nr.sample(len(nr), replace=True, random_state=rng.integers(1e9))
+            boots.append((a.util.median() - b.util.median(), std_median(a, w) - std_median(b, w),
+                          a.usage.sum() / a.expected.sum() - b.usage.sum() / b.expected.sum(),
+                          ((b.usage == 0).mean() - (a.usage == 0).mean()) * 100,
+                          a[a.usage > 0].util.median() - b[b.usage > 0].util.median()))
+        boots = np.array(boots)
+        ci = lambda k: [round(float(np.nanpercentile(boots[:, k], 2.5)), 2), round(float(np.nanpercentile(boots[:, k], 97.5)), 2)]
+        cells = pr.groupby(["grp", "kind", "exp"]).agg(n=("util", "size"), med=("util", "median"),
+                                                       zero=("usage", lambda x: (x == 0).mean() * 100))
+        D["alloc_util"] = dict(
+            n_grp={g: int((pr.grp == g).sum()) for g in ["R1", "nonR1"]},
+            med={g: round(float(pr[pr.grp == g].util.median()), 2) for g in ["R1", "nonR1"]},
+            pooled={g: round(float(stats(pr[pr.grp == g])[1]), 2) for g in ["R1", "nonR1"]},
+            med_exchanged={g: round(float(pr[pr.grp == g].util_ex.median()), 2) for g in ["R1", "nonR1"]},
+            std_med={"R1": round(std_median(r1, w), 2), "nonR1": round(std_median(nr, w), 2)},
+            mix_share=round((1 - (std_median(r1, w) - std_median(nr, w)) / (r1.util.median() - nr.util.median())) * 100),
+            ci_med_gap=ci(0), ci_std_gap=ci(1), ci_pooled_gap=ci(2), ci_zero_gap=[round(float(np.percentile(boots[:, 3], q)), 1) for q in (2.5, 97.5)],
+            ci_started_gap=ci(4),
+            med_no_cloud={g: round(float(pr[(pr.grp == g) & (pr.cloud_award <= 0)].util.median()), 2) for g in ["R1", "nonR1"]},
+            n_no_cloud={g: int(((pr.grp == g) & (pr.cloud_award <= 0)).sum()) for g in ["R1", "nonR1"]},
+            new_share={g: round(float((pr[pr.grp == g].exp == "New").mean() * 100), 1) for g in ["R1", "nonR1"]},
+            prior_def="any" if any_prior else "pre-ACCESS",
+            none_exchanged={g: round(float(v), 1) for g, v in none_ex.items()}, unmeasured={g: round(float(v), 1) for g, v in unmeasured.items()},
+            zero={g: round(float((pr[pr.grp == g].usage == 0).mean() * 100), 1) for g in ["R1", "nonR1"]},
+            med_hpc_only={g: round(float(pr[pr.grp == g].util_hpc.median()), 2) for g in ["R1", "nonR1"]},
+            med_started={g: round(float(pr[(pr.grp == g) & (pr.usage > 0)].util.median()), 2) for g in ["R1", "nonR1"]},
+            top10_share={g: round(float(pr[pr.grp == g].usage.nlargest(max(1, int(round((pr.grp == g).sum() / 10)))).sum() / pr[pr.grp == g].usage.sum() * 100), 0) for g in ["R1", "nonR1"]},
+            cells=[dict(grp=g, kind=k, exp=e, n=int(r.n), med=round(float(r.med), 2), zero=round(float(r.zero), 1)) for (g, k, e), r in cells.iterrows()],
+            exchange=[dict(grp=g, type=t, hpc=round(r.hpc_award / r.award * 100, 1), other=round((r.award - r.hpc_award - r.unexchanged) / r.award * 100, 1),
+                           unexchanged=round(r.unexchanged / r.award * 100, 1))
+                      for (g, t), r in pa[pa.allocationType.isin(ET) & pa.cohort.isin(["R1"] + NONR1)].assign(
+                          grp=lambda d: d.cohort.where(d.cohort == "R1", "nonR1")).groupby(["grp", "allocationType"])[
+                          ["award", "hpc_award", "unexchanged"]].sum().iterrows()])
 
     rs = mix("resource", "total_ace")
     tot = rs.sum()
@@ -282,14 +419,16 @@ def main():
                          f"non-R1 academic project share {D['meta']['nonr1_proj_share']}%", f"non-R1 academic credit share {D['meta']['nonr1_credit_share']}%",
                          f"retention R1 {D['meta']['retention_r1']}% / non-R1 {D['meta']['retention_nonr1']}%",
                          *[f"{b['tier']}: reached {b['reached']}/{b['n']} ({b['reached_herd']}% of tier research spending), research spending {b['herd']}% / awarded credits {b['credits']}% / usage {b['usage']}% of R1+R2+RCU; without standalone medical schools {b['herd_xmed']}% / {b['credits_xmed']}% / {b['usage_xmed']}%" for b in D["benchmark"]],
+                         f"gap split (R2+RCU, excl. health-science): projects {D['gap_split']['projects']}% / research spending {D['gap_split']['herd']}% / usage {D['gap_split']['usage']}%; spending explains {D['gap_split']['explained']}% of the projects-to-usage drop; Explore/Discover/Accelerate awards 2025+ {D['gap_split']['awards_eda_recent']}%; Maximize projects {D['gap_split']['maximize_projects']}% ({D['gap_split']['maximize_n']['nonR1']}/{D['gap_split']['maximize_n']['all']}); non-R1 academic share of Maximize batch HPC usage {D['maximize_usage_nonr1']}%; all-current awards incl. Maximize (not comparable, see README) {D['gap_split']['awards_all']}%",
                          *([f"PIs continuing 12+ months: R1 {D['pi_tenure']['cont_r1']}% / non-R1 {D['pi_tenure']['cont_nonr1']}%",
                             *[f"{r['grp']} {r['kind']} PIs: {r['pi_share']}% of PIs, {r['ace_share']}% of usage, continued {r['cont']}%" for r in D['pi_tenure']['rows']],
                             *[f"{r['grp']} new {r['kind']} PIs continued {r['cont']}% (n={r['n']})" for r in D['pi_tenure']['by_type']],
                             *[f"{r['tier']} median active PIs per institution {r['median']}, single-PI {r['one']}%" for r in D['pi_tenure']['pis_per_inst']]]
                            if "pi_tenure" in D else []),
-                         f"Explore/Discover/Accelerate non-R1 credit share {D['by_type']['credit_share']}% / usage share {D['by_type']['usage_share']}%",
-                         *[f"{r['type']} non-R1 usage per credit vs R1 {r['rel_conv']}x" for r in D["by_type"]["rows"]],
-                         f"Explore/Discover/Accelerate non-R1 usage per credit vs R1 overall {D['by_type']['rel_conv']}x (awards from {D['by_type']['award_projects']} of {D['by_type']['all_projects']} current projects)",
+                         *([f"allocation utilization (usage / HPC-available credits, 12-month term), last-12-month cohort: median R1 {D['alloc_util']['med']['R1']} / non-R1 {D['alloc_util']['med']['nonR1']} (gap 95% CI {D['alloc_util']['ci_med_gap']}); at R1 experience x type mix {D['alloc_util']['std_med']['R1']} / {D['alloc_util']['std_med']['nonR1']} (CI {D['alloc_util']['ci_std_gap']}); pooled {D['alloc_util']['pooled']['R1']} / {D['alloc_util']['pooled']['nonR1']} (CI {D['alloc_util']['ci_pooled_gap']}); n {D['alloc_util']['n_grp']}; experience = {D['alloc_util']['prior_def']} prior PI usage",
+                            f"new-PI projects R1 {D['alloc_util']['new_share']['R1']}% / non-R1 {D['alloc_util']['new_share']['nonR1']}%; never exchanged R1 {D['alloc_util']['none_exchanged']['R1']}% / non-R1 {D['alloc_util']['none_exchanged']['nonR1']}%; nothing in measured resources R1 {D['alloc_util']['unmeasured']['R1']}% / non-R1 {D['alloc_util']['unmeasured']['nonR1']}%; no usage R1 {D['alloc_util']['zero']['R1']}% / non-R1 {D['alloc_util']['zero']['nonR1']}%; median among started R1 {D['alloc_util']['med_started']['R1']} / non-R1 {D['alloc_util']['med_started']['nonR1']}",
+                            *[f"{c['grp']} {c['kind']} {c['exp']}: n={c['n']} median {c['med']} zero-usage {c['zero']}%" for c in D['alloc_util']['cells']]]
+                           if "alloc_util" in D else []),
                          f"Maximize + legacy Research share of R1 usage {D['by_type']['r1_large']}%",
                          *[f"never-used {r['tier']}: {r['never']}/{r['total']} ({r['pct']}%)" for r in D["never_used"]],
                          f"HBCU with usage {D['hbcu_summary']['n']}/102, TCU {D['hbcu_summary']['tcu']}/35"])

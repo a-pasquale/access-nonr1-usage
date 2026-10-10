@@ -174,7 +174,7 @@ NSF National Center for Atmospheric Research,6,Non-academic,xdmod,True,
 Robert Morris University,6,Other academic,xdmod,True,Robert Morris University
 Seattle University,6,RCU,xdmod,True,Seattle University
 "University of Alabama, Huntsville",6,R2,xdmod,True,University of Alabama in Huntsville
-University of Hawaii at Hilo,6,RCU,carnegie,False,University of Hawaii at Hilo
+University of Hawaii at Hilo,6,RCU,xdmod,True,University of Hawaii at Hilo
 University of Maryland Center for Environmental Science,6,R1,xdmod,True,
 University of Texas at El Paso,6,R1,xdmod,True,The University of Texas at El Paso
 Wayne State University,6,R1,xdmod,True,Wayne State University
@@ -270,8 +270,8 @@ Florida Atlantic University,3,R1,xdmod,True,Florida Atlantic University
 Fordham University,3,R2,xdmod,True,Fordham University
 GE HealthCare,3,Non-academic,xdmod,True,
 Icahn School of Medicine at Mount Sinai,3,R2,xdmod,True,Icahn School of Medicine at Mount Sinai
-Innovision LLC,3,Non-academic,keyword,False,
-Ivy Tech,3,Other academic,keyword,False,
+Innovision LLC,3,Non-academic,xdmod,True,
+Ivy Tech,3,Other academic,xdmod,True,
 Lamar University,3,R2,xdmod,True,Lamar University
 Manhattan College,3,Other academic,xdmod,True,
 Marquette University,3,R2,xdmod,True,Marquette University
@@ -303,7 +303,7 @@ University of New Hampshire,3,R1,xdmod,True,University of New Hampshire-Main Cam
 University of Oregon,3,R1,xdmod,True,University of Oregon
 University of San Diego,3,R2,xdmod,True,University of San Diego
 University of Southern Mississippi,3,R1,xdmod,True,University of Southern Mississippi
-University of St. Thomas,3,RCU,carnegie,False,University of St Thomas
+University of St. Thomas,3,RCU,xdmod,True,University of St Thomas
 University of Toledo,3,R1,xdmod,True,University of Toledo
 University of Vermont,3,R1,xdmod,True,University of Vermont
 University of West Florida,3,R2,xdmod,True,University of West Florida
@@ -317,7 +317,7 @@ Allegheny College,2,Other academic,xdmod,True,
 American Museum of Natural History,2,Non-academic,xdmod,True,
 Amherst College,2,RCU,xdmod,True,Amherst College
 Augusta University,2,R2,xdmod,True,Augusta University
-Augustana College,2,Other academic,keyword,False,
+Augustana College,2,Other academic,xdmod,True,
 Aventusoft LLC,2,Non-academic,xdmod,True,
 Beth Israel Deaconess Medical Center,2,Non-academic,xdmod,True,
 Brewton-Parker College,2,Other academic,xdmod,True,
@@ -327,10 +327,10 @@ California State University-Fresno,2,R2,xdmod,True,California State University-F
 California State University-Sacramento,2,R2,xdmod,True,California State University-Sacramento
 CarbonPlan,2,Non-academic,keyword,False,
 Carroll University,2,Other academic,keyword,False,
-Carthage College,2,Other academic,keyword,False,
+Carthage College,2,Other academic,xdmod,True,
 Center for Applied Internet Data Analysis,2,Non-academic,xdmod,True,
 Centre College,2,Other academic,xdmod,True,
-Chaminade University,2,Other academic,keyword,False,
+Chaminade University,2,Other academic,xdmod,True,
 Chapman University,2,R2,xdmod,True,Chapman University
 Claremont McKenna College,2,RCU,xdmod,True,Claremont McKenna College
 Clark University,2,R2,xdmod,True,Clark University
@@ -369,11 +369,11 @@ Naval Postgraduate School,2,RCU,xdmod,True,Naval Postgraduate School
 New Mexico Highlands University,2,RCU,xdmod,True,New Mexico Highlands University
 New Mexico Institute of Mining and Technology,2,RCU,xdmod,True,New Mexico Institute of Mining and Technology
 Northern Arizona University,2,R1,xdmod,True,Northern Arizona University
-"OnPoint Scientific, Inc.",2,Non-academic,keyword,False,
+"OnPoint Scientific, Inc.",2,Non-academic,xdmod,True,
 Point Loma Nazarene University,2,Other academic,xdmod,True,
 Purdue University in Indianapolis,2,R1,manual,False,
 Rockefeller University,2,R2,xdmod,True,The Rockefeller University
-SUNY College at Oswego,2,Other academic,keyword,False,
+SUNY College at Oswego,2,Other academic,xdmod,True,
 SUNY Downstate Health Sciences University,2,RCU,xdmod,True,SUNY Downstate Health Sciences University
 San Mateo County Community College District,2,Other academic,keyword,False,
 Scripps Research Institute,2,Non-academic,xdmod,True,
@@ -390,10 +390,10 @@ The Jackson Laboratory for Genomic Medicine,2,Non-academic,xdmod,True,
 University of Arkansas for Medical Sciences,2,R2,xdmod,True,University of Arkansas for Medical Sciences
 University of Dallas,2,Other academic,xdmod,True,University of Dallas
 University of Detroit Mercy,2,RCU,xdmod,True,University of Detroit Mercy
-University of Guam,2,RCU,carnegie,False,University of Guam
+University of Guam,2,RCU,xdmod,True,University of Guam
 University of Indianapolis,2,Other academic,xdmod,True,University of Indianapolis
 University of Maryland,2,R1,manual,False,
-"University of Massachusetts, Boston",2,R1,carnegie,False,University of Massachusetts-Boston
+"University of Massachusetts, Boston",2,R1,xdmod,True,University of Massachusetts-Boston
 University of Memphis,2,R1,xdmod,True,University of Memphis
 "University of Michigan, Dearborn",2,R2,xdmod,True,University of Michigan-Dearborn
 "University of Minnesota, Duluth",2,RCU,xdmod,True,University of Minnesota-Duluth
@@ -418,7 +418,7 @@ Western Washington University,2,RCU,xdmod,True,Western Washington University
 White Dwarf Research Corporation,2,Non-academic,xdmod,True,
 Wistar Institute,2,Non-academic,xdmod,True,
 Xavier University of Louisiana,2,RCU,xdmod,True,Xavier University of Louisiana
-"10x Genomics, Inc.",1,Non-academic,keyword,False,
+"10x Genomics, Inc.",1,Non-academic,xdmod,True,
 AI Literacy Foundation,1,Non-academic,keyword,False,
 ATTMOS Inc.,1,Non-academic,xdmod,True,
 Advanced Micro Devices,1,Non-academic,xdmod,True,
@@ -434,7 +434,7 @@ Arkansas State University,1,R2,xdmod,True,Arkansas State University
 Atrium Health,1,Non-academic,xdmod,True,
 Augsburg University,1,Other academic,xdmod,True,Augsburg University
 Augustana University,1,Other academic,xdmod,True,
-Automattic Inc.,1,Non-academic,keyword,False,
+Automattic Inc.,1,Non-academic,xdmod,True,
 Baruch S. Blumberg Institute,1,Non-academic,keyword,False,
 Bates College,1,Other academic,xdmod,True,
 "Beckman Research Institute, City of Hope",1,Non-academic,xdmod,True,
@@ -443,20 +443,20 @@ Bennington College,1,Other academic,keyword,False,
 Berea College,1,Other academic,keyword,False,
 Berkeley City College,1,Other academic,keyword,False,
 Black Diamond Project Corp,1,Non-academic,xdmod,True,
-Blue Marble Space Institute of Science,1,Non-academic,keyword,False,
+Blue Marble Space Institute of Science,1,Non-academic,xdmod,True,
 Boston Children's Hospital,1,Non-academic,keyword,False,
 Boston College,1,R1,xdmod,True,Boston College
 Bucknell University,1,RCU,xdmod,True,Bucknell University
 Butte College,1,Other academic,keyword,False,
 CFD Research Corp.,1,Non-academic,xdmod,True,
 "CSRS, a Westwood Company",1,Non-academic,xdmod,True,
-CUNY Kingsborough Community College,1,Other academic,keyword,False,
+CUNY Kingsborough Community College,1,Other academic,xdmod,True,
 Caldwell University,1,Other academic,xdmod,True,
 California Department of Water Resources,1,Non-academic,xdmod,True,
-California Office of Environmental Health Hazard Assessment,1,Non-academic,keyword,False,
+California Office of Environmental Health Hazard Assessment,1,Non-academic,xdmod,True,
 California State University-Bakersfield,1,RCU,xdmod,True,California State University-Bakersfield
 California State University-Channel Islands,1,RCU,xdmod,True,California State University-Channel Islands
-California State University-Long Beach,1,R2,carnegie,False,California State University-Long Beach
+California State University-Long Beach,1,R2,xdmod,True,California State University-Long Beach
 Calvin University,1,RCU,xdmod,True,Calvin University
 Catholic University of America,1,R1,xdmod,True,The Catholic University of America
 Cedar Crest College,1,Other academic,xdmod,True,
@@ -465,13 +465,13 @@ Chabot College,1,Other academic,keyword,False,
 Chatham University,1,Other academic,xdmod,True,Chatham University
 Cherry Creek High School,1,Other academic,keyword,False,
 Chicago State University,1,RCU,carnegie,False,Chicago State University
-Children's National Medical Centre,1,Non-academic,keyword,False,
+Children's National Medical Centre,1,Non-academic,xdmod,True,
 Cincinnati Children's Hospital Medical Center,1,Non-academic,xdmod,True,
 City College of San Francisco,1,Other academic,keyword,False,
 Claflin University,1,Other academic,xdmod,True,Claflin University
 Cleveland Community College,1,Other academic,keyword,False,
-Code for Science and Society / 2i2c,1,Non-academic,keyword,False,
-Cold Spring Harbor Laboratory,1,Non-academic,keyword,False,
+Code for Science and Society / 2i2c,1,Non-academic,xdmod,True,
+Cold Spring Harbor Laboratory,1,Non-academic,xdmod,True,
 College of Wooster,1,Other academic,xdmod,True,
 College of the Redwoods,1,Other academic,keyword,False,
 Columbia River Inter-Tribal Fish Commission,1,Non-academic,xdmod,True,
@@ -481,11 +481,11 @@ Cooper Union College,1,Other academic,xdmod,True,
 Cornell College,1,Other academic,xdmod,True,Cornell College
 Creighton University,1,R2,carnegie,False,Creighton University
 CyberGIS Center at UIUC,1,R1,manual,False,
-Dakota State University,1,RCU,carnegie,False,Dakota State University
+Dakota State University,1,RCU,xdmod,True,Dakota State University
 Dana-Farber Cancer Institute,1,Non-academic,xdmod,True,
 Dassault Systems,1,Non-academic,xdmod,True,
 Dataerai Inc.,1,Non-academic,keyword,False,
-DePaul University,1,R2,carnegie,False,DePaul University
+DePaul University,1,R2,xdmod,True,DePaul University
 Debater Hub,1,Non-academic,keyword,False,
 Deeployable AI Inc.,1,Non-academic,keyword,False,
 Delaware State University,1,R2,xdmod,True,Delaware State University
@@ -496,9 +496,9 @@ Drake University,1,Other academic,xdmod,True,Drake University
 Drew University,1,Other academic,xdmod,True,
 Duke University Medical Center,1,R1,manual,False,
 Duquesne University,1,R2,xdmod,True,Duquesne University
-Earlham College,1,Other academic,keyword,False,
-EarthScope Consortium,1,Non-academic,keyword,False,
-"Earthwise System Solutions, LLC",1,Non-academic,keyword,False,
+Earlham College,1,Other academic,xdmod,True,
+EarthScope Consortium,1,Non-academic,xdmod,True,
+"Earthwise System Solutions, LLC",1,Non-academic,xdmod,True,
 East Texas A&M University,1,R2,xdmod,True,East Texas A & M University
 Eastern Illinois University,1,Other academic,xdmod,True,Eastern Illinois University
 Eastern Washington University,1,RCU,carnegie,False,Eastern Washington University
@@ -509,8 +509,8 @@ El Paso Community College,1,Other academic,keyword,False,
 Embry-Riddle Aeronautical University,1,R2,xdmod,True,Embry-Riddle Aeronautical University-Daytona Beach
 Emergenz Corp.,1,Non-academic,keyword,False,
 Empire State University,1,Other academic,keyword,False,
-Environmental Data Science Innovation and Inclusion Lab,1,Non-academic,keyword,False,
-Facilis-AI,1,Non-academic,keyword,False,
+Environmental Data Science Innovation and Inclusion Lab,1,Non-academic,xdmod,True,
+Facilis-AI,1,Non-academic,xdmod,True,
 Fairfield University,1,Other academic,xdmod,True,Fairfield University
 Fermi National Accelerator Laboratory,1,Non-academic,xdmod,True,
 Ferris State University,1,Other academic,xdmod,True,Ferris State University
@@ -521,7 +521,7 @@ Florida Southern College,1,Other academic,xdmod,True,
 Foothill College,1,Other academic,keyword,False,
 Franciscan University of Steubenville,1,Other academic,xdmod,True,
 Franklin and Marshall College,1,RCU,carnegie,False,Franklin and Marshall College
-Frederick National Laboratory for Cancer Research,1,Non-academic,keyword,False,
+Frederick National Laboratory for Cancer Research,1,Non-academic,xdmod,True,
 Fulton Science Academy Private School,1,Other academic,keyword,False,
 Furman University,1,Other academic,keyword,False,
 Gallaudet University,1,RCU,xdmod,True,Gallaudet University
@@ -529,9 +529,9 @@ Gannon University,1,Other academic,keyword,False,
 Geneva College,1,Other academic,keyword,False,
 Georgia Gwinnett College,1,Other academic,xdmod,True,
 GiwoTech Inc.,1,Non-academic,xdmod,True,
-Globus,1,Non-academic,keyword,False,
-Goshen College,1,Other academic,keyword,False,
-Grambling State University,1,Other academic,keyword,False,
+Globus,1,Non-academic,xdmod,True,
+Goshen College,1,Other academic,xdmod,True,
+Grambling State University,1,Other academic,xdmod,True,
 Grand Canyon University,1,Other academic,keyword,False,
 Gwinnett County Public Schools,1,Non-academic,keyword-default,False,
 HPC Advisory Council,1,Non-academic,xdmod,True,
@@ -540,13 +540,13 @@ High Point University,1,Other academic,xdmod,True,
 Hood College,1,Other academic,xdmod,True,
 Hope College,1,RCU,xdmod,True,Hope College
 "Iff Technologies, LLC",1,Non-academic,keyword,False,
-Indiana University Southeast,1,Other academic,keyword,False,
+Indiana University Southeast,1,Other academic,xdmod,True,
 Institute of Organic Chemistry and Biochemistry Boston,1,Foreign/Unknown,xdmod,True,
-"Integral Consulting, Inc.",1,Non-academic,keyword,False,
+"Integral Consulting, Inc.",1,Non-academic,xdmod,True,
 International Computer Science Institute,1,Non-academic,keyword,False,
 International Pacific Halibut Commission,1,Non-academic,xdmod,True,
 Iona University,1,Other academic,xdmod,True,Iona University
-Iowa Western Community College,1,Other academic,keyword,False,
+Iowa Western Community College,1,Other academic,xdmod,True,
 Ithaca College,1,Other academic,xdmod,True,
 Jackson State University,1,R2,xdmod,True,Jackson State University
 Jacksonville University,1,Other academic,xdmod,True,
@@ -559,22 +559,22 @@ Kentucky Science & Technology Corporation,1,Non-academic,keyword,False,
 Komplexity AI LLC,1,Non-academic,xdmod,True,
 LSU New Orleans,1,R2,xdmod,True,Louisiana State University Health Sciences Center-New Orleans
 Langston University,1,RCU,carnegie,False,Langston University
-Las Cumbres Observatory,1,Non-academic,keyword,False,
+Las Cumbres Observatory,1,Non-academic,xdmod,True,
 Last Energy,1,Non-academic,xdmod,True,
 Lawrence Livermore National Laboratory,1,Non-academic,keyword,False,
 Lawrence Technological University,1,RCU,xdmod,True,Lawrence Technological University
 Lenoir–Rhyne University,1,Other academic,xdmod,True,
 Lieber Institute for Brain Development,1,Non-academic,xdmod,True,
 Lincoln Memorial University,1,Other academic,xdmod,True,Lincoln Memorial University
-Los Angeles Harbor College,1,Other academic,keyword,False,
+Los Angeles Harbor College,1,Other academic,xdmod,True,
 Louisiana Coastal Protection & Restoration Authority,1,Non-academic,xdmod,True,
-Luminis Health,1,Non-academic,keyword,False,
-Luther College,1,Other academic,keyword,False,
+Luminis Health,1,Non-academic,xdmod,True,
+Luther College,1,Other academic,xdmod,True,
 Macalester College,1,Other academic,xdmod,True,
 Marian University,1,RCU,xdmod,True,Marian University
 Massachusetts Eye and Ear,1,Non-academic,xdmod,True,
 Mederrata,1,Non-academic,xdmod,True,
-Medical College of Wisconsin,1,R2,carnegie,False,Medical College of Wisconsin
+Medical College of Wisconsin,1,R2,xdmod,True,Medical College of Wisconsin
 Medical University of South Carolina,1,R1,xdmod,True,Medical University of South Carolina
 Memorial Sloan Kettering Cancer Center,1,Non-academic,xdmod,True,
 Merrimack College,1,Other academic,xdmod,True,
@@ -583,8 +583,8 @@ Middle Georgia State University,1,Other academic,xdmod,True,Middle Georgia State
 Moffitt Cancer Center,1,Non-academic,xdmod,True,
 Montclair State University,1,R2,carnegie,False,Montclair State University
 Montgomery Botanical Center,1,Non-academic,xdmod,True,
-Montgomery College,1,Other academic,keyword,False,
-Montgomery County Community College,1,Other academic,keyword,False,
+Montgomery College,1,Other academic,xdmod,True,
+Montgomery County Community College,1,Other academic,xdmod,True,
 Morehead State University,1,RCU,carnegie,False,Morehead State University
 Morehouse College,1,RCU,xdmod,True,Morehouse College
 Moreno Valley College,1,Other academic,keyword,False,
@@ -592,13 +592,13 @@ Mote Marine Laboratory and Aquarium,1,Non-academic,xdmod,True,
 Mount Holyoke College,1,RCU,carnegie,False,Mount Holyoke College
 Muhlenberg College,1,Other academic,keyword,False,
 NASA,1,Non-academic,keyword,False,
-National Ecological Observatory Network,1,Non-academic,keyword,False,
-"National Ecological Observatory Network (NEON), Battelle",1,Non-academic,keyword,False,
+National Ecological Observatory Network,1,Non-academic,xdmod,True,
+"National Ecological Observatory Network (NEON), Battelle",1,Non-academic,xdmod,True,
 National Institute of Standards and Technology,1,Non-academic,xdmod,True,
 National Institutes of Health,1,Non-academic,xdmod,True,
 National Oceanic and Atmospheric Administration,1,Non-academic,xdmod,True,
 Nazareth College,1,Other academic,xdmod,True,
-Newman University,1,Other academic,keyword,False,
+Newman University,1,Other academic,xdmod,True,
 Nocturnal Inc.,1,Non-academic,xdmod,True,
 North Carolina Central University,1,RCU,xdmod,True,North Carolina Central University
 North Carolina School of Science and Mathematics,1,Other academic,xdmod,True,
@@ -615,17 +615,17 @@ Oregon Health and Science University,1,R2,xdmod,True,Oregon Health & Science Uni
 Pace University,1,RCU,xdmod,True,Pace University
 Pacific Northwest National Laboratory,1,Non-academic,xdmod,True,
 Peptilogics Inc.,1,Non-academic,xdmod,True,
-Philadelphia College of Osteophathic Medicine,1,RCU,carnegie-fuzzy99,False,
+Philadelphia College of Osteophathic Medicine,1,RCU,xdmod,True,Philadelphia College of Osteopathic Medicine
 Philander Smith College,1,Other academic,xdmod,True,
 Planetary Science Institute,1,Non-academic,xdmod,True,
-Portland Community College,1,Other academic,keyword,False,
+Portland Community College,1,Other academic,xdmod,True,
 "Predictive Science, Inc.",1,Non-academic,xdmod,True,
-Purple Maiʻa Foundation,1,Non-academic,keyword,False,
+Purple Maiʻa Foundation,1,Non-academic,xdmod,True,
 QodeX Quantum,1,Non-academic,xdmod,True,
 "Re Plus Collective, Inc.",1,Non-academic,keyword,False,
 Reedley College,1,Other academic,keyword,False,
 Renaissance Computing Institute,1,Non-academic,keyword,False,
-Research Corporation of the University of Hawaii,1,R1,manual,False,
+Research Corporation of the University of Hawaii,1,R1,xdmod,True,
 Rhode Island College,1,RCU,carnegie,False,Rhode Island College
 Rio Hondo College,1,Other academic,keyword,False,
 Role Playing LLC,1,Non-academic,keyword,False,
@@ -633,8 +633,8 @@ Rosalind Franklin University,1,RCU,xdmod,True,Rosalind Franklin University of Me
 Rose-Hulman Institute of Technology,1,Other academic,xdmod,True,Rose-Hulman Institute of Technology
 SUNY - Farmingdale State College,1,Other academic,keyword,False,
 SUNY College at Brockport,1,Other academic,keyword,False,
-SUNY College at New Paltz,1,Other academic,keyword,False,
-SUNY Health Science Center at Syracuse,1,Non-academic,keyword,False,
+SUNY College at New Paltz,1,Other academic,xdmod,True,
+SUNY Health Science Center at Syracuse,1,R2,xdmod,True,Upstate Medical University
 Saddleback College,1,Other academic,keyword,False,
 Saginaw Valley State University,1,RCU,xdmod,True,Saginaw Valley State University
 Saint Francis University,1,Other academic,xdmod,True,
@@ -651,7 +651,7 @@ Savannah State University,1,Other academic,xdmod,True,Savannah State University
 Scripps College,1,Other academic,xdmod,True,
 Shasta College,1,Other academic,keyword,False,
 Siena College,1,Other academic,xdmod,True,Siena College
-Simpson College,1,Other academic,keyword,False,
+Simpson College,1,Other academic,xdmod,True,
 Slippery Rock University,1,Other academic,xdmod,True,
 "Solid Power Operating, Inc.",1,Non-academic,xdmod,True,
 Sonoma State University,1,RCU,xdmod,True,Sonoma State University
@@ -664,8 +664,8 @@ St. John's School,1,Other academic,keyword,False,
 St. John's University,1,RCU,xdmod,True,St. John's University-New York
 St. Mary's College of Maryland,1,Other academic,xdmod,True,
 Stanford University School of Medicine,1,R1,xdmod,True,
-State of Maine,1,Non-academic,keyword,False,
-Suffolk University,1,RCU,carnegie,False,Suffolk University
+State of Maine,1,Non-academic,xdmod,True,
+Suffolk University,1,RCU,xdmod,True,Suffolk University
 Swarthmore College,1,RCU,xdmod,True,Swarthmore College
 "Tandav-Sci, Inc.",1,Non-academic,xdmod,True,
 Texas A&M University–Texarkana,1,Other academic,xdmod,True,Texas A & M University-Texarkana
@@ -691,15 +691,15 @@ University of Kansas Medical Center,1,R1,manual,False,
 University of Mary Washington,1,Other academic,xdmod,True,University of Mary Washington
 University of Maryland School of Medicine,1,R1,xdmod,True,
 "University of Massachusetts, Dartmouth",1,R2,xdmod,True,University of Massachusetts-Dartmouth
-"University of Michigan, Flint",1,Other academic,keyword,False,
-University of Mount Union,1,Other academic,keyword,False,
+"University of Michigan, Flint",1,Other academic,xdmod,True,
+University of Mount Union,1,Other academic,xdmod,True,
 University of New England,1,R2,carnegie,False,University of New England
 "University of North Carolina, Pembroke",1,Other academic,xdmod,True,
 University of Northern Colorado,1,R2,xdmod,True,University of Northern Colorado
 University of Northern Iowa,1,RCU,xdmod,True,University of Northern Iowa
 University of Pittsburgh at Johnstown,1,Other academic,xdmod,True,
 University of Portland,1,Other academic,xdmod,True,University of Portland
-University of Puget Sound,1,Other academic,keyword,False,
+University of Puget Sound,1,Other academic,xdmod,True,
 University of Richmond,1,RCU,xdmod,True,University of Richmond
 University of San Francisco,1,R2,xdmod,True,University of San Francisco
 University of South Alabama,1,R2,xdmod,True,University of South Alabama
@@ -711,14 +711,14 @@ University of Wisconsin-Eau Claire,1,Other academic,keyword,False,
 University of Wisconsin-Parkside,1,Other academic,xdmod,True,University of Wisconsin-Parkside
 University of the District of Columbia,1,RCU,xdmod,True,University of the District of Columbia
 University of the Virgin Islands,1,RCU,xdmod,True,University of the Virgin Islands
-Valdosta State University,1,Other academic,keyword,False,
+Valdosta State University,1,Other academic,xdmod,True,
 Vanderbilt University Medical Center,1,R1,xdmod,True,
 Virginia Military Institute,1,Non-academic,xdmod,True,
 Virginia State University,1,R2,xdmod,True,Virginia State University
-W.M. Keck Observatory,1,Non-academic,keyword,False,
+W.M. Keck Observatory,1,Non-academic,xdmod,True,
 WEMSS Lab,1,Non-academic,xdmod,True,
 Wake Forest School of Medicine,1,R2,xdmod,True,Wake Forest University
-Weber State University,1,Other academic,keyword,False,
+Weber State University,1,Other academic,xdmod,True,
 Wellesley College,1,RCU,xdmod,True,Wellesley College
 Wentworth Institute of Technology,1,Non-academic,keyword,False,
 Western Carolina University,1,RCU,carnegie,False,Western Carolina University
@@ -727,7 +727,7 @@ Western University of Health Sciences,1,RCU,xdmod,True,Western University of Hea
 Westmont College,1,Other academic,xdmod,True,
 Wheaton College (Massachusetts),1,Other academic,xdmod,True,
 Whitman College,1,Other academic,keyword,False,
-Whittier Union High School District,1,Other academic,keyword,False,
+Whittier Union High School District,1,Non-academic,xdmod,True,
 Whitworth University,1,Other academic,xdmod,True,
 Williams College,1,RCU,xdmod,True,Williams College
 Winona State University,1,Other academic,xdmod,True,Winona State University
@@ -735,5 +735,5 @@ Woodwell Climate Research Center,1,Non-academic,xdmod,True,
 Yeshiva University,1,R2,xdmod,True,Yeshiva University
 "York College, City University of New York",1,Other academic,xdmod,True,
 Youngstown State University,1,RCU,xdmod,True,Youngstown State University
-"eDNA Explorer, Inc.",1,Non-academic,keyword,False,
-"nOhm Devices, Inc.",1,Non-academic,keyword,False,
+"eDNA Explorer, Inc.",1,Non-academic,xdmod,True,
+"nOhm Devices, Inc.",1,Non-academic,xdmod,True,
