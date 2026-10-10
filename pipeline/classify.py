@@ -2,7 +2,7 @@
 """Step 3 - tag every PI institution with a Carnegie 2025 tier and MSI flags.
 
 Inputs (data/raw/): xdmod_by_pi_institution.csv, carnegie_2025_rad.xlsx,
-                    ipeds_hd2023.zip, all_projects.json
+                    ipeds_hd2023.zip, all_projects.json, allocations_resources.json
 Rules:  data/overrides.json  (every manual mapping, reviewable in one file)
 
 Outputs (data/derived/):
@@ -18,13 +18,15 @@ Matching strategy, in order:
   3. R1-unit patterns (supercomputer centers, medical schools of R1s)
   4. foreign / unknown / extra-academic pattern lists
   5. keyword rule: looks like a university/college -> Other academic, else Non-academic
-Nothing is fuzzy-matched automatically: fuzzy suggestions are written to the report for a human to
+XDMoD labels are never fuzzy-matched automatically: fuzzy suggestions are written to the report for a human to
 promote into overrides.json.
+Allocations-feed project institutions with no exact match are fuzzy-matched to the Carnegie file at a
+score of 93 or above (marked carnegie-fuzzyNN in project_institutions.csv).
 """
 import json, re, zipfile
 import pandas as pd
 from rapidfuzz import process, fuzz
-from config import RAW, DERIVED, ROOT, NONR1
+from config import RAW, DERIVED, ROOT, NONR1, AWARD_SINCE
 
 O = json.load(open(ROOT / "data" / "overrides.json"))
 report = []
@@ -133,14 +135,38 @@ def attach_ipeds(xd, car, hd):
 def classify_projects(xd, car):
     raw = json.load(open(RAW / "all_projects.json"))
     df = pd.json_normalize(raw)
-    df["credits"] = [sum((res.get("allocation") or 0) for res in (p.get("resources") or []) if res.get("resourceName") == "ACCESS Credits") for p in raw]
+    # The feed's "ACCESS Credits" line is the balance left after exchanges, not the award. Rebuild the award by
+    # converting every exchanged resource back to credits with the published conversion factors.
+    cat = json.load(open(RAW / "allocations_resources.json"))
+    base = float(next(r["conversionFactor"] for r in cat if r["resourceName"] == "ACCESS Credits"))
+    per_credit = {r["resourceName"]: float(r["conversionFactor"]) / base for r in cat if r.get("conversionFactor")}
+    alias = {k: v for k, v in O["resource_aliases"].items() if not k.startswith("_")}
+    awards, mapped, unmapped = [], [], {}
+    for p in raw:
+        tot, ok = 0.0, True
+        for res in p.get("resources") or []:
+            name = alias.get(res.get("resourceName"), res.get("resourceName"))
+            if name in per_credit:
+                tot += float(res.get("allocation") or 0) * per_credit[name]
+            else:
+                ok = False
+                unmapped[name] = unmapped.get(name, 0) + 1
+        awards.append(tot)
+        mapped.append(ok)
+    df["award"] = awards
+    df["award_ok"] = [m and str(b) >= AWARD_SINCE for m, b in zip(mapped, df["beginDate"])]
+    report.append("Resources with no conversion factor (projects affected): " +
+                  ", ".join(f"{k} ({v})" for k, v in sorted(unmapped.items(), key=lambda kv: -kv[1])))
     df = df.drop(columns=[c for c in ("resources", "publications", "abstract") if c in df.columns])
     xmap = dict(zip(xd["n"], xd["cohort"]))
     cmap = dict(zip(car["n"], car["tier"]))
+    xname = dict(zip(xd["n"], xd["carnegie_instnm"]))
+    cname = dict(zip(car["n"], car["INSTNM"]))
     r1u = set(O["projects_r1_units"]["names"])
     nonacad = re.compile(O["projects_nonacademic_regex"])
     acad = re.compile(O["projects_academic_regex"])
     inst = df["piInstitution"].value_counts().rename_axis("piInstitution").reset_index(name="projects")
+    inst = inst.sort_values(["projects", "piInstitution"], ascending=[False, True], kind="stable").reset_index(drop=True)
     inst["n"] = inst["piInstitution"].map(norm)
 
     def cls(name, n):
@@ -161,7 +187,9 @@ def classify_projects(xd, car):
 
     inst[["cohort", "match_method"]] = pd.DataFrame([cls(a, b) for a, b in zip(inst["piInstitution"], inst["n"])], index=inst.index)
     inst["ever_used"] = inst["match_method"] == "xdmod"
-    df = df.merge(inst[["piInstitution", "cohort"]], on="piInstitution", how="left")
+    inst["carnegie_instnm"] = [xname.get(n) if m == "xdmod" else cname.get(n) if m == "carnegie" else None
+                               for n, m in zip(inst["n"], inst["match_method"])]
+    df = df.merge(inst[["piInstitution", "cohort", "carnegie_instnm"]], on="piInstitution", how="left")
     return df, inst
 
 
@@ -182,7 +210,7 @@ def main():
 
     cols = ["pi_institution", "cohort", "tier", "carnegie_instnm", "match_method", "UNITID", "msi", "C21BASIC", "STABBR",
             "total_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"]
-    xd[cols].sort_values("total_ace", ascending=False).to_csv(DERIVED / "institutions.csv", index=False)
+    xd[cols].sort_values(["total_ace", "pi_institution"], ascending=[False, True], kind="stable").to_csv(DERIVED / "institutions.csv", index=False)
 
     projects, inst = classify_projects(xd, car)
     projects.to_csv(DERIVED / "projects.csv", index=False)

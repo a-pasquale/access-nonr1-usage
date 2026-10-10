@@ -10,6 +10,10 @@ DOCS = ROOT / "docs"
 
 XDMOD_URL = "https://xdmod.access-ci.org"
 ALLOCATIONS_FEED = "https://allocations.access-ci.org/current-projects.json"
+ALLOCATIONS_RESOURCES = "https://allocations.access-ci.org/resources.json"
+# Awards are rebuilt from exchanged units with today's conversion factors, which match standard award sizes only for
+# recent projects (rates changed over time). Credit comparisons use projects that began on or after this date.
+AWARD_SINCE = "2025-01-01"
 CARNEGIE_URL = "https://carnegieclassifications.acenet.edu/wp-content/uploads/2025/02/2025-RAD-Public-Data-File.xlsx"
 IPEDS_URL = "https://nces.ed.gov/ipeds/datacenter/data/HD2023.zip"
 

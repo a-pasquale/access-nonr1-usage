@@ -3,11 +3,33 @@ total ACE (B) 13.8
 R1 usage share 93.2%
 non-R1 academic usage share 4.3%
 non-R1 academic project share 12.2%
-non-R1 academic credit share 11.5%
+non-R1 academic credit share 9.2%
 retention R1 93.0% / non-R1 75.0%
-never-used R1: 7/218 (3.2%)
-never-used R2: 6/99 (6.1%)
-never-used RCU: 20/98 (20.4%)
-never-used Other academic: 68/166 (41.0%)
+R1: reached 185/187 (99.8% of tier research spending), research spending 88.6% / awarded credits 92.1% / usage 96.0% of R1+R2+RCU; without standalone medical schools 93.2% / 92.5% / 96.3%
+R2: reached 102/139 (84.1% of tier research spending), research spending 7.9% / awarded credits 5.5% / usage 3.0% of R1+R2+RCU; without standalone medical schools 4.8% / 5.2% / 2.8%
+RCU: reached 99/216 (62.2% of tier research spending), research spending 3.5% / awarded credits 2.3% / usage 1.0% of R1+R2+RCU; without standalone medical schools 2.0% / 2.3% / 0.9%
+PIs continuing 12+ months: R1 63.1% / non-R1 63.5%
+R1 New PIs: 79.2% of PIs, 22.2% of usage, continued 57.9%
+R1 Experienced PIs: 20.8% of PIs, 77.8% of usage, continued 73.7%
+nonR1 New PIs: 67.8% of PIs, 33.1% of usage, continued 55.4%
+nonR1 Experienced PIs: 32.2% of PIs, 66.9% of usage, continued 74.3%
+R1 new Explore PIs continued 53.5% (n=1610)
+R1 new Other types PIs continued 66.3% (n=832)
+nonR1 new Explore PIs continued 52.1% (n=215)
+nonR1 new Other types PIs continued 62.4% (n=101)
+R1 median active PIs per institution 11.0, single-PI 10.1%
+R2 median active PIs per institution 2.0, single-PI 33.7%
+RCU median active PIs per institution 2.0, single-PI 49.5%
+Other academic median active PIs per institution 1.0, single-PI 79.7%
+Explore/Discover/Accelerate non-R1 credit share 9.6% / usage share 9.6%
+Explore non-R1 usage per credit vs R1 0.71x
+Discover non-R1 usage per credit vs R1 1.12x
+Accelerate non-R1 usage per credit vs R1 1.16x
+Explore/Discover/Accelerate non-R1 usage per credit vs R1 overall 1.0x (awards from 5116 of 7157 current projects)
+Maximize + legacy Research share of R1 usage 71.5%
+never-used R1: 7/215 (3.3%)
+never-used R2: 6/101 (5.9%)
+never-used RCU: 20/102 (19.6%)
+never-used Other academic: 68/163 (41.7%)
 never-used Non-academic: 49/155 (31.6%)
-HBCU with usage 33/102, TCU 1/35
+HBCU with usage 32/102, TCU 1/35

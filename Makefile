@@ -16,6 +16,7 @@ classify:
 
 cohorts:
 	$(PY) $(P)/fetch_xdmod_cohorts.py
+	$(PY) $(P)/fetch_xdmod_pis.py
 
 analyze:
 	$(PY) $(P)/analyze.py

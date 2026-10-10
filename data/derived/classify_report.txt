@@ -1,10 +1,10 @@
 XDMoD PI institutions: 735; total ACE 13,799,409,190.97
 match_method
 exact                            346
-keyword                          249
+keyword                          245
+override                          49
 override:not-in-carnegie-file     47
-override                          42
-r1-unit                           29
+r1-unit                           26
 foreign-list                      10
 academic-list                      8
 unknown-list                       4
@@ -14,6 +14,7 @@ REVIEW  'Albany State U - Albany State University'                             -
 REVIEW  'Augustana U - Augustana University'                                   -> Other academic  (fuzzy 95: 'Augusta University')
 REVIEW  'Bradley U - Bradley University'                                       -> Other academic  (fuzzy 86: 'Brandeis University')
 REVIEW  'Dominican U, Calif. - Dominican University of California'             -> Other academic  (fuzzy 86: 'University of California-Irvine')
+REVIEW  'Drew University - Drew University'                                    -> Other academic  (fuzzy 88: 'Drexel University')
 REVIEW  'Fitchburg State U - Fitchburg State University'                       -> Other academic  (fuzzy 88: 'Pittsburg State University')
 REVIEW  'JBU - John Brown University'                                          -> Other academic  (fuzzy 86: 'Brown University')
 REVIEW  "Mount St. Mary's University"                                          -> Other academic  (fuzzy 87: 'Marymount University')
@@ -22,5 +23,6 @@ REVIEW  'Southern Oregon U - Southern Oregon University'                       -
 REVIEW  'University of Hawaii'                                                 -> R1              (fuzzy 89: 'University of Hawaii at Hilo')
 REVIEW  'Vanguard USC - Vanguard University of Southern California'            -> Other academic  (fuzzy 88: 'University of Southern California')
 REVIEW  'Virginia Union University'                                            -> Other academic  (fuzzy 89: 'University of Virginia-Main Campus')
-IPEDS name-match for non-Carnegie academic institutions: 123 of 147
+IPEDS name-match for non-Carnegie academic institutions: 124 of 143
+Resources with no conversion factor (projects affected): TACC Dell/Intel Knights Landing, Skylake System (Stampede2) (256), SDSC Medium-term disk storage (Data Oasis) (194), CloudBank Research (187), SDSC Dell Cluster with Intel Haswell Processors (Comet) (187), PSC Storage (Bridges Pylon) (170), NCSA Delta Storage (Delta Storage) (152), PSC Regular Memory (Bridges) (149), IU/TACC (Jetstream) (122), MATCHPlus Pilot (104), TAMU FASTER Ice Lake Composable GPU (91), SDSC Comet GPU Nodes (Comet GPU) (90), IU/TACC Storage (Jetstream Storage) (81), PSC GPU (Bridges GPU) (70), PSC Large Memory (Bridges Large) (64), CloudBank Classroom (60), UD DARWIN Storage (DARWIN Storage) (58), UD DARWIN Compute Nodes (DARWIN) (49), TACC Dell PowerEdge C8220 Cluster with Intel Xeon Phi coprocessors (Stampede) (49), XSEDE Extended Collaborative Support (45), UD DARWIN GPU Nodes (DARWIN GPU) (44), Johns Hopkins University (Rockfish - Regular Memory) (42), IACS Ookami - A64FX Testbed (Ookami) (38), NCSA Granite Tape Archive System (33), Johns Hopkins University (Rockfish - GPU) (33), PSC Bridges-2 GPU-AI (Bridge2 GPU Artificial Intelligence) (32), Stanford Cray CS-Storm K80 (XStream) (31), Johns Hopkins University (Rockfish - Large Memory) (30), PSC GPU-AI (Bridges GPU Artificial Intelligence) (29), LSU Cluster (superMIC) (27), PSC Neocortex (Cerebras Wafer Scale Engine AI Accelerator) (26), Derecho (24), The Science Gateways Community Institute (SGCI) (23), Texas Tech REPACSS GPU (19), TACC HP/NVIDIA Interactive Visualization and Data Analytics System (Maverick) (18), TACC Data Analytics System (Wrangler) (17), TACC Long-term Storage (Wrangler Storage) (17), Texas Tech REPACSS CPU (16), Prototype National Research Platform (PNRP) (15), FABRIC (2), SDSC Cosmos Innovative Cluster featuring AMD MI300A APUs (1), Purdue Anvil Cloud (1), Kentucky Cyberteam CI Resource Cluster (1), MATCH MATCHPremier (1), SDSC Appro with Intel Sandy Bridge Cluster (Gordon Compute Cluster) (1), Indiana University Gateway/Web Service Hosting (Quarry) (1), Indiana University HP DL580 Large Memory Cluster (Mason) (1)
 Current projects: 7157; awarded institutions: 738; never-used institutions: 150
