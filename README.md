@@ -174,6 +174,10 @@ from the trend charts; program years run September–August.
   computes its shares and rates within the PI files alone, so the two pulls are never mixed in one figure.
 - The XDMoD system label "CUNY - City University of New York" is mapped to the CUNY Graduate Center (R1), though it
   likely mixes campuses (about 4.5M ACEs). It is left as is and flagged here.
+- The cohort cross-tabs (`xdmod_xtabs.csv`, `xdmod_quarterly_*`) and the PI-level files were pulled before the
+  2026-10 override fixes (LSU Health New Orleans and Wake Forest School of Medicine moved from R1 to R2; six RCUs
+  newly matched). Those raw files still group them the old way, a few million ACEs out of 13.8B. A fresh `make all`
+  re-pulls with the corrected cohorts and will differ slightly from the committed snapshot.
 - The Allocations feed only shows *current* projects, so the funnel compares current awards with
   all-time usage. A project-level join (allocation charge number ↔ XDMoD `allocation` dimension)
   would be tighter and is the natural next step.
