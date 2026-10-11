@@ -7,6 +7,7 @@ const fmtI = n => n.toLocaleString('en-US');
 const tip = $('#tip');
 function showTip(e,html){tip.innerHTML=html;tip.classList.add('on');tip.style.left=e.clientX+'px';tip.style.top=e.clientY+'px';}
 function hideTip(){tip.classList.remove('on');}
+function cw(sel,def){const e=document.querySelector(sel);const w=e&&e.clientWidth;return Math.max(300,Math.round(w||def));}
 function svgEl(w,h){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('viewBox',`0 0 ${w} ${h}`);s.setAttribute('role','img');return s;}
 function el(n,a,txt){const e=document.createElementNS('http://www.w3.org/2000/svg',n);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;return e;}
 function hit(e,html){e.addEventListener('mousemove',ev=>showTip(ev,html));e.addEventListener('mouseleave',hideTip);}
@@ -36,18 +37,18 @@ document.querySelectorAll('.d').forEach(e=>{const v=get(D,e.dataset.v);const f=e
 <div class="kpi"><div class="v">${D.maximize_usage_nonr1}<small>%</small></div><div class="l">of Maximize usage from non-R1 academic PIs, against ${D.gap_split.herd}% of research spending at R2s and RCUs</div></div>`;})();
 
 // 1. shares grouped horizontal bars
-(()=>{const rows=D.shares;const W=900,L=150,R=70,T=8,rowH=70,bh=14,gap=4;const H=T+rows.length*rowH+24;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+(()=>{const rows=D.shares;const W=cw('#c-shares',900),L=W<520?112:150,R=70,T=8,rowH=70,bh=14,gap=4;const H=T+rows.length*rowH+24;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
  [0,25,50,75,100].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-24,class:'grid'}));s.appendChild(el('text',{x:x(v),y:H-6,'text-anchor':'middle',class:'tick'},v+'%'));});
  rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh*1.5+gap+4,'text-anchor':'end',class:'cat'},r.tier));
   const series=[['projects',r.projects,'var(--ink-3)',.35,'Current projects'],['credits',r.credits,'var(--ink-3)',.7,'Awarded credits'],['usage',r.usage,'var(--accent)',1,'Usage']];
   series.forEach(([k,v,c,o,name],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);
    const b=el('rect',{x:L,y,width:w,height:bh,fill:c,opacity:o,rx:0,class:'bar'});s.appendChild(b);
-   s.appendChild(el('text',{x:L+w+6,y:y+bh-3,class:'lbl'+(k==='usage'?'':' muted')},fmt(v,r.tier==='R1'?1:v<10?2:1)+'%'));
+   s.appendChild(el('text',{x:L+w+6,y:y+bh-3,class:'lbl'+(k==='usage'?'':' muted')},fmt(v,1)+'%'));
    hit(b,`${r.tier} · ${name}: <b>${fmt(v,2)}%</b>`);});
  });$('#c-shares').appendChild(s);})();
 
 // generic stacked column
-function stackedColumns(sel,data,keys,colors,opts={}){const W=560,H=300,L=44,R=10,T=14,B=40;const s=svgEl(W,H);const n=data.length;const bw=Math.min(24,(W-L-R)/n*0.62);const step=(W-L-R)/n;
+function stackedColumns(sel,data,keys,colors,opts={}){const W=cw(sel,560),H=300,L=44,R=10,T=14,B=40;const s=svgEl(W,H);const n=data.length;const bw=Math.min(24,(W-L-R)/n*0.62);const step=(W-L-R)/n;
  const max=niceMax(Math.max(...data.map(d=>keys.reduce((a,k)=>a+(d[k]||0),0))));const y=v=>T+(H-T-B)*(1-v/max);
  const ticks=5;for(let i=0;i<=ticks;i++){const v=max*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,0)));}
  data.forEach((d,i)=>{const cx=L+step*i+step/2;let acc=0;const tot=keys.reduce((a,k)=>a+(d[k]||0),0);
@@ -61,7 +62,7 @@ function stackedColumns(sel,data,keys,colors,opts={}){const W=560,H=300,L=44,R=1
 stackedColumns('#c-quarterly',D.quarterly,['R2','RCU','Other'],['var(--r2)','var(--rcu)','var(--oth)'],{names:['R2','RCU','Other academic']});
 
 // generic multi-line
-function lines(sel,labels,series,opts={}){const W=opts.w||560,H=opts.h||300,L=44,R=opts.r||56,T=14,B=40;const s=svgEl(W,H);const n=labels.length;const x=i=>L+(W-L-R)*(n===1?0:i/(n-1));
+function lines(sel,labels,series,opts={}){const W=cw(sel,opts.w||560),H=opts.h||300,L=44,R=opts.r||56,T=14,B=40;const s=svgEl(W,H);const n=labels.length;const x=i=>L+(W-L-R)*(n===1?0:i/(n-1));
  let lo=opts.min!=null?opts.min:Math.min(...series.flatMap(q=>q.v));let hi=opts.max!=null?opts.max:niceMax(Math.max(...series.flatMap(q=>q.v)));if(opts.min==null)lo=0;
  const y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo));const ticks=opts.ticks||5;
  for(let i=0;i<=ticks;i++){const v=lo+(hi-lo)*i/ticks;s.appendChild(el('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),class:i===0?'axis':'grid'}));s.appendChild(el('text',{x:L-6,y:y(v)+4,'text-anchor':'end',class:'tick'},fmt(v,opts.dec||0)+(opts.unit||'')));}
@@ -84,8 +85,8 @@ if(D.pi_tenure)$('#t-pis').innerHTML=`<thead><tr><th>PIs</th><th class="num">Sha
 $('#t-persist').innerHTML=`<thead><tr><th>Tier</th><th class="num">Median months</th><th class="num">≤ 3 months</th><th class="num">≥ 24 months</th></tr></thead><tbody>${D.persistence.map(p=>`<tr><td><span class="pill ${pillCls[p.tier]||''}">${p.tier}</span></td><td class="num">${fmt(p.median,0)}</td><td class="num">${fmt(p.le3,1)}%</td><td class="num">${fmt(p.ge24,1)}%</td></tr>`).join('')}</tbody>`;
 
 // never used horizontal bars
-(()=>{const rows=D.never_used;const W=560,L=150,R=90,T=10,rowH=42,bh=18;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/50*(W-L-R);
- [0,10,20,30,40,50].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
+(()=>{const rows=D.never_used;const W=cw('#c-never',560),L=W<420?112:150,R=90,T=10,rowH=42,bh=18;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/50*(W-L-R);
+ (W<480?[0,25,50]:[0,10,20,30,40,50]).forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
  rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh-4,'text-anchor':'end',class:'cat'},r.tier));const w=Math.max(x(r.pct)-L,1.5);
   const b=el('rect',{x:L,y,width:w,height:bh,fill:r.tier==='R1'?'var(--r1)':r.tier==='Non-academic'?'var(--non)':'var(--accent)',class:'bar'});s.appendChild(b);
   s.appendChild(el('text',{x:L+w+6,y:y+bh-4,class:'lbl'},`${fmt(r.pct,0)}%`));s.appendChild(el('text',{x:L+w+6+(r.pct>=10?34:28),y:y+bh-4,class:'lbl muted'},`${r.never} of ${r.total}`));
@@ -93,19 +94,19 @@ $('#t-persist').innerHTML=`<thead><tr><th>Tier</th><th class="num">Median months
  $('#c-never').appendChild(s);})();
 
 // 100% stacked horizontal for board mix
-function stacked100(sel,rows,keys,colors,names){const W=560,L=150,R=16,T=10,rowH=56,bh=22;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
+function stacked100(sel,rows,keys,colors,names){const W=cw(sel,560),L=W<420?112:150,R=16,T=10,rowH=56,bh=22;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const x=v=>L+v/100*(W-L-R);
  [0,25,50,75,100].forEach(v=>{s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
- rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh/2+4,'text-anchor':'end',class:'cat'},r.label));let acc=0;
+ rows.forEach((r,i)=>{const y=T+i*rowH+(rowH-bh)/2;s.appendChild(el('text',{x:L-12,y:y+bh/2+4,'text-anchor':'end',class:'cat'},W<480?r.label.replace(' academic',''):r.label));let acc=0;
   keys.forEach((k,j)=>{const v=r.vals[k]||0;if(!v)return;const x0=x(acc),w=Math.max(x(acc+v)-x0-2,0);const b=el('rect',{x:x0,y,width:w,height:bh,fill:colors[j].c,opacity:colors[j].o});s.appendChild(b);
-   if(w>34)s.appendChild(el('text',{x:x0+w/2,y:y+bh/2+4,'text-anchor':'middle',class:'lbl',fill:colors[j].o<0.7?'var(--ink)':'#fff',style:`fill:${colors[j].o<0.7?'var(--ink)':'#fff'}`},fmt(v,0)+'%'));
+   if(w>34)s.appendChild(el('text',{x:x0+w/2,y:y+bh/2+4,'text-anchor':'middle',class:'lbl',fill:colors[j].t||'#fff',style:`fill:${colors[j].t||'#fff'}`},fmt(v,0)+'%'));
    hit(b,`${r.label} · ${names[j]}: <b>${fmt(v,1)}%</b>${r.n?` (${fmtI(r.n[k])} projects)`:''}`);acc+=v;});});
  $(sel).appendChild(s);}
-const BK=['Explore','Discover','Accelerate','Maximize'];const BC=[{c:'var(--r1)',o:.35},{c:'var(--r1)',o:.6},{c:'var(--r1)',o:.85},{c:'var(--r1)',o:1}];
+const BK=['Explore','Discover','Accelerate','Maximize'];const BC=[{c:'var(--b1)',o:1,t:'#15202b'},{c:'var(--b2)',o:1,t:'#15202b'},{c:'var(--b3)',o:1,t:'#fff'},{c:'var(--b4)',o:1,t:'#fff'}];
 stacked100('#c-board',[{label:'R1',vals:D.board_projects.R1,n:D.board_projects.R1_n},{label:'Non-R1 academic',vals:D.board_projects.nonR1,n:D.board_projects.nonR1_n}],BK,BC,BK);
-stacked100('#c-board-usage',[{label:'R1',vals:D.board_usage.R1},{label:'Non-R1 academic',vals:D.board_usage.nonR1}],[...BK,'Research'],[...BC,{c:'var(--non)',o:1}],[...BK,'Legacy Research']);
+stacked100('#c-board-usage',[{label:'R1',vals:D.board_usage.R1},{label:'Non-R1 academic',vals:D.board_usage.nonR1}],[...BK,'Research'],[...BC,{c:'var(--non)',o:1,t:'#fff'}],[...BK,'Legacy Research']);
 
 // resources paired bars
-(()=>{const rows=D.resources;const W=900,L=170,R=60,T=8,rowH=44,bh=12,gap=3;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const max=30;const x=v=>L+v/max*(W-L-R);
+(()=>{const rows=D.resources;const W=cw('#c-resources',900),L=W<520?120:170,R=60,T=8,rowH=44,bh=12,gap=3;const H=T+rows.length*rowH+26;const s=svgEl(W,H);const max=30;const x=v=>L+v/max*(W-L-R);
  [0,10,20,30].forEach(v=>{s.appendChild(el('line',{x1:x(v),x2:x(v),y1:T,y2:H-26,class:v?'grid':'axis'}));s.appendChild(el('text',{x:x(v),y:H-8,'text-anchor':'middle',class:'tick'},v+'%'));});
  rows.forEach((r,i)=>{const y0=T+i*rowH+8;s.appendChild(el('text',{x:L-12,y:y0+bh+gap/2+4,'text-anchor':'end',class:'cat'},r.resource));
   [['R1',r.R1,'var(--r1)'],['Non-R1 academic',r.nonR1,'var(--accent)']].forEach(([n,v,c],j)=>{const y=y0+j*(bh+gap);const w=Math.max(x(v)-L,1.5);const b=el('rect',{x:L,y,width:w,height:bh,fill:c,class:'bar'});s.appendChild(b);
