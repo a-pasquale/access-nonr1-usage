@@ -2,7 +2,7 @@
 """Step 3 - tag every PI institution with a Carnegie 2025 tier and MSI flags.
 
 Inputs (data/raw/): xdmod_by_pi_institution.csv, carnegie_2025_rad.xlsx,
-                    ipeds_hd2023.zip, all_projects.json
+                    ipeds_hd2023.zip, all_projects.json, allocations_resources.json
 Rules:  data/overrides.json  (every manual mapping, reviewable in one file)
 
 Outputs (data/derived/):
@@ -18,13 +18,15 @@ Matching strategy, in order:
   3. R1-unit patterns (supercomputer centers, medical schools of R1s)
   4. foreign / unknown / extra-academic pattern lists
   5. keyword rule: looks like a university/college -> Other academic, else Non-academic
-Nothing is fuzzy-matched automatically: fuzzy suggestions are written to the report for a human to
+XDMoD labels are never fuzzy-matched automatically: fuzzy suggestions are written to the report for a human to
 promote into overrides.json.
+Allocations-feed project institutions with no exact match are fuzzy-matched to the Carnegie file at a
+score of 93 or above (marked carnegie-fuzzyNN in project_institutions.csv).
 """
 import json, re, zipfile
 import pandas as pd
 from rapidfuzz import process, fuzz
-from config import RAW, DERIVED, ROOT, NONR1
+from config import RAW, DERIVED, ROOT, NONR1, AWARD_SINCE
 
 O = json.load(open(ROOT / "data" / "overrides.json"))
 report = []
@@ -133,14 +135,50 @@ def attach_ipeds(xd, car, hd):
 def classify_projects(xd, car):
     raw = json.load(open(RAW / "all_projects.json"))
     df = pd.json_normalize(raw)
-    df["credits"] = [sum((res.get("allocation") or 0) for res in (p.get("resources") or []) if res.get("resourceName") == "ACCESS Credits") for p in raw]
+    # The feed's "ACCESS Credits" line is the balance left after exchanges, not the award. Rebuild the award by
+    # converting every exchanged resource back to credits with the published conversion factors.
+    cat = json.load(open(RAW / "allocations_resources.json"))
+    base = float(next(r["conversionFactor"] for r in cat if r["resourceName"] == "ACCESS Credits"))
+    per_credit = {r["resourceName"]: float(r["conversionFactor"]) / base for r in cat if r.get("conversionFactor")}
+    alias = {k: v for k, v in O["resource_aliases"].items() if not k.startswith("_")}
+    jobs = set(O["jobs_realm_resources"]["names"])
+    cloud_res = set(O["cloud_resources"]["names"])
+    awards, hpc, cloudx, mapped, unmapped = [], [], [], [], {}
+    for p in raw:
+        tot, hp, cx, ok = 0.0, 0.0, 0.0, True
+        for res in p.get("resources") or []:
+            name = alias.get(res.get("resourceName"), res.get("resourceName"))
+            if name in per_credit:
+                cr = float(res.get("allocation") or 0) * per_credit[name]
+                tot += cr
+                hp += cr if name in jobs else 0.0
+                cx += cr if name in cloud_res else 0.0
+            else:
+                ok = False
+                unmapped[name] = unmapped.get(name, 0) + 1
+        awards.append(tot)
+        hpc.append(hp)
+        cloudx.append(cx)
+        mapped.append(ok)
+    df["award"] = awards
+    df["hpc_award"] = hpc      # credits exchanged into resources XDMoD's Jobs realm reports
+    df["cloud_award"] = cloudx  # credits exchanged into Jetstream2, which XDMoD's Cloud realm reports
+    df["unexchanged"] = [sum(float(r.get("allocation") or 0) for r in (p.get("resources") or []) if r.get("resourceName") == "ACCESS Credits")
+                         for p in raw]   # the feed's ACCESS Credits line: what is left after exchanges
+    df["award_mapped"] = mapped   # every resource converts; the amount is approximate for older projects
+    df["award_ok"] = [m and str(b) >= AWARD_SINCE for m, b in zip(mapped, df["beginDate"])]
+    report.append("Resources with no conversion factor (projects affected): " +
+                  ", ".join(f"{k} ({v})" for k, v in sorted(unmapped.items(), key=lambda kv: -kv[1])))
     df = df.drop(columns=[c for c in ("resources", "publications", "abstract") if c in df.columns])
     xmap = dict(zip(xd["n"], xd["cohort"]))
     cmap = dict(zip(car["n"], car["tier"]))
+    xname = dict(zip(xd["n"], xd["carnegie_instnm"]))
+    cname = dict(zip(car["n"], car["INSTNM"]))
     r1u = set(O["projects_r1_units"]["names"])
     nonacad = re.compile(O["projects_nonacademic_regex"])
     acad = re.compile(O["projects_academic_regex"])
     inst = df["piInstitution"].value_counts().rename_axis("piInstitution").reset_index(name="projects")
+    inst = inst.sort_values(["projects", "piInstitution"], ascending=[False, True], kind="stable").reset_index(drop=True)
     inst["n"] = inst["piInstitution"].map(norm)
 
     def cls(name, n):
@@ -161,7 +199,9 @@ def classify_projects(xd, car):
 
     inst[["cohort", "match_method"]] = pd.DataFrame([cls(a, b) for a, b in zip(inst["piInstitution"], inst["n"])], index=inst.index)
     inst["ever_used"] = inst["match_method"] == "xdmod"
-    df = df.merge(inst[["piInstitution", "cohort"]], on="piInstitution", how="left")
+    inst["carnegie_instnm"] = [xname.get(n) if m == "xdmod" else cname.get(n) if m == "carnegie" else None
+                               for n, m in zip(inst["n"], inst["match_method"])]
+    df = df.merge(inst[["piInstitution", "cohort", "carnegie_instnm"]], on="piInstitution", how="left")
     return df, inst
 
 
@@ -169,6 +209,21 @@ def main():
     car = load_carnegie()
     hd = load_ipeds()
     xd = pd.read_csv(RAW / "xdmod_by_pi_institution.csv")
+    # Jetstream2 usage (XDMoD Cloud realm), converted to ACCESS Credits; institutions with only cloud usage are added
+    cl_path = RAW / "xdmod_cloud_by_pi_institution.csv"
+    if cl_path.exists():
+        rate = {k: v for k, v in O["cloud_su_per_core_hour"].items() if not k.startswith("_")}
+        cl = pd.read_csv(cl_path)
+        cl["credits"] = cl.core_hours * cl.resource.map(rate)
+        cloud = cl.groupby("pi_institution").credits.sum()
+        new = sorted(set(cloud.index) - set(xd.pi_institution))
+        xd = pd.concat([xd, pd.DataFrame({"pi_institution": new})], ignore_index=True)
+        xd["cloud_ace"] = xd.pi_institution.map(cloud).fillna(0)
+        report.append(f"Cloud realm: {len(cloud)} PI institutions, {cloud.sum():,.0f} credits; {len(new)} have cloud usage only")
+    else:
+        xd["cloud_ace"] = 0.0
+    for col in ("total_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"):
+        xd[col] = xd[col].fillna(0)
     xd["full"] = xd["pi_institution"].str.split(" - ", n=1).str[-1].str.strip()
     xd["n"] = xd["full"].map(norm)
     xd = classify_xdmod(xd, car)
@@ -181,16 +236,17 @@ def main():
     report.insert(0, f"XDMoD PI institutions: {len(xd)}; total ACE {xd.total_ace.sum():,.2f}")
 
     cols = ["pi_institution", "cohort", "tier", "carnegie_instnm", "match_method", "UNITID", "msi", "C21BASIC", "STABBR",
-            "total_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"]
-    xd[cols].sort_values("total_ace", ascending=False).to_csv(DERIVED / "institutions.csv", index=False)
+            "total_ace", "cloud_ace", "total_cpu_hours", "total_node_hours", "job_count", "active_pi_count", "active_allocation_count", "active_person_count"]
+    xd[cols].assign(_u=xd.total_ace + xd.cloud_ace).sort_values(["_u", "pi_institution"], ascending=[False, True], kind="stable").drop(columns="_u").to_csv(DERIVED / "institutions.csv", index=False)
 
     projects, inst = classify_projects(xd, car)
     projects.to_csv(DERIVED / "projects.csv", index=False)
     inst.drop(columns=["n"]).to_csv(DERIVED / "project_institutions.csv", index=False)
     report.append(f"Current projects: {len(projects)}; awarded institutions: {len(inst)}; never-used institutions: {(~inst.ever_used).sum()}")
 
-    cohorts = {"nonR1": xd[xd.cohort.isin(NONR1)]["pi_institution"].tolist(),
-               "R1": xd[xd.cohort == "R1"]["pi_institution"].tolist()}
+    hpc = xd[xd.total_ace > 0]     # Jobs-realm filters only accept institutions with Jobs usage
+    cohorts = {"nonR1": hpc[hpc.cohort.isin(NONR1)]["pi_institution"].tolist(),
+               "R1": hpc[hpc.cohort == "R1"]["pi_institution"].tolist()}
     json.dump(cohorts, open(DERIVED / "cohorts.json", "w"), indent=0)
     (DERIVED / "classify_report.txt").write_text("\n".join(report) + "\n")
     print("\n".join(report[:3]))

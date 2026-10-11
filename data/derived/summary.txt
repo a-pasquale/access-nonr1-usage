@@ -1,13 +1,41 @@
 window 2022-09-01 .. 2026-09-14
-total ACE (B) 13.8
-R1 usage share 93.2%
-non-R1 academic usage share 4.3%
+total ACE (B) 15.43
+R1 usage share 91.9%
+non-R1 academic usage share 4.7%
 non-R1 academic project share 12.2%
-non-R1 academic credit share 11.5%
+non-R1 academic credit share 9.2%
 retention R1 93.0% / non-R1 75.0%
-never-used R1: 7/218 (3.2%)
-never-used R2: 6/99 (6.1%)
-never-used RCU: 20/98 (20.4%)
-never-used Other academic: 68/166 (41.0%)
-never-used Non-academic: 49/155 (31.6%)
-HBCU with usage 33/102, TCU 1/35
+R1: reached 186/187 (99.9% of tier research spending), research spending 88.6% / awarded credits 92.1% / usage 95.7% of R1+R2+RCU; without standalone medical schools 93.2% / 92.5% / 96.0%
+R2: reached 107/139 (89.5% of tier research spending), research spending 7.9% / awarded credits 5.5% / usage 3.0% of R1+R2+RCU; without standalone medical schools 4.8% / 5.2% / 2.9%
+RCU: reached 105/216 (63.5% of tier research spending), research spending 3.5% / awarded credits 2.3% / usage 1.2% of R1+R2+RCU; without standalone medical schools 2.0% / 2.3% / 1.1%
+gap split (R2+RCU, excl. health-science): projects 9.1% / research spending 6.8% / usage 4.0%; spending explains 45% of the projects-to-usage drop; Explore/Discover/Accelerate awards 2025+ 7.1%; Maximize projects 4.7% (10/215); non-R1 academic share of Maximize batch HPC usage 1.7%; all-current awards incl. Maximize (not comparable, see README) 3.8%
+PIs continuing 12+ months: R1 63.0% / non-R1 63.6%
+R1 New PIs: 79.2% of PIs, 22.2% of usage, continued 57.8%
+R1 Experienced PIs: 20.8% of PIs, 77.8% of usage, continued 73.7%
+nonR1 New PIs: 67.8% of PIs, 33.1% of usage, continued 55.5%
+nonR1 Experienced PIs: 32.2% of PIs, 66.9% of usage, continued 74.4%
+R1 new Explore PIs continued 53.4% (n=1609)
+R1 new Other types PIs continued 66.3% (n=832)
+nonR1 new Explore PIs continued 52.3% (n=216)
+nonR1 new Other types PIs continued 62.4% (n=101)
+R1 median active PIs per institution 11.0, single-PI 10.1%
+R2 median active PIs per institution 2.0, single-PI 33.7%
+RCU median active PIs per institution 2.0, single-PI 49.0%
+Other academic median active PIs per institution 1.0, single-PI 79.6%
+allocation utilization (usage / HPC-available credits, 12-month term), last-12-month cohort: median R1 0.38 / non-R1 0.18 (gap 95% CI [0.07, 0.29]); at R1 experience x type mix 0.37 / 0.23 (CI [-0.0, 0.22]); pooled 0.73 / 0.66 (CI [-0.06, 0.19]); n {'R1': 2413, 'nonR1': 296}; experience = any prior PI usage
+new-PI projects R1 77.4% / non-R1 74.0%; never exchanged R1 7.0% / non-R1 8.8%; nothing in measured resources R1 0.0% / non-R1 0.0%; no usage R1 15.2% / non-R1 18.6%; median among started R1 0.56 / non-R1 0.39
+R1 Discover/Accelerate Experienced: n=332 median 0.78 zero-usage 4.5%
+R1 Discover/Accelerate New: n=780 median 0.44 zero-usage 10.8%
+R1 Explore Experienced: n=213 median 0.41 zero-usage 12.2%
+R1 Explore New: n=1088 median 0.18 zero-usage 22.2%
+nonR1 Discover/Accelerate Experienced: n=33 median 0.74 zero-usage 0.0%
+nonR1 Discover/Accelerate New: n=62 median 0.19 zero-usage 16.1%
+nonR1 Explore Experienced: n=44 median 0.07 zero-usage 13.6%
+nonR1 Explore New: n=157 median 0.15 zero-usage 24.8%
+Maximize + legacy Research share of R1 usage 71.5%
+never-used R1: 5/215 (2.3%)
+never-used R2: 3/102 (2.9%)
+never-used RCU: 14/102 (13.7%)
+never-used Other academic: 43/162 (26.5%)
+never-used Non-academic: 23/155 (14.8%)
+HBCU with usage 34/102, TCU 1/35

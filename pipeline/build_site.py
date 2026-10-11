@@ -34,7 +34,7 @@ def main():
     (DOCS / "index.html").write_text(full)
     (DOCS / ".nojekyll").write_text("")
     shutil.copy(DERIVED / "report_data.json", DOCS / "report_data.json")
-    for f in ("institutions.csv", "projects.csv", "project_institutions.csv", "summary.txt"):
+    for f in ("institutions.csv", "projects.csv", "project_institutions.csv", "unreached_institutions.csv", "summary.txt"):
         shutil.copy(DERIVED / f, DOCS / f)
     print("wrote", DOCS / "index.html", f"{(DOCS / 'index.html').stat().st_size:,} bytes")
 

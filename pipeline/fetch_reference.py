@@ -4,12 +4,13 @@
   data/raw/carnegie_2025_rad.xlsx   Carnegie 2025 Research Activity Designations
   data/raw/ipeds_hd2023.zip         IPEDS institutional characteristics (HBCU / tribal flags)
   data/raw/all_projects.json        every current ACCESS project (paged public feed)
+  data/raw/allocations_resources.json  resource catalog with exchange conversion factors
 
 No credentials needed. Re-running overwrites the snapshot; pass --keep to skip
 files that already exist.
 """
 import argparse, json, sys, time, urllib.request
-from config import RAW, CARNEGIE_URL, IPEDS_URL, ALLOCATIONS_FEED
+from config import RAW, CARNEGIE_URL, IPEDS_URL, ALLOCATIONS_FEED, ALLOCATIONS_RESOURCES
 
 UA = {"User-Agent": "access-nonr1-usage/1.0 (reproducibility pipeline)"}
 
@@ -61,6 +62,7 @@ def main():
         (RAW / "carnegie_2025_rad.xlsx", lambda d: download(CARNEGIE_URL, d)),
         (RAW / "ipeds_hd2023.zip", lambda d: download(IPEDS_URL, d)),
         (RAW / "all_projects.json", fetch_projects),
+        (RAW / "allocations_resources.json", lambda d: download(ALLOCATIONS_RESOURCES, d)),
     ]
     for dest, fn in jobs:
         if a.keep and dest.exists():

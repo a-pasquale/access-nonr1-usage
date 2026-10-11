@@ -32,7 +32,7 @@
   "Prarieview - Prarieview A&M": "Prairie View A & M University",
   "Washington U Sch of Med - Washington University School of Medicine": "Washington University in St Louis",
   "U Pittsburgh Sch of Med - University of Pittsburgh School of Medicine": "University of Pittsburgh-Pittsburgh Campus",
-  "IU Indy - Indiana University Indianapolis": "Indiana University–Purdue University-Indianapolis",
+  "IU Indy - Indiana University Indianapolis": "Indiana University\u2013Purdue University-Indianapolis",
   "Harvard Med Sch - Harvard Medical School": "Harvard University",
   "US Naval Acad - US Naval Academy": "United States Naval Academy",
   "Embry-Riddle U - Embry-Riddle Aeronautical University": "Embry-Riddle Aeronautical University-Daytona Beach",
@@ -54,7 +54,6 @@
   "U Tennessee Martin - University of Tennessee, Martin": "The University of Tennessee-Martin",
   "DePauw U - DePauw University": "DePauw University",
   "Adelphi U - Adelphi University": "Adelphi University",
-  "Drew University - Drew University": "Drew University",
   "Middle Georgia State University": "Middle Georgia State University",
   "Winona State U - Winona State University": "Winona State University",
   "Fairfield U - Fairfield University": "Fairfield University",
@@ -86,11 +85,21 @@
   "Wheaton College - Wheaton College": "Wheaton College",
   "Lake Forest College - Lake Forest College": "Lake Forest College",
   "U Mary Washington - University of Mary Washington": "University of Mary Washington",
-  "Texas A&M University–Texarkana": "Texas A & M University-Texarkana",
+  "Texas A&M University\u2013Texarkana": "Texas A & M University-Texarkana",
   "Cornell College": "Cornell College",
   "moravian - Moravian University": "Moravian University",
   "- Utah Tech University": "Utah Tech University",
-  "Robert Morris U - Robert Morris University": "Robert Morris University"
+  "Robert Morris U - Robert Morris University": "Robert Morris University",
+  "CUNY Baruch College - CUNY Baruch College": "CUNY Bernard M Baruch College",
+  "jjay.cuny.edu - CUNY John Jay College": "CUNY John Jay College of Criminal Justice",
+  "IUPU Fort Wayne - Indiana University-Purdue University Fort Wayne": "Purdue University Fort Wayne",
+  "William Paterson U - William Paterson University": "William Paterson University of New Jersey",
+  "Rosalind Franklin U - Rosalind Franklin University": "Rosalind Franklin University of Medicine and Science",
+  "SUNY College Buffalo - SUNY College at Buffalo": "SUNY Buffalo State University",
+  "LSU New Orleans - LSU New Orleans": "Louisiana State University Health Sciences Center-New Orleans",
+  "Wake Forest Sch of Med - Wake Forest School of Medicine": "Wake Forest University",
+  "SUNY Upstate Medical U - SUNY Health Science Center at Syracuse": "Upstate Medical University",
+  "Philadelphia College of Osteophathic Medicine": "Philadelphia College of Osteopathic Medicine"
  },
  "r1_units": {
   "_comment": "XDMoD labels (prefix or substring) that are organizational units of an R1; folded into R1",
@@ -110,7 +119,6 @@
    "CCT-LSU",
    "Stanford Medicine",
    "U Michigan Medical",
-   "Wake Forest Sch of Med",
    "U Maryland School of Medicine",
    "Va Inst of Marine Sci",
    "Texas A&M AgriLife",
@@ -121,8 +129,6 @@
    "MU-RCSS",
    "Univ of Mississippi Medical Center",
    "Vanderbilt U Med Ctr",
-   "LSU New Orleans",
-   "Uniformed Services U",
    "University of Hawaii"
   ]
  },
@@ -136,13 +142,17 @@
   "CAS - Czech",
   "Deltares",
   "IOCB Boston",
-  "Northern Fei Tian"
+  "Northern Fei Tian",
+  "U Cambridge",
+  "TU Munich",
+  "U Colombo"
  ],
  "unknown": [
   "Other",
   "Individual/Unaffiliated",
   "Self Employed",
-  "Retired -"
+  "Retired -",
+  "Unknown"
  ],
  "other_academic_extra": {
   "_comment": "academic labels the keyword rule would otherwise miss (schools, community colleges)",
@@ -154,7 +164,8 @@
    "Alvin Community College",
    "CCM - County College",
    "CUNY Manhattan CC",
-   "Oxnard"
+   "Oxnard",
+   "Ivy Tech"
   ]
  },
  "projects_r1_units": {
@@ -171,5 +182,52 @@
  "academic_regex": "\\b(university|college|univ|u|polytechnic|school of medicine|medical school|college of medicine)\\b",
  "not_academic_regex": "\\b(hospital|medical center|med ctr|corporation|association|research support)\\b",
  "projects_nonacademic_regex": "\\b(inc|llc|corp|corporation|company|laboratory|lab|national|institute|hospital|medical center|medical centre|clinic|center|centre|foundation|society|museum|observatory|agency|administration|department|nasa|noaa|nist|usda|army|navy|consortium|council|group|systems|technologies|ltd|association|authority|bureau|survey|network|state of|globus|health|office|carbonplan|facilis|hub|2i2c|battelle|genomics|devices|solutions|collective|predictions|debater)\\b",
- "projects_academic_regex": "\\b(university|college|school|academy|ivy tech)\\b"
+ "projects_academic_regex": "\\b(university|college|school|academy|ivy tech)\\b",
+ "resource_aliases": {
+  "_comment": "Allocations-feed resource names -> the current name in allocations_resources.json, for converting exchanged units back to ACCESS Credits. Retired systems with no published conversion factor are deliberately absent.",
+  "NCSA Delta GPU (Delta GPU)": "NCSA Delta GPU",
+  "NCSA Delta CPU (Delta CPU)": "NCSA Delta CPU",
+  "PSC Bridges-2 Storage (Ocean)": "PSC Bridges-2 Storage (PSC Ocean)",
+  "PSC Bridges-2 Regular Memory (Bridges-2)": "PSC Bridges-2 Regular Memory (PSC Bridges-2 RM)",
+  "PSC Bridges-2 GPU (Bridges-2 GPU)": "PSC Bridges-2 GPU (PSC Bridges-2 GPU)",
+  "PSC Bridges-2 Extreme Memory (Bridges-2)": "PSC Bridges-2 Extreme Memory (PSC Bridges-2 EM)",
+  "SDSC Dell Cluster with AMD Rome HDR IB (Expanse)": "SDSC Expanse CPU",
+  "SDSC Dell Cluster with NVIDIA V100 GPUs NVLINK and HDR IB (Expanse GPU)": "SDSC Expanse GPU",
+  "Indiana Jetstream2": "Indiana Jetstream2 CPU"
+ },
+ "jobs_realm_resources": {
+  "_comment": "Catalog resources whose usage XDMoD reports in the Jobs realm (batch HPC). Utilization per allocation is measured only against credits exchanged into these; cloud (Jetstream2), storage, OSG, NCAR, Nexus, Voyager and services are not in the Jobs realm.",
+  "names": [
+   "PSC Bridges-2 Extreme Memory (PSC Bridges-2 EM)",
+   "PSC Bridges-2 GPU (PSC Bridges-2 GPU)",
+   "PSC Bridges-2 Regular Memory (PSC Bridges-2 RM)",
+   "PSC Neocortex CS-3",
+   "PSC Neocortex Superdome Flex Server",
+   "Kentucky Research Informatics Cloud (KyRIC) Large Memory Nodes",
+   "TACC Dell/Intel Sapphire Rapids, Ice Lake, Skylake (Stampede3)",
+   "NCSA Delta CPU",
+   "NCSA Delta GPU",
+   "NCSA DeltaAI",
+   "Purdue Anvil AI",
+   "Purdue Anvil GPU",
+   "Purdue Anvil CPU",
+   "SDSC Expanse CPU",
+   "SDSC Expanse GPU",
+   "TAMU ACES"
+  ]
+ },
+ "cloud_su_per_core_hour": {
+  "_comment": "XDMoD Cloud realm reports core-hours; Jetstream2 charges SUs (docs.jetstream-cloud.org/general/instance-flavors): CPU 1 SU per vCPU-hour, Large Memory 2, GPU g3 flavors 2 (g4/g5 cost more, but XDMoD shows only g3 configurations through 2026-09). The Allocations catalog values one Jetstream2 SU at one ACCESS Credit.",
+  "Indiana U Jetstream2": 1,
+  "Indiana U Jetstream2 Large Memory": 2,
+  "Indiana U Jetstream2 GPU": 2
+ },
+ "cloud_resources": {
+  "_comment": "Catalog resources whose usage XDMoD reports in the Cloud realm.",
+  "names": [
+   "Indiana Jetstream2 CPU",
+   "Indiana Jetstream2 GPU",
+   "Indiana Jetstream2 Large Memory"
+  ]
+ }
 }

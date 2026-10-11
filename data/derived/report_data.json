@@ -1,281 +1,1374 @@
 {
-"shares": [
+"cloud": {
+"share_of_total": 10.6,
+"tiers": [
 {
 "tier": "R1",
-"usage": 93.24,
-"projects": 83.9,
-"credits": 84.46,
-"inst_used": 221,
-"inst_awarded": 218,
-"pis": 5875,
-"users": 34980,
-"ace": 12866489382.6195,
-"nproj": 6005
+"hpc": 93.28,
+"cloud": 82.6,
+"cloud_of_own": 9.3
 },
 {
 "tier": "R2",
-"usage": 2.87,
-"projects": 5.28,
-"credits": 5.32,
-"inst_used": 102,
-"inst_awarded": 99,
-"pis": 362,
-"users": 2609,
-"ace": 395374943.0409,
-"nproj": 378
+"hpc": 2.87,
+"cloud": 3.44,
+"cloud_of_own": 12.2
 },
 {
 "tier": "RCU",
-"usage": 0.94,
-"projects": 3.26,
-"credits": 3.41,
-"inst_used": 94,
-"inst_awarded": 98,
-"pis": 208,
-"users": 1199,
-"ace": 130388947.9068,
-"nproj": 233
+"hpc": 0.97,
+"cloud": 2.92,
+"cloud_of_own": 25.8
 },
 {
 "tier": "Other academic",
-"usage": 0.5,
-"projects": 3.66,
-"credits": 2.76,
-"inst_used": 147,
-"inst_awarded": 166,
-"pis": 199,
-"users": 971,
-"ace": 68349815.5847,
-"nproj": 262
+"hpc": 0.47,
+"cloud": 1.94,
+"cloud_of_own": 32.3
 },
 {
 "tier": "Non-academic",
-"usage": 2.4,
+"hpc": 2.4,
+"cloud": 9.1,
+"cloud_of_own": 30.5
+}
+],
+"hpc_nonr1_share": 4.3,
+"cloud_only_inst": 93
+},
+"shares": [
+{
+"tier": "R1",
+"usage": 91.91,
+"projects": 83.86,
+"credits": 86.45,
+"inst_used": 223,
+"inst_awarded": 215,
+"pis": 5872,
+"users": 34976,
+"ace": 14185456835.4803,
+"nproj": 6002
+},
+{
+"tier": "R2",
+"usage": 2.92,
+"projects": 5.32,
+"credits": 5.2,
+"inst_used": 109,
+"inst_awarded": 102,
+"pis": 364,
+"users": 2612,
+"ace": 451132852.62450004,
+"nproj": 381
+},
+{
+"tier": "RCU",
+"usage": 1.17,
+"projects": 3.45,
+"credits": 2.19,
+"inst_used": 105,
+"inst_awarded": 102,
+"pis": 218,
+"users": 1222,
+"ace": 180564310.9491,
+"nproj": 247
+},
+{
+"tier": "Other academic",
+"usage": 0.62,
+"projects": 3.47,
+"credits": 1.86,
+"inst_used": 174,
+"inst_awarded": 162,
+"pis": 190,
+"users": 949,
+"ace": 95741021.6007,
+"nproj": 248
+},
+{
+"tier": "Non-academic",
+"usage": 3.09,
 "projects": 3.87,
-"credits": 4.05,
-"inst_used": 157,
+"credits": 4.3,
+"inst_used": 198,
 "inst_awarded": 155,
 "pis": 285,
 "users": 850,
-"ace": 331239664.4834,
+"ace": 476702956.8853,
 "nproj": 277
+}
+],
+"benchmark": [
+{
+"tier": "R1",
+"n": 187,
+"reached": 186,
+"reached_herd": 99.9,
+"herd": 88.6,
+"credits": 92.1,
+"usage": 95.7,
+"herd_xmed": 93.2,
+"credits_xmed": 92.5,
+"usage_xmed": 96.0,
+"n_med": 10,
+"n_xmed": 177,
+"reached_xmed": 177
+},
+{
+"tier": "R2",
+"n": 139,
+"reached": 107,
+"reached_herd": 89.5,
+"herd": 7.9,
+"credits": 5.5,
+"usage": 3.0,
+"herd_xmed": 4.8,
+"credits_xmed": 5.2,
+"usage_xmed": 2.9,
+"n_med": 15,
+"n_xmed": 124,
+"reached_xmed": 97
+},
+{
+"tier": "RCU",
+"n": 216,
+"reached": 105,
+"reached_herd": 63.5,
+"herd": 3.5,
+"credits": 2.3,
+"usage": 1.2,
+"herd_xmed": 2.0,
+"credits_xmed": 2.3,
+"usage_xmed": 1.1,
+"n_med": 28,
+"n_xmed": 188,
+"reached_xmed": 96
+}
+],
+"awards_all": {
+"R1": 96.2,
+"R2": 2.7,
+"RCU": 1.1
+},
+"gap_split": {
+"projects": 9.1,
+"herd": 6.8,
+"usage": 4.0,
+"awards_recent": 7.5,
+"awards_all": 3.8,
+"explained": 45,
+"usage_vs_herd": 41,
+"awards_eda_recent": 7.1,
+"maximize_projects": 4.7,
+"maximize_n": {
+"nonR1": 10,
+"all": 215
+}
+},
+"unreached": [
+{
+"name": "SUNY Polytechnic Institute",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 387.9,
+"med": false
+},
+{
+"name": "University of Oklahoma-Health Sciences Center",
+"tier": "R2",
+"state": "OK",
+"herd_m": 128.2,
+"med": true
+},
+{
+"name": "Rush University",
+"tier": "R2",
+"state": "IL",
+"herd_m": 118.2,
+"med": true
+},
+{
+"name": "University of North Texas Health Science Center",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 72.7,
+"med": true
+},
+{
+"name": "Mercer University",
+"tier": "R2",
+"state": "GA",
+"herd_m": 49.2,
+"med": false
+},
+{
+"name": "Texas Tech University Health Sciences Center",
+"tier": "R2",
+"state": "TX",
+"herd_m": 45.6,
+"med": true
+},
+{
+"name": "Morehouse School of Medicine",
+"tier": "RCU",
+"state": "GA",
+"herd_m": 44.1,
+"med": true
+},
+{
+"name": "United States Air Force Academy",
+"tier": "RCU",
+"state": "CO",
+"herd_m": 37.8,
+"med": false
+},
+{
+"name": "Texas A & M University-Corpus Christi",
+"tier": "R2",
+"state": "TX",
+"herd_m": 35.3,
+"med": false
+},
+{
+"name": "The University of Texas at Tyler",
+"tier": "R2",
+"state": "TX",
+"herd_m": 34.3,
+"med": false
+},
+{
+"name": "Touro University",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 33.8,
+"med": false
+},
+{
+"name": "Louisiana State University Health Sciences Center-Shreveport",
+"tier": "RCU",
+"state": "LA",
+"herd_m": 29.9,
+"med": true
+},
+{
+"name": "Teachers College at Columbia University",
+"tier": "R2",
+"state": "NY",
+"herd_m": 29.8,
+"med": false
+},
+{
+"name": "Montclair State University",
+"tier": "R2",
+"state": "NJ",
+"herd_m": 29.3,
+"med": false
+},
+{
+"name": "Louisiana Tech University",
+"tier": "R2",
+"state": "LA",
+"herd_m": 28.6,
+"med": false
+},
+{
+"name": "Rutgers University-Newark",
+"tier": "R2",
+"state": "NJ",
+"herd_m": 27.3,
+"med": false
+},
+{
+"name": "Creighton University",
+"tier": "R2",
+"state": "NE",
+"herd_m": 26.4,
+"med": false
+},
+{
+"name": "Ponce Health Sciences University",
+"tier": "RCU",
+"state": "PR",
+"herd_m": 23.3,
+"med": true
+},
+{
+"name": "Albany Medical College",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 22.7,
+"med": true
+},
+{
+"name": "Eastern Virginia Medical School",
+"tier": "R2",
+"state": "VA",
+"herd_m": 21.9,
+"med": true
+},
+{
+"name": "CUNY Queens College",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 21.0,
+"med": false
+},
+{
+"name": "University of Alaska Anchorage",
+"tier": "RCU",
+"state": "AK",
+"herd_m": 20.7,
+"med": false
+},
+{
+"name": "United States Military Academy",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 20.3,
+"med": false
+},
+{
+"name": "University of Tulsa",
+"tier": "R2",
+"state": "OK",
+"herd_m": 19.8,
+"med": false
+},
+{
+"name": "University of New Orleans",
+"tier": "R2",
+"state": "LA",
+"herd_m": 19.8,
+"med": false
+},
+{
+"name": "Southern Illinois University-Edwardsville",
+"tier": "RCU",
+"state": "IL",
+"herd_m": 19.7,
+"med": false
+},
+{
+"name": "Florida Institute of Technology",
+"tier": "R2",
+"state": "FL",
+"herd_m": 19.3,
+"med": false
+},
+{
+"name": "University of North Florida",
+"tier": "R2",
+"state": "FL",
+"herd_m": 19.1,
+"med": false
+},
+{
+"name": "The New School",
+"tier": "R2",
+"state": "NY",
+"herd_m": 18.7,
+"med": false
+},
+{
+"name": "New York Medical College",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 17.5,
+"med": true
+},
+{
+"name": "Loma Linda University",
+"tier": "R2",
+"state": "CA",
+"herd_m": 17.3,
+"med": false
+},
+{
+"name": "Alcorn State University",
+"tier": "RCU",
+"state": "MS",
+"herd_m": 16.7,
+"med": false
+},
+{
+"name": "Idaho State University",
+"tier": "R2",
+"state": "ID",
+"herd_m": 16.0,
+"med": false
+},
+{
+"name": "Montana Technological University",
+"tier": "RCU",
+"state": "MT",
+"herd_m": 15.8,
+"med": false
+},
+{
+"name": "Charles R Drew University of Medicine and Science",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 15.8,
+"med": true
+},
+{
+"name": "Northeast Ohio Medical University",
+"tier": "RCU",
+"state": "OH",
+"herd_m": 13.5,
+"med": true
+},
+{
+"name": "Loyola Marymount University",
+"tier": "R2",
+"state": "CA",
+"herd_m": 13.2,
+"med": false
+},
+{
+"name": "Texas Tech University Health Sciences Center-El Paso",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 12.9,
+"med": true
+},
+{
+"name": "The University of Tennessee-Chattanooga",
+"tier": "RCU",
+"state": "TN",
+"herd_m": 12.9,
+"med": false
+},
+{
+"name": "Sam Houston State University",
+"tier": "R2",
+"state": "TX",
+"herd_m": 12.4,
+"med": false
+},
+{
+"name": "Salisbury University",
+"tier": "RCU",
+"state": "MD",
+"herd_m": 11.9,
+"med": false
+},
+{
+"name": "Central State University",
+"tier": "RCU",
+"state": "OH",
+"herd_m": 10.0,
+"med": false
+},
+{
+"name": "Kentucky State University",
+"tier": "RCU",
+"state": "KY",
+"herd_m": 9.9,
+"med": false
+},
+{
+"name": "University of Maryland Eastern Shore",
+"tier": "RCU",
+"state": "MD",
+"herd_m": 9.5,
+"med": false
+},
+{
+"name": "Oklahoma State University Center for Health Sciences",
+"tier": "R2",
+"state": "OK",
+"herd_m": 9.5,
+"med": true
+},
+{
+"name": "University of Baltimore",
+"tier": "RCU",
+"state": "MD",
+"herd_m": 9.3,
+"med": false
+},
+{
+"name": "Lincoln University",
+"tier": "RCU",
+"state": "MO",
+"herd_m": 9.1,
+"med": false
+},
+{
+"name": "University of Arkansas at Pine Bluff",
+"tier": "RCU",
+"state": "AR",
+"herd_m": 8.0,
+"med": false
+},
+{
+"name": "Langston University",
+"tier": "RCU",
+"state": "OK",
+"herd_m": 7.8,
+"med": false
+},
+{
+"name": "Rhode Island College",
+"tier": "RCU",
+"state": "RI",
+"herd_m": 7.7,
+"med": false
+},
+{
+"name": "Claremont Graduate University",
+"tier": "R2",
+"state": "CA",
+"herd_m": 7.6,
+"med": false
+},
+{
+"name": "University of Washington-Bothell Campus",
+"tier": "RCU",
+"state": "WA",
+"herd_m": 7.4,
+"med": false
+},
+{
+"name": "Pacific University",
+"tier": "RCU",
+"state": "OR",
+"herd_m": 7.2,
+"med": false
+},
+{
+"name": "Rutgers University-Camden",
+"tier": "R2",
+"state": "NJ",
+"herd_m": 7.0,
+"med": false
+},
+{
+"name": "University of Central Oklahoma",
+"tier": "RCU",
+"state": "OK",
+"herd_m": 7.0,
+"med": false
+},
+{
+"name": "Saint Joseph's University",
+"tier": "R2",
+"state": "PA",
+"herd_m": 6.9,
+"med": false
+},
+{
+"name": "South Carolina State University",
+"tier": "R2",
+"state": "SC",
+"herd_m": 6.8,
+"med": false
+},
+{
+"name": "Appalachian State University",
+"tier": "R2",
+"state": "NC",
+"herd_m": 6.7,
+"med": false
+},
+{
+"name": "University of Colorado Colorado Springs",
+"tier": "R2",
+"state": "CO",
+"herd_m": 6.7,
+"med": false
+},
+{
+"name": "Midwestern University-Glendale",
+"tier": "RCU",
+"state": "AZ",
+"herd_m": 6.6,
+"med": true
+},
+{
+"name": "University of New England",
+"tier": "R2",
+"state": "ME",
+"herd_m": 6.6,
+"med": false
+},
+{
+"name": "Purdue University Northwest",
+"tier": "RCU",
+"state": "IN",
+"herd_m": 6.5,
+"med": false
+},
+{
+"name": "Pennsylvania State University-Penn State Erie-Behrend College",
+"tier": "RCU",
+"state": "PA",
+"herd_m": 6.5,
+"med": false
+},
+{
+"name": "Roseman University of Health Sciences",
+"tier": "RCU",
+"state": "NV",
+"herd_m": 6.1,
+"med": true
+},
+{
+"name": "Texas Woman's University",
+"tier": "R2",
+"state": "TX",
+"herd_m": 6.0,
+"med": false
+},
+{
+"name": "Grinnell College",
+"tier": "RCU",
+"state": "IA",
+"herd_m": 5.9,
+"med": false
+},
+{
+"name": "University of North Carolina Asheville",
+"tier": "RCU",
+"state": "NC",
+"herd_m": 5.9,
+"med": false
+},
+{
+"name": "High Tech High Graduate School of Education",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 5.7,
+"med": false
+},
+{
+"name": "Pepperdine University",
+"tier": "R2",
+"state": "CA",
+"herd_m": 5.7,
+"med": false
+},
+{
+"name": "University of Southern Maine",
+"tier": "RCU",
+"state": "ME",
+"herd_m": 5.6,
+"med": false
+},
+{
+"name": "Northwest Indian College",
+"tier": "RCU",
+"state": "WA",
+"herd_m": 5.5,
+"med": false
+},
+{
+"name": "MGH Institute of Health Professions",
+"tier": "RCU",
+"state": "MA",
+"herd_m": 5.4,
+"med": true
+},
+{
+"name": "University of Washington-Tacoma Campus",
+"tier": "RCU",
+"state": "WA",
+"herd_m": 5.3,
+"med": false
+},
+{
+"name": "New York Institute of Technology",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 5.3,
+"med": false
+},
+{
+"name": "Western Michigan University Homer Stryker M.D. School of Medicine",
+"tier": "RCU",
+"state": "MI",
+"herd_m": 5.1,
+"med": true
+},
+{
+"name": "Rhode Island School of Design",
+"tier": "RCU",
+"state": "RI",
+"herd_m": 5.1,
+"med": false
+},
+{
+"name": "Oregon Institute of Technology",
+"tier": "RCU",
+"state": "OR",
+"herd_m": 5.0,
+"med": false
+},
+{
+"name": "Midwestern University-Downers Grove",
+"tier": "RCU",
+"state": "IL",
+"herd_m": 5.0,
+"med": true
+},
+{
+"name": "Azusa Pacific University",
+"tier": "R2",
+"state": "CA",
+"herd_m": 4.9,
+"med": false
+},
+{
+"name": "Saint Edward's University",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 4.8,
+"med": false
+},
+{
+"name": "Norfolk State University",
+"tier": "RCU",
+"state": "VA",
+"herd_m": 4.7,
+"med": false
+},
+{
+"name": "Toyota Technological Institute at Chicago",
+"tier": "RCU",
+"state": "IL",
+"herd_m": 4.7,
+"med": false
+},
+{
+"name": "University of Health Sciences and Pharmacy in St. Louis",
+"tier": "RCU",
+"state": "MO",
+"herd_m": 4.6,
+"med": true
+},
+{
+"name": "Universidad Central Del Caribe",
+"tier": "RCU",
+"state": "PR",
+"herd_m": 4.6,
+"med": true
+},
+{
+"name": "Fisk University",
+"tier": "RCU",
+"state": "TN",
+"herd_m": 4.4,
+"med": false
+},
+{
+"name": "University of Wisconsin-Stevens Point",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 4.2,
+"med": false
+},
+{
+"name": "Colgate University",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 4.2,
+"med": false
+},
+{
+"name": "California State University-Dominguez Hills",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 4.2,
+"med": false
+},
+{
+"name": "Occidental College",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 4.1,
+"med": false
+},
+{
+"name": "SUNY College of Optometry",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 4.1,
+"med": true
+},
+{
+"name": "Carleton College",
+"tier": "RCU",
+"state": "MN",
+"herd_m": 4.1,
+"med": false
+},
+{
+"name": "Franklin and Marshall College",
+"tier": "RCU",
+"state": "PA",
+"herd_m": 4.1,
+"med": false
+},
+{
+"name": "University of Wisconsin-Superior",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 4.0,
+"med": false
+},
+{
+"name": "Trinity University",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 4.0,
+"med": false
+},
+{
+"name": "Sul Ross State University",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 3.9,
+"med": false
+},
+{
+"name": "Colorado College",
+"tier": "RCU",
+"state": "CO",
+"herd_m": 3.9,
+"med": false
+},
+{
+"name": "Chicago State University",
+"tier": "RCU",
+"state": "IL",
+"herd_m": 3.7,
+"med": false
+},
+{
+"name": "Northern Kentucky University",
+"tier": "RCU",
+"state": "KY",
+"herd_m": 3.7,
+"med": false
+},
+{
+"name": "Pennsylvania State University-Penn State Harrisburg",
+"tier": "RCU",
+"state": "PA",
+"herd_m": 3.7,
+"med": false
+},
+{
+"name": "University of Nebraska at Kearney",
+"tier": "RCU",
+"state": "NE",
+"herd_m": 3.6,
+"med": false
+},
+{
+"name": "Citadel Military College of South Carolina",
+"tier": "RCU",
+"state": "SC",
+"herd_m": 3.6,
+"med": false
+},
+{
+"name": "University of Central Arkansas",
+"tier": "RCU",
+"state": "AR",
+"herd_m": 3.6,
+"med": false
+},
+{
+"name": "Milwaukee School of Engineering",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 3.4,
+"med": false
+},
+{
+"name": "Stephen F Austin State University",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 3.3,
+"med": false
+},
+{
+"name": "The University of Texas Permian Basin",
+"tier": "RCU",
+"state": "TX",
+"herd_m": 3.3,
+"med": false
+},
+{
+"name": "Providence College",
+"tier": "RCU",
+"state": "RI",
+"herd_m": 3.1,
+"med": false
+},
+{
+"name": "Central Washington University",
+"tier": "RCU",
+"state": "WA",
+"herd_m": 3.1,
+"med": false
+},
+{
+"name": "Winthrop University",
+"tier": "RCU",
+"state": "SC",
+"herd_m": 3.1,
+"med": false
+},
+{
+"name": "Alabama State University",
+"tier": "RCU",
+"state": "AL",
+"herd_m": 3.0,
+"med": false
+},
+{
+"name": "Touro University California",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 3.0,
+"med": true
+},
+{
+"name": "Christopher Newport University",
+"tier": "RCU",
+"state": "VA",
+"herd_m": 3.0,
+"med": false
+},
+{
+"name": "Pomona College",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 3.0,
+"med": false
+},
+{
+"name": "University of Wisconsin-La Crosse",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 3.0,
+"med": false
+},
+{
+"name": "Colby College",
+"tier": "RCU",
+"state": "ME",
+"herd_m": 2.9,
+"med": false
+},
+{
+"name": "Pittsburg State University",
+"tier": "RCU",
+"state": "KS",
+"herd_m": 2.9,
+"med": false
+},
+{
+"name": "Sacred Heart University",
+"tier": "RCU",
+"state": "CT",
+"herd_m": 2.9,
+"med": false
+},
+{
+"name": "Albany College of Pharmacy and Health Sciences",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 2.9,
+"med": true
+},
+{
+"name": "Middlebury College",
+"tier": "RCU",
+"state": "VT",
+"herd_m": 2.8,
+"med": false
+},
+{
+"name": "Western Carolina University",
+"tier": "RCU",
+"state": "NC",
+"herd_m": 2.7,
+"med": false
+},
+{
+"name": "Hawaii Pacific University",
+"tier": "RCU",
+"state": "HI",
+"herd_m": 2.7,
+"med": false
+},
+{
+"name": "The College of New Jersey",
+"tier": "RCU",
+"state": "NJ",
+"herd_m": 2.7,
+"med": false
+},
+{
+"name": "Troy University",
+"tier": "RCU",
+"state": "AL",
+"herd_m": 2.6,
+"med": false
+},
+{
+"name": "Colorado State University Pueblo",
+"tier": "RCU",
+"state": "CO",
+"herd_m": 2.6,
+"med": false
+},
+{
+"name": "Biola University",
+"tier": "RCU",
+"state": "CA",
+"herd_m": 2.6,
+"med": false
+},
+{
+"name": "Dine College",
+"tier": "RCU",
+"state": "AZ",
+"herd_m": 2.6,
+"med": false
+},
+{
+"name": "Hobart William Smith Colleges",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "Lewis & Clark College",
+"tier": "RCU",
+"state": "OR",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "University of Louisiana at Monroe",
+"tier": "RCU",
+"state": "LA",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "Roger Williams University",
+"tier": "RCU",
+"state": "RI",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "Minnesota State University-Mankato",
+"tier": "RCU",
+"state": "MN",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "University of Wisconsin-Green Bay",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 2.5,
+"med": false
+},
+{
+"name": "Morehead State University",
+"tier": "RCU",
+"state": "KY",
+"herd_m": 2.4,
+"med": false
+},
+{
+"name": "Tougaloo College",
+"tier": "RCU",
+"state": "MS",
+"herd_m": 2.4,
+"med": false
+},
+{
+"name": "Southeastern Louisiana University",
+"tier": "RCU",
+"state": "LA",
+"herd_m": 2.3,
+"med": false
+},
+{
+"name": "Hamilton College",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 2.3,
+"med": false
+},
+{
+"name": "Eastern Washington University",
+"tier": "RCU",
+"state": "WA",
+"herd_m": 2.3,
+"med": false
+},
+{
+"name": "Lake Superior State University",
+"tier": "RCU",
+"state": "MI",
+"herd_m": 2.3,
+"med": false
+},
+{
+"name": "Mount Holyoke College",
+"tier": "RCU",
+"state": "MA",
+"herd_m": 2.2,
+"med": false
+},
+{
+"name": "East Stroudsburg University of Pennsylvania",
+"tier": "RCU",
+"state": "PA",
+"herd_m": 2.2,
+"med": false
+},
+{
+"name": "Marymount University",
+"tier": "RCU",
+"state": "VA",
+"herd_m": 2.1,
+"med": false
+},
+{
+"name": "SUNY College of Agriculture and Technology at Cobleskill",
+"tier": "RCU",
+"state": "NY",
+"herd_m": 1.9,
+"med": false
+},
+{
+"name": "University of Wisconsin-River Falls",
+"tier": "RCU",
+"state": "WI",
+"herd_m": 1.9,
+"med": false
+},
+{
+"name": "University of South Carolina-Upstate",
+"tier": "RCU",
+"state": "SC",
+"herd_m": 1.2,
+"med": false
 }
 ],
 "quarterly": [
 {
-"q": "2022Q3",
-"R2": 3.8,
-"RCU": 0.42,
-"Other": 0.67,
-"R1": 194.4,
-"share": 2.31
-},
-{
 "q": "2022Q4",
 "R2": 14.94,
-"RCU": 3.83,
-"Other": 1.65,
+"RCU": 3.92,
+"Other": 1.56,
 "R1": 582.3,
 "share": 3.29
 },
 {
 "q": "2023Q1",
 "R2": 18.05,
-"RCU": 8.85,
-"Other": 2.04,
+"RCU": 9.04,
+"Other": 1.86,
 "R1": 577.1,
 "share": 4.58
 },
 {
 "q": "2023Q2",
 "R2": 17.33,
-"RCU": 8.59,
-"Other": 3.06,
+"RCU": 8.97,
+"Other": 2.68,
 "R1": 588.1,
 "share": 4.56
 },
 {
 "q": "2023Q3",
-"R2": 12.82,
-"RCU": 6.04,
-"Other": 4.96,
+"R2": 12.84,
+"RCU": 6.32,
+"Other": 4.68,
 "R1": 604.8,
 "share": 3.72
 },
 {
 "q": "2023Q4",
 "R2": 9.17,
-"RCU": 5.33,
-"Other": 2.83,
+"RCU": 5.35,
+"Other": 2.81,
 "R1": 636.6,
 "share": 2.59
 },
 {
 "q": "2024Q1",
-"R2": 14.59,
-"RCU": 4.85,
-"Other": 2.95,
+"R2": 14.61,
+"RCU": 4.93,
+"Other": 2.87,
 "R1": 571.3,
 "share": 3.68
 },
 {
 "q": "2024Q2",
-"R2": 21.1,
-"RCU": 9.57,
-"Other": 5.78,
-"R1": 759.6,
-"share": 4.45
+"R2": 21.26,
+"RCU": 9.65,
+"Other": 5.7,
+"R1": 759.5,
+"share": 4.47
 },
 {
 "q": "2024Q3",
-"R2": 23.68,
-"RCU": 12.58,
-"Other": 3.3,
-"R1": 766.5,
-"share": 4.78
+"R2": 23.83,
+"RCU": 12.65,
+"Other": 3.23,
+"R1": 766.4,
+"share": 4.8
 },
 {
 "q": "2024Q4",
-"R2": 29.14,
-"RCU": 7.74,
-"Other": 2.23,
+"R2": 29.15,
+"RCU": 8.0,
+"Other": 1.97,
 "R1": 820.4,
 "share": 4.48
 },
 {
 "q": "2025Q1",
-"R2": 24.3,
-"RCU": 6.29,
-"Other": 3.13,
-"R1": 949.0,
-"share": 3.37
+"R2": 24.48,
+"RCU": 6.41,
+"Other": 3.01,
+"R1": 948.8,
+"share": 3.39
 },
 {
 "q": "2025Q2",
-"R2": 34.45,
-"RCU": 8.3,
-"Other": 5.92,
-"R1": 963.2,
-"share": 4.71
+"R2": 34.72,
+"RCU": 8.76,
+"Other": 5.46,
+"R1": 962.9,
+"share": 4.74
 },
 {
 "q": "2025Q3",
 "R2": 28.44,
-"RCU": 9.31,
-"Other": 6.97,
+"RCU": 10.19,
+"Other": 6.1,
 "R1": 978.0,
 "share": 4.28
 },
 {
 "q": "2025Q4",
 "R2": 37.4,
-"RCU": 6.48,
-"Other": 5.22,
+"RCU": 6.64,
+"Other": 5.06,
 "R1": 908.9,
 "share": 5.03
 },
 {
 "q": "2026Q1",
 "R2": 30.14,
-"RCU": 11.27,
-"Other": 4.36,
+"RCU": 11.4,
+"Other": 4.23,
 "R1": 989.5,
 "share": 4.31
 },
 {
 "q": "2026Q2",
 "R2": 39.34,
-"RCU": 10.93,
-"Other": 6.46,
+"RCU": 11.16,
+"Other": 6.22,
 "R1": 1090.5,
 "share": 4.81
 }
 ],
 "active_inst": [
 {
-"q": "2022Q3",
-"R1": 151,
-"nonR1": 80
-},
-{
 "q": "2022Q4",
-"R1": 165,
-"nonR1": 102
+"R1": 164,
+"nonR1": 103
 },
 {
 "q": "2023Q1",
-"R1": 159,
-"nonR1": 108
+"R1": 158,
+"nonR1": 109
 },
 {
 "q": "2023Q2",
-"R1": 157,
-"nonR1": 107
+"R1": 156,
+"nonR1": 108
 },
 {
 "q": "2023Q3",
-"R1": 163,
-"nonR1": 107
+"R1": 162,
+"nonR1": 108
 },
 {
 "q": "2023Q4",
-"R1": 161,
-"nonR1": 116
+"R1": 160,
+"nonR1": 117
 },
 {
 "q": "2024Q1",
-"R1": 171,
-"nonR1": 130
+"R1": 170,
+"nonR1": 131
 },
 {
 "q": "2024Q2",
-"R1": 174,
-"nonR1": 150
+"R1": 172,
+"nonR1": 152
 },
 {
 "q": "2024Q3",
-"R1": 173,
-"nonR1": 148
+"R1": 171,
+"nonR1": 150
 },
 {
 "q": "2024Q4",
-"R1": 175,
-"nonR1": 140
+"R1": 173,
+"nonR1": 142
 },
 {
 "q": "2025Q1",
-"R1": 183,
-"nonR1": 160
+"R1": 181,
+"nonR1": 162
 },
 {
 "q": "2025Q2",
-"R1": 183,
-"nonR1": 181
+"R1": 181,
+"nonR1": 183
 },
 {
 "q": "2025Q3",
-"R1": 181,
-"nonR1": 184
+"R1": 180,
+"nonR1": 185
 },
 {
 "q": "2025Q4",
-"R1": 182,
-"nonR1": 178
+"R1": 181,
+"nonR1": 179
 },
 {
 "q": "2026Q1",
-"R1": 186,
-"nonR1": 186
+"R1": 184,
+"nonR1": 188
 },
 {
 "q": "2026Q2",
-"R1": 193,
-"nonR1": 210
+"R1": 191,
+"nonR1": 212
 }
 ],
 "retention": {
 "quarters": [
-"2022Q3",
 "2022Q4",
 "2023Q1",
 "2023Q2",
@@ -289,58 +1382,56 @@
 "2025Q2"
 ],
 "R1": [
-94.0,
-89.1,
+89.0,
 94.3,
-94.3,
-94.5,
+94.2,
+94.4,
 94.4,
 92.4,
-92.0,
 91.9,
-94.3,
-94.0,
-94.5
+92.4,
+94.8,
+94.5,
+95.0
 ],
 "nonR1": [
-75.0,
-66.7,
-73.1,
-78.5,
-73.8,
-75.9,
-76.2,
-82.7,
-75.7,
-74.3,
-70.6,
-79.6
+67.0,
+73.4,
+78.7,
+74.1,
+76.1,
+76.3,
+82.9,
+75.3,
+73.9,
+70.4,
+79.2
 ]
 },
 "persistence": [
 {
 "tier": "R1",
 "median": 47.0,
-"le3": 4.5,
-"ge24": 75.6
+"le3": 4.6,
+"ge24": 76.1
 },
 {
 "tier": "R2",
 "median": 18.5,
-"le3": 10.8,
-"ge24": 43.1
+"le3": 10.6,
+"ge24": 43.3
 },
 {
 "tier": "RCU",
-"median": 12.5,
+"median": 13.0,
 "le3": 20.2,
-"ge24": 37.2
+"ge24": 37.4
 },
 {
 "tier": "Other academic",
 "median": 8.0,
-"le3": 31.3,
-"ge24": 18.4
+"le3": 31.5,
+"ge24": 17.5
 },
 {
 "tier": "Non-academic",
@@ -354,25 +1445,25 @@
 {
 "py": "PY2022",
 "R1": 2335,
-"nonR1": 100.7,
+"nonR1": 100.8,
 "share": 4.0
 },
 {
 "py": "PY2023",
 "R1": 2698,
-"nonR1": 109.4,
-"share": 3.79
+"nonR1": 109.7,
+"share": 3.81
 },
 {
 "py": "PY2024",
-"R1": 3635,
-"nonR1": 162.5,
-"share": 4.2
+"R1": 3634,
+"nonR1": 163.0,
+"share": 4.21
 },
 {
 "py": "PY2025",
 "R1": 4072,
-"nonR1": 213.0,
+"nonR1": 213.1,
 "share": 4.85
 }
 ],
@@ -383,7 +1474,7 @@
 2025
 ],
 "R1": [
-7.38,
+7.39,
 7.65,
 7.95,
 8.56,
@@ -397,20 +1488,23 @@
 8.72
 ],
 "nonR1": [
-6.68,
+6.67,
 6.13,
-7.79,
-8.48,
-9.7,
+7.82,
+8.52,
+9.71,
 9.46,
 9.93,
-7.68,
-8.57,
-8.59,
-9.48,
-7.49
+7.69,
+8.56,
+8.58,
+9.47,
+7.47
 ]
 },
+"maximize_usage_nonr1": 1.7,
+"eda_share": 9.6,
+"eda_share_recent": 9.1,
 "board_usage": {
 "R1": {
 "Explore": 3.9,
@@ -435,23 +1529,383 @@
 "Maximize": 3.5
 },
 "nonR1": {
-"Explore": 65.6,
-"Discover": 27.5,
+"Explore": 65.5,
+"Discover": 27.6,
 "Accelerate": 5.6,
 "Maximize": 1.3
 },
 "R1_n": {
-"Explore": 2834,
-"Discover": 2505,
+"Explore": 2832,
+"Discover": 2504,
 "Accelerate": 429,
 "Maximize": 207
 },
 "nonR1_n": {
-"Explore": 573,
-"Discover": 240,
+"Explore": 574,
+"Discover": 242,
 "Accelerate": 49,
 "Maximize": 11
 }
+},
+"by_type": {
+"rows": [
+{
+"type": "Explore",
+"credit_share": 14.6,
+"usage_share": 10.9,
+"credit_mix_r1": 18.4,
+"credit_mix_nonr1": 29.7,
+"rel_conv": 0.71
+},
+{
+"type": "Discover",
+"credit_share": 8.4,
+"usage_share": 9.3,
+"credit_mix_r1": 63.3,
+"credit_mix_nonr1": 54.6,
+"rel_conv": 1.12
+},
+{
+"type": "Accelerate",
+"credit_share": 8.4,
+"usage_share": 9.6,
+"credit_mix_r1": 18.3,
+"credit_mix_nonr1": 15.7,
+"rel_conv": 1.16
+}
+],
+"credit_share": 9.6,
+"usage_share": 9.6,
+"rel_conv": 1.0,
+"award_projects": 5116,
+"all_projects": 7157,
+"since_projects": 5560,
+"mix_explained": null,
+"r1_large": 71.5
+},
+"pi_tenure": {
+"rows": [
+{
+"n": 4673,
+"ace_share": 22.2,
+"med_months": 5.0,
+"med_ace": 122.0,
+"cont": 57.8,
+"explore": 60.5,
+"grp": "R1",
+"kind": "New",
+"pi_share": 79.2
+},
+{
+"n": 1230,
+"ace_share": 77.8,
+"med_months": 18.0,
+"med_ace": 993.5,
+"cont": 73.7,
+"explore": 29.3,
+"grp": "R1",
+"kind": "Experienced",
+"pi_share": 20.8
+},
+{
+"n": 523,
+"ace_share": 33.1,
+"med_months": 5.0,
+"med_ace": 62.2,
+"cont": 55.5,
+"explore": 66.5,
+"grp": "nonR1",
+"kind": "New",
+"pi_share": 67.8
+},
+{
+"n": 248,
+"ace_share": 66.9,
+"med_months": 14.5,
+"med_ace": 208.3,
+"cont": 74.4,
+"explore": 55.2,
+"grp": "nonR1",
+"kind": "Experienced",
+"pi_share": 32.2
+}
+],
+"by_type": [
+{
+"grp": "R1",
+"kind": "Explore",
+"n": 1609,
+"cont": 53.4
+},
+{
+"grp": "R1",
+"kind": "Other types",
+"n": 832,
+"cont": 66.3
+},
+{
+"grp": "nonR1",
+"kind": "Explore",
+"n": 216,
+"cont": 52.3
+},
+{
+"grp": "nonR1",
+"kind": "Other types",
+"n": 101,
+"cont": 62.4
+}
+],
+"cont_r1": 63.0,
+"cont_nonr1": 63.6,
+"cont_nonr1_r1mix": 61.7,
+"cont6_new": {
+"R1": 72.5,
+"nonR1": 65.6
+},
+"sub_tier": [
+{
+"tier": "R1",
+"n": 2441,
+"cont": 57.8
+},
+{
+"tier": "R2",
+"n": 147,
+"cont": 62.6
+},
+{
+"tier": "RCU",
+"n": 90,
+"cont": 52.2
+},
+{
+"tier": "Other academic",
+"n": 80,
+"cont": 46.2
+}
+],
+"pis_per_inst": [
+{
+"tier": "R1",
+"median": 11.0,
+"one": 10.1
+},
+{
+"tier": "R2",
+"median": 2.0,
+"one": 33.7
+},
+{
+"tier": "RCU",
+"median": 2.0,
+"one": 49.0
+},
+{
+"tier": "Other academic",
+"median": 1.0,
+"one": 79.6
+}
+]
+},
+"alloc_util": {
+"n_grp": {
+"R1": 2413,
+"nonR1": 296
+},
+"med": {
+"R1": 0.38,
+"nonR1": 0.18
+},
+"pooled": {
+"R1": 0.73,
+"nonR1": 0.66
+},
+"med_exchanged": {
+"R1": 0.83,
+"nonR1": 0.75
+},
+"std_med": {
+"R1": 0.37,
+"nonR1": 0.23
+},
+"mix_share": 34,
+"ci_med_gap": [
+0.07,
+0.29
+],
+"ci_std_gap": [
+-0.0,
+0.22
+],
+"ci_pooled_gap": [
+-0.06,
+0.19
+],
+"ci_zero_gap": [
+-1.0,
+8.0
+],
+"ci_started_gap": [
+-0.03,
+0.29
+],
+"med_no_cloud": {
+"R1": 0.34,
+"nonR1": 0.07
+},
+"n_no_cloud": {
+"R1": 2128,
+"nonR1": 211
+},
+"new_share": {
+"R1": 77.4,
+"nonR1": 74.0
+},
+"prior_def": "any",
+"none_exchanged": {
+"R1": 7.0,
+"nonR1": 8.8
+},
+"unmeasured": {
+"R1": 0.0,
+"nonR1": 0.0
+},
+"zero": {
+"R1": 15.2,
+"nonR1": 18.6
+},
+"med_hpc_only": {
+"R1": 0.24,
+"nonR1": 0.01
+},
+"med_started": {
+"R1": 0.56,
+"nonR1": 0.39
+},
+"top10_share": {
+"R1": 52.0,
+"nonR1": 61.0
+},
+"cells": [
+{
+"grp": "R1",
+"kind": "Discover/Accelerate",
+"exp": "Experienced",
+"n": 332,
+"med": 0.78,
+"zero": 4.5
+},
+{
+"grp": "R1",
+"kind": "Discover/Accelerate",
+"exp": "New",
+"n": 780,
+"med": 0.44,
+"zero": 10.8
+},
+{
+"grp": "R1",
+"kind": "Explore",
+"exp": "Experienced",
+"n": 213,
+"med": 0.41,
+"zero": 12.2
+},
+{
+"grp": "R1",
+"kind": "Explore",
+"exp": "New",
+"n": 1088,
+"med": 0.18,
+"zero": 22.2
+},
+{
+"grp": "nonR1",
+"kind": "Discover/Accelerate",
+"exp": "Experienced",
+"n": 33,
+"med": 0.74,
+"zero": 0.0
+},
+{
+"grp": "nonR1",
+"kind": "Discover/Accelerate",
+"exp": "New",
+"n": 62,
+"med": 0.19,
+"zero": 16.1
+},
+{
+"grp": "nonR1",
+"kind": "Explore",
+"exp": "Experienced",
+"n": 44,
+"med": 0.07,
+"zero": 13.6
+},
+{
+"grp": "nonR1",
+"kind": "Explore",
+"exp": "New",
+"n": 157,
+"med": 0.15,
+"zero": 24.8
+}
+],
+"exchange": [
+{
+"grp": "R1",
+"type": "Accelerate",
+"hpc": 71.1,
+"other": 5.5,
+"unexchanged": 23.4
+},
+{
+"grp": "R1",
+"type": "Discover",
+"hpc": 57.8,
+"other": 6.7,
+"unexchanged": 35.5
+},
+{
+"grp": "R1",
+"type": "Explore",
+"hpc": 44.7,
+"other": 9.9,
+"unexchanged": 45.4
+},
+{
+"grp": "nonR1",
+"type": "Accelerate",
+"hpc": 67.6,
+"other": 8.9,
+"unexchanged": 23.6
+},
+{
+"grp": "nonR1",
+"type": "Discover",
+"hpc": 50.5,
+"other": 9.3,
+"unexchanged": 40.2
+},
+{
+"grp": "nonR1",
+"type": "Explore",
+"hpc": 32.4,
+"other": 17.7,
+"unexchanged": 49.9
+}
+]
+},
+"gpu_share": {
+"R1": 23.7,
+"nonR1": 21.5
+},
+"gateway_top": {
+"name": "ChemCompute",
+"jobs": 95.4,
+"ace": 28.7
 },
 "resources": [
 {
@@ -508,60 +1962,55 @@
 "never_used": [
 {
 "tier": "R1",
-"never": 7,
-"total": 218,
-"pct": 3.2,
-"projects": 10
+"never": 5,
+"total": 215,
+"pct": 2.3,
+"projects": 7
 },
 {
 "tier": "R2",
-"never": 6,
-"total": 99,
-"pct": 6.1,
-"projects": 6
+"never": 3,
+"total": 102,
+"pct": 2.9,
+"projects": 3
 },
 {
 "tier": "RCU",
-"never": 20,
-"total": 98,
-"pct": 20.4,
-"projects": 30
+"never": 14,
+"total": 102,
+"pct": 13.7,
+"projects": 16
 },
 {
 "tier": "Other academic",
-"never": 68,
-"total": 166,
-"pct": 41.0,
-"projects": 77
+"never": 43,
+"total": 162,
+"pct": 26.5,
+"projects": 46
 },
 {
 "tier": "Non-academic",
-"never": 49,
+"never": 23,
 "total": 155,
-"pct": 31.6,
-"projects": 53
+"pct": 14.8,
+"projects": 24
 }
 ],
 "never_examples": [
-{
-"name": "University of Hawaii at Hilo",
-"tier": "RCU",
-"projects": 6
-},
 {
 "name": "Oregon Institute of Technology",
 "tier": "RCU",
 "projects": 3
 },
 {
-"name": "Ivy Tech",
+"name": "Carroll University",
 "tier": "Other academic",
-"projects": 3
+"projects": 2
 },
 {
-"name": "University of St. Thomas",
-"tier": "RCU",
-"projects": 3
+"name": "San Mateo County Community College District",
+"tier": "Other academic",
+"projects": 2
 },
 {
 "name": "University of St. Thomas (Texas)",
@@ -569,19 +2018,24 @@
 "projects": 2
 },
 {
-"name": "SUNY College at Oswego",
+"name": "Andrews University",
 "tier": "Other academic",
-"projects": 2
+"projects": 1
 },
 {
-"name": "Augustana College",
+"name": "Bennington College",
 "tier": "Other academic",
-"projects": 2
+"projects": 1
 },
 {
-"name": "Carthage College",
+"name": "Berea College",
 "tier": "Other academic",
-"projects": 2
+"projects": 1
+},
+{
+"name": "Berkeley City College",
+"tier": "Other academic",
+"projects": 1
 }
 ],
 "hbcu": [
@@ -589,7 +2043,7 @@
 "name": "Howard University",
 "msi": "HBCU",
 "tier": "R1",
-"ace": 45.98,
+"ace": 81.88,
 "pis": 15,
 "users": 51
 },
@@ -597,9 +2051,17 @@
 "name": "Florida A&M University",
 "msi": "HBCU",
 "tier": "R2",
-"ace": 8.42,
+"ace": 8.85,
 "pis": 2,
 "users": 8
+},
+{
+"name": "North Carolina A&T State University",
+"msi": "HBCU",
+"tier": "R2",
+"ace": 8.03,
+"pis": 4,
+"users": 21
 },
 {
 "name": "Prarieview A&M",
@@ -608,14 +2070,6 @@
 "ace": 7.95,
 "pis": 1,
 "users": 98
-},
-{
-"name": "North Carolina A&T State University",
-"msi": "HBCU",
-"tier": "R2",
-"ace": 6.34,
-"pis": 4,
-"users": 21
 },
 {
 "name": "Clark Atlanta University",
@@ -642,6 +2096,14 @@
 "users": 13
 },
 {
+"name": "Tennessee State University",
+"msi": "HBCU",
+"tier": "R2",
+"ace": 1.17,
+"pis": 1,
+"users": 1
+},
+{
 "name": "Navajo Technical University",
 "msi": "TCU",
 "tier": "Other academic",
@@ -658,38 +2120,32 @@
 "users": 4
 },
 {
-"name": "Morgan State University",
+"name": "Jackson State University",
 "msi": "HBCU",
 "tier": "R2",
-"ace": 0.92,
-"pis": 9,
-"users": 14
+"ace": 0.99,
+"pis": 2,
+"users": 4
 },
 {
 "name": "Bowie State University",
 "msi": "HBCU",
 "tier": "RCU",
-"ace": 0.84,
+"ace": 0.96,
 "pis": 7,
 "users": 13
-},
-{
-"name": "Xavier University of Louisiana",
-"msi": "HBCU",
-"tier": "RCU",
-"ace": 0.74,
-"pis": 2,
-"users": 11
 }
 ],
 "hbcu_summary": {
-"n": 33,
+"n": 34,
 "total": 102,
 "tcu": 1,
 "tcu_total": 35,
-"ace": 89.4,
-"share_all": 0.65,
-"share_nonr1": 15.1
+"ace": 130.5,
+"share_all": 0.85,
+"share_nonr1": 6.7,
+"inst_share_nonr1": 8.8,
+"single_pi": 17
 },
 "top_nonr1": [
 {
@@ -703,25 +2159,25 @@
 {
 "name": "Stevens Institute of Technology",
 "tier": "R2",
-"ace": 47.6,
+"ace": 56.0,
 "pis": 11,
 "users": 64,
 "months": 49
 },
 {
-"name": "University of Alabama, Huntsville",
+"name": "Illinois Institute of Technology",
 "tier": "R2",
-"ace": 38.9,
-"pis": 4,
-"users": 14,
+"ace": 42.7,
+"pis": 33,
+"users": 97,
 "months": 49
 },
 {
-"name": "Illinois Institute of Technology",
+"name": "University of Alabama, Huntsville",
 "tier": "R2",
-"ace": 32.9,
-"pis": 33,
-"users": 97,
+"ace": 41.0,
+"pis": 4,
+"users": 14,
 "months": 49
 },
 {
@@ -733,6 +2189,14 @@
 "months": 39
 },
 {
+"name": "California State Polytechnic University, Pomona",
+"tier": "R2",
+"ace": 14.2,
+"pis": 8,
+"users": 188,
+"months": 41
+},
+{
 "name": "University of Texas Medical Branch at Galveston",
 "tier": "R2",
 "ace": 14.0,
@@ -741,19 +2205,27 @@
 "months": 42
 },
 {
-"name": "California State Polytechnic University, Pomona",
-"tier": "R2",
-"ace": 14.0,
-"pis": 8,
-"users": 188,
-"months": 41
-},
-{
 "name": "California State University-Fullerton",
 "tier": "R2",
 "ace": 13.8,
 "pis": 12,
 "users": 26,
+"months": 49
+},
+{
+"name": "Reed College",
+"tier": "RCU",
+"ace": 12.7,
+"pis": 4,
+"users": 18,
+"months": 48
+},
+{
+"name": "Harvey Mudd College",
+"tier": "RCU",
+"ace": 10.8,
+"pis": 14,
+"users": 58,
 "months": 49
 },
 {
@@ -765,43 +2237,28 @@
 "months": 43
 },
 {
-"name": "Harvey Mudd College",
-"tier": "RCU",
-"ace": 9.9,
-"pis": 14,
-"users": 58,
-"months": 49
-},
-{
-"name": "Western University of Health Sciences",
+"name": "California State University-Northridge",
 "tier": "RCU",
 "ace": 8.9,
-"pis": 1,
+"pis": 3,
 "users": 5,
-"months": 44
-},
-{
-"name": "Duquesne University",
-"tier": "R2",
-"ace": 8.6,
-"pis": 2,
-"users": 11,
-"months": 30
+"months": 24
 }
 ],
 "meta": {
 "start": "2022-09-01",
 "end": "2026-09-14",
-"total_ace": 13.8,
+"total_ace": 15.43,
 "total_projects": 7157,
-"inst_used": 735,
+"inst_used": 827,
 "inst_awarded": 738,
-"nonr1_inst": 343,
-"nonr1_share": 4.3,
-"r1_share": 93.2,
+"nonr1_inst": 388,
+"nonr1_share": 4.7,
+"r1_share": 91.9,
 "nonr1_proj_share": 12.2,
-"nonr1_credit_share": 11.5,
-"nonr1_projects": 873,
+"nonr1_credit_share": 9.2,
+"award_projects": 5116,
+"nonr1_projects": 876,
 "retention_nonr1": 75.0,
 "retention_r1": 93.0
 }

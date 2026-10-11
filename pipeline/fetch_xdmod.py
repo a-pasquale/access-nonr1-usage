@@ -34,6 +34,19 @@ def load_token():
         raise SystemExit("XDMOD_API_TOKEN not set (env, .env, or ~/xdmod-api.key)")
 
 
+def get_data(dw, tries=4, **kw):
+    """dw.get_data with retries: long pulls hit occasional connection resets and gateway timeouts."""
+    import time
+    for i in range(tries):
+        try:
+            return dw.get_data(**kw)
+        except Exception as e:  # noqa: BLE001
+            if i == tries - 1:
+                raise
+            print(f"  retry {i + 1} after {type(e).__name__}: {str(e)[:80]}", flush=True)
+            time.sleep(15 * (i + 1))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default=START)
